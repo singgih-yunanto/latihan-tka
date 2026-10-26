@@ -1,5 +1,6 @@
 import { openSqlite } from '../src/db/client';
 import { resolveDbPath } from '../src/db/path';
+import { requireMigrated } from './db-ready';
 import type { IssuedCredential } from '../src/db/backfill';
 import { generateTempPassword, hashPassword, tempPasswordExpiry } from '../src/lib/password';
 import { reportCredentials } from './credentials';
@@ -54,7 +55,9 @@ function main() {
     fail(`--role must be one of: ${ROLES.join(', ')}.`);
   }
 
-  const sqlite = openSqlite(resolveDbPath());
+  const dbPath = resolveDbPath();
+  const sqlite = openSqlite(dbPath);
+  requireMigrated(sqlite, dbPath);
   const all = sqlite
     .prepare(
       `SELECT id, nama, role, username, aktif, must_change_password, last_login_at

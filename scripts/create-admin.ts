@@ -1,6 +1,7 @@
 import { createInterface } from 'node:readline';
 import { openSqlite } from '../src/db/client';
 import { resolveDbPath } from '../src/db/path';
+import { requireMigrated } from './db-ready';
 import { MIN_PASSWORD_LENGTH, hashPassword, usernameFromName } from '../src/lib/password';
 
 /**
@@ -90,7 +91,9 @@ function fail(message: string, sqlite?: { close: () => void }): never {
 
 async function main() {
   const force = process.argv.includes('--force');
-  const sqlite = openSqlite(resolveDbPath());
+  const dbPath = resolveDbPath();
+  const sqlite = openSqlite(dbPath);
+  requireMigrated(sqlite, dbPath);
 
   const existing = sqlite
     .prepare("SELECT COUNT(*) AS n FROM users WHERE role = 'admin'")

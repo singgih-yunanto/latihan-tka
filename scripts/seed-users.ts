@@ -1,5 +1,6 @@
 import { openSqlite } from '../src/db/client';
 import { resolveDbPath } from '../src/db/path';
+import { requireMigrated } from './db-ready';
 import { backfillCredentials } from '../src/db/backfill';
 import { reportCredentials } from './credentials';
 import { AVATAR_COLORS } from '../src/lib/ui';
@@ -24,7 +25,9 @@ function main() {
   const namaDariArgumen = process.argv.slice(2).filter(Boolean);
   const daftar = namaDariArgumen.length > 0 ? namaDariArgumen : CONTOH;
 
-  const sqlite = openSqlite(resolveDbPath());
+  const dbPath = resolveDbPath();
+  const sqlite = openSqlite(dbPath);
+  requireMigrated(sqlite, dbPath);
   const sudahAda = sqlite.prepare('SELECT nama FROM users').all() as { nama: string }[];
   const existing = new Set(sudahAda.map((row) => row.nama.toLowerCase()));
 
