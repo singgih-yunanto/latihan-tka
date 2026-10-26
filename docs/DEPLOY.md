@@ -190,6 +190,26 @@ sudo /opt/tka/deploy/make-cert.sh 203.0.113.10
 That script creates the certificate, installs the Nginx config with the right
 IP, tests the config, and reloads Nginx.
 
+**Port 443 already taken?** If another program or another HTTPS site on this
+server holds 443, serve the app on a different port:
+
+```bash
+sudo /opt/tka/deploy/make-cert.sh 203.0.113.10 --port 8443
+sudo ufw allow 8443/tcp
+```
+
+The app's address is then `https://203.0.113.10:8443`, and `APP_ORIGIN` must say
+exactly that, port included. Set it in `/etc/tka/tka.env`, then rebuild with
+`deploy.sh` and restart, because the app reads `APP_ORIGIN` when it is built. On
+a port other than 443 the script leaves out the port-80 redirect and leaves the
+other site's Nginx config alone. It refuses a port another program already
+listens on.
+
+Sharing 443 with another Nginx site does not work when the app is reached by
+bare IP: browsers send no server name for an IP address, so Nginx would present
+the other site's certificate. With a domain name you can share 443 instead, by
+giving the tka block its own `server_name` and a certificate for that name.
+
 > **The certificate must carry a `subjectAltName` of type IP.** Modern browsers
 > ignore the Common Name. A certificate that only fills in CN is rejected
 > outright, so the page will not open at all — not merely warn. The script above
@@ -199,7 +219,7 @@ Firewall:
 
 ```bash
 sudo ufw allow 80/tcp
-sudo ufw allow 443/tcp
+sudo ufw allow 443/tcp        # or the port you passed to make-cert.sh --port
 sudo ufw enable
 ```
 
@@ -318,6 +338,8 @@ undian** on `/admin/bank`.
 | Symptom | Likely cause |
 |---|---|
 | Answers do not save, everything else works | `APP_ORIGIN` is unset or does not exactly match the address being used, or Nginx is not forwarding `Host`/`X-Forwarded-Proto` |
+| `make-cert.sh` says "Port 443 is already in use" | Another program or site holds it; re-run with `--port 8443` and set `APP_ORIGIN=https://IP:8443` |
+| Answers do not save on a non-443 port | `APP_ORIGIN` lacks the port, or an older Nginx config forwards `Host $host` (drops the port); re-run `make-cert.sh` |
 | Browser refuses to open the page rather than just warning | The certificate has no `subjectAltName` of type IP; regenerate it with `make-cert.sh` |
 | Page renders with no styling | `.next/static` was not copied into the release; re-run `deploy.sh` |
 | Saves fail right after every deploy | `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` is missing at build time; `deploy.sh` prints a warning |
