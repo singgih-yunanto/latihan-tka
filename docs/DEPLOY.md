@@ -94,8 +94,13 @@ and replaced by the holder at first sign-in.
 
 ```bash
 cd /opt/tka
-sudo -u tka --preserve-env=PATH env $(sudo cat /etc/tka/tka.env | xargs) ./deploy/deploy.sh
+sudo -u tka --preserve-env=PATH ./deploy/deploy.sh
 ```
+
+The script reads `/etc/tka/tka.env` itself, so there is no need to pass the
+settings on the command line. (The older `env $(sudo cat /etc/tka/tka.env | xargs)`
+form fails with `env: '#': No such file or directory`, because the comment lines
+become arguments.)
 
 The script installs dependencies, runs the type check, the tests and the bank
 validator, and builds the app into a new directory under `/opt/tka/releases/`.
@@ -108,14 +113,14 @@ Add student names. Each one gets a username derived from their first name and
 a one-time password, printed once, which they must change at first sign-in:
 
 ```bash
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run seed:users -- "Dina" "Bayu" "Rani"
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run seed:users -- "Dina" "Bayu" "Rani"
 ```
 
 Then create the first admin. It prompts for the password rather than reading it
 from the command line, so it never lands in your shell history:
 
 ```bash
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run create:admin -- --username ayah --nama "Nama Lengkap"
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run create:admin -- --username ayah --nama "Nama Lengkap"
 ```
 
 That admin signs in and creates everything else: the parent accounts, any
@@ -129,10 +134,10 @@ signed out everywhere.
 
 ```bash
 cd /opt/tka
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run user:reset-password -- --list
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run user:reset-password -- ayah
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run user:reset-password -- --role student
-sudo -u tka env $(sudo cat /etc/tka/tka.env | xargs) npm run user:reset-password -- --pending
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run user:reset-password -- --list
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run user:reset-password -- ayah
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run user:reset-password -- --role student
+sudo -u tka env $(sudo grep -Ev '^[[:space:]]*(#|$)' /etc/tka/tka.env | xargs) npm run user:reset-password -- --pending
 ```
 
 > **Upgrading an installation that predates accounts?** `npm run db:migrate`
@@ -291,7 +296,7 @@ undian** on `/admin/bank`.
 
 | Task | Command |
 |---|---|
-| Update the app | `sudo -u tka /opt/tka/deploy/deploy.sh && sudo systemctl restart tka` |
+| Update the app | `sudo -u tka --preserve-env=PATH /opt/tka/deploy/deploy.sh && sudo systemctl restart tka` |
 | Add questions only | `sudo -u tka bash /opt/tka/deploy/add-questions.sh` (see above; no restart unless it says so) |
 | Manual backup | `sudo systemctl start tka-backup` |
 | Check the backup schedule | `systemctl list-timers tka-backup.timer` |

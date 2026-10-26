@@ -3,7 +3,7 @@
 # Update an installation already sitting in /opt/tka.
 # Safe to run repeatedly.
 #
-# Usage:  sudo -u tka ./deploy/deploy.sh
+# Usage:  sudo -u tka --preserve-env=PATH ./deploy/deploy.sh   (reads /etc/tka/tka.env)
 #         sudo systemctl restart tka
 #
 # The running service is never touched while this runs: each build is copied
@@ -25,11 +25,20 @@ RELEASES="$APP_DIR/releases"
 KEEP_RELEASES="${KEEP_RELEASES:-5}"
 cd "$APP_DIR"
 
-# A stable Server Actions key keeps actions working across builds and
-# restarts. It must be present at build time; see docs/DEPLOY.md.
-if [ -z "${NEXT_SERVER_ACTIONS_ENCRYPTION_KEY:-}" ] && [ -r /etc/tka/tka.env ]; then
-  NEXT_SERVER_ACTIONS_ENCRYPTION_KEY="$(sed -n 's/^NEXT_SERVER_ACTIONS_ENCRYPTION_KEY=//p' /etc/tka/tka.env | tail -n 1)"
-  export NEXT_SERVER_ACTIONS_ENCRYPTION_KEY
+# The build and the scripts need the service's settings: APP_ORIGIN and the
+# Server Actions key are baked in at build time, and the migration and sync
+# steps need TKA_DB_PATH. Sourcing (rather than `env $(cat ... | xargs)`) copes
+# with the comments in the file.
+if [ -r /etc/tka/tka.env ]; then
+  set -a
+  # shellcheck disable=SC1091
+  . /etc/tka/tka.env
+  set +a
+else
+  echo "WARNING: /etc/tka/tka.env is not readable by $(id -un); using the current environment." >&2
+fi
+if [ -z "${APP_ORIGIN:-}" ]; then
+  echo "WARNING: APP_ORIGIN is not set; answers may fail to save behind the proxy." >&2
 fi
 if [ -z "${NEXT_SERVER_ACTIONS_ENCRYPTION_KEY:-}" ]; then
   echo "WARNING: NEXT_SERVER_ACTIONS_ENCRYPTION_KEY is not set; pages open during the" >&2
