@@ -1,0 +1,352 @@
+{
+  "batch": "mtk-geometri-01",
+  "note": "Matematika - Geometri & Pengukuran: plane figures, solids, angles, scale. Every item illustrated.",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-geo-0001",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar trapesium berikut. Luas trapesium tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 165\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,125 190,125 155,50 85,50\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"120\" y1=\"50\" x2=\"120\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><rect x=\"120\" y=\"117\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"120\" y=\"42\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">8 cm</text><text x=\"120\" y=\"146\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">14 cm</text><text x=\"132\" y=\"92\" font-size=\"13\" fill=\"currentColor\">6 cm</text><text x=\"44\" y=\"138\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">A</text><text x=\"196\" y=\"138\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">B</text><text x=\"158\" y=\"42\" font-size=\"13\" fill=\"currentColor\">C</text><text x=\"76\" y=\"42\" font-size=\"13\" fill=\"currentColor\">D</text></svg>",
+        "alt": "Trapesium ABCD dengan sisi sejajar bawah 14 cm, sisi sejajar atas 8 cm, dan tinggi 6 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$66$ cm$^2$" },
+        { "id": "b", "text": "$132$ cm$^2$" },
+        { "id": "c", "text": "$84$ cm$^2$" },
+        { "id": "d", "text": "$44$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas trapesium $= \\frac{(a+b) \\times t}{2} = \\frac{(14+8) \\times 6}{2} = \\frac{132}{2} = 66$ cm$^2$. Pilihan $132$ cm$^2$ adalah hasil sebelum dibagi dua, kesalahan yang paling sering terjadi."
+    },
+    {
+      "id": "mtk-geo-0002",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan bangun gabungan berikut yang terdiri atas persegi panjang dan setengah lingkaran. Keliling bangun tersebut adalah .... (gunakan $\\pi = \\frac{22}{7}$)",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 165\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 40 40 L 160 40 A 42 42 0 0 1 160 124 L 40 124 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"124\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"100\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">20 cm</text><text x=\"34\" y=\"87\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">14 cm</text><text x=\"212\" y=\"87\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">setengah</text><text x=\"212\" y=\"103\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">lingkaran</text></svg>",
+        "alt": "Bangun gabungan persegi panjang panjang 20 cm dan lebar 14 cm, dengan setengah lingkaran berdiameter 14 cm menempel pada sisi kanannya"
+      },
+      "choices": [
+        { "id": "a", "text": "$76$ cm" },
+        { "id": "b", "text": "$68$ cm" },
+        { "id": "c", "text": "$90$ cm" },
+        { "id": "d", "text": "$54$ cm" }
+      ],
+      "answer": "a",
+      "explanation": "Keliling bangun ini terdiri atas dua sisi panjang, satu sisi lebar, dan busur setengah lingkaran. Sisi lurus $= 20 + 20 + 14 = 54$ cm. Busur setengah lingkaran $= \\frac{1}{2} \\times \\frac{22}{7} \\times 14 = 22$ cm. Keliling $= 54 + 22 = 76$ cm. Sisi kanan persegi panjang tidak dihitung karena sudah digantikan busur."
+    },
+    {
+      "id": "mtk-geo-0003",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar balok berikut. Volume balok tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 175\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,60 90,30 210,30 160,60\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"160,60 210,30 210,110 160,140\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"40\" y=\"60\" width=\"120\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"100\" y=\"158\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">12 cm</text><text x=\"30\" y=\"104\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">8 cm</text><text x=\"195\" y=\"52\" font-size=\"13\" fill=\"currentColor\">5 cm</text></svg>",
+        "alt": "Balok dengan panjang 12 cm, tinggi 8 cm, dan lebar 5 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$480$ cm$^3$" },
+        { "id": "b", "text": "$25$ cm$^3$" },
+        { "id": "c", "text": "$96$ cm$^3$" },
+        { "id": "d", "text": "$240$ cm$^3$" }
+      ],
+      "answer": "a",
+      "explanation": "Volume balok $= p \\times l \\times t = 12 \\times 5 \\times 8 = 480$ cm$^3$. Pilihan $25$ cm$^3$ adalah hasil penjumlahan ketiga ukuran, sedangkan $240$ cm$^3$ muncul bila salah satu ukuran terlewat dikalikan."
+    },
+    {
+      "id": "mtk-geo-0004",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar lingkaran berikut. Luas lingkaran tersebut adalah .... (gunakan $\\pi = \\frac{22}{7}$)",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 220 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"88\" r=\"62\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"88\" x2=\"172\" y2=\"88\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><circle cx=\"110\" cy=\"88\" r=\"3\" fill=\"currentColor\"/><text x=\"140\" y=\"80\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">21 cm</text><text x=\"104\" y=\"106\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">O</text></svg>",
+        "alt": "Lingkaran dengan titik pusat O dan jari-jari 21 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$1.386$ cm$^2$" },
+        { "id": "b", "text": "$132$ cm$^2$" },
+        { "id": "c", "text": "$693$ cm$^2$" },
+        { "id": "d", "text": "$5.544$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas lingkaran $= \\pi r^2 = \\frac{22}{7} \\times 21 \\times 21 = 22 \\times 3 \\times 21 = 1.386$ cm$^2$. Pilihan $132$ cm$^2$ adalah kelilingnya, bukan luasnya. Pilihan $5.544$ cm$^2$ muncul bila jari-jari dikira diameter."
+    },
+    {
+      "id": "mtk-geo-0005",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Gambar manakah yang merupakan jaring-jaring kubus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gambar 1",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"48\" y=\"0\" width=\"24\" height=\"24\"/><rect x=\"24\" y=\"24\" width=\"24\" height=\"24\"/><rect x=\"48\" y=\"24\" width=\"24\" height=\"24\"/><rect x=\"72\" y=\"24\" width=\"24\" height=\"24\"/><rect x=\"48\" y=\"48\" width=\"24\" height=\"24\"/><rect x=\"48\" y=\"72\" width=\"24\" height=\"24\"/></g></svg>",
+            "alt": "Enam persegi tersusun seperti salib: satu kolom berisi empat persegi dengan satu persegi di kiri dan satu di kanan pada baris kedua"
+          }
+        },
+        {
+          "id": "b",
+          "text": "Gambar 2",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"30\" y=\"36\" width=\"24\" height=\"24\"/><rect x=\"54\" y=\"36\" width=\"24\" height=\"24\"/><rect x=\"78\" y=\"36\" width=\"24\" height=\"24\"/><rect x=\"30\" y=\"60\" width=\"24\" height=\"24\"/><rect x=\"54\" y=\"60\" width=\"24\" height=\"24\"/><rect x=\"78\" y=\"60\" width=\"24\" height=\"24\"/></g></svg>",
+            "alt": "Enam persegi tersusun membentuk persegi panjang dua baris kali tiga kolom"
+          }
+        },
+        {
+          "id": "c",
+          "text": "Gambar 3",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"6\" y=\"48\" width=\"18\" height=\"18\"/><rect x=\"24\" y=\"48\" width=\"18\" height=\"18\"/><rect x=\"42\" y=\"48\" width=\"18\" height=\"18\"/><rect x=\"60\" y=\"48\" width=\"18\" height=\"18\"/><rect x=\"78\" y=\"48\" width=\"18\" height=\"18\"/><rect x=\"96\" y=\"48\" width=\"18\" height=\"18\"/></g></svg>",
+            "alt": "Enam persegi berjajar dalam satu baris memanjang"
+          }
+        },
+        {
+          "id": "d",
+          "text": "Gambar 4",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"36\" y=\"30\" width=\"24\" height=\"24\"/><rect x=\"60\" y=\"30\" width=\"24\" height=\"24\"/><rect x=\"12\" y=\"54\" width=\"24\" height=\"24\"/><rect x=\"36\" y=\"54\" width=\"24\" height=\"24\"/><rect x=\"60\" y=\"54\" width=\"24\" height=\"24\"/><rect x=\"84\" y=\"54\" width=\"24\" height=\"24\"/></g></svg>",
+            "alt": "Empat persegi berjajar dalam satu baris dengan dua persegi tambahan bersebelahan di atas baris tersebut"
+          }
+        }
+      ],
+      "answer": "a",
+      "explanation": "Jaring-jaring kubus yang benar adalah bentuk salib pada Gambar 1. Gambar 2 berbentuk persegi panjang 2 x 3 sehingga saat dilipat akan ada sisi yang bertumpuk dan ada yang kosong. Gambar 3 berupa satu baris memanjang yang akan melingkar tanpa tutup dan alas. Pada Gambar 4 kedua persegi di atas berdampingan sehingga keduanya akan menempati posisi tutup yang sama."
+    },
+    {
+      "id": "mtk-geo-0006",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan denah lantai berbentuk huruf L berikut. Luas lantai tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,30 160,30 160,90 200,90 200,150 40,150\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"160\" y1=\"90\" x2=\"160\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"100\" y=\"22\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">12 m</text><text x=\"32\" y=\"94\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">12 m</text><text x=\"120\" y=\"168\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">16 m</text><text x=\"210\" y=\"124\" font-size=\"13\" fill=\"currentColor\">6 m</text><text x=\"170\" y=\"64\" font-size=\"13\" fill=\"currentColor\">6 m</text></svg>",
+        "alt": "Denah berbentuk huruf L: bagian atas persegi panjang 12 meter kali 6 meter dan bagian bawah persegi panjang 16 meter kali 6 meter"
+      },
+      "choices": [
+        { "id": "a", "text": "$168$ m$^2$" },
+        { "id": "b", "text": "$192$ m$^2$" },
+        { "id": "c", "text": "$144$ m$^2$" },
+        { "id": "d", "text": "$96$ m$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Bangun dipotong menjadi dua persegi panjang. Bagian atas $12 \\times 6 = 72$ m$^2$ dan bagian bawah $16 \\times 6 = 96$ m$^2$. Luas seluruhnya $= 72 + 96 = 168$ m$^2$. Pilihan $192$ m$^2$ adalah luas persegi panjang utuh $16 \\times 12$ tanpa memotong bagian yang hilang."
+    },
+    {
+      "id": "mtk-geo-0007",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah drum berbentuk tabung seperti gambar berikut akan diisi air sampai penuh. Volume air yang dibutuhkan adalah .... (gunakan $\\pi = \\frac{22}{7}$)",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 220 190\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"110\" cy=\"45\" rx=\"55\" ry=\"18\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 55 45 L 55 140 A 55 18 0 0 0 165 140 L 165 45\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"45\" x2=\"165\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"138\" y=\"38\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">14 cm</text><line x1=\"185\" y1=\"45\" x2=\"185\" y2=\"140\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"192\" y=\"98\" font-size=\"13\" fill=\"currentColor\">30 cm</text></svg>",
+        "alt": "Tabung dengan jari-jari alas 14 cm dan tinggi 30 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$18.480$ cm$^3$" },
+        { "id": "b", "text": "$4.620$ cm$^3$" },
+        { "id": "c", "text": "$1.320$ cm$^3$" },
+        { "id": "d", "text": "$9.240$ cm$^3$" }
+      ],
+      "answer": "a",
+      "explanation": "Volume tabung $= \\pi r^2 t = \\frac{22}{7} \\times 14 \\times 14 \\times 30$. Hitung bertahap: $\\frac{22}{7} \\times 14 = 44$, lalu $44 \\times 14 = 616$, dan $616 \\times 30 = 18.480$ cm$^3$. Pilihan $9.240$ cm$^3$ muncul bila 14 cm dianggap diameter sehingga jari-jarinya dikira 7 cm."
+    },
+    {
+      "id": "mtk-geo-0008",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar jam berikut. Besar sudut terkecil yang dibentuk kedua jarum jam adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 180 180\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"90\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"32\" stroke=\"currentColor\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"90\" x2=\"133\" y2=\"115\" stroke=\"currentColor\" stroke-width=\"3.5\"/><circle cx=\"90\" cy=\"90\" r=\"4\" fill=\"currentColor\"/><text x=\"90\" y=\"24\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">12</text><text x=\"156\" y=\"95\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"90\" y=\"172\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"24\" y=\"95\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">9</text><text x=\"139\" y=\"137\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">4</text></svg>",
+        "alt": "Jam dinding menunjukkan pukul 4 tepat, jarum pendek di angka 4 dan jarum panjang di angka 12"
+      },
+      "choices": [
+        { "id": "a", "text": "$120^\\circ$" },
+        { "id": "b", "text": "$90^\\circ$" },
+        { "id": "c", "text": "$150^\\circ$" },
+        { "id": "d", "text": "$240^\\circ$" }
+      ],
+      "answer": "a",
+      "explanation": "Satu putaran penuh jam bernilai $360^\\circ$ dan terbagi menjadi 12 angka, sehingga jarak antarangka $= 360^\\circ : 12 = 30^\\circ$. Dari angka 12 ke angka 4 ada 4 langkah, jadi sudutnya $4 \\times 30^\\circ = 120^\\circ$. Pilihan $240^\\circ$ adalah sudut yang besar, bukan sudut terkecil."
+    },
+    {
+      "id": "mtk-geo-0009",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar segitiga berikut. Luas segitiga tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 165\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,130 190,130 115,40\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"115\" y1=\"40\" x2=\"115\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><rect x=\"115\" y=\"122\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">18 cm</text><text x=\"126\" y=\"88\" font-size=\"13\" fill=\"currentColor\">10 cm</text></svg>",
+        "alt": "Segitiga dengan panjang alas 18 cm dan tinggi 10 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$90$ cm$^2$" },
+        { "id": "b", "text": "$180$ cm$^2$" },
+        { "id": "c", "text": "$28$ cm$^2$" },
+        { "id": "d", "text": "$56$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas segitiga $= \\frac{1}{2} \\times a \\times t = \\frac{1}{2} \\times 18 \\times 10 = 90$ cm$^2$. Pilihan $180$ cm$^2$ adalah hasil yang lupa dibagi dua."
+    },
+    {
+      "id": "mtk-geo-0010",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Perhatikan gambar prisma segitiga berikut. Tentukan apakah setiap pernyataan benar atau salah.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 175\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,130 130,130 85,55\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"110,110 200,110 155,35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"40\" y1=\"130\" x2=\"110\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"130\" y1=\"130\" x2=\"200\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"85\" y1=\"55\" x2=\"155\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+        "alt": "Prisma segitiga dengan dua alas berbentuk segitiga dan tiga sisi tegak berbentuk persegi panjang"
+      },
+      "statements": [
+        { "id": "s1", "text": "Prisma segitiga memiliki 5 sisi" },
+        { "id": "s2", "text": "Prisma segitiga memiliki 9 rusuk" },
+        { "id": "s3", "text": "Prisma segitiga memiliki 8 titik sudut" },
+        { "id": "s4", "text": "Sisi tegak prisma segitiga berbentuk persegi panjang" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Prisma segitiga memiliki 5 sisi (2 alas segitiga dan 3 sisi tegak), 9 rusuk (3 di alas atas, 3 di alas bawah, dan 3 rusuk tegak), serta 6 titik sudut, bukan 8. Angka 8 adalah banyak titik sudut kubus atau balok."
+    },
+    {
+      "id": "mtk-geo-0011",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar roda sepeda berikut. Keliling roda tersebut adalah .... (gunakan $\\pi = \\frac{22}{7}$)",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 200 190\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"100\" cy=\"95\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"95\" x2=\"170\" y2=\"95\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"100\" y=\"85\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">28 cm</text><line x1=\"100\" y1=\"25\" x2=\"100\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/></svg>",
+        "alt": "Roda berbentuk lingkaran dengan diameter 28 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$88$ cm" },
+        { "id": "b", "text": "$44$ cm" },
+        { "id": "c", "text": "$176$ cm" },
+        { "id": "d", "text": "$616$ cm" }
+      ],
+      "answer": "a",
+      "explanation": "Keliling lingkaran $= \\pi d = \\frac{22}{7} \\times 28 = 88$ cm. Pilihan $616$ cm sebenarnya adalah luas lingkaran, dan $176$ cm muncul bila 28 cm dikira jari-jari."
+    },
+    {
+      "id": "mtk-geo-0012",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah kardus berbentuk kubus dengan panjang rusuk 15 cm akan dilapisi kertas kado pada seluruh permukaannya. Luas kertas kado yang dibutuhkan adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 175\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,60 90,30 190,30 150,60\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"150,60 190,30 190,110 150,140\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"50\" y=\"60\" width=\"100\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"100\" y=\"158\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">15 cm</text><text x=\"40\" y=\"104\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">15 cm</text></svg>",
+        "alt": "Kubus dengan panjang rusuk 15 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$1.350$ cm$^2$" },
+        { "id": "b", "text": "$3.375$ cm$^2$" },
+        { "id": "c", "text": "$225$ cm$^2$" },
+        { "id": "d", "text": "$900$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas permukaan kubus $= 6 \\times s^2 = 6 \\times 15 \\times 15 = 6 \\times 225 = 1.350$ cm$^2$. Pilihan $3.375$ cm$^3$ adalah volumenya, sedangkan $225$ cm$^2$ hanya luas satu sisi saja."
+    },
+    {
+      "id": "mtk-geo-0013",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan gambar jajargenjang berikut. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,120 170,120 210,45 90,45\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"90\" y1=\"45\" x2=\"90\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><rect x=\"90\" y=\"112\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"110\" y=\"142\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">20 cm</text><text x=\"78\" y=\"88\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">9 cm</text><text x=\"44\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">A</text><text x=\"176\" y=\"132\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">B</text><text x=\"216\" y=\"40\" font-size=\"13\" fill=\"currentColor\">C</text><text x=\"84\" y=\"38\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">D</text></svg>",
+        "alt": "Jajargenjang ABCD dengan panjang alas 20 cm dan tinggi 9 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "Luas jajargenjang tersebut $180$ cm$^2$" },
+        { "id": "b", "text": "Sisi AB sejajar dengan sisi DC" },
+        { "id": "c", "text": "Luas jajargenjang tersebut $90$ cm$^2$" },
+        { "id": "d", "text": "Keempat sudut jajargenjang selalu siku-siku" },
+        { "id": "e", "text": "Sudut yang berhadapan pada jajargenjang sama besar" }
+      ],
+      "answer": ["a", "b", "e"],
+      "explanation": "Luas jajargenjang $= a \\times t = 20 \\times 9 = 180$ cm$^2$, jadi pernyataan a benar dan c salah karena hasilnya dibagi dua seperti segitiga. Sisi AB memang sejajar DC dan sudut-sudut yang berhadapan sama besar, itu sifat jajargenjang. Sudut siku-siku pada keempat sudut hanya dimiliki persegi panjang."
+    },
+    {
+      "id": "mtk-geo-0014",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan denah sebuah taman dengan skala $1:200$ berikut. Luas taman yang sebenarnya adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 165\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"50\" y=\"40\" width=\"140\" height=\"84\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">7 cm</text><text x=\"42\" y=\"87\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">4 cm</text><text x=\"120\" y=\"146\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">skala 1 : 200</text></svg>",
+        "alt": "Denah taman berbentuk persegi panjang berukuran 7 cm kali 4 cm dengan skala 1 banding 200"
+      },
+      "choices": [
+        { "id": "a", "text": "$112$ m$^2$" },
+        { "id": "b", "text": "$28$ m$^2$" },
+        { "id": "c", "text": "$5.600$ m$^2$" },
+        { "id": "d", "text": "$56$ m$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Ukuran sebenarnya dicari lebih dulu. Panjang $= 7 \\times 200 = 1.400$ cm $= 14$ m dan lebar $= 4 \\times 200 = 800$ cm $= 8$ m. Luas sebenarnya $= 14 \\times 8 = 112$ m$^2$. Kesalahan umum adalah menghitung luas pada denah ($28$ cm$^2$) lalu mengalikannya dengan 200, padahal skala berlaku untuk panjang, bukan luas."
+    }
+  ]
+}

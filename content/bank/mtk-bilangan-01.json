@@ -1,0 +1,300 @@
+{
+  "batch": "mtk-bilangan-01",
+  "note": "Matematika - Bilangan: arithmetic operations, fractions, LCM/GCF, scale, patterns",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-bil-0001",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Hasil dari $24 + 16 \\times 5 - 30 : 6$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$99$" },
+        { "id": "b", "text": "$195$" },
+        { "id": "c", "text": "$94$" },
+        { "id": "d", "text": "$109$" }
+      ],
+      "answer": "a",
+      "explanation": "Perkalian dan pembagian dikerjakan lebih dulu: $16 \\times 5 = 80$ dan $30 : 6 = 5$. Baru kemudian penjumlahan dan pengurangan dari kiri: $24 + 80 - 5 = 99$. Jawaban $195$ muncul kalau soal dikerjakan berurutan dari kiri tanpa memperhatikan tingkatan operasi."
+    },
+    {
+      "id": "mtk-bil-0002",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Bentuk persen dari pecahan $\\frac{3}{8}$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$37{,}5\\%$" },
+        { "id": "b", "text": "$38\\%$" },
+        { "id": "c", "text": "$3{,}8\\%$" },
+        { "id": "d", "text": "$62{,}5\\%$" }
+      ],
+      "answer": "a",
+      "explanation": "$\\frac{3}{8} = 3 : 8 = 0{,}375$. Untuk menjadi persen dikalikan $100$, sehingga hasilnya $37{,}5\\%$. Pilihan $62{,}5\\%$ adalah nilai $\\frac{5}{8}$, yaitu bagian sisanya."
+    },
+    {
+      "id": "mtk-bil-0003",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Bel sekolah A berbunyi setiap 12 menit dan bel sekolah B setiap 18 menit. Kedua bel berbunyi bersamaan pukul 07.00. Kedua bel akan berbunyi bersamaan lagi pukul ....",
+      "choices": [
+        { "id": "a", "text": "07.36" },
+        { "id": "b", "text": "07.30" },
+        { "id": "c", "text": "07.06" },
+        { "id": "d", "text": "08.12" }
+      ],
+      "answer": "a",
+      "explanation": "Yang dicari adalah KPK dari 12 dan 18. $12 = 2^2 \\times 3$ dan $18 = 2 \\times 3^2$, sehingga KPK $= 2^2 \\times 3^2 = 36$ menit. Pukul 07.00 ditambah 36 menit menjadi pukul 07.36. Pilihan 07.06 keliru karena memakai FPB, bukan KPK."
+    },
+    {
+      "id": "mtk-bil-0004",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Bu Rina memiliki 36 buku tulis dan 48 pensil. Seluruhnya akan dimasukkan ke dalam beberapa bingkisan dengan isi yang sama banyak. Bingkisan terbanyak yang dapat dibuat adalah ....",
+      "choices": [
+        { "id": "a", "text": "12 bingkisan" },
+        { "id": "b", "text": "6 bingkisan" },
+        { "id": "c", "text": "4 bingkisan" },
+        { "id": "d", "text": "24 bingkisan" }
+      ],
+      "answer": "a",
+      "explanation": "Bingkisan terbanyak dengan isi sama banyak dicari dengan FPB. $36 = 2^2 \\times 3^2$ dan $48 = 2^4 \\times 3$, sehingga FPB $= 2^2 \\times 3 = 12$. Tiap bingkisan berisi 3 buku dan 4 pensil."
+    },
+    {
+      "id": "mtk-bil-0005",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Pada sebuah peta berskala $1:500.000$, jarak Kota Melati dan Kota Kenanga tergambar 4 cm. Jarak sebenarnya kedua kota tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "20 km" },
+        { "id": "b", "text": "2 km" },
+        { "id": "c", "text": "200 km" },
+        { "id": "d", "text": "125 km" }
+      ],
+      "answer": "a",
+      "explanation": "Jarak sebenarnya $= 4 \\times 500.000 = 2.000.000$ cm. Karena $1$ km $= 100.000$ cm, maka $2.000.000$ cm $= 20$ km. Kesalahan paling sering terjadi saat mengubah satuan: membagi dengan $1.000.000$ akan menghasilkan 2 km."
+    },
+    {
+      "id": "mtk-bil-0006",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Suhu di dalam sebuah lemari pendingin $-8^\\circ$C. Setelah pintunya dibiarkan terbuka, suhunya naik $15^\\circ$C. Suhu di dalam lemari pendingin sekarang adalah ....",
+      "choices": [
+        { "id": "a", "text": "$7^\\circ$C" },
+        { "id": "b", "text": "$-23^\\circ$C" },
+        { "id": "c", "text": "$23^\\circ$C" },
+        { "id": "d", "text": "$-7^\\circ$C" }
+      ],
+      "answer": "a",
+      "explanation": "Suhu naik berarti ditambah: $-8 + 15 = 7$. Jadi suhunya menjadi $7^\\circ$C. Jawaban $-23^\\circ$C muncul bila kenaikan justru dikurangkan."
+    },
+    {
+      "id": "mtk-bil-0007",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah baju seragam dijual seharga Rp180.000,00. Toko memberikan diskon 25%. Uang yang harus dibayar pembeli adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp135.000,00" },
+        { "id": "b", "text": "Rp45.000,00" },
+        { "id": "c", "text": "Rp155.000,00" },
+        { "id": "d", "text": "Rp145.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Diskon $= 25\\% \\times 180.000 = 45.000$. Yang dibayar $= 180.000 - 45.000 = 135.000$. Pilihan Rp45.000,00 adalah besar diskonnya, bukan uang yang dibayar."
+    },
+    {
+      "id": "mtk-bil-0008",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan pola bilangan berikut: $3, 7, 15, 31, \\ldots$ Bilangan berikutnya pada pola tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "$63$" },
+        { "id": "b", "text": "$47$" },
+        { "id": "c", "text": "$62$" },
+        { "id": "d", "text": "$61$" }
+      ],
+      "answer": "a",
+      "explanation": "Setiap suku diperoleh dengan mengalikan suku sebelumnya dengan 2 lalu menambah 1: $3 \\times 2 + 1 = 7$, $7 \\times 2 + 1 = 15$, $15 \\times 2 + 1 = 31$. Maka suku berikutnya $31 \\times 2 + 1 = 63$. Pilihan $47$ muncul bila pola dikira penambahan tetap 16."
+    },
+    {
+      "id": "mtk-bil-0009",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Urutan pecahan $\\frac{2}{3}$, $\\frac{3}{5}$, $\\frac{7}{10}$, $\\frac{1}{2}$ dari yang terkecil adalah ....",
+      "choices": [
+        { "id": "a", "text": "$\\frac{1}{2}$, $\\frac{3}{5}$, $\\frac{2}{3}$, $\\frac{7}{10}$" },
+        { "id": "b", "text": "$\\frac{1}{2}$, $\\frac{2}{3}$, $\\frac{3}{5}$, $\\frac{7}{10}$" },
+        { "id": "c", "text": "$\\frac{7}{10}$, $\\frac{2}{3}$, $\\frac{3}{5}$, $\\frac{1}{2}$" },
+        { "id": "d", "text": "$\\frac{3}{5}$, $\\frac{1}{2}$, $\\frac{7}{10}$, $\\frac{2}{3}$" }
+      ],
+      "answer": "a",
+      "explanation": "Ubah menjadi desimal: $\\frac{1}{2}=0{,}5$; $\\frac{3}{5}=0{,}6$; $\\frac{2}{3}\\approx 0{,}67$; $\\frac{7}{10}=0{,}7$. Urutan dari terkecil adalah $\\frac{1}{2}$, $\\frac{3}{5}$, $\\frac{2}{3}$, $\\frac{7}{10}$."
+    },
+    {
+      "id": "mtk-bil-0010",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Taksiran hasil $4.876 + 3.119$ dengan pembulatan ke ribuan terdekat adalah ....",
+      "choices": [
+        { "id": "a", "text": "$8.000$" },
+        { "id": "b", "text": "$7.000$" },
+        { "id": "c", "text": "$9.000$" },
+        { "id": "d", "text": "$8.100$" }
+      ],
+      "answer": "a",
+      "explanation": "$4.876$ dibulatkan ke ribuan terdekat menjadi $5.000$ karena ratusannya 8. $3.119$ menjadi $3.000$ karena ratusannya 1. Taksirannya $5.000 + 3.000 = 8.000$."
+    },
+    {
+      "id": "mtk-bil-0011",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan bilangan 24. Pilihlah semua pernyataan yang benar tentang bilangan tersebut.",
+      "choices": [
+        { "id": "a", "text": "24 habis dibagi 6" },
+        { "id": "b", "text": "24 merupakan kelipatan 8" },
+        { "id": "c", "text": "24 merupakan bilangan prima" },
+        { "id": "d", "text": "Banyak faktor dari 24 ada 8" },
+        { "id": "e", "text": "24 merupakan bilangan kuadrat sempurna" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "$24 : 6 = 4$ tanpa sisa, jadi pernyataan a benar. $24 = 8 \\times 3$, jadi b benar. Faktor 24 adalah 1, 2, 3, 4, 6, 8, 12, 24 yaitu 8 buah, jadi d benar. 24 bukan bilangan prima karena punya lebih dari dua faktor, dan bukan kuadrat sempurna karena tidak ada bilangan bulat yang kuadratnya 24."
+    },
+    {
+      "id": "mtk-bil-0012",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua pecahan yang senilai dengan $\\frac{3}{4}$.",
+      "choices": [
+        { "id": "a", "text": "$\\frac{6}{8}$" },
+        { "id": "b", "text": "$\\frac{9}{12}$" },
+        { "id": "c", "text": "$\\frac{12}{15}$" },
+        { "id": "d", "text": "$\\frac{15}{20}$" },
+        { "id": "e", "text": "$\\frac{30}{45}$" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "Pecahan senilai diperoleh dengan mengalikan pembilang dan penyebut dengan bilangan yang sama: $\\frac{3}{4}=\\frac{6}{8}=\\frac{9}{12}=\\frac{15}{20}$. Sementara $\\frac{12}{15}$ disederhanakan menjadi $\\frac{4}{5}$ dan $\\frac{30}{45}$ menjadi $\\frac{2}{3}$, keduanya tidak senilai."
+    },
+    {
+      "id": "mtk-bil-0013",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stem": "Ibu membeli 2,5 kg gula seharga Rp14.000,00 per kg dan 3 kg tepung seharga Rp12.000,00 per kg. Ibu membayar dengan uang Rp100.000,00. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        { "id": "a", "text": "Harga seluruh gula Rp35.000,00" },
+        { "id": "b", "text": "Harga seluruh tepung Rp36.000,00" },
+        { "id": "c", "text": "Belanjaan Ibu seluruhnya Rp81.000,00" },
+        { "id": "d", "text": "Uang kembalian Ibu Rp29.000,00" },
+        { "id": "e", "text": "Harga seluruh gula lebih besar daripada harga seluruh tepung" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "Gula: $2{,}5 \\times 14.000 = 35.000$. Tepung: $3 \\times 12.000 = 36.000$. Total belanja $= 35.000 + 36.000 = 71.000$, bukan Rp81.000,00. Kembalian $= 100.000 - 71.000 = 29.000$. Karena $35.000 < 36.000$, harga gula justru lebih kecil daripada tepung."
+    },
+    {
+      "id": "mtk-bil-0014",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Tentukan apakah setiap hasil operasi bilangan bulat berikut benar atau salah.",
+      "statements": [
+        { "id": "s1", "text": "$-15 + 20 = 5$" },
+        { "id": "s2", "text": "$-8 - (-3) = -11$" },
+        { "id": "s3", "text": "$6 \\times (-4) = -24$" },
+        { "id": "s4", "text": "$(-36) : (-6) = -6$" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "salah",
+        "s3": "benar",
+        "s4": "salah"
+      },
+      "explanation": "$-15 + 20 = 5$ benar. $-8 - (-3) = -8 + 3 = -5$, bukan $-11$. $6 \\times (-4) = -24$ benar karena positif dikali negatif hasilnya negatif. $(-36) : (-6) = 6$ karena negatif dibagi negatif hasilnya positif."
+    },
+    {
+      "id": "mtk-bil-0015",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "mudah",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan bilangan-bilangan berikut ke dalam bilangan prima atau bukan bilangan prima.",
+      "statements": [
+        { "id": "s1", "text": "29" },
+        { "id": "s2", "text": "51" },
+        { "id": "s3", "text": "37" },
+        { "id": "s4", "text": "91" }
+      ],
+      "categories": [
+        { "id": "prima", "label": "Bilangan prima" },
+        { "id": "bukan", "label": "Bukan bilangan prima" }
+      ],
+      "answer": {
+        "s1": "prima",
+        "s2": "bukan",
+        "s3": "prima",
+        "s4": "bukan"
+      },
+      "explanation": "Bilangan prima hanya punya dua faktor, yaitu 1 dan dirinya sendiri. 29 dan 37 memenuhi syarat itu. 51 bukan prima karena $51 = 3 \\times 17$, dan 91 bukan prima karena $91 = 7 \\times 13$. Dua bilangan terakhir sering dikira prima karena tidak habis dibagi 2, 3, atau 5."
+    },
+    {
+      "id": "mtk-bil-0016",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Pak Andi menanami $\\frac{3}{5}$ bagian kebunnya dengan jagung. Seperempat dari bagian yang tersisa ditanami singkong. Bagian kebun yang belum ditanami adalah ....",
+      "choices": [
+        { "id": "a", "text": "$\\frac{3}{10}$ bagian" },
+        { "id": "b", "text": "$\\frac{3}{20}$ bagian" },
+        { "id": "c", "text": "$\\frac{1}{10}$ bagian" },
+        { "id": "d", "text": "$\\frac{7}{20}$ bagian" }
+      ],
+      "answer": "a",
+      "explanation": "Sisa setelah jagung $= 1 - \\frac{3}{5} = \\frac{2}{5}$. Singkong $= \\frac{1}{4} \\times \\frac{2}{5} = \\frac{2}{20} = \\frac{1}{10}$. Yang belum ditanami $= \\frac{2}{5} - \\frac{1}{10} = \\frac{4}{10} - \\frac{1}{10} = \\frac{3}{10}$. Kesalahan umum adalah menghitung seperempat dari seluruh kebun, bukan dari sisanya."
+    }
+  ]
+}

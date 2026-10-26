@@ -1,0 +1,308 @@
+{
+  "batch": "ipas-sains-01",
+  "note": "IPAS - science strands: living things, human body, matter, energy, earth and space (grades 4-6)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-mhl-0001",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan rantai makanan pada ekosistem sawah berikut. Jika petani memberantas seluruh ular karena dianggap berbahaya, yang paling mungkin terjadi adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 110\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><rect x=\"8\" y=\"35\" width=\"58\" height=\"32\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"56\">padi</text><rect x=\"90\" y=\"35\" width=\"58\" height=\"32\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"119\" y=\"56\">tikus</text><rect x=\"172\" y=\"35\" width=\"58\" height=\"32\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"201\" y=\"56\">ular</text><rect x=\"254\" y=\"35\" width=\"58\" height=\"32\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"283\" y=\"56\">elang</text></g><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><path d=\"M 68 51 L 86 51\"/><path d=\"M 150 51 L 168 51\"/><path d=\"M 232 51 L 250 51\"/></g><g fill=\"currentColor\"><polygon points=\"86,51 79,47 79,55\"/><polygon points=\"168,51 161,47 161,55\"/><polygon points=\"250,51 243,47 243,55\"/></g><text x=\"160\" y=\"95\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Rantai makanan ekosistem sawah</text></svg>",
+        "alt": "Rantai makanan: padi dimakan tikus, tikus dimakan ular, ular dimakan elang"
+      },
+      "choices": [
+        { "id": "a", "text": "populasi tikus meningkat sehingga tanaman padi semakin banyak yang rusak" },
+        { "id": "b", "text": "populasi tikus menurun karena kehilangan sumber makanan" },
+        { "id": "c", "text": "populasi elang meningkat karena makanannya bertambah" },
+        { "id": "d", "text": "tanaman padi tumbuh lebih subur karena tidak ada pemangsa" }
+      ],
+      "answer": "a",
+      "explanation": "Ular adalah pemangsa tikus. Bila ular dimusnahkan, tikus kehilangan pemangsanya sehingga populasinya meningkat pesat. Tikus memakan padi, jadi kerusakan tanaman padi justru bertambah parah. Populasi elang malah menurun karena kehilangan mangsanya, yaitu ular."
+    },
+    {
+      "id": "ipas-mhl-0002",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Bunglon mengubah warna kulitnya menyerupai warna lingkungan sekitarnya. Cara adaptasi tersebut bertujuan untuk ....",
+      "choices": [
+        { "id": "a", "text": "mengelabui pemangsa sekaligus memudahkan menangkap mangsa" },
+        { "id": "b", "text": "menghangatkan tubuh saat cuaca dingin" },
+        { "id": "c", "text": "menarik perhatian bunglon lain saat musim kawin" },
+        { "id": "d", "text": "mengurangi penguapan air dari dalam tubuh" }
+      ],
+      "answer": "a",
+      "explanation": "Kemampuan menyamarkan warna tubuh disebut mimikri. Dengan menyerupai warna lingkungan, bunglon sulit terlihat oleh pemangsa dan juga sulit disadari oleh serangga yang akan dimangsanya. Jadi manfaatnya untuk perlindungan sekaligus mencari makan."
+    },
+    {
+      "id": "ipas-mhl-0003",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Tumbuhan hijau membuat makanannya sendiri melalui fotosintesis. Bahan yang diserap tumbuhan dari udara untuk proses tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "karbon dioksida" },
+        { "id": "b", "text": "oksigen" },
+        { "id": "c", "text": "nitrogen" },
+        { "id": "d", "text": "uap air" }
+      ],
+      "answer": "a",
+      "explanation": "Fotosintesis memerlukan karbon dioksida yang diserap daun melalui stomata, air yang diserap akar, serta cahaya matahari yang ditangkap klorofil. Hasilnya berupa karbohidrat dan oksigen. Oksigen adalah hasil fotosintesis, bukan bahan bakunya."
+    },
+    {
+      "id": "ipas-mhl-0004",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Rina menanam empat tanaman kacang hijau yang sama dalam kondisi berbeda selama satu minggu. Hasil pengamatannya ditunjukkan tabel berikut. Berdasarkan data tersebut, simpulan yang tepat adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 185\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"15\" y=\"20\" width=\"300\" height=\"30\"/><rect x=\"15\" y=\"50\" width=\"300\" height=\"28\"/><rect x=\"15\" y=\"78\" width=\"300\" height=\"28\"/><rect x=\"15\" y=\"106\" width=\"300\" height=\"28\"/><rect x=\"15\" y=\"134\" width=\"300\" height=\"28\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"20\" x2=\"75\" y2=\"162\"/><line x1=\"165\" y1=\"20\" x2=\"165\" y2=\"162\"/><line x1=\"245\" y1=\"20\" x2=\"245\" y2=\"162\"/></g><rect x=\"15\" y=\"20\" width=\"300\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"45\" y=\"40\">Pot</text><text x=\"120\" y=\"40\">Cahaya</text><text x=\"205\" y=\"40\">Air</text><text x=\"280\" y=\"40\">Tinggi</text><text x=\"45\" y=\"69\">A</text><text x=\"120\" y=\"69\">terang</text><text x=\"205\" y=\"69\">disiram</text><text x=\"280\" y=\"69\">12 cm</text><text x=\"45\" y=\"97\">B</text><text x=\"120\" y=\"97\">gelap</text><text x=\"205\" y=\"97\">disiram</text><text x=\"280\" y=\"97\">15 cm</text><text x=\"45\" y=\"125\">C</text><text x=\"120\" y=\"125\">terang</text><text x=\"205\" y=\"125\">tidak</text><text x=\"280\" y=\"125\">3 cm</text><text x=\"45\" y=\"153\">D</text><text x=\"120\" y=\"153\">gelap</text><text x=\"205\" y=\"153\">tidak</text><text x=\"280\" y=\"153\">2 cm</text></g><text x=\"165\" y=\"178\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Tinggi tanaman kacang hijau setelah satu minggu</text></svg>",
+        "alt": "Tabel percobaan: pot A terang disiram 12 cm, pot B gelap disiram 15 cm, pot C terang tidak disiram 3 cm, pot D gelap tidak disiram 2 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "air lebih menentukan pertambahan tinggi tanaman daripada cahaya" },
+        { "id": "b", "text": "cahaya sama sekali tidak dibutuhkan oleh tanaman kacang hijau" },
+        { "id": "c", "text": "tanaman di tempat gelap selalu tumbuh lebih pendek" },
+        { "id": "d", "text": "tanaman akan mati bila diletakkan di tempat terang" }
+      ],
+      "answer": "a",
+      "explanation": "Bandingkan pot yang disiram (A 12 cm dan B 15 cm) dengan yang tidak disiram (C 3 cm dan D 2 cm). Perbedaannya sangat besar, sedangkan perbedaan antara tempat terang dan gelap jauh lebih kecil. Jadi ketersediaan air lebih menentukan pertambahan tinggi. Pilihan b terlalu jauh karena data ini hanya mengukur tinggi, bukan kesehatan tanaman; tanaman di tempat gelap memang lebih tinggi tetapi pucat dan lemah."
+    },
+    {
+      "id": "ipas-tub-0001",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar saluran pencernaan manusia berikut. Organ yang ditunjuk huruf X berfungsi untuk ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 200 230\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"100\" cy=\"25\" rx=\"22\" ry=\"14\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"93\" y=\"39\" width=\"14\" height=\"45\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 84 C 60 90 55 125 85 130 C 110 134 120 110 110 96\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 88 132 C 70 145 75 170 100 172 C 130 174 135 150 120 140 C 105 132 95 150 108 158\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"62\" y=\"178\" width=\"76\" height=\"30\" rx=\"8\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"110\" x2=\"38\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"30\" y=\"115\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"end\">X</text><text x=\"152\" y=\"30\" font-size=\"11\" fill=\"currentColor\">mulut</text><text x=\"152\" y=\"196\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">usus besar</text></svg>",
+        "alt": "Bagan saluran pencernaan manusia dari mulut, kerongkongan, lambung yang ditandai huruf X, usus halus, hingga usus besar"
+      },
+      "choices": [
+        { "id": "a", "text": "mencerna makanan secara kimiawi dengan bantuan asam lambung" },
+        { "id": "b", "text": "menyerap sari-sari makanan ke dalam darah" },
+        { "id": "c", "text": "menyerap kembali air dari sisa makanan" },
+        { "id": "d", "text": "menghaluskan makanan dengan bantuan gigi" }
+      ],
+      "answer": "a",
+      "explanation": "Huruf X menunjuk lambung, organ berbentuk kantong yang terletak setelah kerongkongan. Di lambung makanan dicerna secara kimiawi oleh asam lambung dan enzim. Penyerapan sari makanan terjadi di usus halus, sedangkan penyerapan air terjadi di usus besar."
+    },
+    {
+      "id": "ipas-tub-0002",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Saat berolahraga lari, napas kita menjadi lebih cepat. Hal tersebut terjadi karena tubuh ....",
+      "choices": [
+        { "id": "a", "text": "membutuhkan lebih banyak oksigen untuk menghasilkan energi" },
+        { "id": "b", "text": "berusaha menurunkan suhu tubuh melalui hidung" },
+        { "id": "c", "text": "kekurangan air sehingga harus menghirup uap air" },
+        { "id": "d", "text": "menyimpan karbon dioksida lebih banyak di dalam paru-paru" }
+      ],
+      "answer": "a",
+      "explanation": "Otot yang bekerja keras memerlukan banyak energi, dan pembentukan energi di dalam sel membutuhkan oksigen. Karena itu tubuh mempercepat napas agar oksigen yang masuk bertambah sekaligus mempercepat pengeluaran karbon dioksida."
+    },
+    {
+      "id": "ipas-tub-0003",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan ciri-ciri berikut ke dalam ciri pubertas anak laki-laki atau anak perempuan.",
+      "statements": [
+        { "id": "s1", "text": "Suara menjadi lebih berat" },
+        { "id": "s2", "text": "Pinggul membesar" },
+        { "id": "s3", "text": "Tumbuh jakun di leher" },
+        { "id": "s4", "text": "Mengalami menstruasi" }
+      ],
+      "categories": [
+        { "id": "lk", "label": "Laki-laki" },
+        { "id": "pr", "label": "Perempuan" }
+      ],
+      "answer": {
+        "s1": "lk",
+        "s2": "pr",
+        "s3": "lk",
+        "s4": "pr"
+      },
+      "explanation": "Ciri pubertas laki-laki antara lain suara membesar dan memberat serta tumbuhnya jakun. Ciri pubertas perempuan antara lain pinggul yang membesar dan mulainya menstruasi. Beberapa ciri lain seperti tumbuhnya rambut halus dan munculnya jerawat dialami keduanya."
+    },
+    {
+      "id": "ipas-zat-0001",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan bagan perubahan wujud benda berikut. Perubahan yang ditunjuk oleh panah X terjadi pada peristiwa ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><rect x=\"20\" y=\"110\" width=\"70\" height=\"34\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"55\" y=\"132\">padat</text><rect x=\"115\" y=\"110\" width=\"70\" height=\"34\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"150\" y=\"132\">cair</text><rect x=\"210\" y=\"110\" width=\"70\" height=\"34\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"245\" y=\"132\">gas</text></g><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><path d=\"M 92 127 L 111 127\"/><path d=\"M 187 127 L 206 127\"/><path d=\"M 55 108 C 55 60 245 60 245 108\"/></g><g fill=\"currentColor\"><polygon points=\"111,127 104,123 104,131\"/><polygon points=\"206,127 199,123 199,131\"/><polygon points=\"55,108 51,115 59,115\"/></g><text x=\"150\" y=\"66\" font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\">X</text><text x=\"150\" y=\"172\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Bagan perubahan wujud benda</text></svg>",
+        "alt": "Bagan perubahan wujud: padat ke cair, cair ke gas, serta panah X yang melengkung dari gas kembali ke padat"
+      },
+      "choices": [
+        { "id": "a", "text": "terbentuknya bunga es di dalam freezer" },
+        { "id": "b", "text": "air menguap saat dipanaskan" },
+        { "id": "c", "text": "es batu mencair di dalam gelas" },
+        { "id": "d", "text": "embun menempel di daun pada pagi hari" }
+      ],
+      "answer": "a",
+      "explanation": "Panah X menunjuk perubahan dari gas langsung menjadi padat, yang disebut mengkristal atau deposisi. Contohnya bunga es di dalam freezer, yaitu uap air yang langsung membeku menjadi kristal es tanpa lebih dulu mencair. Embun adalah mengembun (gas ke cair), sedangkan es mencair adalah padat ke cair."
+    },
+    {
+      "id": "ipas-zat-0002",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua peristiwa yang termasuk perubahan kimia.",
+      "choices": [
+        { "id": "a", "text": "Besi berkarat setelah lama terkena air hujan" },
+        { "id": "b", "text": "Kertas dibakar menjadi abu" },
+        { "id": "c", "text": "Nasi menjadi basi setelah dibiarkan semalam" },
+        { "id": "d", "text": "Lilin meleleh ketika dipanaskan" },
+        { "id": "e", "text": "Gula larut di dalam air teh" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Perubahan kimia menghasilkan zat baru dan umumnya tidak dapat kembali ke bentuk semula. Besi berkarat menghasilkan karat, kertas terbakar menghasilkan abu dan asap, dan nasi basi berubah karena aktivitas mikroorganisme. Lilin meleleh hanya berubah wujud dan gula larut hanya bercampur, keduanya perubahan fisika karena tidak menghasilkan zat baru."
+    },
+    {
+      "id": "ipas-ene-0001",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan dua rangkaian listrik berikut. Jika lampu L2 pada rangkaian II dilepas, yang terjadi adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 180\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"40\" width=\"120\" height=\"75\"/></g><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"45\" y1=\"115\" x2=\"45\" y2=\"125\"/><line x1=\"60\" y1=\"110\" x2=\"60\" y2=\"130\"/></g><circle cx=\"65\" cy=\"40\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"40\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"26\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">L1</text><text x=\"110\" y=\"26\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">L2</text><text x=\"80\" y=\"152\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Rangkaian I</text><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><rect x=\"190\" y=\"40\" width=\"120\" height=\"75\"/><line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"115\"/><line x1=\"275\" y1=\"40\" x2=\"275\" y2=\"115\"/></g><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"200\" y1=\"115\" x2=\"200\" y2=\"125\"/><line x1=\"212\" y1=\"110\" x2=\"212\" y2=\"130\"/></g><circle cx=\"230\" cy=\"77\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"77\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"244\" y=\"72\" font-size=\"11\" fill=\"currentColor\">L1</text><text x=\"289\" y=\"72\" font-size=\"11\" fill=\"currentColor\">L2</text><text x=\"250\" y=\"152\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Rangkaian II</text></svg>",
+        "alt": "Rangkaian I menunjukkan dua lampu terpasang seri, rangkaian II menunjukkan dua lampu terpasang paralel, keduanya dengan satu baterai"
+      },
+      "choices": [
+        { "id": "a", "text": "lampu L1 tetap menyala karena arus masih memiliki jalur tersendiri" },
+        { "id": "b", "text": "lampu L1 ikut padam karena rangkaian terputus" },
+        { "id": "c", "text": "lampu L1 menyala lebih redup daripada sebelumnya" },
+        { "id": "d", "text": "baterai menjadi cepat habis meskipun kedua lampu padam" }
+      ],
+      "answer": "a",
+      "explanation": "Rangkaian II adalah rangkaian paralel, yaitu tiap lampu memiliki jalur arus sendiri. Melepas salah satu lampu tidak memutus jalur lampu lainnya, sehingga L1 tetap menyala normal. Pada rangkaian seri seperti Rangkaian I, melepas satu lampu akan memadamkan lampu lainnya karena jalurnya hanya satu."
+    },
+    {
+      "id": "ipas-ene-0002",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Sebuah bola yang menggelinding di lapangan rumput lama-kelamaan berhenti. Gaya yang menyebabkan bola berhenti adalah gaya ....",
+      "choices": [
+        { "id": "a", "text": "gesek" },
+        { "id": "b", "text": "magnet" },
+        { "id": "c", "text": "pegas" },
+        { "id": "d", "text": "listrik" }
+      ],
+      "answer": "a",
+      "explanation": "Gaya gesek muncul ketika dua permukaan bersentuhan dan arahnya berlawanan dengan arah gerak benda. Gesekan antara bola dan rumput memperlambat bola hingga akhirnya berhenti. Karena itu pula lapangan berumput membuat bola lebih cepat berhenti daripada lantai licin."
+    },
+    {
+      "id": "ipas-ene-0003",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua sumber energi yang tergolong energi terbarukan.",
+      "choices": [
+        { "id": "a", "text": "Cahaya matahari" },
+        { "id": "b", "text": "Aliran air sungai" },
+        { "id": "c", "text": "Angin" },
+        { "id": "d", "text": "Batu bara" },
+        { "id": "e", "text": "Minyak bumi" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Energi terbarukan adalah energi yang tersedia terus-menerus dan tidak habis dalam waktu singkat, seperti matahari, air, dan angin. Batu bara serta minyak bumi tergolong energi tak terbarukan karena terbentuk dari fosil selama jutaan tahun dan persediaannya terbatas."
+    },
+    {
+      "id": "ipas-bum-0001",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar posisi matahari, bumi, dan bulan berikut. Peristiwa yang terjadi pada posisi tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 150\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"45\" cy=\"75\" r=\"28\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"45\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Matahari</text><circle cx=\"175\" cy=\"75\" r=\"12\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"175\" y=\"105\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Bulan</text><circle cx=\"275\" cy=\"75\" r=\"22\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"275\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Bumi</text><g stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"><line x1=\"73\" y1=\"68\" x2=\"253\" y2=\"68\"/><line x1=\"73\" y1=\"82\" x2=\"253\" y2=\"82\"/></g></svg>",
+        "alt": "Posisi sejajar: matahari, lalu bulan di tengah, lalu bumi"
+      },
+      "choices": [
+        { "id": "a", "text": "gerhana matahari" },
+        { "id": "b", "text": "gerhana bulan" },
+        { "id": "c", "text": "bulan purnama" },
+        { "id": "d", "text": "pasang surut air laut" }
+      ],
+      "answer": "a",
+      "explanation": "Pada gambar, bulan berada di antara matahari dan bumi sehingga bayangan bulan jatuh ke permukaan bumi. Peristiwa ini disebut gerhana matahari. Gerhana bulan terjadi bila urutannya matahari, bumi, lalu bulan, yaitu saat bumi yang menghalangi cahaya matahari."
+    },
+    {
+      "id": "ipas-bum-0002",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan bagan daur air berikut. Proses yang ditunjukkan huruf P adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 155 L 320 155 L 320 190 L 0 190 Z\" fill=\"currentColor\" fill-opacity=\"0.15\"/><text x=\"55\" y=\"177\" font-size=\"12\" fill=\"currentColor\">laut</text><ellipse cx=\"180\" cy=\"42\" rx=\"46\" ry=\"20\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><ellipse cx=\"145\" cy=\"48\" rx=\"28\" ry=\"14\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"46\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">awan</text><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><path d=\"M 70 150 C 70 110 90 80 118 62\"/></g><polygon points=\"118,62 112,71 121,72\" fill=\"currentColor\"/><text x=\"55\" y=\"105\" font-size=\"15\" fill=\"currentColor\">P</text><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"215\" y1=\"70\" x2=\"210\" y2=\"100\"/><line x1=\"235\" y1=\"72\" x2=\"230\" y2=\"102\"/><line x1=\"255\" y1=\"70\" x2=\"250\" y2=\"100\"/></g><text x=\"272\" y=\"95\" font-size=\"11\" fill=\"currentColor\">hujan</text></svg>",
+        "alt": "Bagan daur air: panah P naik dari permukaan laut menuju awan, dan garis-garis hujan turun dari awan"
+      },
+      "choices": [
+        { "id": "a", "text": "penguapan air laut oleh panas matahari" },
+        { "id": "b", "text": "pengembunan uap air menjadi titik-titik air" },
+        { "id": "c", "text": "peresapan air hujan ke dalam tanah" },
+        { "id": "d", "text": "pengaliran air sungai menuju laut" }
+      ],
+      "answer": "a",
+      "explanation": "Panah P bergerak dari permukaan laut ke arah awan, yang berarti air berubah menjadi uap dan naik ke udara. Proses ini disebut penguapan atau evaporasi, yang terjadi karena panas matahari. Pengembunan justru terjadi setelahnya, yaitu ketika uap air mendingin dan membentuk awan."
+    },
+    {
+      "id": "ipas-bum-0003",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Indonesia memiliki tiga daerah waktu, yaitu WIB, WITA, dan WIT. Adanya perbedaan waktu tersebut merupakan akibat dari ....",
+      "choices": [
+        { "id": "a", "text": "rotasi bumi pada porosnya" },
+        { "id": "b", "text": "revolusi bumi mengelilingi matahari" },
+        { "id": "c", "text": "revolusi bulan mengelilingi bumi" },
+        { "id": "d", "text": "kemiringan poros bumi terhadap bidang edarnya" }
+      ],
+      "answer": "a",
+      "explanation": "Rotasi bumi menyebabkan tempat-tempat yang berbeda garis bujur mengalami siang dan malam pada saat yang berbeda, sehingga muncul pembagian daerah waktu. Revolusi bumi menyebabkan pergantian musim dan perbedaan lama siang-malam sepanjang tahun, bukan perbedaan zona waktu."
+    }
+  ]
+}

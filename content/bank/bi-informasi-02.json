@@ -1,0 +1,415 @@
+{
+  "batch": "bi-informasi-02",
+  "note": "Bahasa Indonesia - Teks informasi: school initiative, observation report, procedure, news",
+  "stimuli": [
+    {
+      "id": "bi-stim-0020",
+      "subject": "bahasa_indonesia",
+      "title": "Sepeda untuk Sekolah",
+      "textType": "teks_informasi",
+      "body": "SD Harapan Bangsa memulai gerakan Sepeda ke Sekolah sejak awal tahun ajaran. Gerakan ini muncul setelah jalan di depan sekolah selalu macet pada pukul tujuh pagi karena banyaknya kendaraan pengantar.\n\nKepala sekolah bersama komite menyiapkan tempat parkir sepeda beratap di samping lapangan. Daya tampungnya enam puluh sepeda. Selain itu, dibuat jalur khusus selebar satu setengah meter dari gerbang menuju tempat parkir agar pesepeda tidak bersenggolan dengan pejalan kaki.\n\nPada bulan pertama, hanya dua puluh satu siswa yang bersepeda. Jumlahnya naik menjadi tiga puluh delapan pada bulan kedua, lalu lima puluh dua pada bulan ketiga. Guru olahraga mencatat kenaikan itu terjadi setelah sekolah mengadakan lomba menghias sepeda.\n\nManfaatnya mulai terasa. Kemacetan pagi berkurang, dan menurut catatan guru piket, siswa yang terlambat turun dari rata-rata sembilan orang menjadi tiga orang per hari. Beberapa orang tua juga mengaku pengeluaran bahan bakar mereka berkurang.\n\nMeski begitu, ada kendala. Tidak semua siswa memiliki sepeda. Rumah sebagian siswa juga berjarak lebih dari lima kilometer, terlalu jauh untuk ditempuh dengan sepeda setiap hari. Sekolah kini mengumpulkan sepeda bekas layak pakai dari alumni dan merencanakan sistem pinjam bergilir bagi siswa yang belum memilikinya."
+    },
+    {
+      "id": "bi-stim-0021",
+      "subject": "bahasa_indonesia",
+      "title": "Laporan Pengamatan Tanaman Cabai",
+      "textType": "teks_informasi",
+      "body": "Kelompok 3 kelas VI SD Tunas Mekar melakukan pengamatan terhadap pertumbuhan tanaman cabai selama empat minggu. Pengamatan dilakukan untuk mengetahui pengaruh jenis media tanam terhadap tinggi tanaman.\n\nTiga pot disiapkan dengan ukuran dan jenis benih yang sama. Pot A diisi tanah biasa, Pot B diisi campuran tanah dan pupuk kompos, dan Pot C diisi campuran tanah dan sekam bakar. Ketiganya diletakkan di teras yang sama dan disiram dua ratus mililiter air setiap pagi.\n\nPada akhir minggu pertama, ketiga tanaman tumbuh hampir sama, yaitu sekitar tiga sentimeter. Perbedaan mulai terlihat pada minggu kedua. Pot B mencapai tujuh sentimeter, Pot C enam sentimeter, sedangkan Pot A hanya empat sentimeter.\n\nPada akhir minggu keempat, tinggi tanaman di Pot B mencapai dua puluh satu sentimeter dengan daun berwarna hijau tua. Pot C mencapai delapan belas sentimeter dengan daun hijau segar. Pot A hanya mencapai sebelas sentimeter dan beberapa daunnya menguning.\n\nDari pengamatan tersebut, kelompok kami menyimpulkan bahwa media tanam yang dicampur pupuk kompos memberikan pertumbuhan paling baik. Sekam bakar juga membantu, meskipun hasilnya sedikit di bawah kompos. Tanah biasa tanpa campuran apa pun memberikan pertumbuhan paling lambat."
+    },
+    {
+      "id": "bi-stim-0022",
+      "subject": "bahasa_indonesia",
+      "title": "Cara Membuat Kompos dari Sampah Dapur",
+      "textType": "teks_informasi",
+      "body": "Sampah dapur seperti kulit buah, sisa sayur, dan ampas kopi dapat diubah menjadi kompos yang menyuburkan tanaman. Prosesnya sederhana dan dapat dilakukan di halaman rumah yang sempit sekalipun.\n\nSiapkan sebuah ember bekas cat berukuran dua puluh liter. Lubangi bagian bawah dan sisinya dengan paku panas, masing-masing sekitar sepuluh lubang, agar udara dapat masuk dan air berlebih bisa keluar. Letakkan ember di atas dua batu bata supaya bagian bawahnya tidak tergenang.\n\nMasukkan bahan secara berlapis. Lapisan pertama berupa bahan cokelat, yaitu daun kering atau sobekan kardus, setebal kira-kira lima sentimeter. Di atasnya, tambahkan bahan hijau berupa sisa sayur dan kulit buah yang sudah dicacah kecil. Ulangi lapisan itu bergantian sampai ember terisi tiga perempat bagian.\n\nAduk isi ember setiap tiga hari sekali menggunakan tongkat kayu. Pengadukan membuat udara masuk ke bagian dalam sehingga bahan tidak membusuk dan berbau. Jika bahan tampak terlalu kering, percikkan sedikit air. Sebaliknya, jika terlalu basah dan berbau asam, tambahkan daun kering.\n\nSetelah enam sampai delapan minggu, kompos siap digunakan. Cirinya adalah warnanya cokelat kehitaman, teksturnya gembur seperti tanah, dan baunya menyerupai tanah hutan yang lembap. Bahan yang belum hancur dapat dikembalikan ke ember untuk diproses pada periode berikutnya.\n\nPerlu diingat, sisa daging, tulang, minyak goreng, dan produk susu sebaiknya tidak dimasukkan karena mengundang lalat dan menimbulkan bau menyengat."
+    },
+    {
+      "id": "bi-stim-0023",
+      "subject": "bahasa_indonesia",
+      "title": "Jam Belajar Masyarakat di Kampung Damai",
+      "textType": "teks_informasi",
+      "body": "Setiap pukul tujuh sampai sembilan malam, suasana Kampung Damai berubah. Televisi dimatikan, warung kopi tutup sementara, dan lampu teras dinyalakan lebih terang. Warga menyebutnya Jam Belajar Masyarakat.\n\nAturan ini disepakati dalam musyawarah RW dua tahun lalu. Usulan datang dari Pak Salim, seorang pensiunan guru, yang prihatin melihat anak-anak sulit berkonsentrasi mengerjakan tugas karena suara televisi dan obrolan di gardu ronda.\n\nSelama dua jam itu, anak-anak belajar di rumah masing-masing. Bagi yang kesulitan, tersedia pos belajar di balai RW dengan tiga orang pendamping bergilir, yaitu mahasiswa yang tinggal di kampung tersebut. Pos belajar ini rata-rata didatangi dua belas anak setiap malam.\n\nHasilnya dirasakan bertahap. Menurut catatan wali kelas di sekolah terdekat, jumlah siswa dari Kampung Damai yang tidak mengerjakan pekerjaan rumah menurun cukup banyak dibandingkan sebelum aturan ini berlaku. Beberapa orang tua juga mengaku lebih mudah mengingatkan anaknya belajar karena seluruh kampung melakukannya bersama.\n\nAturan ini tidak dijalankan dengan hukuman. Petugas ronda hanya berkeliling mengingatkan dengan ramah bila ada rumah yang televisinya masih terdengar keras. Menurut Ketua RW, kunci keberhasilannya adalah kesepakatan, bukan paksaan."
+    },
+    {
+      "id": "bi-stim-0024",
+      "subject": "bahasa_indonesia",
+      "title": "Mengapa Kunang-Kunang Makin Jarang Terlihat",
+      "textType": "teks_informasi",
+      "body": "Banyak orang dewasa mengenang masa kecil mereka yang dipenuhi kerlip kunang-kunang di halaman. Kini pemandangan itu semakin sulit ditemui, terutama di kota.\n\nKunang-kunang adalah serangga yang mampu menghasilkan cahaya dari bagian perutnya. Cahaya itu bukan untuk menerangi jalan, melainkan untuk memanggil pasangan. Setiap jenis kunang-kunang memiliki pola kerlip yang khas, seperti bahasa isyarat.\n\nAda beberapa sebab berkurangnya kunang-kunang. Pertama, hilangnya tempat hidup. Larva kunang-kunang memerlukan tanah lembap, semak, dan genangan kecil untuk tumbuh. Lahan semacam itu banyak berubah menjadi bangunan dan halaman berpaving.\n\nKedua, pencemaran cahaya. Lampu jalan dan lampu taman yang menyala sepanjang malam membuat kerlip kunang-kunang tenggelam. Akibatnya mereka kesulitan menemukan pasangan, sehingga jumlah keturunannya menurun.\n\nKetiga, penggunaan pestisida. Zat pembasmi hama tidak hanya membunuh serangga pengganggu, tetapi juga larva kunang-kunang dan siput kecil yang menjadi makanannya.\n\nUpaya menjaganya tidak harus rumit. Menyisakan sudut halaman yang tidak dipaving, mengurangi lampu taman yang menyala semalaman, serta tidak menyemprot pestisida di sekitar rumah sudah cukup membantu. Beberapa desa wisata bahkan kini merawat area khusus kunang-kunang dan menjadikannya daya tarik pengunjung."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bi-info-0020",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0020",
+      "stem": "Berdasarkan teks tersebut, daya tampung tempat parkir sepeda di SD Harapan Bangsa adalah ....",
+      "choices": [
+        { "id": "a", "text": "60 sepeda" },
+        { "id": "b", "text": "52 sepeda" },
+        { "id": "c", "text": "38 sepeda" },
+        { "id": "d", "text": "21 sepeda" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua menyebutkan tempat parkir sepeda beratap dengan daya tampung enam puluh sepeda. Angka 21, 38, dan 52 adalah jumlah siswa yang bersepeda pada bulan pertama, kedua, dan ketiga."
+    },
+    {
+      "id": "bi-info-0021",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0020",
+      "stem": "Menurut teks, kenaikan jumlah siswa yang bersepeda terjadi setelah sekolah ....",
+      "choices": [
+        { "id": "a", "text": "mengadakan lomba menghias sepeda" },
+        { "id": "b", "text": "melarang orang tua mengantar dengan kendaraan" },
+        { "id": "c", "text": "membagikan sepeda gratis kepada semua siswa" },
+        { "id": "d", "text": "memperlebar jalan di depan sekolah" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf ketiga menyebutkan, \"Guru olahraga mencatat kenaikan itu terjadi setelah sekolah mengadakan lomba menghias sepeda.\" Pembagian sepeda gratis tidak pernah disebut; yang direncanakan adalah sistem pinjam bergilir dari sepeda bekas alumni."
+    },
+    {
+      "id": "bi-info-0022",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0020",
+      "stem": "Penurunan jumlah siswa yang terlambat dari sembilan menjadi tiga orang per hari menunjukkan bahwa gerakan sepeda ....",
+      "choices": [
+        { "id": "a", "text": "membantu siswa tiba di sekolah lebih tepat waktu" },
+        { "id": "b", "text": "membuat siswa berangkat lebih pagi dari biasanya" },
+        { "id": "c", "text": "menyebabkan jam masuk sekolah diundur" },
+        { "id": "d", "text": "mengurangi jumlah siswa yang hadir di sekolah" }
+      ],
+      "answer": "a",
+      "explanation": "Data itu disajikan sebagai salah satu manfaat gerakan sepeda, sesudah disebutkan bahwa kemacetan pagi berkurang. Berkurangnya kemacetan membuat siswa tidak lagi tertahan di jalan. Teks tidak menyebut siswa berangkat lebih pagi maupun perubahan jam masuk."
+    },
+    {
+      "id": "bi-info-0023",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0020",
+      "stem": "Berdasarkan kendala yang disebutkan dalam teks, pilihlah semua langkah lanjutan yang paling masuk akal bagi sekolah.",
+      "choices": [
+        { "id": "a", "text": "Melanjutkan pengumpulan sepeda bekas layak pakai dari alumni" },
+        { "id": "b", "text": "Menyiapkan aturan peminjaman sepeda secara bergilir" },
+        { "id": "c", "text": "Mencari cara lain bagi siswa yang rumahnya lebih dari lima kilometer" },
+        { "id": "d", "text": "Mewajibkan seluruh siswa membeli sepeda baru" },
+        { "id": "e", "text": "Menutup tempat parkir sepeda karena belum penuh terisi" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Teks menyebut dua kendala: tidak semua siswa punya sepeda, dan sebagian rumah terlalu jauh. Pilihan a dan b menjawab kendala pertama dan memang sudah direncanakan sekolah, sedangkan c menjawab kendala kedua. Mewajibkan membeli sepeda baru justru memberatkan keluarga yang belum mampu, dan menutup parkir bertentangan dengan tujuan gerakan."
+    },
+    {
+      "id": "bi-info-0024",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0021",
+      "stem": "Tujuan pengamatan yang dilakukan Kelompok 3 adalah untuk mengetahui pengaruh ....",
+      "choices": [
+        { "id": "a", "text": "jenis media tanam terhadap tinggi tanaman" },
+        { "id": "b", "text": "jumlah air siraman terhadap warna daun" },
+        { "id": "c", "text": "lama penyinaran matahari terhadap jumlah buah" },
+        { "id": "d", "text": "jenis benih terhadap kecepatan berbunga" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf pertama menyatakan pengamatan dilakukan untuk mengetahui pengaruh jenis media tanam terhadap tinggi tanaman. Jumlah air, tempat, dan jenis benih justru dibuat sama pada ketiga pot agar tidak memengaruhi hasil."
+    },
+    {
+      "id": "bi-info-0025",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0021",
+      "stem": "Mengapa ukuran pot, jenis benih, jumlah air, dan tempat dibuat sama untuk ketiga pot?",
+      "choices": [
+        { "id": "a", "text": "Agar perbedaan tinggi tanaman benar-benar disebabkan oleh media tanamnya" },
+        { "id": "b", "text": "Agar ketiga tanaman tumbuh dengan tinggi yang persis sama" },
+        { "id": "c", "text": "Agar pengamatan dapat diselesaikan lebih cepat" },
+        { "id": "d", "text": "Agar tanaman tidak diserang hama selama pengamatan" }
+      ],
+      "answer": "a",
+      "explanation": "Yang sedang diuji hanyalah media tanam. Bila faktor lain ikut berbeda, kita tidak bisa memastikan perbedaan tinggi tanaman disebabkan oleh apa. Menyamakan faktor lain justru dilakukan supaya hasilnya berbeda secara jujur, bukan supaya sama."
+    },
+    {
+      "id": "bi-info-0026",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stimulusId": "bi-stim-0021",
+      "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan laporan tersebut.",
+      "statements": [
+        { "id": "s1", "text": "Pada minggu pertama ketiga tanaman tumbuh hampir sama tinggi" },
+        { "id": "s2", "text": "Pada minggu keempat Pot A paling tinggi di antara ketiganya" },
+        { "id": "s3", "text": "Beberapa daun tanaman di Pot A menguning" },
+        { "id": "s4", "text": "Pot C diisi campuran tanah dan sekam bakar" }
+      ],
+      "categories": [
+        { "id": "sesuai", "label": "Sesuai" },
+        { "id": "tidak", "label": "Tidak sesuai" }
+      ],
+      "answer": {
+        "s1": "sesuai",
+        "s2": "tidak",
+        "s3": "sesuai",
+        "s4": "sesuai"
+      },
+      "explanation": "Pernyataan s1, s3, dan s4 tertulis langsung dalam laporan. Pernyataan s2 tidak sesuai karena pada minggu keempat Pot A justru paling pendek, yaitu 11 cm, sedangkan Pot B mencapai 21 cm."
+    },
+    {
+      "id": "bi-info-0027",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0021",
+      "stem": "Saran yang paling sesuai untuk petani berdasarkan simpulan laporan tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "mencampurkan pupuk kompos ke dalam media tanam" },
+        { "id": "b", "text": "menanam cabai hanya pada tanah biasa tanpa campuran" },
+        { "id": "c", "text": "menyiram tanaman lebih dari dua ratus mililiter setiap pagi" },
+        { "id": "d", "text": "memindahkan tanaman ke tempat yang lebih teduh" }
+      ],
+      "answer": "a",
+      "explanation": "Simpulan laporan menyebutkan media tanam yang dicampur pupuk kompos memberikan pertumbuhan paling baik. Saran tentang jumlah air dan tempat tidak bisa ditarik dari laporan ini karena kedua hal itu memang tidak diuji."
+    },
+    {
+      "id": "bi-info-0028",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0022",
+      "stem": "Berdasarkan teks tersebut, ember kompos diletakkan di atas dua batu bata agar ....",
+      "choices": [
+        { "id": "a", "text": "bagian bawahnya tidak tergenang air" },
+        { "id": "b", "text": "tidak mudah dijangkau hewan peliharaan" },
+        { "id": "c", "text": "terkena sinar matahari lebih banyak" },
+        { "id": "d", "text": "lebih mudah diaduk dengan tongkat kayu" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua menyebutkan, \"Letakkan ember di atas dua batu bata supaya bagian bawahnya tidak tergenang.\""
+    },
+    {
+      "id": "bi-info-0029",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0022",
+      "stem": "Rina membuat kompos, tetapi setelah dua minggu isinya sangat basah dan berbau asam. Berdasarkan teks, yang sebaiknya Rina lakukan adalah ....",
+      "choices": [
+        { "id": "a", "text": "menambahkan daun kering ke dalam ember" },
+        { "id": "b", "text": "memercikkan air lebih banyak ke dalam ember" },
+        { "id": "c", "text": "menutup rapat seluruh lubang pada ember" },
+        { "id": "d", "text": "memindahkan ember ke tempat yang lebih lembap" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf keempat menyebutkan, \"jika terlalu basah dan berbau asam, tambahkan daun kering.\" Menambah air justru memperparah, dan menutup lubang menghalangi udara masuk sehingga bahan makin membusuk."
+    },
+    {
+      "id": "bi-info-0030",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0022",
+      "stem": "Mengapa sisa daging dan minyak goreng sebaiknya tidak dimasukkan ke dalam ember kompos?",
+      "choices": [
+        { "id": "a", "text": "Karena mengundang lalat dan menimbulkan bau menyengat" },
+        { "id": "b", "text": "Karena membuat kompos menjadi terlalu kering" },
+        { "id": "c", "text": "Karena menyumbat lubang udara pada ember" },
+        { "id": "d", "text": "Karena mempercepat proses pengomposan secara berlebihan" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf terakhir menyebutkan alasannya secara langsung, yaitu mengundang lalat dan menimbulkan bau menyengat."
+    },
+    {
+      "id": "bi-info-0031",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0022",
+      "stem": "Pilihlah semua ciri kompos yang sudah siap digunakan menurut teks.",
+      "choices": [
+        { "id": "a", "text": "Berwarna cokelat kehitaman" },
+        { "id": "b", "text": "Bertekstur gembur seperti tanah" },
+        { "id": "c", "text": "Berbau seperti tanah hutan yang lembap" },
+        { "id": "d", "text": "Berbau asam yang menyengat" },
+        { "id": "e", "text": "Masih tampak potongan sayur yang utuh" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Paragraf kelima menyebutkan tiga ciri kompos matang: warnanya cokelat kehitaman, teksturnya gembur seperti tanah, dan baunya menyerupai tanah hutan yang lembap. Bau asam justru tanda kompos terlalu basah, dan bahan yang belum hancur harus dikembalikan untuk diproses lagi."
+    },
+    {
+      "id": "bi-info-0032",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0023",
+      "stem": "Jam Belajar Masyarakat di Kampung Damai berlangsung pada pukul ....",
+      "choices": [
+        { "id": "a", "text": "19.00 sampai 21.00" },
+        { "id": "b", "text": "17.00 sampai 19.00" },
+        { "id": "c", "text": "18.00 sampai 20.00" },
+        { "id": "d", "text": "20.00 sampai 22.00" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat pembuka menyebutkan, \"Setiap pukul tujuh sampai sembilan malam,\" yang berarti pukul 19.00 sampai 21.00."
+    },
+    {
+      "id": "bi-info-0033",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0023",
+      "stem": "Mengapa Pak Salim mengusulkan adanya Jam Belajar Masyarakat?",
+      "choices": [
+        { "id": "a", "text": "Anak-anak sulit berkonsentrasi karena suara televisi dan obrolan warga" },
+        { "id": "b", "text": "Banyak anak di kampung itu tidak bersekolah" },
+        { "id": "c", "text": "Balai RW jarang dimanfaatkan warga pada malam hari" },
+        { "id": "d", "text": "Sekolah meminta setiap kampung membuat aturan belajar" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua menyebutkan Pak Salim prihatin melihat anak-anak sulit berkonsentrasi mengerjakan tugas karena suara televisi dan obrolan di gardu ronda."
+    },
+    {
+      "id": "bi-info-0034",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0023",
+      "stem": "Menurut Ketua RW, kunci keberhasilan aturan tersebut adalah kesepakatan, bukan paksaan. Bukti dalam teks yang paling mendukung pernyataan itu adalah ....",
+      "choices": [
+        { "id": "a", "text": "Petugas ronda hanya mengingatkan dengan ramah, tanpa memberi hukuman" },
+        { "id": "b", "text": "Pos belajar didatangi rata-rata dua belas anak setiap malam" },
+        { "id": "c", "text": "Aturan ini sudah berjalan selama dua tahun" },
+        { "id": "d", "text": "Warung kopi tutup sementara selama dua jam" }
+      ],
+      "answer": "a",
+      "explanation": "Pernyataan Ketua RW membedakan kesepakatan dari paksaan. Bukti yang paling langsung adalah tidak adanya hukuman: petugas ronda sekadar mengingatkan dengan ramah. Pilihan lain menunjukkan aturan itu berjalan, tetapi tidak menjelaskan bagaimana cara menegakkannya."
+    },
+    {
+      "id": "bi-info-0035",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0023",
+      "stem": "Kelemahan penyajian informasi pada paragraf keempat teks tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "penurunan jumlah siswa yang tidak mengerjakan tugas tidak disertai angka yang jelas" },
+        { "id": "b", "text": "tidak menyebutkan siapa yang mencatat data tersebut" },
+        { "id": "c", "text": "tidak menjelaskan lokasi sekolah yang dimaksud" },
+        { "id": "d", "text": "tidak menyebutkan berapa lama aturan itu berlaku" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf keempat hanya menulis \"menurun cukup banyak\" tanpa angka pembanding, padahal bagian lain teks menyebut angka secara rinci. Pencatatnya justru sudah disebut, yaitu wali kelas di sekolah terdekat, dan lama berlakunya sudah disebut di paragraf kedua."
+    },
+    {
+      "id": "bi-info-0036",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0024",
+      "stem": "Berdasarkan teks tersebut, cahaya pada tubuh kunang-kunang berfungsi untuk ....",
+      "choices": [
+        { "id": "a", "text": "memanggil pasangan" },
+        { "id": "b", "text": "menerangi jalan saat terbang" },
+        { "id": "c", "text": "menakuti hewan pemangsa" },
+        { "id": "d", "text": "menarik serangga yang akan dimakan" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua menegaskan, \"Cahaya itu bukan untuk menerangi jalan, melainkan untuk memanggil pasangan.\""
+    },
+    {
+      "id": "bi-info-0037",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0024",
+      "stem": "Mengapa pencemaran cahaya dapat menurunkan jumlah kunang-kunang?",
+      "choices": [
+        { "id": "a", "text": "Kerlip mereka tenggelam sehingga sulit menemukan pasangan dan keturunannya berkurang" },
+        { "id": "b", "text": "Cahaya lampu membakar sayap kunang-kunang yang mendekat" },
+        { "id": "c", "text": "Lampu jalan membuat kunang-kunang kehilangan makanan" },
+        { "id": "d", "text": "Cahaya terang membuat kunang-kunang berhenti bercahaya selamanya" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf keempat menjelaskan rantai sebabnya: lampu yang menyala sepanjang malam membuat kerlip kunang-kunang tenggelam, mereka sulit menemukan pasangan, sehingga jumlah keturunannya menurun. Hilangnya makanan disebut pada penyebab ketiga, yaitu pestisida."
+    },
+    {
+      "id": "bi-info-0038",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0024",
+      "stem": "Pilihlah semua tindakan yang menurut teks dapat membantu menjaga kunang-kunang.",
+      "choices": [
+        { "id": "a", "text": "Menyisakan sudut halaman yang tidak dipaving" },
+        { "id": "b", "text": "Mengurangi lampu taman yang menyala semalaman" },
+        { "id": "c", "text": "Tidak menyemprot pestisida di sekitar rumah" },
+        { "id": "d", "text": "Menangkap kunang-kunang untuk dipelihara di dalam toples" },
+        { "id": "e", "text": "Menebang semak di halaman agar terlihat rapi" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ketiga tindakan pertama disebut langsung pada paragraf terakhir dan masing-masing menjawab satu penyebab yang dibahas. Menangkap kunang-kunang tidak membantu pelestariannya, dan menebang semak justru menghilangkan tempat hidup larvanya."
+    },
+    {
+      "id": "bi-info-0039",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0024",
+      "stem": "Gagasan pokok paragraf ketiga teks tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "hilangnya tempat hidup larva kunang-kunang" },
+        { "id": "b", "text": "cara kunang-kunang menghasilkan cahaya" },
+        { "id": "c", "text": "bahaya pestisida bagi serangga" },
+        { "id": "d", "text": "manfaat kunang-kunang bagi desa wisata" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf ketiga membahas penyebab pertama, yaitu hilangnya tempat hidup: larva memerlukan tanah lembap, semak, dan genangan kecil, sedangkan lahan seperti itu berubah menjadi bangunan dan halaman berpaving. Pestisida dibahas pada paragraf kelima."
+    }
+  ]
+}

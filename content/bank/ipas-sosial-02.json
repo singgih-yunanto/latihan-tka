@@ -1,0 +1,449 @@
+{
+  "batch": "ipas-sosial-02",
+  "note": "IPAS - Indonesian geography, Nusantara history, society and economy",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-geo-0010",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Pada peta, warna hijau umumnya digunakan untuk menunjukkan ....",
+      "choices": [
+        { "id": "a", "text": "dataran rendah" },
+        { "id": "b", "text": "pegunungan tinggi" },
+        { "id": "c", "text": "laut dalam" },
+        { "id": "d", "text": "batas provinsi" }
+      ],
+      "answer": "a",
+      "explanation": "Pada peta umum, warna hijau menandakan dataran rendah, kuning dan cokelat menandakan daerah yang makin tinggi, sedangkan biru menandakan perairan. Batas wilayah digambarkan dengan garis, bukan warna bidang."
+    },
+    {
+      "id": "ipas-geo-0011",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan denah berikut. Jika Andi berjalan dari sekolah ke pasar, arah yang ia tempuh adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 280 200\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"30\"/></g><polygon points=\"40,24 35,36 45,36\" fill=\"currentColor\"/><text x=\"40\" y=\"52\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">U</text><rect x=\"90\" y=\"40\" width=\"70\" height=\"36\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"125\" y=\"63\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">sekolah</text><rect x=\"90\" y=\"140\" width=\"70\" height=\"36\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"125\" y=\"163\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">pasar</text><rect x=\"195\" y=\"90\" width=\"70\" height=\"36\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"230\" y=\"113\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">masjid</text><g stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"5 4\" fill=\"none\"><line x1=\"125\" y1=\"78\" x2=\"125\" y2=\"136\"/></g><polygon points=\"125,140 120,130 130,130\" fill=\"currentColor\"/></svg>",
+        "alt": "Denah dengan tanda arah utara ke atas, sekolah di bagian atas, pasar tepat di bawahnya, dan masjid di sebelah kanan"
+      },
+      "choices": [
+        { "id": "a", "text": "ke arah selatan" },
+        { "id": "b", "text": "ke arah utara" },
+        { "id": "c", "text": "ke arah timur" },
+        { "id": "d", "text": "ke arah barat" }
+      ],
+      "answer": "a",
+      "explanation": "Tanda panah arah mata angin menunjuk ke atas sebagai utara. Karena pasar berada tepat di bawah sekolah pada denah, maka perjalanan dari sekolah ke pasar berarti menuju arah selatan."
+    },
+    {
+      "id": "ipas-geo-0012",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Indonesia disebut negara kepulauan karena ....",
+      "choices": [
+        { "id": "a", "text": "wilayahnya terdiri atas ribuan pulau yang dikelilingi laut" },
+        { "id": "b", "text": "seluruh wilayahnya berupa lautan tanpa daratan" },
+        { "id": "c", "text": "wilayahnya hanya terdiri atas lima pulau besar" },
+        { "id": "d", "text": "seluruh penduduknya tinggal di tepi pantai" }
+      ],
+      "answer": "a",
+      "explanation": "Negara kepulauan adalah negara yang wilayahnya tersusun dari banyak pulau yang dihubungkan dan dikelilingi perairan. Indonesia memiliki lebih dari tujuh belas ribu pulau, dengan lima pulau besar yaitu Sumatra, Jawa, Kalimantan, Sulawesi, dan Papua."
+    },
+    {
+      "id": "ipas-geo-0013",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah desa di lereng gunung memiliki tanah yang sangat subur sehingga banyak penduduknya bertani sayuran. Kesuburan tanah tersebut paling mungkin berasal dari ....",
+      "choices": [
+        { "id": "a", "text": "abu vulkanik hasil letusan gunung berapi di masa lalu" },
+        { "id": "b", "text": "endapan pasir yang terbawa air laut" },
+        { "id": "c", "text": "batuan kapur yang mudah hancur" },
+        { "id": "d", "text": "lapisan es yang mencair setiap tahun" }
+      ],
+      "answer": "a",
+      "explanation": "Abu vulkanik kaya akan mineral yang dibutuhkan tanaman. Setelah mengalami pelapukan bertahun-tahun, abu itu membentuk tanah vulkanik yang sangat subur. Inilah sebabnya daerah lereng gunung berapi di Indonesia menjadi pusat pertanian sayuran."
+    },
+    {
+      "id": "ipas-geo-0014",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan kegiatan berikut menurut daerah yang paling sesuai untuk melakukannya.",
+      "statements": [
+        { "id": "s1", "text": "Budi daya rumput laut" },
+        { "id": "s2", "text": "Perkebunan teh" },
+        { "id": "s3", "text": "Tambak udang" },
+        { "id": "s4", "text": "Peternakan sapi perah" }
+      ],
+      "categories": [
+        { "id": "pantai", "label": "Daerah pantai" },
+        { "id": "tinggi", "label": "Dataran tinggi" }
+      ],
+      "answer": {
+        "s1": "pantai",
+        "s2": "tinggi",
+        "s3": "pantai",
+        "s4": "tinggi"
+      },
+      "explanation": "Rumput laut dan tambak udang memerlukan air payau atau air laut sehingga cocok di daerah pantai. Teh tumbuh baik di udara sejuk pegunungan, dan sapi perah menghasilkan susu lebih banyak pada suhu yang sejuk, sehingga keduanya cocok di dataran tinggi."
+    },
+    {
+      "id": "ipas-geo-0015",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Salah satu manfaat letak Indonesia di jalur pelayaran dunia adalah ....",
+      "choices": [
+        { "id": "a", "text": "berkembangnya perdagangan dan pelabuhan internasional" },
+        { "id": "b", "text": "berkurangnya keragaman suku bangsa" },
+        { "id": "c", "text": "menurunnya jumlah penduduk di daerah pesisir" },
+        { "id": "d", "text": "hilangnya pengaruh budaya dari negara lain" }
+      ],
+      "answer": "a",
+      "explanation": "Posisi di antara dua samudra dan dua benua membuat banyak kapal dagang melewati perairan Indonesia. Hal itu mendorong tumbuhnya pelabuhan besar dan kegiatan perdagangan, sekaligus membawa masuk pengaruh budaya dari berbagai bangsa."
+    },
+    {
+      "id": "ipas-geo-0016",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua upaya yang dapat mengurangi risiko banjir di daerah perkotaan.",
+      "choices": [
+        { "id": "a", "text": "Membuat sumur resapan di halaman rumah" },
+        { "id": "b", "text": "Membersihkan saluran air secara rutin" },
+        { "id": "c", "text": "Menyediakan ruang terbuka hijau di kota" },
+        { "id": "d", "text": "Menutup seluruh permukaan halaman dengan beton" },
+        { "id": "e", "text": "Membuang sampah ke sungai agar halaman bersih" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Sumur resapan dan ruang terbuka hijau membantu air meresap ke tanah, sedangkan saluran yang bersih memperlancar aliran air. Menutup halaman dengan beton menghilangkan daerah resapan, dan membuang sampah ke sungai menyumbat aliran sehingga justru memicu banjir."
+    },
+    {
+      "id": "ipas-geo-0017",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Skala pada sebuah peta bertuliskan $1 : 1.000.000$. Arti skala tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "1 cm pada peta mewakili 10 km jarak sebenarnya" },
+        { "id": "b", "text": "1 cm pada peta mewakili 1 km jarak sebenarnya" },
+        { "id": "c", "text": "1 cm pada peta mewakili 100 km jarak sebenarnya" },
+        { "id": "d", "text": "1 km pada peta mewakili 1.000.000 km jarak sebenarnya" }
+      ],
+      "answer": "a",
+      "explanation": "Skala $1 : 1.000.000$ berarti 1 cm pada peta mewakili $1.000.000$ cm jarak sebenarnya. Karena $1$ km $= 100.000$ cm, maka $1.000.000$ cm sama dengan 10 km."
+    },
+    {
+      "id": "ipas-geo-0018",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Masyarakat di daerah pantai umumnya membangun rumah panggung. Alasan utamanya adalah ....",
+      "choices": [
+        { "id": "a", "text": "menghindari genangan air pasang dan melancarkan aliran udara" },
+        { "id": "b", "text": "menghemat bahan bangunan yang diperlukan" },
+        { "id": "c", "text": "memudahkan pemandangan ke arah pegunungan" },
+        { "id": "d", "text": "menjaga rumah tetap hangat pada siang hari" }
+      ],
+      "answer": "a",
+      "explanation": "Lantai yang ditinggikan membuat rumah tetap kering ketika air laut pasang atau saat banjir rob. Kolong rumah juga melancarkan aliran udara sehingga ruangan terasa lebih sejuk di daerah pantai yang panas."
+    },
+    {
+      "id": "ipas-sej-0010",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Candi Borobudur merupakan peninggalan kerajaan bercorak ....",
+      "choices": [
+        { "id": "a", "text": "Buddha" },
+        { "id": "b", "text": "Hindu" },
+        { "id": "c", "text": "Islam" },
+        { "id": "d", "text": "Konghucu" }
+      ],
+      "answer": "a",
+      "explanation": "Borobudur dibangun pada masa Wangsa Syailendra dan merupakan candi Buddha terbesar di dunia. Candi Prambanan yang letaknya tidak jauh dari sana adalah peninggalan bercorak Hindu."
+    },
+    {
+      "id": "ipas-sej-0011",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kerajaan Majapahit mencapai masa kejayaannya pada masa pemerintahan ....",
+      "choices": [
+        { "id": "a", "text": "Raja Hayam Wuruk dengan Patih Gajah Mada" },
+        { "id": "b", "text": "Raja Balaputradewa" },
+        { "id": "c", "text": "Sultan Agung Hanyokrokusumo" },
+        { "id": "d", "text": "Raja Purnawarman" }
+      ],
+      "answer": "a",
+      "explanation": "Majapahit mencapai puncak kejayaannya pada abad ke-14 di bawah Raja Hayam Wuruk dengan Patih Gajah Mada yang terkenal melalui Sumpah Palapa. Balaputradewa adalah raja Sriwijaya, Sultan Agung raja Mataram Islam, dan Purnawarman raja Tarumanegara."
+    },
+    {
+      "id": "ipas-sej-0012",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sistem tanam paksa yang diterapkan Belanda pada abad ke-19 mewajibkan rakyat ....",
+      "choices": [
+        { "id": "a", "text": "menanami sebagian lahannya dengan tanaman yang laku di pasar Eropa" },
+        { "id": "b", "text": "menyerahkan seluruh hasil panen padi kepada pemerintah desa" },
+        { "id": "c", "text": "bekerja di pabrik-pabrik yang dibangun di kota besar" },
+        { "id": "d", "text": "membayar pajak dengan emas setiap bulan" }
+      ],
+      "answer": "a",
+      "explanation": "Tanam paksa atau cultuurstelsel mewajibkan petani menyisihkan sebagian tanahnya untuk tanaman ekspor seperti kopi, tebu, dan nila. Akibatnya lahan untuk padi berkurang dan banyak daerah mengalami kelaparan."
+    },
+    {
+      "id": "ipas-sej-0013",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perlawanan rakyat Indonesia sebelum tahun 1908 sering mengalami kegagalan. Penyebab utamanya adalah ....",
+      "choices": [
+        { "id": "a", "text": "perlawanan bersifat kedaerahan dan tidak terhubung satu sama lain" },
+        { "id": "b", "text": "rakyat Indonesia tidak memiliki senjata sama sekali" },
+        { "id": "c", "text": "tidak ada tokoh yang bersedia memimpin perlawanan" },
+        { "id": "d", "text": "rakyat merasa diuntungkan oleh kehadiran penjajah" }
+      ],
+      "answer": "a",
+      "explanation": "Sebelum masa kebangkitan nasional, perlawanan seperti Perang Diponegoro dan Perang Padri berlangsung sendiri-sendiri di daerah masing-masing, sehingga mudah dipatahkan satu per satu. Tokoh-tokoh besar justru banyak, tetapi belum ada persatuan antardaerah."
+    },
+    {
+      "id": "ipas-sej-0014",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan tokoh berikut menurut daerah asal perjuangannya.",
+      "statements": [
+        { "id": "s1", "text": "Pangeran Diponegoro" },
+        { "id": "s2", "text": "Sultan Hasanuddin" },
+        { "id": "s3", "text": "Cut Nyak Dhien" },
+        { "id": "s4", "text": "Pattimura" }
+      ],
+      "categories": [
+        { "id": "jawa", "label": "Jawa" },
+        { "id": "luar", "label": "Luar Jawa" }
+      ],
+      "answer": {
+        "s1": "jawa",
+        "s2": "luar",
+        "s3": "luar",
+        "s4": "luar"
+      },
+      "explanation": "Pangeran Diponegoro memimpin Perang Jawa di wilayah Yogyakarta dan sekitarnya. Sultan Hasanuddin berjuang di Makassar, Cut Nyak Dhien di Aceh, dan Pattimura di Maluku, ketiganya di luar Pulau Jawa."
+    },
+    {
+      "id": "ipas-sej-0015",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Organisasi Budi Utomo yang berdiri pada 20 Mei 1908 dianggap sebagai tonggak kebangkitan nasional karena ....",
+      "choices": [
+        { "id": "a", "text": "merupakan organisasi modern pertama yang memperjuangkan kemajuan bangsa lewat pendidikan" },
+        { "id": "b", "text": "berhasil mengusir penjajah Belanda dari Indonesia" },
+        { "id": "c", "text": "menyusun naskah Proklamasi Kemerdekaan Indonesia" },
+        { "id": "d", "text": "menjadi partai politik pertama yang memenangkan pemilu" }
+      ],
+      "answer": "a",
+      "explanation": "Budi Utomo menandai pergeseran cara berjuang, dari perlawanan bersenjata yang kedaerahan menjadi perjuangan terorganisasi melalui pendidikan dan kesadaran berbangsa. Hari berdirinya kemudian diperingati sebagai Hari Kebangkitan Nasional."
+    },
+    {
+      "id": "ipas-sej-0016",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua peninggalan yang dapat dijadikan sumber sejarah untuk mempelajari kerajaan masa lampau.",
+      "choices": [
+        { "id": "a", "text": "Prasasti bertulis huruf kuno" },
+        { "id": "b", "text": "Candi dan arca" },
+        { "id": "c", "text": "Naskah kitab kuno" },
+        { "id": "d", "text": "Cerita film yang dibuat tahun ini" },
+        { "id": "e", "text": "Gambar hasil imajinasi pelukis modern" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Sumber sejarah harus berasal dari zaman yang dipelajari. Prasasti, bangunan candi beserta arcanya, dan naskah kuno merupakan peninggalan asli. Film dan lukisan yang dibuat pada masa kini adalah karya baru, bukan bukti langsung dari masa lampau."
+    },
+    {
+      "id": "ipas-sej-0017",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Teks Proklamasi Kemerdekaan Indonesia dibacakan pada tanggal ....",
+      "choices": [
+        { "id": "a", "text": "17 Agustus 1945" },
+        { "id": "b", "text": "20 Mei 1908" },
+        { "id": "c", "text": "28 Oktober 1928" },
+        { "id": "d", "text": "1 Juni 1945" }
+      ],
+      "answer": "a",
+      "explanation": "Proklamasi dibacakan Ir. Soekarno pada 17 Agustus 1945 di Jalan Pegangsaan Timur 56, Jakarta. Tanggal 20 Mei 1908 adalah berdirinya Budi Utomo, 28 Oktober 1928 Sumpah Pemuda, dan 1 Juni 1945 pidato lahirnya Pancasila."
+    },
+    {
+      "id": "ipas-sej-0018",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penerapan",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sikap meneladani perjuangan para pahlawan yang paling tepat dilakukan pelajar masa kini adalah ....",
+      "choices": [
+        { "id": "a", "text": "belajar sungguh-sungguh dan menjaga persatuan dengan teman yang berbeda latar belakang" },
+        { "id": "b", "text": "menghafal seluruh tanggal peristiwa sejarah tanpa memahami maknanya" },
+        { "id": "c", "text": "menantang berkelahi siapa pun yang berbeda pendapat" },
+        { "id": "d", "text": "menolak segala sesuatu yang berasal dari negara lain" }
+      ],
+      "answer": "a",
+      "explanation": "Inti perjuangan para pahlawan adalah pengorbanan demi kemajuan dan persatuan bangsa. Bagi pelajar, hal itu diwujudkan lewat kesungguhan belajar dan sikap menjaga kerukunan, bukan lewat kekerasan atau penolakan buta terhadap bangsa lain."
+    },
+    {
+      "id": "ipas-sos-0010",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Kebutuhan manusia yang harus dipenuhi lebih dulu agar dapat bertahan hidup disebut kebutuhan ....",
+      "choices": [
+        { "id": "a", "text": "primer" },
+        { "id": "b", "text": "sekunder" },
+        { "id": "c", "text": "tersier" },
+        { "id": "d", "text": "sosial" }
+      ],
+      "answer": "a",
+      "explanation": "Kebutuhan primer adalah kebutuhan pokok seperti pangan, sandang, dan papan. Kebutuhan sekunder bersifat pelengkap, sedangkan kebutuhan tersier berupa barang mewah yang dipenuhi setelah dua kebutuhan sebelumnya tercukupi."
+    },
+    {
+      "id": "ipas-sos-0011",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Koperasi sekolah menjual alat tulis dengan harga lebih murah dan membagikan sisa hasil usaha kepada anggotanya. Hal tersebut menunjukkan bahwa koperasi bertujuan ....",
+      "choices": [
+        { "id": "a", "text": "menyejahterakan anggotanya, bukan mengejar keuntungan sebesar-besarnya" },
+        { "id": "b", "text": "menyaingi seluruh toko yang ada di sekitar sekolah" },
+        { "id": "c", "text": "mengumpulkan modal sebanyak mungkin bagi pengurusnya" },
+        { "id": "d", "text": "menjual barang hanya kepada orang di luar sekolah" }
+      ],
+      "answer": "a",
+      "explanation": "Koperasi berasaskan kekeluargaan dan bertujuan menyejahterakan anggotanya. Harga yang terjangkau serta pembagian sisa hasil usaha kepada anggota adalah bukti bahwa keuntungan bukan tujuan utamanya."
+    },
+    {
+      "id": "ipas-sos-0012",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Seorang pengrajin tas dari desa mulai menjual produknya lewat internet dan pesanannya meningkat sampai ke luar pulau. Hal tersebut merupakan contoh dampak positif ....",
+      "choices": [
+        { "id": "a", "text": "globalisasi yang memperluas jangkauan pasar" },
+        { "id": "b", "text": "urbanisasi yang memindahkan penduduk ke kota" },
+        { "id": "c", "text": "sistem tanam paksa pada masa penjajahan" },
+        { "id": "d", "text": "berkurangnya jumlah pengrajin di desa" }
+      ],
+      "answer": "a",
+      "explanation": "Globalisasi ditandai kemudahan hubungan antardaerah dan antarnegara, salah satunya lewat teknologi informasi. Pengrajin desa kini dapat menjangkau pembeli yang jauh tanpa perlu pindah tempat, sehingga pasarnya meluas."
+    },
+    {
+      "id": "ipas-sos-0013",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan pekerjaan berikut menurut jenis hasil yang diberikannya.",
+      "statements": [
+        { "id": "s1", "text": "Petani" },
+        { "id": "s2", "text": "Guru" },
+        { "id": "s3", "text": "Pengrajin mebel" },
+        { "id": "s4", "text": "Dokter" }
+      ],
+      "categories": [
+        { "id": "barang", "label": "Menghasilkan barang" },
+        { "id": "jasa", "label": "Menghasilkan jasa" }
+      ],
+      "answer": {
+        "s1": "barang",
+        "s2": "jasa",
+        "s3": "barang",
+        "s4": "jasa"
+      },
+      "explanation": "Petani menghasilkan hasil panen dan pengrajin mebel menghasilkan perabot, keduanya berupa barang yang dapat dilihat dan dipegang. Guru memberikan pengajaran dan dokter memberikan layanan kesehatan, keduanya berupa jasa."
+    },
+    {
+      "id": "ipas-sos-0014",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Semboyan Bhinneka Tunggal Ika memiliki makna ....",
+      "choices": [
+        { "id": "a", "text": "berbeda-beda tetapi tetap satu jua" },
+        { "id": "b", "text": "bersatu kita teguh bercerai kita runtuh" },
+        { "id": "c", "text": "satu nusa satu bangsa satu bahasa" },
+        { "id": "d", "text": "bekerja bersama demi kepentingan bersama" }
+      ],
+      "answer": "a",
+      "explanation": "Bhinneka Tunggal Ika berasal dari Kakawin Sutasoma dan berarti berbeda-beda tetapi tetap satu. Semboyan itu menegaskan bahwa keragaman suku, agama, dan budaya di Indonesia tidak menghalangi persatuan sebagai satu bangsa."
+    },
+    {
+      "id": "ipas-sos-0015",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Banyak penduduk desa pindah ke kota untuk mencari pekerjaan. Dampak negatif yang paling mungkin terjadi di kota akibat perpindahan tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "bertambahnya permukiman padat dan meningkatnya pengangguran" },
+        { "id": "b", "text": "berkurangnya jumlah kendaraan di jalan raya" },
+        { "id": "c", "text": "menurunnya jumlah sekolah yang dibutuhkan" },
+        { "id": "d", "text": "meluasnya lahan pertanian di tengah kota" }
+      ],
+      "answer": "a",
+      "explanation": "Jika jumlah pendatang melebihi lapangan kerja yang tersedia, sebagian tidak memperoleh pekerjaan sehingga pengangguran meningkat. Kebutuhan tempat tinggal yang melonjak juga memunculkan permukiman padat. Lalu lintas dan kebutuhan sekolah justru bertambah, bukan berkurang."
+    }
+  ]
+}

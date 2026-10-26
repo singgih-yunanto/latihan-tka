@@ -1,0 +1,348 @@
+{
+  "batch": "mtk-data-01",
+  "note": "Matematika - Data & Peluang: bar, line and pie charts, tables, mean, probability. Every item illustrated.",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-dat-0001",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Diagram batang berikut menunjukkan hasil panen padi lima desa. Selisih hasil panen desa tertinggi dan terendah adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"60\" y=\"60\" width=\"32\" height=\"90\"/><rect x=\"105\" y=\"90\" width=\"32\" height=\"60\"/><rect x=\"150\" y=\"100\" width=\"32\" height=\"50\"/><rect x=\"195\" y=\"70\" width=\"32\" height=\"80\"/><rect x=\"240\" y=\"80\" width=\"32\" height=\"70\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"76\" y=\"54\">45</text><text x=\"121\" y=\"84\">30</text><text x=\"166\" y=\"94\">25</text><text x=\"211\" y=\"64\">40</text><text x=\"256\" y=\"74\">35</text><text x=\"76\" y=\"165\">Melati</text><text x=\"121\" y=\"165\">Kenanga</text><text x=\"166\" y=\"165\">Mawar</text><text x=\"211\" y=\"165\">Dahlia</text><text x=\"256\" y=\"165\">Anggrek</text></g><text x=\"22\" y=\"88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">ton</text><text x=\"166\" y=\"186\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Desa</text></svg>",
+        "alt": "Diagram batang hasil panen padi: Melati 45 ton, Kenanga 30 ton, Mawar 25 ton, Dahlia 40 ton, Anggrek 35 ton"
+      },
+      "choices": [
+        { "id": "a", "text": "20 ton" },
+        { "id": "b", "text": "15 ton" },
+        { "id": "c", "text": "25 ton" },
+        { "id": "d", "text": "10 ton" }
+      ],
+      "answer": "a",
+      "explanation": "Hasil panen tertinggi adalah Desa Melati 45 ton dan terendah Desa Mawar 25 ton. Selisihnya $45 - 25 = 20$ ton. Pilihan 25 ton adalah nilai terendahnya, bukan selisihnya."
+    },
+    {
+      "id": "mtk-dat-0002",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Diagram batang berikut menunjukkan banyak buku yang dibaca lima anak selama satu bulan. Rata-rata banyak buku yang dibaca kelima anak tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"60\" y=\"90\" width=\"32\" height=\"60\"/><rect x=\"105\" y=\"60\" width=\"32\" height=\"90\"/><rect x=\"150\" y=\"80\" width=\"32\" height=\"70\"/><rect x=\"195\" y=\"50\" width=\"32\" height=\"100\"/><rect x=\"240\" y=\"70\" width=\"32\" height=\"80\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"76\" y=\"84\">6</text><text x=\"121\" y=\"54\">9</text><text x=\"166\" y=\"74\">7</text><text x=\"211\" y=\"44\">10</text><text x=\"256\" y=\"64\">8</text><text x=\"76\" y=\"165\">Ayu</text><text x=\"121\" y=\"165\">Bayu</text><text x=\"166\" y=\"165\">Cinta</text><text x=\"211\" y=\"165\">Dito</text><text x=\"256\" y=\"165\">Erna</text></g><text x=\"22\" y=\"88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">buku</text></svg>",
+        "alt": "Diagram batang banyak buku yang dibaca: Ayu 6, Bayu 9, Cinta 7, Dito 10, Erna 8"
+      },
+      "choices": [
+        { "id": "a", "text": "8 buku" },
+        { "id": "b", "text": "7 buku" },
+        { "id": "c", "text": "40 buku" },
+        { "id": "d", "text": "10 buku" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah seluruh buku $= 6 + 9 + 7 + 10 + 8 = 40$. Rata-rata $= 40 : 5 = 8$ buku. Pilihan 40 buku adalah jumlah seluruhnya yang lupa dibagi banyak anak."
+    },
+    {
+      "id": "mtk-dat-0003",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Diagram lingkaran berikut menunjukkan hobi 200 siswa. Banyak siswa yang hobi berenang adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 195\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 100 95 L 100 25 A 70 70 0 0 1 156.6 136.1 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 156.6 136.1 A 70 70 0 0 1 58.9 151.6 Z\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 58.9 151.6 A 70 70 0 0 1 33.4 73.4 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 33.4 73.4 A 70 70 0 0 1 100 25 Z\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"140\" y=\"78\">35%</text><text x=\"107\" y=\"143\">25%</text><text x=\"57\" y=\"112\">20%</text><text x=\"74\" y=\"62\">20%</text></g><g font-size=\"12\" fill=\"currentColor\"><rect x=\"195\" y=\"38\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"213\" y=\"48\">Sepak bola 35%</text><rect x=\"195\" y=\"64\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"213\" y=\"74\">Renang 25%</text><rect x=\"195\" y=\"90\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"213\" y=\"100\">Basket 20%</text><rect x=\"195\" y=\"116\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"213\" y=\"126\">Bulu tangkis 20%</text></g></svg>",
+        "alt": "Diagram lingkaran hobi 200 siswa: sepak bola 35 persen, renang 25 persen, basket 20 persen, bulu tangkis 20 persen"
+      },
+      "choices": [
+        { "id": "a", "text": "50 siswa" },
+        { "id": "b", "text": "25 siswa" },
+        { "id": "c", "text": "40 siswa" },
+        { "id": "d", "text": "70 siswa" }
+      ],
+      "answer": "a",
+      "explanation": "Siswa yang hobi berenang $= 25\\% \\times 200 = \\frac{25}{100} \\times 200 = 50$ siswa. Pilihan 25 siswa adalah angka persennya yang langsung dianggap banyak siswa."
+    },
+    {
+      "id": "mtk-dat-0004",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Diagram garis berikut menunjukkan suhu udara sebuah kota selama enam hari. Kenaikan suhu terbesar terjadi dari hari ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"70,110 112,120 154,80 196,70 238,100 270,80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><g fill=\"currentColor\"><circle cx=\"70\" cy=\"110\" r=\"4\"/><circle cx=\"112\" cy=\"120\" r=\"4\"/><circle cx=\"154\" cy=\"80\" r=\"4\"/><circle cx=\"196\" cy=\"70\" r=\"4\"/><circle cx=\"238\" cy=\"100\" r=\"4\"/><circle cx=\"270\" cy=\"80\" r=\"4\"/></g><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"70\" y=\"102\">28</text><text x=\"112\" y=\"112\">27</text><text x=\"154\" y=\"72\">31</text><text x=\"196\" y=\"62\">32</text><text x=\"238\" y=\"92\">29</text><text x=\"270\" y=\"72\">31</text><text x=\"70\" y=\"165\">Sen</text><text x=\"112\" y=\"165\">Sel</text><text x=\"154\" y=\"165\">Rab</text><text x=\"196\" y=\"165\">Kam</text><text x=\"238\" y=\"165\">Jum</text><text x=\"270\" y=\"165\">Sab</text></g><text x=\"24\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">C</text></svg>",
+        "alt": "Diagram garis suhu enam hari: Senin 28, Selasa 27, Rabu 31, Kamis 32, Jumat 29, Sabtu 31 derajat Celsius"
+      },
+      "choices": [
+        { "id": "a", "text": "Selasa ke Rabu" },
+        { "id": "b", "text": "Jumat ke Sabtu" },
+        { "id": "c", "text": "Rabu ke Kamis" },
+        { "id": "d", "text": "Senin ke Selasa" }
+      ],
+      "answer": "a",
+      "explanation": "Hitung perubahan suhu antarhari: Senin ke Selasa turun 1, Selasa ke Rabu naik 4, Rabu ke Kamis naik 1, Kamis ke Jumat turun 3, dan Jumat ke Sabtu naik 2. Kenaikan terbesar adalah 4 derajat, yaitu dari Selasa ke Rabu. Perhatikan bahwa suhu tertinggi (Sabtu) belum tentu menjadi tempat kenaikan terbesar."
+    },
+    {
+      "id": "mtk-dat-0005",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Tabel berikut menunjukkan nilai ulangan Matematika siswa kelas 6. Modus dari data tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"30\" y=\"30\" width=\"240\" height=\"36\"/><rect x=\"30\" y=\"66\" width=\"240\" height=\"36\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"78\" y1=\"30\" x2=\"78\" y2=\"102\"/><line x1=\"126\" y1=\"30\" x2=\"126\" y2=\"102\"/><line x1=\"174\" y1=\"30\" x2=\"174\" y2=\"102\"/><line x1=\"222\" y1=\"30\" x2=\"222\" y2=\"102\"/></g><rect x=\"30\" y=\"30\" width=\"240\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"54\" y=\"54\">Nilai</text><text x=\"102\" y=\"54\">70</text><text x=\"150\" y=\"54\">75</text><text x=\"198\" y=\"54\">80</text><text x=\"246\" y=\"54\">85</text><text x=\"54\" y=\"90\">Siswa</text><text x=\"102\" y=\"90\">4</text><text x=\"150\" y=\"90\">6</text><text x=\"198\" y=\"90\">11</text><text x=\"246\" y=\"90\">5</text></g><text x=\"150\" y=\"128\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Nilai Ulangan Matematika Kelas 6</text></svg>",
+        "alt": "Tabel nilai ulangan: nilai 70 sebanyak 4 siswa, nilai 75 sebanyak 6 siswa, nilai 80 sebanyak 11 siswa, nilai 85 sebanyak 5 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "80" },
+        { "id": "b", "text": "11" },
+        { "id": "c", "text": "85" },
+        { "id": "d", "text": "75" }
+      ],
+      "answer": "a",
+      "explanation": "Modus adalah nilai yang paling sering muncul, yaitu nilai dengan frekuensi terbanyak. Frekuensi terbanyak adalah 11 siswa pada nilai 80. Jadi modusnya 80. Pilihan 11 keliru karena yang disebut adalah frekuensinya, bukan nilainya."
+    },
+    {
+      "id": "mtk-dat-0006",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan data berat badan tujuh siswa berikut. Median dari data tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 310 82\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"20\" y=\"35\" width=\"270\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"58\" y1=\"35\" x2=\"58\" y2=\"69\"/><line x1=\"96\" y1=\"35\" x2=\"96\" y2=\"69\"/><line x1=\"135\" y1=\"35\" x2=\"135\" y2=\"69\"/><line x1=\"174\" y1=\"35\" x2=\"174\" y2=\"69\"/><line x1=\"213\" y1=\"35\" x2=\"213\" y2=\"69\"/><line x1=\"252\" y1=\"35\" x2=\"252\" y2=\"69\"/></g><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"39\" y=\"58\">32</text><text x=\"77\" y=\"58\">28</text><text x=\"116\" y=\"58\">35</text><text x=\"155\" y=\"58\">30</text><text x=\"194\" y=\"58\">33</text><text x=\"233\" y=\"58\">29</text><text x=\"271\" y=\"58\">31</text></g><text x=\"155\" y=\"24\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Berat badan tujuh siswa (kg)</text></svg>",
+        "alt": "Data berat badan tujuh siswa dalam kilogram: 32, 28, 35, 30, 33, 29, 31"
+      },
+      "choices": [
+        { "id": "a", "text": "31 kg" },
+        { "id": "b", "text": "30 kg" },
+        { "id": "c", "text": "35 kg" },
+        { "id": "d", "text": "32 kg" }
+      ],
+      "answer": "a",
+      "explanation": "Median dicari setelah data diurutkan: 28, 29, 30, 31, 32, 33, 35. Karena ada 7 data, mediannya adalah data ke-4 yaitu 31 kg. Kesalahan umum adalah mengambil data ke-4 sebelum diurutkan, yang akan menghasilkan 30 kg."
+    },
+    {
+      "id": "mtk-dat-0007",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Sebuah dadu berisi enam yang setimbang dilempar satu kali. Peluang muncul mata dadu genap adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"15\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"63\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"111\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"159\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"207\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"255\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/></g><g fill=\"currentColor\" font-size=\"16\" text-anchor=\"middle\"><text x=\"35\" y=\"61\">1</text><text x=\"83\" y=\"61\">2</text><text x=\"131\" y=\"61\">3</text><text x=\"179\" y=\"61\">4</text><text x=\"227\" y=\"61\">5</text><text x=\"275\" y=\"61\">6</text></g><text x=\"155\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Enam sisi mata dadu</text></svg>",
+        "alt": "Enam sisi dadu bernomor 1 sampai 6"
+      },
+      "choices": [
+        { "id": "a", "text": "$\\frac{1}{2}$" },
+        { "id": "b", "text": "$\\frac{1}{3}$" },
+        { "id": "c", "text": "$\\frac{1}{6}$" },
+        { "id": "d", "text": "$\\frac{2}{3}$" }
+      ],
+      "answer": "a",
+      "explanation": "Mata dadu genap adalah 2, 4, dan 6, sehingga ada 3 kejadian yang diharapkan dari 6 kemungkinan. Peluangnya $= \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "id": "mtk-dat-0008",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Di dalam sebuah kantong terdapat kelereng seperti gambar. Satu kelereng diambil secara acak. Peluang terambil kelereng biru adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"40\" cy=\"45\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.4\"/><circle cx=\"72\" cy=\"45\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.4\"/><circle cx=\"104\" cy=\"45\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.4\"/><circle cx=\"136\" cy=\"45\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.4\"/><circle cx=\"40\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"72\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"104\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"136\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"168\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"200\" cy=\"85\" r=\"13\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"40\" cy=\"125\" r=\"13\" fill=\"none\"/><circle cx=\"72\" cy=\"125\" r=\"13\" fill=\"none\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"165\" y=\"50\">4 merah</text><text x=\"228\" y=\"90\">6 biru</text><text x=\"100\" y=\"130\">2 kuning</text></g></svg>",
+        "alt": "Kantong berisi 4 kelereng merah, 6 kelereng biru, dan 2 kelereng kuning"
+      },
+      "choices": [
+        { "id": "a", "text": "$\\frac{1}{2}$" },
+        { "id": "b", "text": "$\\frac{1}{6}$" },
+        { "id": "c", "text": "$\\frac{6}{10}$" },
+        { "id": "d", "text": "$\\frac{1}{3}$" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah seluruh kelereng $= 4 + 6 + 2 = 12$. Peluang terambil biru $= \\frac{6}{12} = \\frac{1}{2}$. Pilihan $\\frac{6}{10}$ muncul bila kelereng kuning lupa dihitung dalam jumlah seluruhnya."
+    },
+    {
+      "id": "mtk-dat-0009",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan diagram batang banyak pengunjung perpustakaan berikut. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"60\" y=\"70\" width=\"32\" height=\"80\"/><rect x=\"105\" y=\"50\" width=\"32\" height=\"100\"/><rect x=\"150\" y=\"90\" width=\"32\" height=\"60\"/><rect x=\"195\" y=\"70\" width=\"32\" height=\"80\"/><rect x=\"240\" y=\"110\" width=\"32\" height=\"40\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"76\" y=\"64\">40</text><text x=\"121\" y=\"44\">50</text><text x=\"166\" y=\"84\">30</text><text x=\"211\" y=\"64\">40</text><text x=\"256\" y=\"104\">20</text><text x=\"76\" y=\"165\">Sen</text><text x=\"121\" y=\"165\">Sel</text><text x=\"166\" y=\"165\">Rab</text><text x=\"211\" y=\"165\">Kam</text><text x=\"256\" y=\"165\">Jum</text></g><text x=\"20\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">orang</text></svg>",
+        "alt": "Diagram batang pengunjung perpustakaan: Senin 40, Selasa 50, Rabu 30, Kamis 40, Jumat 20 orang"
+      },
+      "choices": [
+        { "id": "a", "text": "Pengunjung terbanyak terjadi pada hari Selasa" },
+        { "id": "b", "text": "Jumlah pengunjung selama lima hari adalah 180 orang" },
+        { "id": "c", "text": "Rata-rata pengunjung per hari adalah 40 orang" },
+        { "id": "d", "text": "Banyak pengunjung hari Senin sama dengan hari Kamis" },
+        { "id": "e", "text": "Selisih pengunjung hari Selasa dan Jumat adalah 20 orang" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "Pengunjung terbanyak memang hari Selasa dengan 50 orang. Jumlah seluruhnya $= 40+50+30+40+20 = 180$ orang, sehingga rata-ratanya $= 180 : 5 = 36$ orang, bukan 40 orang. Senin dan Kamis sama-sama 40 orang. Selisih Selasa dan Jumat $= 50 - 20 = 30$ orang, bukan 20 orang."
+    },
+    {
+      "id": "mtk-dat-0010",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Perhatikan diagram lingkaran cita-cita 120 siswa berikut. Tentukan apakah setiap pernyataan benar atau salah.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 195\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 100 95 L 100 25 A 70 70 0 0 1 161.6 128.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 161.6 128.0 A 70 70 0 0 1 61.6 158.7 Z\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 61.6 158.7 A 70 70 0 0 1 100 25 Z\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"136\" y=\"84\">40%</text><text x=\"96\" y=\"146\">25%</text><text x=\"64\" y=\"80\">35%</text></g><g font-size=\"12\" fill=\"currentColor\"><rect x=\"200\" y=\"48\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"58\">Guru 40%</text><rect x=\"200\" y=\"78\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"88\">Dokter 25%</text><rect x=\"200\" y=\"108\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"118\">Insinyur 35%</text></g></svg>",
+        "alt": "Diagram lingkaran cita-cita 120 siswa: guru 40 persen, dokter 25 persen, insinyur 35 persen"
+      },
+      "statements": [
+        { "id": "s1", "text": "Siswa yang bercita-cita menjadi guru ada 48 orang" },
+        { "id": "s2", "text": "Siswa yang bercita-cita menjadi dokter ada 25 orang" },
+        { "id": "s3", "text": "Siswa yang bercita-cita menjadi insinyur ada 42 orang" },
+        { "id": "s4", "text": "Selisih siswa yang bercita-cita menjadi guru dan dokter ada 18 orang" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "salah",
+        "s3": "benar",
+        "s4": "benar"
+      },
+      "explanation": "Guru $= 40\\% \\times 120 = 48$ siswa. Dokter $= 25\\% \\times 120 = 30$ siswa, bukan 25 siswa; angka 25 itu persennya. Insinyur $= 35\\% \\times 120 = 42$ siswa. Selisih guru dan dokter $= 48 - 30 = 18$ siswa."
+    },
+    {
+      "id": "mtk-dat-0011",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Diagram batang berikut menunjukkan banyak telur yang dikumpulkan selama empat hari. Jika harga sebutir telur Rp2.500,00, hasil penjualan seluruh telur tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 280 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"265\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"65\" y=\"70\" width=\"36\" height=\"80\"/><rect x=\"115\" y=\"50\" width=\"36\" height=\"100\"/><rect x=\"165\" y=\"90\" width=\"36\" height=\"60\"/><rect x=\"215\" y=\"60\" width=\"36\" height=\"90\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"83\" y=\"64\">16</text><text x=\"133\" y=\"44\">20</text><text x=\"183\" y=\"84\">12</text><text x=\"233\" y=\"54\">18</text><text x=\"83\" y=\"165\">Sen</text><text x=\"133\" y=\"165\">Sel</text><text x=\"183\" y=\"165\">Rab</text><text x=\"233\" y=\"165\">Kam</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">butir</text></svg>",
+        "alt": "Diagram batang banyak telur: Senin 16 butir, Selasa 20 butir, Rabu 12 butir, Kamis 18 butir"
+      },
+      "choices": [
+        { "id": "a", "text": "Rp165.000,00" },
+        { "id": "b", "text": "Rp160.000,00" },
+        { "id": "c", "text": "Rp41.250,00" },
+        { "id": "d", "text": "Rp150.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah telur $= 16 + 20 + 12 + 18 = 66$ butir. Hasil penjualan $= 66 \\times 2.500 = 165.000$. Jadi hasilnya Rp165.000,00. Pilihan Rp150.000,00 muncul bila salah satu hari terlewat dihitung."
+    },
+    {
+      "id": "mtk-dat-0012",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Rata-rata nilai ulangan 20 siswa adalah 76. Setelah nilai seorang siswa yang mengikuti ulangan susulan ikut dihitung, rata-ratanya menjadi 77. Nilai siswa yang mengikuti ulangan susulan tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"25\" y=\"30\" width=\"270\" height=\"34\"/><rect x=\"25\" y=\"64\" width=\"270\" height=\"34\"/></g><line x1=\"160\" y1=\"30\" x2=\"160\" y2=\"98\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"25\" y=\"30\" width=\"270\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"92\" y=\"52\">Banyak siswa</text><text x=\"228\" y=\"52\">Rata-rata</text><text x=\"92\" y=\"78\">20 siswa</text><text x=\"228\" y=\"78\">76</text><text x=\"92\" y=\"120\">21 siswa</text><text x=\"228\" y=\"120\">77</text></g><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"25\" y=\"98\" width=\"270\" height=\"34\"/></g><line x1=\"160\" y1=\"98\" x2=\"160\" y2=\"132\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+        "alt": "Tabel: 20 siswa dengan rata-rata 76, lalu 21 siswa dengan rata-rata 77"
+      },
+      "choices": [
+        { "id": "a", "text": "97" },
+        { "id": "b", "text": "77" },
+        { "id": "c", "text": "87" },
+        { "id": "d", "text": "96" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah nilai 20 siswa $= 20 \\times 76 = 1.520$. Jumlah nilai 21 siswa $= 21 \\times 77 = 1.617$. Nilai siswa susulan $= 1.617 - 1.520 = 97$. Kesalahan umum adalah mengira nilainya sama dengan rata-rata baru, yaitu 77."
+    },
+    {
+      "id": "mtk-dat-0013",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Sebuah papan putar dibagi menjadi delapan juring sama besar seperti gambar. Papan diputar satu kali. Peluang jarum berhenti pada juring yang diarsir adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 200 190\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 100 95 L 100 25 A 70 70 0 0 1 149.5 45.5 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 149.5 45.5 A 70 70 0 0 1 170 95 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 30 95 A 70 70 0 0 1 50.5 45.5 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"100\" y1=\"25\" x2=\"100\" y2=\"165\"/><line x1=\"30\" y1=\"95\" x2=\"170\" y2=\"95\"/><line x1=\"50.5\" y1=\"45.5\" x2=\"149.5\" y2=\"144.5\"/><line x1=\"149.5\" y1=\"45.5\" x2=\"50.5\" y2=\"144.5\"/></g><circle cx=\"100\" cy=\"95\" r=\"4\" fill=\"currentColor\"/></svg>",
+        "alt": "Papan putar dibagi delapan juring sama besar, tiga di antaranya diarsir"
+      },
+      "choices": [
+        { "id": "a", "text": "$\\frac{3}{8}$" },
+        { "id": "b", "text": "$\\frac{1}{8}$" },
+        { "id": "c", "text": "$\\frac{5}{8}$" },
+        { "id": "d", "text": "$\\frac{3}{5}$" }
+      ],
+      "answer": "a",
+      "explanation": "Ada 3 juring yang diarsir dari 8 juring yang sama besar, sehingga peluangnya $= \\frac{3}{8}$. Pilihan $\\frac{5}{8}$ adalah peluang berhenti pada juring yang tidak diarsir."
+    },
+    {
+      "id": "mtk-dat-0014",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Tabel berikut menunjukkan banyak siswa menurut ukuran sepatu. Banyak siswa yang memakai sepatu berukuran lebih dari 37 adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"25\" y=\"30\" width=\"270\" height=\"36\"/><rect x=\"25\" y=\"66\" width=\"270\" height=\"36\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"79\" y1=\"30\" x2=\"79\" y2=\"102\"/><line x1=\"133\" y1=\"30\" x2=\"133\" y2=\"102\"/><line x1=\"187\" y1=\"30\" x2=\"187\" y2=\"102\"/><line x1=\"241\" y1=\"30\" x2=\"241\" y2=\"102\"/></g><rect x=\"25\" y=\"30\" width=\"270\" height=\"36\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"52\" y=\"54\">Ukuran</text><text x=\"106\" y=\"54\">36</text><text x=\"160\" y=\"54\">37</text><text x=\"214\" y=\"54\">38</text><text x=\"268\" y=\"54\">39</text><text x=\"52\" y=\"90\">Siswa</text><text x=\"106\" y=\"90\">7</text><text x=\"160\" y=\"90\">9</text><text x=\"214\" y=\"90\">8</text><text x=\"268\" y=\"90\">4</text></g><text x=\"160\" y=\"128\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Ukuran Sepatu Siswa Kelas 6</text></svg>",
+        "alt": "Tabel ukuran sepatu: ukuran 36 ada 7 siswa, ukuran 37 ada 9 siswa, ukuran 38 ada 8 siswa, ukuran 39 ada 4 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "12 siswa" },
+        { "id": "b", "text": "21 siswa" },
+        { "id": "c", "text": "8 siswa" },
+        { "id": "d", "text": "16 siswa" }
+      ],
+      "answer": "a",
+      "explanation": "Ukuran lebih dari 37 berarti ukuran 38 dan 39, yaitu $8 + 4 = 12$ siswa. Pilihan 21 siswa muncul bila ukuran 37 ikut dihitung, padahal yang diminta lebih dari 37, bukan 37 ke atas."
+    },
+    {
+      "id": "mtk-dat-0015",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan diagram garis penjualan es kelapa muda selama enam hari berikut. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"70,110 112,90 154,90 196,50 238,70 270,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><g fill=\"currentColor\"><circle cx=\"70\" cy=\"110\" r=\"4\"/><circle cx=\"112\" cy=\"90\" r=\"4\"/><circle cx=\"154\" cy=\"90\" r=\"4\"/><circle cx=\"196\" cy=\"50\" r=\"4\"/><circle cx=\"238\" cy=\"70\" r=\"4\"/><circle cx=\"270\" cy=\"30\" r=\"4\"/></g><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"70\" y=\"102\">20</text><text x=\"112\" y=\"82\">30</text><text x=\"154\" y=\"82\">30</text><text x=\"196\" y=\"42\">50</text><text x=\"238\" y=\"62\">40</text><text x=\"270\" y=\"22\">60</text><text x=\"70\" y=\"165\">Sen</text><text x=\"112\" y=\"165\">Sel</text><text x=\"154\" y=\"165\">Rab</text><text x=\"196\" y=\"165\">Kam</text><text x=\"238\" y=\"165\">Jum</text><text x=\"270\" y=\"165\">Sab</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">gelas</text></svg>",
+        "alt": "Diagram garis penjualan es kelapa muda: Senin 20, Selasa 30, Rabu 30, Kamis 50, Jumat 40, Sabtu 60 gelas"
+      },
+      "choices": [
+        { "id": "a", "text": "Penjualan tertinggi terjadi pada hari Sabtu" },
+        { "id": "b", "text": "Penjualan hari Selasa sama dengan hari Rabu" },
+        { "id": "c", "text": "Penjualan mengalami penurunan pada hari Jumat" },
+        { "id": "d", "text": "Jumlah penjualan selama enam hari adalah 200 gelas" },
+        { "id": "e", "text": "Penjualan selalu naik setiap hari" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Penjualan tertinggi memang hari Sabtu 60 gelas. Selasa dan Rabu sama-sama 30 gelas. Hari Jumat turun dari 50 menjadi 40 gelas, sehingga penjualan tidak selalu naik setiap hari. Jumlah seluruhnya $= 20+30+30+50+40+60 = 230$ gelas, bukan 200 gelas."
+    }
+  ]
+}

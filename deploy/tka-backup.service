@@ -1,0 +1,21 @@
+[Unit]
+Description=TKA database backup
+After=tka.service
+
+[Service]
+Type=oneshot
+User=tka
+Group=tka
+WorkingDirectory=/opt/tka
+EnvironmentFile=/etc/tka/tka.env
+
+# VACUUM INTO is safe to run while the app keeps serving requests.
+ExecStart=/usr/bin/npm run db:backup
+
+StateDirectory=tka
+ReadWritePaths=/var/backups/tka
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+SyslogIdentifier=tka-backup

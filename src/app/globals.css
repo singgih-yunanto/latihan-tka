@@ -1,0 +1,125 @@
+@import 'tailwindcss';
+
+/*
+  Tema aplikasi. Warna didefinisikan sebagai token di :root lalu ditimpa untuk
+  mode gelap, sehingga gambar SVG soal yang memakai currentColor ikut menyesuaikan.
+*/
+
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #eef1f8;
+  --border: #d9def0;
+  --text: #16203a;
+  --muted: #5d6784;
+  --brand: #3a5bd9;
+  --brand-soft: #e5eafc;
+  --success: #12805c;
+  --success-soft: #dcf5eb;
+  --danger: #c02a3b;
+  --danger-soft: #fde5e8;
+  --warn: #9a6100;
+  --warn-soft: #fdf0d5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0f1420;
+    --surface: #182033;
+    --surface-2: #212b42;
+    --border: #2f3b57;
+    --text: #e8edfb;
+    --muted: #9aa6c4;
+    --brand: #8aa6ff;
+    --brand-soft: #23304f;
+    --success: #5fd6ab;
+    --success-soft: #16382e;
+    --danger: #ff96a4;
+    --danger-soft: #3b1f26;
+    --warn: #ffc65c;
+    --warn-soft: #3a2f16;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0f1420;
+  --surface: #182033;
+  --surface-2: #212b42;
+  --border: #2f3b57;
+  --text: #e8edfb;
+  --muted: #9aa6c4;
+  --brand: #8aa6ff;
+  --brand-soft: #23304f;
+  --success: #5fd6ab;
+  --success-soft: #16382e;
+  --danger: #ff96a4;
+  --danger-soft: #3b1f26;
+  --warn: #ffc65c;
+  --warn-soft: #3a2f16;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface2: var(--surface-2);
+  --color-line: var(--border);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-brand: var(--brand);
+  --color-brandsoft: var(--brand-soft);
+  --color-ok: var(--success);
+  --color-oksoft: var(--success-soft);
+  --color-bad: var(--danger);
+  --color-badsoft: var(--danger-soft);
+  --color-warn: var(--warn);
+  --color-warnsoft: var(--warn-soft);
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, 'Segoe UI', Roboto, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Isi soal dan teks bacaan yang dirender dari markdown */
+.prose-soal p {
+  margin: 0 0 0.75rem;
+  line-height: 1.7;
+}
+.prose-soal p:last-child {
+  margin-bottom: 0;
+}
+.prose-soal strong {
+  font-weight: 600;
+}
+.prose-soal em {
+  font-style: italic;
+}
+
+/* KaTeX tidak boleh memaksa halaman melebar di layar ponsel */
+.katex {
+  font-size: 1.05em;
+}
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Gambar soal mengikuti warna teks dan lebar kontainer */
+.figure-svg svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  color: var(--text);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

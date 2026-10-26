@@ -1,0 +1,450 @@
+{
+  "batch": "mtk-bilangan-04",
+  "note": "Matematika - Bilangan: fractions in context, fraction-percent, two-size containers, fraction of an area with a usage rate, estimation strategies (tryout gap batch)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-bil-0060",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Ayah membeli dua kue bolu berukuran sama. Kue pertama dipotong menjadi 4 bagian sama besar, lalu Kakak memakan 3 potong. Kue kedua dipotong menjadi 8 bagian sama besar, lalu Adik memakan 6 potong. Bagian yang dimakan ditandai gelap. Pernyataan yang tepat adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 75 70 L 75.0 22.0 A 48 48 0 0 1 123.0 70.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 75 70 L 123.0 70.0 A 48 48 0 0 1 75.0 118.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 75 70 L 75.0 118.0 A 48 48 0 0 1 27.0 70.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 75 70 L 27.0 70.0 A 48 48 0 0 1 75.0 22.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 225.0 22.0 A 48 48 0 0 1 258.9 36.1 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 258.9 36.1 A 48 48 0 0 1 273.0 70.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 273.0 70.0 A 48 48 0 0 1 258.9 103.9 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 258.9 103.9 A 48 48 0 0 1 225.0 118.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 225.0 118.0 A 48 48 0 0 1 191.1 103.9 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 191.1 103.9 A 48 48 0 0 1 177.0 70.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 177.0 70.0 A 48 48 0 0 1 191.1 36.1 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 225 70 L 191.1 36.1 A 48 48 0 0 1 225.0 22.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"75\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Kakak: 3 dari 4 potong</text><text x=\"225\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Adik: 6 dari 8 potong</text></svg>",
+        "alt": "Dua kue bulat sama besar: kue pertama dibagi 4, tiga potong gelap; kue kedua dibagi 8, enam potong gelap"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bagian kue yang dimakan Kakak dan Adik sama besar."
+        },
+        {
+          "id": "b",
+          "text": "Adik memakan bagian yang lebih besar karena potongannya lebih banyak."
+        },
+        {
+          "id": "c",
+          "text": "Kakak memakan dua kali bagian yang dimakan Adik."
+        },
+        {
+          "id": "d",
+          "text": "Bagian kue yang dimakan Adik kurang dari setengah kue."
+        }
+      ],
+      "answer": "a",
+      "explanation": "Kakak memakan $\\frac{3}{4}$ kue dan Adik $\\frac{6}{8}$ kue. Karena $\\frac{6}{8} = \\frac{6 : 2}{8 : 2} = \\frac{3}{4}$, bagian keduanya sama besar. Adik memang mengambil lebih banyak potong, tetapi setiap potongnya setengah dari potongan Kakak."
+    },
+    {
+      "id": "mtk-bil-0061",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Pak Udin mengecat pagar. Pada hari pertama ia mengecat $\\frac{1}{4}$ bagian pagar. Pada hari kedua ia mengecat $\\frac{3}{8}$ bagian pagar. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Bagian yang dicat pada hari kedua lebih banyak daripada hari pertama."
+        },
+        {
+          "id": "s2",
+          "text": "Bagian pagar yang sudah dicat lebih dari setengah."
+        },
+        {
+          "id": "s3",
+          "text": "Sisa pagar yang belum dicat $\\frac{4}{8}$ bagian."
+        },
+        {
+          "id": "s4",
+          "text": "Jika pada hari ketiga dicat $\\frac{3}{8}$ bagian lagi, seluruh pagar selesai dicat."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Samakan penyebutnya: $\\frac{1}{4} = \\frac{2}{8}$, dan $\\frac{3}{8} > \\frac{2}{8}$. Yang sudah dicat $\\frac{2}{8} + \\frac{3}{8} = \\frac{5}{8}$, lebih dari $\\frac{4}{8} = \\frac{1}{2}$. Sisanya $1 - \\frac{5}{8} = \\frac{3}{8}$, bukan $\\frac{4}{8}$, sehingga tambahan $\\frac{3}{8}$ tepat menyelesaikan pagar."
+    },
+    {
+      "id": "mtk-bil-0062",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Ani, Beni, dan Cici masing-masing membeli pita yang sama panjang. Ani memakai $\\frac{2}{5}$ bagian pitanya, Beni memakai $\\frac{4}{10}$ bagian, dan Cici memakai $\\frac{3}{4}$ bagian. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ani dan Beni memakai bagian pita yang sama besar."
+        },
+        {
+          "id": "b",
+          "text": "Cici memakai bagian pita paling banyak."
+        },
+        {
+          "id": "c",
+          "text": "Beni memakai $\\frac{1}{4}$ bagian pita."
+        },
+        {
+          "id": "d",
+          "text": "Selisih bagian pita yang dipakai Cici dan Ani adalah $\\frac{7}{20}$."
+        },
+        {
+          "id": "e",
+          "text": "Ketiga anak memakai lebih dari setengah pitanya."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "$\\frac{4}{10} = \\frac{2}{5}$, jadi Ani dan Beni sama. Dengan penyebut 20: Ani $\\frac{8}{20}$, Cici $\\frac{15}{20}$, sehingga Cici paling banyak dan selisihnya $\\frac{7}{20}$. Beni memakai $\\frac{2}{5}$, bukan $\\frac{1}{4}$. Ani dan Beni memakai kurang dari setengah ($\\frac{2}{5} < \\frac{1}{2}$)."
+    },
+    {
+      "id": "mtk-bil-0063",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Di kelas 6 terdapat 32 siswa. Sebanyak 24 siswa mengikuti pramuka, dan sisanya mengikuti tari. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Bagian siswa yang mengikuti pramuka adalah $\\frac{3}{4}$."
+        },
+        {
+          "id": "s2",
+          "text": "Persentase siswa yang mengikuti pramuka adalah $75\\%$."
+        },
+        {
+          "id": "s3",
+          "text": "Siswa yang mengikuti tari adalah $\\frac{8}{100}$ bagian."
+        },
+        {
+          "id": "s4",
+          "text": "Siswa yang mengikuti tari $25\\%$ dari seluruh siswa."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Pramuka $\\frac{24}{32} = \\frac{3}{4} = 75\\%$. Siswa tari $32 - 24 = 8$ orang, yaitu $\\frac{8}{32} = \\frac{1}{4} = 25\\%$. Pecahan $\\frac{8}{100}$ salah karena penyebutnya harus banyak seluruh siswa (32), bukan 100."
+    },
+    {
+      "id": "mtk-bil-0064",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Dari 40 buah mangga di dalam keranjang, $30\\%$ di antaranya busuk. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Banyak mangga yang busuk 12 buah."
+        },
+        {
+          "id": "b",
+          "text": "Mangga yang masih bagus $70\\%$."
+        },
+        {
+          "id": "c",
+          "text": "Bagian mangga yang busuk sama dengan $\\frac{3}{10}$."
+        },
+        {
+          "id": "d",
+          "text": "Banyak mangga yang masih bagus 30 buah."
+        },
+        {
+          "id": "e",
+          "text": "Mangga yang busuk lebih banyak daripada mangga yang bagus."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "$30\\%$ dari $40 = \\frac{30}{100} \\times 40 = 12$ buah, dan $30\\% = \\frac{3}{10}$. Mangga bagus $100\\% - 30\\% = 70\\%$, yaitu $40 - 12 = 28$ buah, bukan 30. Mangga busuk (12) jauh lebih sedikit daripada yang bagus (28)."
+    },
+    {
+      "id": "mtk-bil-0065",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pak Rudi membeli 8 jeriken minyak goreng, masing-masing berisi $6$ liter. Seluruh minyak dipindahkan ke dalam 10 botol besar dan 4 botol kecil sampai habis, semua botol terisi penuh. Kapasitas setiap botol kecil adalah setengah kapasitas botol besar. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jumlah seluruh minyak $48$ liter."
+        },
+        {
+          "id": "b",
+          "text": "Kapasitas setiap botol besar $4$ liter."
+        },
+        {
+          "id": "c",
+          "text": "Kapasitas setiap botol kecil $2$ liter."
+        },
+        {
+          "id": "d",
+          "text": "Seluruh botol kecil berisi $16$ liter minyak."
+        },
+        {
+          "id": "e",
+          "text": "Botol besar menampung tepat setengah dari seluruh minyak."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Minyak seluruhnya $8 \\times 6 = 48$ liter. Dua botol kecil sama dengan satu botol besar, jadi 4 botol kecil setara 2 botol besar, dan seluruhnya setara 12 botol besar. Satu botol besar $48 : 12 = 4$ liter, botol kecil $2$ liter. Botol kecil berisi $4 \\times 2 = 8$ liter, dan botol besar $40$ liter, jauh lebih dari setengah."
+    },
+    {
+      "id": "mtk-bil-0066",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebanyak $36$ liter jus dituang ke 6 botol besar dan 12 botol kecil sampai habis, semua botol terisi penuh. Kapasitas botol kecil setengah dari kapasitas botol besar. Kapasitas setiap botol kecil adalah ....",
+      "choices": [
+        {
+          "id": "a",
+          "text": "$1{,}5$ liter"
+        },
+        {
+          "id": "b",
+          "text": "$3$ liter"
+        },
+        {
+          "id": "c",
+          "text": "$2$ liter"
+        },
+        {
+          "id": "d",
+          "text": "$2{,}5$ liter"
+        }
+      ],
+      "answer": "a",
+      "explanation": "12 botol kecil setara dengan 6 botol besar, jadi seluruh jus setara $6 + 6 = 12$ botol besar. Satu botol besar $36 : 12 = 3$ liter, dan botol kecil $3 : 2 = 1{,}5$ liter. Jawaban 2 liter muncul bila $36$ dibagi rata ke 18 botol, padahal ukurannya berbeda."
+    },
+    {
+      "id": "mtk-bil-0067",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kebun Pak Tono berbentuk persegi panjang berukuran $15$ m $\\times 8$ m. Sebanyak $\\frac{2}{5}$ bagian kebun ditanami sayur. Satu kantong pupuk cukup untuk $6$ m² kebun sayur. Banyak kantong pupuk yang diperlukan untuk seluruh kebun sayur adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"20\" width=\"240\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"30\" y=\"20\" width=\"96\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"78\" y=\"75\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">sayur</text><text x=\"150\" y=\"140\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15 m</text><text x=\"282\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">8 m</text></svg>",
+        "alt": "Kebun persegi panjang 15 m kali 8 m; dua perlima bagian di sisi kiri diarsir sebagai kebun sayur"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "8 kantong"
+        },
+        {
+          "id": "b",
+          "text": "20 kantong"
+        },
+        {
+          "id": "c",
+          "text": "12 kantong"
+        },
+        {
+          "id": "d",
+          "text": "16 kantong"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Luas kebun $15 \\times 8 = 120$ m². Kebun sayur $\\frac{2}{5} \\times 120 = 48$ m². Pupuk yang diperlukan $48 : 6 = 8$ kantong. Jawaban 20 kantong muncul bila seluruh kebun yang dipupuk, padahal hanya bagian sayur."
+    },
+    {
+      "id": "mtk-bil-0068",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stem": "Halaman sekolah berbentuk persegi panjang berukuran $20$ m $\\times 12$ m. Sebanyak $\\frac{1}{4}$ bagian dijadikan kebun bunga, $\\frac{1}{3}$ bagian dijadikan lapangan, dan sisanya tempat parkir. Satu ember air cukup untuk menyiram $5$ m² kebun bunga. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Luas kebun bunga $60$ m²."
+        },
+        {
+          "id": "b",
+          "text": "Diperlukan 12 ember air untuk menyiram seluruh kebun bunga."
+        },
+        {
+          "id": "c",
+          "text": "Luas tempat parkir $100$ m²."
+        },
+        {
+          "id": "d",
+          "text": "Lapangan lebih sempit daripada kebun bunga."
+        },
+        {
+          "id": "e",
+          "text": "Tempat parkir lebih luas dari setengah halaman."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Luas halaman $20 \\times 12 = 240$ m². Kebun bunga $\\frac{1}{4} \\times 240 = 60$ m², dan perlu $60 : 5 = 12$ ember. Lapangan $\\frac{1}{3} \\times 240 = 80$ m², lebih luas dari kebun bunga. Parkir $240 - 60 - 80 = 100$ m², kurang dari setengah halaman ($120$ m²)."
+    },
+    {
+      "id": "mtk-bil-0069",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Sari dan Tono menaksir hasil $48 \\times 31$. Sari membulatkan kedua bilangan ke puluhan terdekat, sehingga taksirannya $50 \\times 30 = 1.500$. Tono hanya membulatkan 31 menjadi 30, sehingga taksirannya $48 \\times 30 = 1.440$. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Hasil sebenarnya adalah $1.488$."
+        },
+        {
+          "id": "s2",
+          "text": "Taksiran Sari lebih dekat dengan hasil sebenarnya daripada taksiran Tono."
+        },
+        {
+          "id": "s3",
+          "text": "Taksiran Tono lebih besar daripada hasil sebenarnya."
+        },
+        {
+          "id": "s4",
+          "text": "Sari membulatkan 48 ke puluhan terdekat menjadi 50."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "$48 \\times 31 = 1.488$. Taksiran Sari selisih $1.500 - 1.488 = 12$, taksiran Tono selisih $1.488 - 1.440 = 48$, jadi taksiran Sari lebih dekat. Taksiran Tono ($1.440$) lebih **kecil** dari hasil sebenarnya. 48 lebih dekat ke 50 daripada ke 40, sehingga dibulatkan menjadi 50. Membulatkan lebih banyak bilangan tidak selalu membuat taksiran lebih jauh."
+    },
+    {
+      "id": "mtk-bil-0070",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Rudi menaksir hasil $396 + 205 + 498$ dengan membulatkan setiap bilangan ke ratusan terdekat. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "396 dibulatkan menjadi 400."
+        },
+        {
+          "id": "b",
+          "text": "Hasil taksirannya $1.100$."
+        },
+        {
+          "id": "c",
+          "text": "Hasil sebenarnya lebih besar daripada hasil taksiran."
+        },
+        {
+          "id": "d",
+          "text": "Selisih hasil taksiran dan hasil sebenarnya adalah 1."
+        },
+        {
+          "id": "e",
+          "text": "205 dibulatkan menjadi 300."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Ke ratusan terdekat: $396 \\to 400$, $205 \\to 200$ (puluhannya 0, jadi dibulatkan ke bawah), $498 \\to 500$. Taksiran $400 + 200 + 500 = 1.100$. Hasil sebenarnya $1.099$, lebih kecil 1 dari taksiran."
+    },
+    {
+      "id": "mtk-bil-0071",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan pernyataan tentang bilangan 36 berikut.\n\n(1) 36 adalah bilangan kuadrat.\n\n(2) 36 adalah bilangan prima.\n\n(3) 36 habis dibagi 4.\n\n(4) Banyak faktor 36 ada 9.\n\nPernyataan yang benar ditunjukkan oleh nomor ....",
+      "choices": [
+        {
+          "id": "a",
+          "text": "(1), (3), dan (4)"
+        },
+        {
+          "id": "b",
+          "text": "(1) dan (2)"
+        },
+        {
+          "id": "c",
+          "text": "(2), (3), dan (4)"
+        },
+        {
+          "id": "d",
+          "text": "(1) dan (3) saja"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$36 = 6 \\times 6$, jadi bilangan kuadrat. 36 bukan prima karena punya faktor selain 1 dan dirinya. $36 : 4 = 9$, jadi habis dibagi 4. Faktor 36 adalah 1, 2, 3, 4, 6, 9, 12, 18, 36, sebanyak 9. Jadi yang benar (1), (3), dan (4)."
+    }
+  ]
+}

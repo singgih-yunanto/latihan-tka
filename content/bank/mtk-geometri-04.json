@@ -1,0 +1,898 @@
+{
+  "batch": "mtk-geometri-04",
+  "note": "Matematika - Geometri & Pengukuran: units of length/weight/volume/time, speed and arrival time, packing boxes, cube-stack views, triangle angles (tryout gap batch)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-geo-0060",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua kesetaraan satuan panjang yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 192\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"10\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">Tangga satuan panjang</text><rect x=\"15\" y=\"30\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34.4286\" y=\"47\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">km</text><rect x=\"57.8571\" y=\"48\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"77.2857\" y=\"65\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">hm</text><rect x=\"100.714\" y=\"66\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120.143\" y=\"83\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dam</text><rect x=\"143.571\" y=\"84\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"163\" y=\"101\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">m</text><rect x=\"186.429\" y=\"102\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"205.857\" y=\"119\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dm</text><rect x=\"229.286\" y=\"120\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"248.714\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">cm</text><rect x=\"272.143\" y=\"138\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"291.571\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mm</text><text x=\"15\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">turun satu tangga: × 10</text><text x=\"315\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">naik satu tangga: : 10</text></svg>",
+        "alt": "Tangga satuan panjang dari km, hm, dam, m, dm, cm, sampai mm; turun satu tangga dikali 10"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "$3{,}5$ m $= 350$ cm"
+        },
+        {
+          "id": "b",
+          "text": "$12$ hm $= 1.200$ m"
+        },
+        {
+          "id": "c",
+          "text": "$45$ dm $= 45$ cm"
+        },
+        {
+          "id": "d",
+          "text": "$2$ km $= 200$ dam"
+        },
+        {
+          "id": "e",
+          "text": "$800$ mm $= 8$ m"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Turun satu tangga satuan dikali 10. $3{,}5$ m $= 3{,}5 \\times 100 = 350$ cm, $12$ hm $= 12 \\times 100 = 1.200$ m, dan $2$ km $= 2 \\times 100 = 200$ dam. Pernyataan lain salah: $45$ dm $= 450$ cm, dan $800$ mm $= 80$ cm $= 0{,}8$ m. Kesalahan yang sering terjadi adalah lupa menghitung banyak tangga satuan yang dilewati."
+    },
+    {
+      "id": "mtk-geo-0061",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan perhitungan berikut.\n\n(i) $1{,}5$ km $+ 8$ hm\n\n(ii) $150$ dam $+ 450$ m\n\n(iii) $25$ hm $- 30$ dam\n\n(iv) $1.800$ m $+ 1.500$ dm\n\nPilihlah semua perhitungan yang hasilnya **lebih dari 2 km**.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 192\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"10\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">Tangga satuan panjang</text><rect x=\"15\" y=\"30\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34.4286\" y=\"47\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">km</text><rect x=\"57.8571\" y=\"48\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"77.2857\" y=\"65\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">hm</text><rect x=\"100.714\" y=\"66\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120.143\" y=\"83\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dam</text><rect x=\"143.571\" y=\"84\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"163\" y=\"101\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">m</text><rect x=\"186.429\" y=\"102\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"205.857\" y=\"119\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dm</text><rect x=\"229.286\" y=\"120\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"248.714\" y=\"137\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">cm</text><rect x=\"272.143\" y=\"138\" width=\"38.8571\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"291.571\" y=\"155\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">mm</text><text x=\"15\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">turun satu tangga: × 10</text><text x=\"315\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">naik satu tangga: : 10</text></svg>",
+        "alt": "Tangga satuan panjang dari km, hm, dam, m, dm, cm, sampai mm; turun satu tangga dikali 10"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "(i)"
+        },
+        {
+          "id": "b",
+          "text": "(ii)"
+        },
+        {
+          "id": "c",
+          "text": "(iii)"
+        },
+        {
+          "id": "d",
+          "text": "(iv)"
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Ubah semua ke meter dulu. (i) $1.500 + 800 = 2.300$ m. (ii) $1.500 + 450 = 1.950$ m. (iii) $2.500 - 300 = 2.200$ m. (iv) $1.800 + 150 = 1.950$ m, karena $1.500$ dm $= 150$ m, bukan $1.500$ m. Yang lebih dari $2$ km $= 2.000$ m hanya (i) dan (iii)."
+    },
+    {
+      "id": "mtk-geo-0062",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Dina memiliki tali sepanjang $4{,}2$ m. Ia memotong 3 potong tali, masing-masing sepanjang $95$ cm. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"40\" width=\"280\" height=\"12\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"20\" y=\"40\" width=\"63.3333\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"51.6667\" y=\"32\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">95 cm</text><rect x=\"83.3333\" y=\"40\" width=\"63.3333\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"115\" y=\"32\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">95 cm</text><rect x=\"146.667\" y=\"40\" width=\"63.3333\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"178.333\" y=\"32\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">95 cm</text><text x=\"255\" y=\"32\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">sisa</text><line x1=\"20\" y1=\"70\" x2=\"300\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"160\" y=\"88\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">panjang tali mula-mula 4,2 m</text></svg>",
+        "alt": "Tali sepanjang 4,2 m dengan tiga potongan masing-masing 95 cm dan sisa tali di ujung kanan"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Panjang seluruh tali yang dipotong adalah $2{,}85$ m."
+        },
+        {
+          "id": "s2",
+          "text": "Sisa tali Dina $135$ cm."
+        },
+        {
+          "id": "s3",
+          "text": "Sisa tali Dina lebih dari $1{,}5$ m."
+        },
+        {
+          "id": "s4",
+          "text": "Sisa tali masih cukup untuk satu potong lagi sepanjang $95$ cm."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Tali yang dipotong $3 \\times 95 = 285$ cm $= 2{,}85$ m. Sisa tali $420 - 285 = 135$ cm $= 1{,}35$ m, jadi kurang dari $1{,}5$ m. Karena $135$ cm lebih dari $95$ cm, sisa tali masih cukup untuk satu potong lagi. Ingat, $4{,}2$ m $= 420$ cm, bukan $42$ cm."
+    },
+    {
+      "id": "mtk-geo-0063",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Hasil dari $2$ kg $+ 5$ ons $+ 300$ g adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 138\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"10\" y=\"18\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\" font-weight=\"bold\">Tangga satuan berat</text><rect x=\"15\" y=\"30\" width=\"71\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"50.5\" y=\"47\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">kg</text><rect x=\"90\" y=\"48\" width=\"71\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125.5\" y=\"65\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">hg (ons)</text><rect x=\"165\" y=\"66\" width=\"71\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"200.5\" y=\"83\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">dag</text><rect x=\"240\" y=\"84\" width=\"71\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"275.5\" y=\"101\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">g</text><text x=\"15\" y=\"128\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">turun satu tangga: × 10</text><text x=\"315\" y=\"128\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">naik satu tangga: : 10</text></svg>",
+        "alt": "Tangga satuan berat: kg, hg atau ons, dag, g; turun satu tangga dikali 10"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "$2.800$ g"
+        },
+        {
+          "id": "b",
+          "text": "$2.350$ g"
+        },
+        {
+          "id": "c",
+          "text": "$307$ g"
+        },
+        {
+          "id": "d",
+          "text": "$2.530$ g"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$2$ kg $= 2.000$ g dan $1$ ons $= 100$ g, sehingga $5$ ons $= 500$ g. Jumlahnya $2.000 + 500 + 300 = 2.800$ g. Jawaban $2.350$ g muncul bila 5 ons dianggap 50 g."
+    },
+    {
+      "id": "mtk-geo-0064",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Ibu berbelanja di pasar:\n\n- $1{,}5$ kg gula\n- 6 bungkus mentega, masing-masing $200$ g\n- $3$ ons bawang putih\n- 4 bungkus kopi, masing-masing $50$ g\n\nPilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 290 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"160\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Belanjaan</text><rect x=\"180\" y=\"20\" width=\"90\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Berat</text><rect x=\"20\" y=\"46\" width=\"160\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Gula</text><rect x=\"180\" y=\"46\" width=\"90\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1,5 kg</text><rect x=\"20\" y=\"72\" width=\"160\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Mentega (6 bungkus)</text><rect x=\"180\" y=\"72\" width=\"90\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">@ 200 g</text><rect x=\"20\" y=\"98\" width=\"160\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Bawang putih</text><rect x=\"180\" y=\"98\" width=\"90\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">3 ons</text><rect x=\"20\" y=\"124\" width=\"160\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"100\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Kopi (4 bungkus)</text><rect x=\"180\" y=\"124\" width=\"90\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"225\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">@ 50 g</text></svg>",
+        "alt": "Tabel belanjaan: gula 1,5 kg, 6 bungkus mentega masing-masing 200 g, bawang putih 3 ons, 4 bungkus kopi masing-masing 50 g"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Berat seluruh mentega $1{,}2$ kg."
+        },
+        {
+          "id": "b",
+          "text": "Berat bawang putih lebih besar daripada berat seluruh kopi."
+        },
+        {
+          "id": "c",
+          "text": "Berat seluruh belanjaan $3{,}2$ kg."
+        },
+        {
+          "id": "d",
+          "text": "Berat gula sama dengan berat seluruh mentega."
+        },
+        {
+          "id": "e",
+          "text": "Berat seluruh kopi $5$ ons."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "Dalam gram: gula $1.500$ g, mentega $6 \\times 200 = 1.200$ g $= 1{,}2$ kg, bawang putih $300$ g, kopi $4 \\times 50 = 200$ g $= 2$ ons. Bawang putih ($300$ g) lebih berat daripada kopi ($200$ g). Totalnya $1.500 + 1.200 + 300 + 200 = 3.200$ g $= 3{,}2$ kg. Gula ($1.500$ g) tidak sama dengan mentega ($1.200$ g)."
+    },
+    {
+      "id": "mtk-geo-0065",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah truk mengangkut $2$ ton pasir dan $8$ kuintal semen. Seluruh muatan diturunkan sama banyak di 4 toko. Berat muatan yang diterima setiap toko adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 270 118\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"80\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Muatan</text><rect x=\"140\" y=\"20\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Berat</text><rect x=\"20\" y=\"46\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"80\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Pasir</text><rect x=\"140\" y=\"46\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">2 ton</text><rect x=\"20\" y=\"72\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"80\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Semen</text><rect x=\"140\" y=\"72\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">8 kuintal</text></svg>",
+        "alt": "Tabel muatan truk: pasir 2 ton dan semen 8 kuintal"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "$700$ kg"
+        },
+        {
+          "id": "b",
+          "text": "$520$ kg"
+        },
+        {
+          "id": "c",
+          "text": "$2.800$ kg"
+        },
+        {
+          "id": "d",
+          "text": "$550$ kg"
+        }
+      ],
+      "answer": "a",
+      "explanation": "$2$ ton $= 2.000$ kg dan $1$ kuintal $= 100$ kg, sehingga $8$ kuintal $= 800$ kg. Muatan seluruhnya $2.800$ kg, dibagi 4 toko menjadi $700$ kg. Jawaban $520$ kg muncul bila 8 kuintal dianggap 80 kg."
+    },
+    {
+      "id": "mtk-geo-0066",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Ibu membeli 6 botol sirup besar masing-masing berisi $1$ liter dan 15 botol sirup kecil masing-masing berisi $250$ ml. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"40\" width=\"46\" height=\"80\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"57\" y=\"28\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"63\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">6 botol × 1 liter</text><rect x=\"170\" y=\"74\" width=\"30\" height=\"46\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"179\" y=\"62\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"185\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15 botol × 250 ml</text></svg>",
+        "alt": "Botol sirup besar berisi 1 liter sebanyak 6 botol dan botol kecil berisi 250 ml sebanyak 15 botol"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sirup dalam seluruh botol kecil ada $3{,}75$ liter."
+        },
+        {
+          "id": "b",
+          "text": "Jumlah seluruh sirup $9.750$ ml."
+        },
+        {
+          "id": "c",
+          "text": "Sirup dalam botol besar lebih sedikit daripada sirup dalam botol kecil."
+        },
+        {
+          "id": "d",
+          "text": "Seluruh sirup cukup untuk mengisi penuh 39 gelas berukuran $250$ ml."
+        },
+        {
+          "id": "e",
+          "text": "Jumlah seluruh sirup kurang dari $9$ liter."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Botol besar: $6 \\times 1.000 = 6.000$ ml. Botol kecil: $15 \\times 250 = 3.750$ ml $= 3{,}75$ liter. Jumlahnya $9.750$ ml $= 9{,}75$ liter, lebih dari $9$ liter. Botol besar ($6.000$ ml) justru lebih banyak. Banyak gelas $9.750 : 250 = 39$."
+    },
+    {
+      "id": "mtk-geo-0067",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Sebuah galon berisi $19$ liter air. Air dituang ke gelas-gelas berukuran $250$ ml sampai galon kosong. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"30\" width=\"60\" height=\"90\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"64\" y=\"18\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">galon 19 liter</text><rect x=\"170\" y=\"84\" width=\"28\" height=\"36\" rx=\"6\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"178\" y=\"72\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"184\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">gelas 250 ml</text></svg>",
+        "alt": "Sebuah galon berisi 19 liter dan sebuah gelas berukuran 250 ml"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Air dalam galon sama dengan $19.000$ ml."
+        },
+        {
+          "id": "s2",
+          "text": "Banyak gelas yang terisi penuh adalah 76 gelas."
+        },
+        {
+          "id": "s3",
+          "text": "Jika gelasnya berukuran $500$ ml, banyak gelas yang terisi menjadi dua kali lipat."
+        },
+        {
+          "id": "s4",
+          "text": "Empat gelas $250$ ml berisi tepat $1$ liter air."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "$19$ liter $= 19.000$ ml, dan $19.000 : 250 = 76$ gelas. Gelas yang dua kali lebih besar membuat banyak gelas menjadi **setengahnya**, yaitu 38 gelas, bukan dua kali lipat. $4 \\times 250 = 1.000$ ml $= 1$ liter."
+    },
+    {
+      "id": "mtk-geo-0068",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kakak berlatih piano selama 1 jam 25 menit 40 detik. Adik berlatih selama 48 menit 55 detik. Selisih lama latihan mereka adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 310 118\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Nama</text><rect x=\"100\" y=\"20\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Lama latihan</text><rect x=\"20\" y=\"46\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Kakak</text><rect x=\"100\" y=\"46\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1 jam 25 menit 40 detik</text><rect x=\"20\" y=\"72\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Adik</text><rect x=\"100\" y=\"72\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">48 menit 55 detik</text></svg>",
+        "alt": "Tabel lama latihan piano: Kakak 1 jam 25 menit 40 detik, Adik 48 menit 55 detik"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "36 menit 45 detik"
+        },
+        {
+          "id": "b",
+          "text": "37 menit 45 detik"
+        },
+        {
+          "id": "c",
+          "text": "36 menit 15 detik"
+        },
+        {
+          "id": "d",
+          "text": "1 jam 36 menit 45 detik"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Tulis 1 jam 25 menit 40 detik sebagai 85 menit 40 detik. Detik: $40 - 55$ tidak cukup, jadi pinjam 1 menit: $100 - 55 = 45$ detik, dan menitnya tinggal 84. Menit: $84 - 48 = 36$. Selisihnya 36 menit 45 detik. Jawaban 37 menit 45 detik muncul bila lupa mengurangi menit yang dipinjam."
+    },
+    {
+      "id": "mtk-geo-0069",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Usia kakek sekarang 8 windu 2 tahun 3 bulan. Usia ibu sekarang 38 tahun 9 bulan. Selisih usia kakek dan ibu adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 310 118\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Nama</text><rect x=\"100\" y=\"20\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Usia</text><rect x=\"20\" y=\"46\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Kakek</text><rect x=\"100\" y=\"46\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">8 windu 2 tahun 3 bulan</text><rect x=\"20\" y=\"72\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"60\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ibu</text><rect x=\"100\" y=\"72\" width=\"190\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">38 tahun 9 bulan</text></svg>",
+        "alt": "Tabel usia: kakek 8 windu 2 tahun 3 bulan, ibu 38 tahun 9 bulan"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "27 tahun 6 bulan"
+        },
+        {
+          "id": "b",
+          "text": "28 tahun 6 bulan"
+        },
+        {
+          "id": "c",
+          "text": "43 tahun 6 bulan"
+        },
+        {
+          "id": "d",
+          "text": "26 tahun 6 bulan"
+        }
+      ],
+      "answer": "a",
+      "explanation": "1 windu = 8 tahun, jadi 8 windu = 64 tahun dan usia kakek 66 tahun 3 bulan. Bulan: $3 - 9$ tidak cukup, pinjam 1 tahun (12 bulan): $15 - 9 = 6$ bulan, tahunnya tinggal 65. Tahun: $65 - 38 = 27$. Selisihnya 27 tahun 6 bulan. Jawaban 43 tahun 6 bulan muncul bila 1 windu dianggap 10 tahun."
+    },
+    {
+      "id": "mtk-geo-0070",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua kesetaraan satuan waktu yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 144\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"100\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Satuan</text><rect x=\"120\" y=\"20\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Sama dengan</text><rect x=\"20\" y=\"46\" width=\"100\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1 jam</text><rect x=\"120\" y=\"46\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">60 menit</text><rect x=\"20\" y=\"72\" width=\"100\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1 menit</text><rect x=\"120\" y=\"72\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">60 detik</text><rect x=\"20\" y=\"98\" width=\"100\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"70\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">1 tahun</text><rect x=\"120\" y=\"98\" width=\"120\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"180\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">12 bulan</text></svg>",
+        "alt": "Tabel bantuan satuan waktu: 1 jam sama dengan 60 menit, 1 menit sama dengan 60 detik, 1 tahun sama dengan 12 bulan"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "2 abad = 20 dasawarsa"
+        },
+        {
+          "id": "b",
+          "text": "3 windu = 24 tahun"
+        },
+        {
+          "id": "c",
+          "text": "90 menit = 1 jam 30 menit"
+        },
+        {
+          "id": "d",
+          "text": "1 lustrum = 10 tahun"
+        },
+        {
+          "id": "e",
+          "text": "2 jam = 720 detik"
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "c"
+      ],
+      "explanation": "1 abad = 100 tahun dan 1 dasawarsa = 10 tahun, jadi 2 abad = 200 tahun = 20 dasawarsa. 1 windu = 8 tahun, jadi 3 windu = 24 tahun. 90 menit = 60 menit + 30 menit = 1 jam 30 menit. 1 lustrum = **5** tahun. 2 jam = $2 \\times 3.600 = 7.200$ detik, bukan 720."
+    },
+    {
+      "id": "mtk-geo-0071",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Paman mengendarai sepeda motor dari kota A ke kota B yang berjarak $135$ km dengan kecepatan rata-rata $45$ km/jam. Jika paman berangkat pukul 07.45, ia tiba di kota B pukul ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 110\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"60\" x2=\"270\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"50\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"50\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Kota A</text><text x=\"270\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Kota B</text><text x=\"160\" y=\"52\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">135 km</text><text x=\"160\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">berangkat 07.45 · kecepatan 45 km/jam</text></svg>",
+        "alt": "Rute dari kota A ke kota B sejauh 135 km, berangkat pukul 07.45 dengan kecepatan 45 km per jam"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "10.45"
+        },
+        {
+          "id": "b",
+          "text": "09.45"
+        },
+        {
+          "id": "c",
+          "text": "10.30"
+        },
+        {
+          "id": "d",
+          "text": "11.45"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Waktu tempuh = jarak : kecepatan $= 135 : 45 = 3$ jam. Paman tiba pukul $07.45 + 3$ jam $= 10.45$."
+    },
+    {
+      "id": "mtk-geo-0072",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah bus berangkat pukul 09.20 dan menempuh jarak $210$ km dengan kecepatan rata-rata $60$ km/jam. Bus tersebut tiba pukul ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 110\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"60\" x2=\"270\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"50\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"50\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Terminal</text><text x=\"270\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Tujuan</text><text x=\"160\" y=\"52\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">210 km</text><text x=\"160\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">berangkat 09.20 · kecepatan 60 km/jam</text></svg>",
+        "alt": "Rute bus sejauh 210 km, berangkat pukul 09.20 dengan kecepatan 60 km per jam"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "12.50"
+        },
+        {
+          "id": "b",
+          "text": "12.20"
+        },
+        {
+          "id": "c",
+          "text": "13.10"
+        },
+        {
+          "id": "d",
+          "text": "12.35"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Waktu tempuh $= 210 : 60 = 3{,}5$ jam $= 3$ jam 30 menit (karena $0{,}5$ jam $= 30$ menit, bukan 50 menit). Bus tiba pukul $09.20 + 3.30 = 12.50$. Jawaban 13.10 muncul bila $3{,}5$ jam dibaca sebagai 3 jam 50 menit."
+    },
+    {
+      "id": "mtk-geo-0073",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Rina berjalan kaki ke sekolah yang berjarak $1{,}2$ km dalam waktu 20 menit. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 110\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"60\" x2=\"270\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"50\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"60\" r=\"7\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"50\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Rumah</text><text x=\"270\" y=\"40\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sekolah</text><text x=\"160\" y=\"52\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">1,2 km</text><text x=\"160\" y=\"92\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">waktu tempuh 20 menit</text></svg>",
+        "alt": "Rute dari rumah ke sekolah sejauh 1,2 km dengan waktu tempuh 20 menit"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Rina berjalan $60$ meter setiap menit."
+        },
+        {
+          "id": "s2",
+          "text": "Kecepatan Rina $3{,}6$ km/jam."
+        },
+        {
+          "id": "s3",
+          "text": "Dengan kecepatan yang sama, Rina menempuh $2{,}4$ km dalam 30 menit."
+        },
+        {
+          "id": "s4",
+          "text": "Jika berangkat pukul 06.25, Rina tiba di sekolah pukul 06.45."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "$1{,}2$ km $= 1.200$ m, dan $1.200 : 20 = 60$ m per menit. Dalam 60 menit Rina menempuh $60 \\times 60 = 3.600$ m $= 3{,}6$ km, jadi kecepatannya $3{,}6$ km/jam. Jarak $2{,}4$ km adalah dua kali $1{,}2$ km, sehingga perlu 40 menit, bukan 30 menit. $06.25 + 20$ menit $= 06.45$."
+    },
+    {
+      "id": "mtk-geo-0074",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah kardus berbentuk balok berukuran panjang $60$ cm, lebar $40$ cm, dan tinggi $30$ cm akan diisi kotak sabun berukuran panjang $15$ cm, lebar $10$ cm, dan tinggi $10$ cm. Semua kotak sabun diletakkan dengan posisi yang sama seperti kardusnya. Banyak kotak sabun paling banyak yang dapat dimasukkan adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 340 175\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"50\" width=\"150\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"30,50 180,50 215,15 65,15\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"180,140 180,50 215,15 215,105\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"105\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">60 cm</text><text x=\"24\" y=\"99\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">30 cm</text><text x=\"203.5\" y=\"126.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">40 cm</text><rect x=\"255\" y=\"114\" width=\"38\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"255,114 293,114 305.6,101.4 267.6,101.4\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"293,140 293,114 305.6,101.4 305.6,127.4\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"274\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">15 cm</text><text x=\"249\" y=\"131\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10 cm</text><text x=\"305.3\" y=\"137.7\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">10 cm</text><text x=\"105\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">kardus</text><text x=\"274\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">kotak sabun</text></svg>",
+        "alt": "Kardus balok berukuran 60 cm kali 40 cm kali 30 cm dan sebuah kotak sabun berukuran 15 cm kali 10 cm kali 10 cm"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "48 kotak"
+        },
+        {
+          "id": "b",
+          "text": "36 kotak"
+        },
+        {
+          "id": "c",
+          "text": "24 kotak"
+        },
+        {
+          "id": "d",
+          "text": "60 kotak"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hitung per sisi: panjang $60 : 15 = 4$, lebar $40 : 10 = 4$, tinggi $30 : 10 = 3$. Banyak kotak $4 \\times 4 \\times 3 = 48$. Cara lain: volume kardus $72.000$ cm³ dibagi volume kotak $1.500$ cm³ juga 48, tetapi cara ini hanya benar bila setiap ukuran habis dibagi."
+    },
+    {
+      "id": "mtk-geo-0075",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah kardus berukuran panjang $50$ cm, lebar $30$ cm, dan tinggi $20$ cm akan diisi kotak berukuran panjang $20$ cm, lebar $10$ cm, dan tinggi $10$ cm. Semua kotak harus diletakkan dengan panjang kotak searah panjang kardus dan tidak boleh diputar. Banyak kotak paling banyak yang dapat masuk adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 340 175\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"70\" width=\"150\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"30,70 180,70 222,28 72,28\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"180,140 180,70 222,28 222,98\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"105\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">50 cm</text><text x=\"24\" y=\"109\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">20 cm</text><text x=\"207\" y=\"123\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">30 cm</text><rect x=\"255\" y=\"115\" width=\"50\" height=\"25\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"255,115 305,115 322.5,97.5 272.5,97.5\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"305,140 305,115 322.5,97.5 322.5,122.5\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"280\" y=\"156\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">20 cm</text><text x=\"249\" y=\"131.5\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">10 cm</text><text x=\"319.75\" y=\"135.25\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">10 cm</text><text x=\"105\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">kardus</text><text x=\"280\" y=\"168\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">kotak</text></svg>",
+        "alt": "Kardus balok berukuran 50 cm kali 30 cm kali 20 cm dan sebuah kotak berukuran 20 cm kali 10 cm kali 10 cm"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "12 kotak"
+        },
+        {
+          "id": "b",
+          "text": "15 kotak"
+        },
+        {
+          "id": "c",
+          "text": "18 kotak"
+        },
+        {
+          "id": "d",
+          "text": "10 kotak"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Per sisi: panjang $50 : 20 = 2$ sisa $10$ cm (tidak cukup untuk kotak ketiga), lebar $30 : 10 = 3$, tinggi $20 : 10 = 2$. Banyak kotak $2 \\times 3 \\times 2 = 12$. Membagi volume ($30.000 : 2.000 = 15$) memberi jawaban yang salah, karena sisa ruang $10$ cm di bagian panjang tidak dapat diisi kotak utuh."
+    },
+    {
+      "id": "mtk-geo-0076",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan susunan kubus berikut. Huruf ditulis pada sisi atas kubus yang paling atas di setiap tumpukan. Tampak atas susunan kubus tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 206 156\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 163.0 63.0 L 176.0 50.0 L 146.0 50.0 L 133.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 163.0 93.0 L 176.0 80.0 L 176.0 50.0 L 163.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 106.0 L 60.0 76.0 L 30.0 76.0 L 30.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 106.0 L 90.0 76.0 L 60.0 76.0 L 60.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 76.0 L 103.0 63.0 L 73.0 63.0 L 60.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 106.0 L 120.0 76.0 L 90.0 76.0 L 90.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 76.0 L 133.0 63.0 L 103.0 63.0 L 90.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 150.0 106.0 L 150.0 76.0 L 120.0 76.0 L 120.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 150.0 76.0 L 163.0 63.0 L 133.0 63.0 L 120.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 163.0 93.0 L 163.0 63.0 L 150.0 76.0 L 150.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 76.0 L 60.0 46.0 L 30.0 46.0 L 30.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 46.0 L 73.0 33.0 L 43.0 33.0 L 30.0 46.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 76.0 L 60.0 46.0 L 73.0 33.0 L 73.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><text x=\"51.5\" y=\"44\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"81.5\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"111.5\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"141.5\" y=\"74\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><text x=\"154.5\" y=\"61\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">E</text><line x1=\"90\" y1=\"138\" x2=\"90\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"86,120 94,120 90,113\" fill=\"currentColor\"/><text x=\"98\" y=\"136\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">depan</text></svg>",
+        "alt": "Susunan kubus: baris depan empat kubus berlabel A, B, C, D dari kiri ke kanan, dengan kubus A bertumpuk dua; satu kubus E di belakang kubus D"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gambar P",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 160 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"35\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"50\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"80\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"95\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"110\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"110\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+            "alt": "Empat persegi berjajar A, B, C, D di depan, dan persegi E di belakang D"
+          }
+        },
+        {
+          "id": "b",
+          "text": "Gambar Q",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 160 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"35\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"50\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"80\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"95\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"110\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"20\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"35\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+            "alt": "Empat persegi berjajar A, B, C, D di depan, dan persegi E di belakang A"
+          }
+        },
+        {
+          "id": "c",
+          "text": "Gambar R",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 160 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"35\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"50\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"80\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"95\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"110\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"110\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+            "alt": "Empat persegi berjajar A, B, C, D di belakang, dan persegi E di depan D"
+          }
+        },
+        {
+          "id": "d",
+          "text": "Gambar S",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 160 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"35\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"50\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"65\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"80\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"95\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"110\" y=\"50\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"70\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"110\" y=\"20\" width=\"30\" height=\"30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"40\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">E</text></svg>",
+            "alt": "Empat persegi berjajar D, C, B, A di depan, dan persegi E di belakang A"
+          }
+        }
+      ],
+      "answer": "a",
+      "explanation": "Dilihat dari atas, kita melihat sisi atas kubus paling atas di setiap tumpukan. Baris depan berisi A, B, C, D dari kiri ke kanan, dan kubus E berada di belakang D. Tumpukan dua kubus di A tetap tampak sebagai satu persegi dari atas. Gambar R tertukar depan-belakang, dan Gambar S tertukar kiri-kanan."
+    },
+    {
+      "id": "mtk-geo-0077",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan susunan kubus berikut. Semua kubus berukuran sama dan tidak ada ruang kosong di bawah kubus mana pun. Banyak kubus pada susunan tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 176 156\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 133.0 63.0 L 146.0 50.0 L 116.0 50.0 L 103.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 93.0 L 146.0 80.0 L 146.0 50.0 L 133.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 73.0 63.0 L 73.0 33.0 L 43.0 33.0 L 43.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 73.0 33.0 L 86.0 20.0 L 56.0 20.0 L 43.0 33.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 103.0 63.0 L 103.0 33.0 L 73.0 33.0 L 73.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 103.0 33.0 L 116.0 20.0 L 86.0 20.0 L 73.0 33.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 116.0 50.0 L 116.0 20.0 L 103.0 33.0 L 103.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 106.0 L 60.0 76.0 L 30.0 76.0 L 30.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 76.0 L 73.0 63.0 L 43.0 63.0 L 30.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 106.0 L 90.0 76.0 L 60.0 76.0 L 60.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 76.0 L 103.0 63.0 L 73.0 63.0 L 60.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 106.0 L 120.0 76.0 L 90.0 76.0 L 90.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 76.0 L 133.0 63.0 L 103.0 63.0 L 90.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 106.0 L 120.0 76.0 L 133.0 63.0 L 133.0 93.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><line x1=\"75\" y1=\"138\" x2=\"75\" y2=\"114\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"71,120 79,120 75,113\" fill=\"currentColor\"/><text x=\"83\" y=\"136\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">depan</text></svg>",
+        "alt": "Susunan kubus dua baris. Baris depan dari kiri: tumpukan 1, 1, 1. Baris belakang dari kiri: tumpukan 2, 2, 1"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "8 kubus"
+        },
+        {
+          "id": "b",
+          "text": "6 kubus"
+        },
+        {
+          "id": "c",
+          "text": "7 kubus"
+        },
+        {
+          "id": "d",
+          "text": "9 kubus"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Hitung per tumpukan. Baris depan: 1, 1, dan 1 kubus. Baris belakang: 2, 2, dan 1 kubus. Jumlahnya $3 + 5 = 8$ kubus. Kubus paling bawah di baris belakang tertutup baris depan, tetapi harus ada untuk menyangga kubus di atasnya. Jawaban 6 muncul bila hanya menghitung kubus yang terlihat bagian depannya."
+    },
+    {
+      "id": "mtk-geo-0078",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan susunan kubus berikut. Tampak depan susunan kubus tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 176 186\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 133.0 123.0 L 146.0 110.0 L 146.0 80.0 L 133.0 93.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 93.0 L 133.0 63.0 L 103.0 63.0 L 103.0 93.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 93.0 L 146.0 80.0 L 146.0 50.0 L 133.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 63.0 L 133.0 33.0 L 103.0 33.0 L 103.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 33.0 L 146.0 20.0 L 116.0 20.0 L 103.0 33.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 146.0 50.0 L 146.0 20.0 L 133.0 33.0 L 133.0 63.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 136.0 L 60.0 106.0 L 30.0 106.0 L 30.0 136.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 60.0 106.0 L 60.0 93.0 L 43.0 93.0 L 30.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 136.0 L 90.0 106.0 L 60.0 106.0 L 60.0 136.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 136.0 L 120.0 106.0 L 90.0 106.0 L 90.0 136.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 120.0 106.0 L 133.0 93.0 L 103.0 93.0 L 90.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 133.0 123.0 L 133.0 93.0 L 120.0 106.0 L 120.0 136.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 106.0 L 90.0 76.0 L 60.0 76.0 L 60.0 106.0 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 76.0 L 103.0 63.0 L 73.0 63.0 L 60.0 76.0 Z\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><path d=\"M 90.0 106.0 L 90.0 76.0 L 103.0 63.0 L 103.0 93.0 Z\" fill=\"currentColor\" fill-opacity=\"0.28\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\" fill-rule=\"evenodd\"/><line x1=\"75\" y1=\"168\" x2=\"75\" y2=\"144\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"71,150 79,150 75,143\" fill=\"currentColor\"/><text x=\"83\" y=\"166\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"start\">depan</text></svg>",
+        "alt": "Susunan kubus dua baris. Baris depan dari kiri: tumpukan 1, 2, 1. Baris belakang: tumpukan 1 di tengah dan tumpukan 3 di kanan"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gambar K",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 112\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"20\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+            "alt": "Tiga kolom persegi dengan tinggi 1, 2, dan 3 dari kiri"
+          }
+        },
+        {
+          "id": "b",
+          "text": "Gambar L",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 90\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"20\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+            "alt": "Tiga kolom persegi dengan tinggi 1, 2, dan 1 dari kiri"
+          }
+        },
+        {
+          "id": "c",
+          "text": "Gambar M",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 112\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"20\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"20\" y=\"20\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+            "alt": "Tiga kolom persegi dengan tinggi 3, 2, dan 1 dari kiri"
+          }
+        },
+        {
+          "id": "d",
+          "text": "Gambar N",
+          "figure": {
+            "kind": "svg",
+            "svg": "<svg viewBox=\"0 0 120 112\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"44\" y=\"20\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"68\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"44\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"68\" y=\"20\" width=\"24\" height=\"24\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+            "alt": "Tiga kolom persegi dengan tinggi 1, 3, dan 3 dari kiri"
+          }
+        }
+      ],
+      "answer": "a",
+      "explanation": "Dari depan, setiap kolom terlihat setinggi tumpukan tertinggi di kolom itu, baik di baris depan maupun belakang. Kolom kiri: 1. Kolom tengah: tertinggi 2. Kolom kanan: tumpukan belakang setinggi 3 menjulang di atas tumpukan depan setinggi 1. Jadi tampak depannya 1, 2, 3. Gambar L hanya melihat baris depan."
+    },
+    {
+      "id": "mtk-geo-0079",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Dua sudut sebuah segitiga besarnya $65^\\circ$ dan $48^\\circ$. Besar sudut ketiga segitiga tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,140 220,140 130,30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"62\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">65°</text><text x=\"198\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">48°</text><text x=\"130\" y=\"58\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">?</text></svg>",
+        "alt": "Segitiga dengan dua sudut alas 65 derajat dan 48 derajat, sudut puncak belum diketahui"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "$67^\\circ$"
+        },
+        {
+          "id": "b",
+          "text": "$113^\\circ$"
+        },
+        {
+          "id": "c",
+          "text": "$77^\\circ$"
+        },
+        {
+          "id": "d",
+          "text": "$247^\\circ$"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah ketiga sudut segitiga selalu $180^\\circ$. Sudut ketiga $= 180^\\circ - (65^\\circ + 48^\\circ) = 180^\\circ - 113^\\circ = 67^\\circ$. Jawaban $113^\\circ$ adalah jumlah dua sudut yang diketahui, belum dikurangkan dari $180^\\circ$."
+    },
+    {
+      "id": "mtk-geo-0080",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Pada segitiga PQR, besar sudut P $= 32^\\circ$ dan sudut Q $= 58^\\circ$. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,140 220,140 80,40\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"32\" y=\"156\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">P</text><text x=\"228\" y=\"156\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"start\">Q</text><text x=\"80\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">R</text><text x=\"62\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">32°</text><text x=\"196\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">58°</text><text x=\"88\" y=\"64\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">?</text></svg>",
+        "alt": "Segitiga PQR dengan sudut P 32 derajat, sudut Q 58 derajat, dan sudut R belum diketahui"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Besar sudut R adalah $90^\\circ$."
+        },
+        {
+          "id": "s2",
+          "text": "Segitiga PQR adalah segitiga siku-siku."
+        },
+        {
+          "id": "s3",
+          "text": "Sudut P adalah sudut tumpul."
+        },
+        {
+          "id": "s4",
+          "text": "Besar sudut P ditambah sudut Q sama dengan besar sudut R."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Sudut R $= 180^\\circ - (32^\\circ + 58^\\circ) = 90^\\circ$, sehingga segitiga PQR siku-siku di R. Sudut P ($32^\\circ$) kurang dari $90^\\circ$, jadi lancip, bukan tumpul. $32^\\circ + 58^\\circ = 90^\\circ$, sama dengan sudut R."
+    },
+    {
+      "id": "mtk-geo-0081",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Sebuah segitiga sama kaki memiliki sudut puncak $40^\\circ$. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,140 220,140 130,30\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"62\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">?</text><text x=\"198\" y=\"134\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"end\">?</text><text x=\"130\" y=\"58\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40°</text><line x1=\"79\" y1=\"81\" x2=\"89\" y2=\"89\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"181\" y1=\"81\" x2=\"171\" y2=\"89\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+        "alt": "Segitiga sama kaki dengan sudut puncak 40 derajat dan dua kaki yang sama panjang; kedua sudut alas belum diketahui"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kedua sudut alasnya masing-masing $70^\\circ$."
+        },
+        {
+          "id": "b",
+          "text": "Segitiga itu memiliki satu sudut tumpul."
+        },
+        {
+          "id": "c",
+          "text": "Ketiga sudutnya lancip."
+        },
+        {
+          "id": "d",
+          "text": "Jumlah kedua sudut alasnya $140^\\circ$."
+        },
+        {
+          "id": "e",
+          "text": "Salah satu sudut alasnya $40^\\circ$."
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d"
+      ],
+      "explanation": "Kedua sudut alas segitiga sama kaki sama besar. Jumlahnya $180^\\circ - 40^\\circ = 140^\\circ$, jadi masing-masing $140^\\circ : 2 = 70^\\circ$. Sudut-sudutnya $40^\\circ$, $70^\\circ$, $70^\\circ$, semuanya kurang dari $90^\\circ$, sehingga ketiganya lancip dan tidak ada sudut tumpul."
+    }
+  ]
+}

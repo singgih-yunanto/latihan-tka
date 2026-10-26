@@ -1,0 +1,347 @@
+{
+  "batch": "mtk-data-02",
+  "note": "Matematika - Data & Peluang: pictograms, tables, mean, mode, probability. Every item illustrated.",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-dat-0020",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Piktogram berikut menunjukkan banyak buku yang dipinjam siswa dalam empat hari. Banyak buku yang dipinjam pada hari Rabu adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"12\" fill=\"currentColor\"><text x=\"12\" y=\"38\">Senin</text><text x=\"12\" y=\"73\">Selasa</text><text x=\"12\" y=\"108\">Rabu</text><text x=\"12\" y=\"143\">Kamis</text></g><g fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.2\"><rect x=\"70\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"110\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"61\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"61\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"110\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"130\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"131\" width=\"14\" height=\"16\" rx=\"2\"/></g><text x=\"200\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Setiap gambar buku mewakili 5 buku</text><rect x=\"120\" y=\"155\" width=\"12\" height=\"14\" rx=\"2\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>",
+        "alt": "Piktogram peminjaman buku: Senin 3 gambar, Selasa 2 gambar, Rabu 4 gambar, Kamis 1 gambar, setiap gambar mewakili 5 buku"
+      },
+      "choices": [
+        { "id": "a", "text": "20 buku" },
+        { "id": "b", "text": "4 buku" },
+        { "id": "c", "text": "15 buku" },
+        { "id": "d", "text": "25 buku" }
+      ],
+      "answer": "a",
+      "explanation": "Pada hari Rabu terdapat 4 gambar buku, dan setiap gambar mewakili 5 buku. Jadi banyak buku $= 4 \\times 5 = 20$ buku. Pilihan 4 buku keliru karena hanya menghitung banyak gambarnya."
+    },
+    {
+      "id": "mtk-dat-0021",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Berdasarkan piktogram berikut, jumlah seluruh buku yang dipinjam selama empat hari adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"12\" fill=\"currentColor\"><text x=\"12\" y=\"38\">Senin</text><text x=\"12\" y=\"73\">Selasa</text><text x=\"12\" y=\"108\">Rabu</text><text x=\"12\" y=\"143\">Kamis</text></g><g fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.2\"><rect x=\"70\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"110\" y=\"26\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"61\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"61\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"90\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"110\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"130\" y=\"96\" width=\"14\" height=\"16\" rx=\"2\"/><rect x=\"70\" y=\"131\" width=\"14\" height=\"16\" rx=\"2\"/></g><text x=\"200\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Setiap gambar buku mewakili 5 buku</text><rect x=\"120\" y=\"155\" width=\"12\" height=\"14\" rx=\"2\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg>",
+        "alt": "Piktogram peminjaman buku: Senin 3 gambar, Selasa 2 gambar, Rabu 4 gambar, Kamis 1 gambar, setiap gambar mewakili 5 buku"
+      },
+      "choices": [
+        { "id": "a", "text": "50 buku" },
+        { "id": "b", "text": "10 buku" },
+        { "id": "c", "text": "45 buku" },
+        { "id": "d", "text": "55 buku" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah gambar seluruhnya $= 3 + 2 + 4 + 1 = 10$ gambar. Karena tiap gambar mewakili 5 buku, jumlah buku $= 10 \\times 5 = 50$ buku."
+    },
+    {
+      "id": "mtk-dat-0022",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Tabel berikut menunjukkan nilai ulangan sekelompok siswa. Jika rata-rata nilainya 7,5, banyak siswa yang memperoleh nilai 8 adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"25\" y=\"30\" width=\"270\" height=\"34\"/><rect x=\"25\" y=\"64\" width=\"270\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"98\"/><line x1=\"141\" y1=\"30\" x2=\"141\" y2=\"98\"/><line x1=\"192\" y1=\"30\" x2=\"192\" y2=\"98\"/><line x1=\"243\" y1=\"30\" x2=\"243\" y2=\"98\"/></g><rect x=\"25\" y=\"30\" width=\"270\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"57\" y=\"52\">Nilai</text><text x=\"115\" y=\"52\">6</text><text x=\"166\" y=\"52\">7</text><text x=\"217\" y=\"52\">8</text><text x=\"269\" y=\"52\">9</text><text x=\"57\" y=\"86\">Siswa</text><text x=\"115\" y=\"86\">2</text><text x=\"166\" y=\"86\">8</text><text x=\"217\" y=\"86\">n</text><text x=\"269\" y=\"86\">2</text></g><text x=\"160\" y=\"126\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Nilai ulangan sekelompok siswa</text></svg>",
+        "alt": "Tabel nilai: nilai 6 sebanyak 2 siswa, nilai 7 sebanyak 8 siswa, nilai 8 sebanyak n siswa, nilai 9 sebanyak 2 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "8 siswa" },
+        { "id": "b", "text": "6 siswa" },
+        { "id": "c", "text": "10 siswa" },
+        { "id": "d", "text": "4 siswa" }
+      ],
+      "answer": "a",
+      "explanation": "Banyak siswa seluruhnya $= 2 + 8 + n + 2 = 12 + n$. Jumlah nilai $= (6 \\times 2) + (7 \\times 8) + (8 \\times n) + (9 \\times 2) = 12 + 56 + 8n + 18 = 86 + 8n$. Karena rata-ratanya $7{,}5$, berlaku $86 + 8n = 7{,}5 \\times (12 + n)$, sehingga $86 + 8n = 90 + 7{,}5n$. Diperoleh $0{,}5n = 4$ dan $n = 8$. Periksa kembali: jumlah siswa 20 dan jumlah nilai $86 + 64 = 150$, sehingga rata-rata $= 150 : 20 = 7{,}5$."
+    },
+    {
+      "id": "mtk-dat-0023",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Diagram batang berikut menunjukkan banyak siswa menurut jenis ekstrakurikuler. Ekstrakurikuler yang paling sedikit peminatnya adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"62\" y=\"60\" width=\"34\" height=\"90\"/><rect x=\"112\" y=\"100\" width=\"34\" height=\"50\"/><rect x=\"162\" y=\"80\" width=\"34\" height=\"70\"/><rect x=\"212\" y=\"115\" width=\"34\" height=\"35\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"79\" y=\"54\">18</text><text x=\"129\" y=\"94\">10</text><text x=\"179\" y=\"74\">14</text><text x=\"229\" y=\"109\">7</text><text x=\"79\" y=\"165\">Pramuka</text><text x=\"129\" y=\"165\">Tari</text><text x=\"179\" y=\"165\">Futsal</text><text x=\"229\" y=\"165\">Melukis</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">siswa</text></svg>",
+        "alt": "Diagram batang ekstrakurikuler: Pramuka 18, Tari 10, Futsal 14, Melukis 7 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "Melukis" },
+        { "id": "b", "text": "Tari" },
+        { "id": "c", "text": "Futsal" },
+        { "id": "d", "text": "Pramuka" }
+      ],
+      "answer": "a",
+      "explanation": "Batang paling pendek menunjukkan jumlah paling sedikit. Melukis hanya diminati 7 siswa, lebih sedikit daripada Tari 10, Futsal 14, dan Pramuka 18 siswa."
+    },
+    {
+      "id": "mtk-dat-0024",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Berdasarkan diagram batang ekstrakurikuler berikut, persentase siswa yang mengikuti Pramuka terhadap seluruh siswa adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"62\" y=\"60\" width=\"34\" height=\"90\"/><rect x=\"112\" y=\"100\" width=\"34\" height=\"50\"/><rect x=\"162\" y=\"80\" width=\"34\" height=\"70\"/><rect x=\"212\" y=\"115\" width=\"34\" height=\"35\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"79\" y=\"54\">18</text><text x=\"129\" y=\"94\">10</text><text x=\"179\" y=\"74\">14</text><text x=\"229\" y=\"109\">8</text><text x=\"79\" y=\"165\">Pramuka</text><text x=\"129\" y=\"165\">Tari</text><text x=\"179\" y=\"165\">Futsal</text><text x=\"229\" y=\"165\">Melukis</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">siswa</text></svg>",
+        "alt": "Diagram batang ekstrakurikuler: Pramuka 18, Tari 10, Futsal 14, Melukis 8 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "$36\\%$" },
+        { "id": "b", "text": "$18\\%$" },
+        { "id": "c", "text": "$28\\%$" },
+        { "id": "d", "text": "$50\\%$" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah seluruh siswa $= 18 + 10 + 14 + 8 = 50$ siswa. Persentase Pramuka $= \\frac{18}{50} \\times 100\\% = 36\\%$. Pilihan $18\\%$ keliru karena angka 18 langsung dianggap persentasenya."
+    },
+    {
+      "id": "mtk-dat-0025",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan data banyak saudara kandung sepuluh siswa berikut. Modus dari data tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 130\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"15\" y=\"35\" width=\"290\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"44\" y1=\"35\" x2=\"44\" y2=\"69\"/><line x1=\"73\" y1=\"35\" x2=\"73\" y2=\"69\"/><line x1=\"102\" y1=\"35\" x2=\"102\" y2=\"69\"/><line x1=\"131\" y1=\"35\" x2=\"131\" y2=\"69\"/><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"69\"/><line x1=\"189\" y1=\"35\" x2=\"189\" y2=\"69\"/><line x1=\"218\" y1=\"35\" x2=\"218\" y2=\"69\"/><line x1=\"247\" y1=\"35\" x2=\"247\" y2=\"69\"/><line x1=\"276\" y1=\"35\" x2=\"276\" y2=\"69\"/></g><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"29\" y=\"58\">2</text><text x=\"58\" y=\"58\">1</text><text x=\"87\" y=\"58\">3</text><text x=\"116\" y=\"58\">2</text><text x=\"145\" y=\"58\">2</text><text x=\"174\" y=\"58\">4</text><text x=\"203\" y=\"58\">1</text><text x=\"232\" y=\"58\">2</text><text x=\"261\" y=\"58\">3</text><text x=\"290\" y=\"58\">2</text></g><text x=\"160\" y=\"24\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Banyak saudara kandung sepuluh siswa</text></svg>",
+        "alt": "Data banyak saudara kandung sepuluh siswa: 2, 1, 3, 2, 2, 4, 1, 2, 3, 2"
+      },
+      "choices": [
+        { "id": "a", "text": "$2$" },
+        { "id": "b", "text": "$3$" },
+        { "id": "c", "text": "$5$" },
+        { "id": "d", "text": "$1$" }
+      ],
+      "answer": "a",
+      "explanation": "Hitung kemunculan tiap nilai: angka 1 muncul 2 kali, angka 2 muncul 5 kali, angka 3 muncul 2 kali, dan angka 4 muncul 1 kali. Nilai yang paling sering muncul adalah 2, jadi modusnya 2. Angka 5 adalah banyak kemunculannya, bukan modusnya."
+    },
+    {
+      "id": "mtk-dat-0026",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Berdasarkan data banyak saudara kandung berikut, rata-rata banyak saudara kandung kesepuluh siswa adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 130\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"15\" y=\"35\" width=\"290\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"44\" y1=\"35\" x2=\"44\" y2=\"69\"/><line x1=\"73\" y1=\"35\" x2=\"73\" y2=\"69\"/><line x1=\"102\" y1=\"35\" x2=\"102\" y2=\"69\"/><line x1=\"131\" y1=\"35\" x2=\"131\" y2=\"69\"/><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"69\"/><line x1=\"189\" y1=\"35\" x2=\"189\" y2=\"69\"/><line x1=\"218\" y1=\"35\" x2=\"218\" y2=\"69\"/><line x1=\"247\" y1=\"35\" x2=\"247\" y2=\"69\"/><line x1=\"276\" y1=\"35\" x2=\"276\" y2=\"69\"/></g><g font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"29\" y=\"58\">2</text><text x=\"58\" y=\"58\">1</text><text x=\"87\" y=\"58\">3</text><text x=\"116\" y=\"58\">2</text><text x=\"145\" y=\"58\">2</text><text x=\"174\" y=\"58\">4</text><text x=\"203\" y=\"58\">1</text><text x=\"232\" y=\"58\">2</text><text x=\"261\" y=\"58\">3</text><text x=\"290\" y=\"58\">2</text></g><text x=\"160\" y=\"24\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Banyak saudara kandung sepuluh siswa</text></svg>",
+        "alt": "Data banyak saudara kandung sepuluh siswa: 2, 1, 3, 2, 2, 4, 1, 2, 3, 2"
+      },
+      "choices": [
+        { "id": "a", "text": "$2{,}2$" },
+        { "id": "b", "text": "$2$" },
+        { "id": "c", "text": "$22$" },
+        { "id": "d", "text": "$2{,}5$" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah seluruh data $= 2+1+3+2+2+4+1+2+3+2 = 22$. Banyak data ada 10, sehingga rata-rata $= 22 : 10 = 2{,}2$. Perhatikan bahwa rata-rata tidak harus berupa bilangan bulat meski datanya bilangan bulat."
+    },
+    {
+      "id": "mtk-dat-0027",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Di dalam sebuah kotak terdapat kartu bernomor seperti gambar. Satu kartu diambil secara acak. Peluang terambil kartu bernomor kelipatan 3 adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"15\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"52\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"89\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"126\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"163\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"200\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"237\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/><rect x=\"274\" y=\"35\" width=\"30\" height=\"40\" rx=\"4\"/></g><g font-size=\"15\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"30\" y=\"61\">1</text><text x=\"67\" y=\"61\">2</text><text x=\"104\" y=\"61\">3</text><text x=\"141\" y=\"61\">4</text><text x=\"178\" y=\"61\">5</text><text x=\"215\" y=\"61\">6</text><text x=\"252\" y=\"61\">7</text><text x=\"289\" y=\"61\">8</text></g><text x=\"160\" y=\"102\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Delapan kartu bernomor 1 sampai 8</text></svg>",
+        "alt": "Delapan kartu bernomor 1 sampai 8"
+      },
+      "choices": [
+        { "id": "a", "text": "$\\frac{1}{4}$" },
+        { "id": "b", "text": "$\\frac{3}{8}$" },
+        { "id": "c", "text": "$\\frac{1}{8}$" },
+        { "id": "d", "text": "$\\frac{1}{2}$" }
+      ],
+      "answer": "a",
+      "explanation": "Kelipatan 3 di antara nomor 1 sampai 8 adalah 3 dan 6, jadi ada 2 kartu. Peluangnya $= \\frac{2}{8} = \\frac{1}{4}$. Pilihan $\\frac{3}{8}$ muncul bila angka 3, 6, dan 9 ikut dihitung padahal kartu 9 tidak ada."
+    },
+    {
+      "id": "mtk-dat-0028",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan diagram lingkaran jenis sampah yang terkumpul di sebuah sekolah berikut. Pilihlah semua pernyataan yang benar jika jumlah seluruh sampah 80 kg.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 195\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 100 95 L 100 25 A 70 70 0 0 1 169.0 83.0 Z\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 169.0 83.0 A 70 70 0 0 1 100 165 Z\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 100 165 A 70 70 0 0 1 30 95 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 100 95 L 30 95 A 70 70 0 0 1 100 25 Z\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1.5\"/><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"128\" y=\"68\">30%</text><text x=\"124\" y=\"128\">20%</text><text x=\"72\" y=\"128\">25%</text><text x=\"72\" y=\"68\">25%</text></g><g font-size=\"12\" fill=\"currentColor\"><rect x=\"200\" y=\"38\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"48\">Plastik 30%</text><rect x=\"200\" y=\"66\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"76\">Kertas 20%</text><rect x=\"200\" y=\"94\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"104\">Daun 25%</text><rect x=\"200\" y=\"122\" width=\"12\" height=\"12\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"218\" y=\"132\">Sisa makanan 25%</text></g></svg>",
+        "alt": "Diagram lingkaran jenis sampah: plastik 30 persen, kertas 20 persen, daun 25 persen, sisa makanan 25 persen"
+      },
+      "choices": [
+        { "id": "a", "text": "Sampah plastik sebanyak 24 kg" },
+        { "id": "b", "text": "Sampah kertas sebanyak 16 kg" },
+        { "id": "c", "text": "Sampah daun dan sisa makanan seluruhnya 40 kg" },
+        { "id": "d", "text": "Sampah kertas sebanyak 20 kg" },
+        { "id": "e", "text": "Sampah plastik lebih sedikit daripada sampah kertas" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Plastik $= 30\\% \\times 80 = 24$ kg dan kertas $= 20\\% \\times 80 = 16$ kg, sehingga a dan b benar dan d salah. Daun dan sisa makanan bersama $= 50\\% \\times 80 = 40$ kg. Plastik 30% jelas lebih banyak daripada kertas 20%, jadi pernyataan e keliru."
+    },
+    {
+      "id": "mtk-dat-0029",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Perhatikan diagram garis tinggi badan seorang anak berikut. Tentukan apakah setiap pernyataan benar atau salah.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"285\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"70,130 115,118 160,100 205,76 260,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><g fill=\"currentColor\"><circle cx=\"70\" cy=\"130\" r=\"4\"/><circle cx=\"115\" cy=\"118\" r=\"4\"/><circle cx=\"160\" cy=\"100\" r=\"4\"/><circle cx=\"205\" cy=\"76\" r=\"4\"/><circle cx=\"260\" cy=\"40\" r=\"4\"/></g><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"70\" y=\"122\">118</text><text x=\"115\" y=\"110\">122</text><text x=\"160\" y=\"92\">128</text><text x=\"205\" y=\"68\">136</text><text x=\"260\" y=\"32\">148</text><text x=\"70\" y=\"165\">kelas 2</text><text x=\"115\" y=\"165\">kelas 3</text><text x=\"160\" y=\"165\">kelas 4</text><text x=\"205\" y=\"165\">kelas 5</text><text x=\"260\" y=\"165\">kelas 6</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">cm</text></svg>",
+        "alt": "Diagram garis tinggi badan: kelas 2 sebesar 118 cm, kelas 3 sebesar 122 cm, kelas 4 sebesar 128 cm, kelas 5 sebesar 136 cm, kelas 6 sebesar 148 cm"
+      },
+      "statements": [
+        { "id": "s1", "text": "Tinggi badan anak tersebut selalu bertambah setiap tahun" },
+        { "id": "s2", "text": "Pertambahan tinggi paling besar terjadi dari kelas 5 ke kelas 6" },
+        { "id": "s3", "text": "Tinggi badan di kelas 4 adalah 136 cm" },
+        { "id": "s4", "text": "Selisih tinggi kelas 2 dan kelas 6 adalah 30 cm" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Garis selalu naik, jadi s1 benar. Pertambahan tiap tahun berturut-turut 4, 6, 8, dan 12 cm, sehingga yang terbesar memang dari kelas 5 ke kelas 6. Tinggi di kelas 4 adalah 128 cm, bukan 136 cm. Selisih kelas 2 dan kelas 6 $= 148 - 118 = 30$ cm."
+    },
+    {
+      "id": "mtk-dat-0030",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan tabel hasil penjualan roti berikut. Jika keuntungan tiap roti Rp1.500,00, keuntungan seluruhnya selama lima hari adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"20\" y=\"30\" width=\"280\" height=\"34\"/><rect x=\"20\" y=\"64\" width=\"280\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"76\" y1=\"30\" x2=\"76\" y2=\"98\"/><line x1=\"121\" y1=\"30\" x2=\"121\" y2=\"98\"/><line x1=\"166\" y1=\"30\" x2=\"166\" y2=\"98\"/><line x1=\"211\" y1=\"30\" x2=\"211\" y2=\"98\"/><line x1=\"256\" y1=\"30\" x2=\"256\" y2=\"98\"/></g><rect x=\"20\" y=\"30\" width=\"280\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"48\" y=\"52\">Hari</text><text x=\"98\" y=\"52\">Sen</text><text x=\"143\" y=\"52\">Sel</text><text x=\"188\" y=\"52\">Rab</text><text x=\"233\" y=\"52\">Kam</text><text x=\"278\" y=\"52\">Jum</text><text x=\"48\" y=\"86\">Roti</text><text x=\"98\" y=\"86\">42</text><text x=\"143\" y=\"86\">38</text><text x=\"188\" y=\"86\">45</text><text x=\"233\" y=\"86\">51</text><text x=\"278\" y=\"86\">44</text></g><text x=\"160\" y=\"124\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Penjualan roti selama lima hari</text></svg>",
+        "alt": "Tabel penjualan roti: Senin 42, Selasa 38, Rabu 45, Kamis 51, Jumat 44 buah"
+      },
+      "choices": [
+        { "id": "a", "text": "Rp330.000,00" },
+        { "id": "b", "text": "Rp220.000,00" },
+        { "id": "c", "text": "Rp300.000,00" },
+        { "id": "d", "text": "Rp66.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah roti terjual $= 42 + 38 + 45 + 51 + 44 = 220$ buah. Keuntungan seluruhnya $= 220 \\times 1.500 = 330.000$. Pilihan Rp220.000,00 keliru karena jumlah roti langsung dianggap rupiah."
+    },
+    {
+      "id": "mtk-dat-0031",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Sebuah kantong berisi bola seperti gambar. Satu bola diambil tanpa melihat. Kejadian yang paling besar peluangnya adalah terambil bola ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 140\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"40\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"74\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"108\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"142\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"176\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"210\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"244\" cy=\"45\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\"/><circle cx=\"40\" cy=\"90\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"74\" cy=\"90\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"108\" cy=\"90\" r=\"14\" fill=\"currentColor\" fill-opacity=\"0.15\"/><circle cx=\"142\" cy=\"90\" r=\"14\" fill=\"none\"/><circle cx=\"176\" cy=\"90\" r=\"14\" fill=\"none\"/></g><g font-size=\"12\" fill=\"currentColor\"><text x=\"266\" y=\"50\">7 biru</text><text x=\"200\" y=\"95\">3 hijau</text><text x=\"200\" y=\"112\">2 putih</text></g></svg>",
+        "alt": "Kantong berisi 7 bola biru, 3 bola hijau, dan 2 bola putih"
+      },
+      "choices": [
+        { "id": "a", "text": "biru" },
+        { "id": "b", "text": "hijau" },
+        { "id": "c", "text": "putih" },
+        { "id": "d", "text": "ketiganya sama besar peluangnya" }
+      ],
+      "answer": "a",
+      "explanation": "Semakin banyak jumlah bola suatu warna, semakin besar peluang terambilnya. Bola biru ada 7 dari 12 bola, jauh lebih banyak daripada hijau 3 dan putih 2, sehingga peluang terambil bola biru paling besar."
+    },
+    {
+      "id": "mtk-dat-0032",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan tabel nilai lima siswa berikut. Jika nilai Eka dinaikkan 10 poin, perubahan yang terjadi pada rata-rata kelima nilai adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 150\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"20\" y=\"30\" width=\"280\" height=\"34\"/><rect x=\"20\" y=\"64\" width=\"280\" height=\"34\"/></g><g stroke=\"currentColor\" stroke-width=\"1.5\"><line x1=\"76\" y1=\"30\" x2=\"76\" y2=\"98\"/><line x1=\"121\" y1=\"30\" x2=\"121\" y2=\"98\"/><line x1=\"166\" y1=\"30\" x2=\"166\" y2=\"98\"/><line x1=\"211\" y1=\"30\" x2=\"211\" y2=\"98\"/><line x1=\"256\" y1=\"30\" x2=\"256\" y2=\"98\"/></g><rect x=\"20\" y=\"30\" width=\"280\" height=\"34\" fill=\"currentColor\" fill-opacity=\"0.1\"/><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"48\" y=\"52\">Nama</text><text x=\"98\" y=\"52\">Ayu</text><text x=\"143\" y=\"52\">Bima</text><text x=\"188\" y=\"52\">Cinta</text><text x=\"233\" y=\"52\">Dito</text><text x=\"278\" y=\"52\">Eka</text><text x=\"48\" y=\"86\">Nilai</text><text x=\"98\" y=\"86\">80</text><text x=\"143\" y=\"86\">75</text><text x=\"188\" y=\"86\">90</text><text x=\"233\" y=\"86\">85</text><text x=\"278\" y=\"86\">70</text></g></svg>",
+        "alt": "Tabel nilai lima siswa: Ayu 80, Bima 75, Cinta 90, Dito 85, Eka 70"
+      },
+      "choices": [
+        { "id": "a", "text": "naik 2 poin" },
+        { "id": "b", "text": "naik 10 poin" },
+        { "id": "c", "text": "naik 5 poin" },
+        { "id": "d", "text": "tidak berubah" }
+      ],
+      "answer": "a",
+      "explanation": "Rata-rata awal $= (80+75+90+85+70) : 5 = 400 : 5 = 80$. Setelah nilai Eka naik 10, jumlahnya menjadi 410 sehingga rata-rata $= 410 : 5 = 82$. Jadi rata-rata naik 2 poin, yaitu tambahan 10 poin dibagi rata ke 5 siswa."
+    },
+    {
+      "id": "mtk-dat-0033",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah dadu dilempar satu kali. Peluang muncul mata dadu lebih dari 4 adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 120\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"15\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"63\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"111\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"159\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"207\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/><rect x=\"255\" y=\"35\" width=\"40\" height=\"40\" rx=\"6\"/></g><g fill=\"currentColor\" font-size=\"16\" text-anchor=\"middle\"><text x=\"35\" y=\"61\">1</text><text x=\"83\" y=\"61\">2</text><text x=\"131\" y=\"61\">3</text><text x=\"179\" y=\"61\">4</text><text x=\"227\" y=\"61\">5</text><text x=\"275\" y=\"61\">6</text></g><text x=\"155\" y=\"100\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Enam sisi mata dadu</text></svg>",
+        "alt": "Enam sisi dadu bernomor 1 sampai 6"
+      },
+      "choices": [
+        { "id": "a", "text": "$\\frac{1}{3}$" },
+        { "id": "b", "text": "$\\frac{1}{2}$" },
+        { "id": "c", "text": "$\\frac{1}{6}$" },
+        { "id": "d", "text": "$\\frac{2}{3}$" }
+      ],
+      "answer": "a",
+      "explanation": "Mata dadu yang lebih dari 4 adalah 5 dan 6, jadi ada 2 kejadian dari 6 kemungkinan. Peluangnya $= \\frac{2}{6} = \\frac{1}{3}$. Perhatikan bahwa angka 4 tidak ikut dihitung karena yang diminta lebih dari 4, bukan 4 ke atas."
+    },
+    {
+      "id": "mtk-dat-0034",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan diagram batang hasil ulangan berikut. Banyak siswa yang memperoleh nilai di bawah 80 adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 195\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"288\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"62\" y=\"110\" width=\"34\" height=\"40\"/><rect x=\"112\" y=\"90\" width=\"34\" height=\"60\"/><rect x=\"162\" y=\"60\" width=\"34\" height=\"90\"/><rect x=\"212\" y=\"100\" width=\"34\" height=\"50\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"79\" y=\"104\">4</text><text x=\"129\" y=\"84\">6</text><text x=\"179\" y=\"54\">9</text><text x=\"229\" y=\"94\">5</text><text x=\"79\" y=\"165\">70</text><text x=\"129\" y=\"165\">75</text><text x=\"179\" y=\"165\">80</text><text x=\"229\" y=\"165\">85</text></g><text x=\"22\" y=\"88\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">siswa</text><text x=\"165\" y=\"186\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">nilai</text></svg>",
+        "alt": "Diagram batang hasil ulangan: nilai 70 sebanyak 4 siswa, nilai 75 sebanyak 6 siswa, nilai 80 sebanyak 9 siswa, nilai 85 sebanyak 5 siswa"
+      },
+      "choices": [
+        { "id": "a", "text": "10 siswa" },
+        { "id": "b", "text": "19 siswa" },
+        { "id": "c", "text": "9 siswa" },
+        { "id": "d", "text": "14 siswa" }
+      ],
+      "answer": "a",
+      "explanation": "Nilai di bawah 80 berarti nilai 70 dan 75, yaitu $4 + 6 = 10$ siswa. Pilihan 19 siswa keliru karena nilai 80 ikut dihitung, padahal 80 tidak termasuk di bawah 80."
+    }
+  ]
+}

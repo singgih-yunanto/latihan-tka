@@ -1,0 +1,256 @@
+{
+  "batch": "bi-informasi-01",
+  "note": "Bahasa Indonesia - Teks informasi: waste bank, hydroponics, mobile library",
+  "stimuli": [
+    {
+      "id": "bi-stim-0001",
+      "subject": "bahasa_indonesia",
+      "title": "Bank Sampah Melati",
+      "textType": "teks_informasi",
+      "body": "Setiap Minggu pagi, halaman balai warga Desa Sukamaju berubah menjadi tempat yang ramai. Ibu-ibu datang membawa karung berisi botol plastik, kardus, dan kaleng bekas. Mereka tidak sedang membuang sampah, melainkan menabung di Bank Sampah Melati.\n\nBank sampah bekerja seperti bank pada umumnya. Warga menyetor sampah yang sudah dipilah, lalu petugas menimbang dan mencatat beratnya di buku tabungan. Setiap jenis sampah punya harga berbeda. Botol plastik bening dihargai Rp3.000,00 per kilogram, kardus Rp2.000,00 per kilogram, sedangkan kaleng aluminium paling mahal, yaitu Rp12.000,00 per kilogram. Tabungan itu dapat diambil menjelang hari raya atau saat tahun ajaran baru.\n\nBank Sampah Melati berdiri tiga tahun lalu atas gagasan Bu Ratna, seorang guru yang prihatin melihat selokan desa tersumbat sampah plastik. Awalnya hanya dua belas keluarga yang ikut. Banyak warga menganggap memilah sampah merepotkan. Namun, setelah melihat tetangga mereka dapat membeli seragam sekolah dari uang tabungan sampah, jumlah anggota terus bertambah. Kini tercatat seratus delapan puluh keluarga menjadi nasabah.\n\nHasilnya terasa di seluruh desa. Selokan tidak lagi mampet saat hujan deras, dan banjir kecil yang dulu rutin datang kini jarang terjadi. Sampah yang terkumpul dijual ke pengepul, sebagian lagi diolah menjadi pot tanaman dan tas belanja.\n\n\"Sampah itu bukan barang tidak berguna,\" kata Bu Ratna. \"Ia hanya salah tempat. Begitu diletakkan pada tempat yang benar, sampah bisa berubah menjadi rupiah.\""
+    },
+    {
+      "id": "bi-stim-0002",
+      "subject": "bahasa_indonesia",
+      "title": "Menanam Sayur dengan Cara Hidroponik",
+      "textType": "teks_informasi",
+      "body": "Tidak punya halaman luas bukan alasan untuk berhenti bercocok tanam. Hidroponik adalah cara menanam tanpa menggunakan tanah. Sebagai gantinya, akar tanaman ditopang media seperti rockwool atau sekam bakar, lalu diberi air yang sudah dicampur larutan nutrisi.\n\nUntuk memulai, siapkan botol plastik bekas berukuran satu setengah liter. Potong botol menjadi dua bagian. Bagian atas dibalik sehingga mulut botol menghadap ke bawah, lalu ditumpuk di atas bagian bawah yang telah diisi air nutrisi. Pasang sumbu dari kain flanel melalui mulut botol agar air dapat naik ke media tanam. Setelah itu, letakkan potongan rockwool yang sudah disemai benih kangkung atau selada di bagian atas.\n\nTanaman hidroponik memerlukan sinar matahari sekitar lima jam sehari. Letakkan botol di teras atau dekat jendela yang terkena cahaya. Periksa ketinggian air setiap dua hari sekali. Bila air tinggal sedikit, tambahkan larutan nutrisi hingga menyentuh ujung sumbu.\n\nKangkung hidroponik biasanya sudah dapat dipanen pada umur tiga sampai empat minggu. Selada memerlukan waktu sedikit lebih lama, yaitu lima hingga enam minggu. Karena tidak memakai tanah, sayuran hidroponik lebih bersih dan lebih jarang diserang ulat.\n\nMenanam secara hidroponik juga mengajarkan ketelitian. Kita harus rutin mengamati warna daun. Daun yang menguning menandakan nutrisi kurang, sedangkan daun yang layu meski air cukup bisa berarti tanaman terlalu lama terkena panas."
+    },
+    {
+      "id": "bi-stim-0003",
+      "subject": "bahasa_indonesia",
+      "title": "Perpustakaan yang Datang Menjemput",
+      "textType": "teks_informasi",
+      "body": "Setiap Rabu siang, sebuah mobil berwarna biru berhenti di lapangan Desa Cikoneng. Anak-anak yang baru pulang sekolah berlarian menghampirinya. Mobil itu bukan penjual es, melainkan perpustakaan keliling milik pemerintah kabupaten.\n\nBagian belakang mobil dirancang khusus menjadi rak buku. Ada sekitar delapan ratus judul yang dibawa, mulai dari buku cerita bergambar, ensiklopedia hewan, hingga buku resep sederhana untuk orang tua. Petugas menggelar tikar di bawah pohon agar anak-anak dapat membaca dengan nyaman.\n\nPerpustakaan keliling hadir karena banyak desa berjarak lebih dari dua puluh kilometer dari perpustakaan daerah. Jarak sejauh itu membuat anak-anak sulit datang sendiri. Dengan mobil ini, buku justru yang mendatangi pembacanya.\n\nSetiap anak boleh meminjam dua buku selama satu minggu. Mereka cukup mendaftarkan nama dan sekolahnya. Menurut catatan petugas, jumlah peminjam di Desa Cikoneng naik dari tiga puluh anak pada bulan pertama menjadi seratus dua puluh anak pada bulan keenam.\n\nNamun, layanan ini menghadapi kendala. Mobil hanya ada dua unit untuk melayani tiga puluh empat desa, sehingga satu desa hanya dikunjungi dua kali sebulan. Beberapa buku pun mulai rusak karena sering dibaca. Kepala perpustakaan daerah berharap tahun depan ada tambahan satu unit mobil dan penggantian buku yang telah usang."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bi-info-0001",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0001",
+      "stem": "Berdasarkan teks tersebut, jenis sampah yang memiliki harga paling tinggi adalah ....",
+      "choices": [
+        { "id": "a", "text": "kaleng aluminium" },
+        { "id": "b", "text": "botol plastik bening" },
+        { "id": "c", "text": "kardus" },
+        { "id": "d", "text": "tas belanja bekas" }
+      ],
+      "answer": "a",
+      "explanation": "Pada paragraf kedua disebutkan harga tiap jenis sampah: botol plastik bening Rp3.000,00, kardus Rp2.000,00, dan kaleng aluminium Rp12.000,00 per kilogram. Kaleng aluminium jelas paling mahal karena harganya paling besar."
+    },
+    {
+      "id": "bi-info-0002",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0001",
+      "stem": "Mengapa jumlah nasabah Bank Sampah Melati terus bertambah?",
+      "choices": [
+        { "id": "a", "text": "Warga melihat sendiri bukti bahwa tabungan sampah dapat memenuhi kebutuhan sekolah" },
+        { "id": "b", "text": "Warga diwajibkan oleh kepala desa untuk ikut menabung sampah" },
+        { "id": "c", "text": "Bank sampah memberikan hadiah kepada setiap nasabah baru" },
+        { "id": "d", "text": "Harga sampah di Bank Sampah Melati lebih mahal daripada di pengepul" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf ketiga menjelaskan bahwa awalnya warga enggan karena memilah sampah dianggap merepotkan, tetapi setelah melihat tetangga dapat membeli seragam sekolah dari uang tabungan sampah, jumlah anggota bertambah. Jadi bukti nyata manfaatnyalah yang menarik warga lain. Alasan lain tidak disebutkan dalam teks."
+    },
+    {
+      "id": "bi-info-0003",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0001",
+      "stem": "Maksud ucapan Bu Ratna, \"Sampah itu bukan barang tidak berguna. Ia hanya salah tempat,\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "sampah masih bernilai apabila dipilah dan dikelola dengan benar" },
+        { "id": "b", "text": "sampah sebaiknya dibuang jauh dari permukiman warga" },
+        { "id": "c", "text": "semua jenis sampah dapat dijual dengan harga tinggi" },
+        { "id": "d", "text": "warga desa selama ini membuang sampah di tempat yang salah" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat itu diucapkan setelah teks menjelaskan bagaimana sampah yang dipilah bisa ditabung dan diolah menjadi barang baru. Jadi maksudnya adalah sampah tetap punya nilai asalkan dikelola dengan benar. Pilihan d hanya menangkap makna harfiah kata salah tempat tanpa melihat pesan keseluruhannya."
+    },
+    {
+      "id": "bi-info-0004",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0001",
+      "stem": "Pilihlah semua pernyataan yang sesuai dengan isi teks.",
+      "choices": [
+        { "id": "a", "text": "Bank Sampah Melati digagas oleh seorang guru bernama Bu Ratna" },
+        { "id": "b", "text": "Tabungan sampah dapat diambil menjelang hari raya atau tahun ajaran baru" },
+        { "id": "c", "text": "Keberadaan bank sampah membantu mengurangi banjir kecil di desa" },
+        { "id": "d", "text": "Seluruh sampah yang terkumpul langsung dibakar oleh petugas" },
+        { "id": "e", "text": "Jumlah nasabah bank sampah sejak awal sudah mencapai seratus keluarga" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Pernyataan a, b, dan c dapat ditemukan langsung pada paragraf ketiga, kedua, dan keempat. Pernyataan d bertentangan dengan teks karena sampah dijual ke pengepul dan diolah menjadi pot serta tas, bukan dibakar. Pernyataan e juga keliru karena pada awalnya hanya dua belas keluarga yang ikut."
+    },
+    {
+      "id": "bi-info-0005",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0002",
+      "stem": "Berdasarkan teks tersebut, fungsi sumbu dari kain flanel adalah ....",
+      "choices": [
+        { "id": "a", "text": "menaikkan air nutrisi dari bawah menuju media tanam" },
+        { "id": "b", "text": "menahan agar botol tidak mudah terguling" },
+        { "id": "c", "text": "menyaring kotoran yang ada di dalam air nutrisi" },
+        { "id": "d", "text": "melindungi akar tanaman dari sinar matahari" }
+      ],
+      "answer": "a",
+      "explanation": "Pada paragraf kedua tertulis, \"Pasang sumbu dari kain flanel melalui mulut botol agar air dapat naik ke media tanam.\" Jadi fungsinya menaikkan air nutrisi ke media tanam."
+    },
+    {
+      "id": "bi-info-0006",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0002",
+      "stem": "Dito menanam selada secara hidroponik. Setelah dua minggu, daun tanamannya menguning padahal air nutrisi selalu tersedia. Berdasarkan teks, hal yang perlu Dito periksa adalah ....",
+      "choices": [
+        { "id": "a", "text": "kecukupan nutrisi pada larutan yang digunakan" },
+        { "id": "b", "text": "jenis benih selada yang ditanam" },
+        { "id": "c", "text": "ukuran botol plastik yang dipakai" },
+        { "id": "d", "text": "panjang kain flanel yang dipasang" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf terakhir menyebutkan, \"Daun yang menguning menandakan nutrisi kurang, sedangkan daun yang layu meski air cukup bisa berarti tanaman terlalu lama terkena panas.\" Karena gejalanya menguning, yang perlu diperiksa adalah kecukupan nutrisinya, bukan gejala layu karena panas."
+    },
+    {
+      "id": "bi-info-0007",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stimulusId": "bi-stim-0002",
+      "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan isi teks.",
+      "statements": [
+        { "id": "s1", "text": "Hidroponik menanam tanpa menggunakan tanah" },
+        { "id": "s2", "text": "Kangkung hidroponik dapat dipanen pada umur tiga sampai empat minggu" },
+        { "id": "s3", "text": "Tanaman hidroponik memerlukan sinar matahari sekitar dua jam sehari" },
+        { "id": "s4", "text": "Selada memerlukan waktu panen lebih lama daripada kangkung" }
+      ],
+      "categories": [
+        { "id": "sesuai", "label": "Sesuai" },
+        { "id": "tidak", "label": "Tidak sesuai" }
+      ],
+      "answer": {
+        "s1": "sesuai",
+        "s2": "sesuai",
+        "s3": "tidak",
+        "s4": "sesuai"
+      },
+      "explanation": "Pernyataan s1, s2, dan s4 sesuai dengan paragraf pertama dan keempat. Pernyataan s3 tidak sesuai karena teks menyebutkan tanaman hidroponik memerlukan sinar matahari sekitar lima jam sehari, bukan dua jam."
+    },
+    {
+      "id": "bi-info-0008",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0002",
+      "stem": "Tujuan penulis menyusun teks tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "menjelaskan cara menanam sayur secara hidroponik kepada pembaca" },
+        { "id": "b", "text": "membujuk pembaca agar berhenti menanam menggunakan tanah" },
+        { "id": "c", "text": "menceritakan pengalaman penulis memanen kangkung" },
+        { "id": "d", "text": "membandingkan harga sayuran hidroponik dengan sayuran biasa" }
+      ],
+      "answer": "a",
+      "explanation": "Teks berisi penjelasan bertahap mulai dari pengertian hidroponik, alat dan bahan, langkah merakit, perawatan, sampai masa panen. Isi seperti ini bertujuan memberi penjelasan dan petunjuk, bukan membujuk atau menceritakan pengalaman pribadi."
+    },
+    {
+      "id": "bi-info-0009",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0003",
+      "stem": "Gagasan pokok paragraf ketiga teks tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "alasan diadakannya layanan perpustakaan keliling" },
+        { "id": "b", "text": "jenis buku yang dibawa perpustakaan keliling" },
+        { "id": "c", "text": "aturan peminjaman buku bagi anak-anak" },
+        { "id": "d", "text": "kendala yang dihadapi perpustakaan keliling" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf ketiga menjelaskan bahwa banyak desa berjarak lebih dari dua puluh kilometer dari perpustakaan daerah sehingga anak-anak sulit datang, lalu ditutup dengan kalimat bahwa buku yang mendatangi pembacanya. Seluruh kalimat pada paragraf itu membicarakan alasan layanan ini diadakan."
+    },
+    {
+      "id": "bi-info-0010",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0003",
+      "stem": "Simpulan yang tepat berdasarkan kenaikan jumlah peminjam di Desa Cikoneng adalah ....",
+      "choices": [
+        { "id": "a", "text": "minat baca anak meningkat ketika buku mudah dijangkau" },
+        { "id": "b", "text": "anak-anak di Desa Cikoneng sebelumnya tidak suka membaca" },
+        { "id": "c", "text": "jumlah buku yang dibawa mobil perlu dikurangi" },
+        { "id": "d", "text": "perpustakaan daerah sebaiknya ditutup dan diganti mobil keliling" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah peminjam naik dari tiga puluh anak menjadi seratus dua puluh anak setelah buku didekatkan ke desa. Fakta ini menunjukkan bahwa kemudahan menjangkau buku meningkatkan minat baca. Pilihan b menyimpulkan terlalu jauh karena teks tidak mengatakan anak-anak tidak suka membaca sebelumnya, melainkan sulit menjangkau perpustakaan."
+    },
+    {
+      "id": "bi-info-0011",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0003",
+      "stem": "Berdasarkan kendala yang disebutkan dalam teks, pilihlah semua usulan yang paling masuk akal untuk memperbaiki layanan perpustakaan keliling.",
+      "choices": [
+        { "id": "a", "text": "Menambah jumlah unit mobil agar tiap desa dapat dikunjungi lebih sering" },
+        { "id": "b", "text": "Mengganti buku-buku yang sudah usang dengan buku baru" },
+        { "id": "c", "text": "Mengurangi jumlah desa yang dilayani agar petugas tidak kelelahan" },
+        { "id": "d", "text": "Melatih petugas agar dapat memperbaiki buku yang mulai rusak" },
+        { "id": "e", "text": "Melarang anak meminjam buku agar buku tidak cepat rusak" }
+      ],
+      "answer": ["a", "b", "d"],
+      "explanation": "Teks menyebut dua kendala, yaitu jumlah mobil yang sedikit dan buku yang mulai rusak. Usulan a dan b langsung menjawab kedua kendala itu, sedangkan d mengatasi kerusakan buku tanpa mengurangi layanan. Usulan c dan e justru merugikan karena mengurangi kesempatan anak membaca, padahal tujuan layanan ini adalah mendekatkan buku kepada anak."
+    },
+    {
+      "id": "bi-info-0012",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_informasi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0003",
+      "stem": "Makna kata usang pada paragraf terakhir teks tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "sudah tua dan rusak karena lama dipakai" },
+        { "id": "b", "text": "hilang karena tidak dikembalikan" },
+        { "id": "c", "text": "sulit dipahami isinya" },
+        { "id": "d", "text": "terlalu mahal harganya" }
+      ],
+      "answer": "a",
+      "explanation": "Kata usang muncul pada kalimat tentang penggantian buku setelah sebelumnya disebutkan beberapa buku mulai rusak karena sering dibaca. Dari petunjuk itu, usang berarti sudah tua dan rusak karena lama dipakai."
+    }
+  ]
+}

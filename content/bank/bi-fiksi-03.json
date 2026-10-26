@@ -1,0 +1,328 @@
+{
+  "batch": "bi-fiksi-03",
+  "note": "Bahasa Indonesia - Teks fiksi: children's stories, a fable, and pantun",
+  "stimuli": [
+    {
+      "id": "bi-stim-0050",
+      "subject": "bahasa_indonesia",
+      "title": "Radio Kakek",
+      "textType": "teks_fiksi",
+      "body": "Di sudut ruang tamu rumah Kakek ada radio tua berwarna cokelat. Antenanya bengkok dan salah satu tombolnya hilang, diganti pentol korek api. Setiap sore Kakek memutarnya, mencari siaran wayang.\n\nArga menganggap radio itu merepotkan. Suaranya berdesis, dan Kakek sering meminta tolong memutar antena ke arah tertentu. \"Kek, pakai ponsel saja. Siarannya jernih,\" kata Arga suatu sore.\n\nKakek tersenyum. \"Coba kamu putar sendiri.\"\n\nArga memutar tombolnya. Desis. Lalu suara samar. Lalu desis lagi. Ia menggeser antena sedikit demi sedikit sampai akhirnya suara gamelan terdengar jelas. Entah mengapa, ia merasa senang.\n\n\"Nah,\" kata Kakek. \"Kalau semua langsung jernih, kamu tidak akan merasakan itu.\"\n\nDua bulan kemudian Kakek meninggal. Radio itu dibungkus kain dan hendak disimpan di gudang. Arga menahannya.\n\nSekarang radio itu ada di kamar Arga. Setiap sore ia memutarnya, menggeser antena sedikit demi sedikit, menunggu suara yang jernih. Kadang ia menemukan siaran wayang, kadang tidak.\n\nYang selalu ia temukan adalah sore hari di ruang tamu, dan seseorang yang menunggu dengan sabar di sampingnya."
+    },
+    {
+      "id": "bi-stim-0051",
+      "subject": "bahasa_indonesia",
+      "title": "Katak yang Ingin Terbang",
+      "textType": "teks_fiksi",
+      "body": "Seekor katak muda bernama Kiko tinggal di kolam belakang rumah. Setiap hari ia memandangi burung-burung yang melintas di atas kepalanya.\n\n\"Kalau aku bisa terbang, aku akan melihat seluruh desa,\" katanya kepada induknya.\n\n\"Kakimu memang tidak untuk terbang,\" jawab induknya. \"Tetapi kakimu bisa melakukan sesuatu yang tidak bisa dilakukan burung.\"\n\nKiko tidak peduli. Ia mencoba berbagai cara. Ia melompat dari batu tertinggi dan terjatuh ke lumpur. Ia mengikat daun talas di punggungnya, lalu terjun dari pagar bambu dan mendarat di tumpukan jerami. Ia bahkan pernah menumpang di punggung angsa, tetapi jatuh sebelum angsa sempat mengepakkan sayap.\n\nSuatu hari, kolam mereka mengering. Hewan-hewan mencari sumber air baru. Burung-burung terbang tinggi dan cepat menemukan sungai, tetapi mereka tidak dapat menunjukkan jalannya kepada hewan darat.\n\nKiko melompat menyusuri parit kecil, masuk ke celah bebatuan, menyelam di genangan sempit, lalu muncul kembali. Ia melakukannya berulang-ulang sepanjang siang.\n\nMenjelang sore, Kiko kembali dengan kabar. Ia menemukan mata air yang tersembunyi di balik semak, hanya dua ratus langkah dari kolam.\n\n\"Bagaimana kau menemukannya?\" tanya Kelinci.\n\nKiko memandangi kakinya yang berlumpur. \"Aku tidak melihat dari atas,\" katanya. \"Aku menyusurinya dari bawah.\""
+    },
+    {
+      "id": "bi-stim-0052",
+      "subject": "bahasa_indonesia",
+      "title": "Pantun Nasihat",
+      "textType": "teks_fiksi",
+      "body": "Pergi ke pasar membeli talas,\nTalas dibungkus daun kelapa.\nRajin belajar di dalam kelas,\nIlmu didapat takkan sirna.\n\nBurung tekukur di ranting jati,\nTerbang sebentar lalu menepi.\nTutur yang lembut menyentuh hati,\nKata yang kasar melukai diri.\n\nAnak ayam turun sepuluh,\nMati satu tinggal sembilan.\nSatu per satu dikerjakan sungguh,\nPekerjaan berat terasa ringan.\n\nHujan turun membasahi jalan,\nAnak berlari mencari teduh.\nJangan menunda pekerjaan,\nWaktu berlalu takkan kembali penuh."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bi-fik-0040",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0050",
+      "stem": "Berdasarkan cerita tersebut, tombol radio Kakek yang hilang diganti dengan ....",
+      "choices": [
+        { "id": "a", "text": "pentol korek api" },
+        { "id": "b", "text": "potongan kayu kecil" },
+        { "id": "c", "text": "tutup botol plastik" },
+        { "id": "d", "text": "gulungan kertas" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf pertama menyebutkan antenanya bengkok dan salah satu tombolnya hilang, diganti pentol korek api."
+    },
+    {
+      "id": "bi-fik-0041",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0050",
+      "stem": "Mengapa Arga merasa senang setelah berhasil menemukan siaran gamelan?",
+      "choices": [
+        { "id": "a", "text": "Ia merasakan kepuasan karena memperolehnya dengan usaha sendiri" },
+        { "id": "b", "text": "Ia menyukai musik gamelan sejak kecil" },
+        { "id": "c", "text": "Ia ingin dipuji oleh Kakek di depan keluarga" },
+        { "id": "d", "text": "Ia berhasil memperbaiki antena radio yang bengkok" }
+      ],
+      "answer": "a",
+      "explanation": "Sebelumnya Arga menganggap radio itu merepotkan. Setelah ia sendiri menggeser antena sedikit demi sedikit sampai suaranya jernih, muncul rasa senang yang tidak ia duga. Ucapan Kakek sesudahnya menegaskan bahwa kepuasan itu datang justru karena tidak langsung jernih."
+    },
+    {
+      "id": "bi-fik-0042",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0050",
+      "stem": "Maksud kalimat penutup, \"Yang selalu ia temukan adalah sore hari di ruang tamu, dan seseorang yang menunggu dengan sabar di sampingnya,\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "radio itu kini menjadi cara Arga mengenang kakeknya" },
+        { "id": "b", "text": "Arga selalu berhasil menemukan siaran wayang setiap sore" },
+        { "id": "c", "text": "ada orang lain yang menemani Arga mendengarkan radio" },
+        { "id": "d", "text": "Arga memindahkan ruang tamu ke dalam kamarnya" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat itu dibuka dengan penegasan bahwa siaran wayang kadang tidak ditemukan. Yang selalu ditemukan bukanlah siaran, melainkan kenangan: suasana sore di ruang tamu bersama Kakek yang sudah meninggal. Jadi radio itu menjadi penghubung dengan kenangan."
+    },
+    {
+      "id": "bi-fik-0043",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0050",
+      "stem": "Mengapa Arga menahan radio itu ketika hendak disimpan di gudang?",
+      "choices": [
+        { "id": "a", "text": "Radio itu sudah menjadi sesuatu yang berarti baginya" },
+        { "id": "b", "text": "Radio itu ternyata mahal harganya" },
+        { "id": "c", "text": "Ia diminta menyimpannya oleh orang tuanya" },
+        { "id": "d", "text": "Ia ingin memperbaikinya lalu menjualnya" }
+      ],
+      "answer": "a",
+      "explanation": "Di awal cerita Arga menganggap radio itu merepotkan, tetapi setelah pengalaman sore itu dan sepeninggal Kakek, sikapnya berubah. Menahan radio dari gudang lalu menaruhnya di kamar menunjukkan benda itu kini bernilai bagi dirinya."
+    },
+    {
+      "id": "bi-fik-0044",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0050",
+      "stem": "Pilihlah semua pernyataan yang sesuai dengan isi cerita.",
+      "choices": [
+        { "id": "a", "text": "Kakek gemar mendengarkan siaran wayang setiap sore" },
+        { "id": "b", "text": "Arga semula menyarankan Kakek memakai ponsel" },
+        { "id": "c", "text": "Radio itu akhirnya disimpan di kamar Arga" },
+        { "id": "d", "text": "Kakek membeli radio baru sebelum meninggal" },
+        { "id": "e", "text": "Arga membuang radio itu ke gudang" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ketiga pernyataan pertama tertulis jelas dalam cerita. Kakek tidak pernah membeli radio baru, dan Arga justru menahan radio itu agar tidak disimpan di gudang."
+    },
+    {
+      "id": "bi-fik-0045",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Tokoh Kiko dalam cerita tersebut adalah seekor ....",
+      "choices": [
+        { "id": "a", "text": "katak muda" },
+        { "id": "b", "text": "burung kecil" },
+        { "id": "c", "text": "angsa putih" },
+        { "id": "d", "text": "kelinci hutan" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat pembuka cerita menyebutkan, \"Seekor katak muda bernama Kiko tinggal di kolam belakang rumah.\""
+    },
+    {
+      "id": "bi-fik-0046",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Mengapa burung-burung tidak dapat menolong hewan darat mencari air?",
+      "choices": [
+        { "id": "a", "text": "Mereka menemukan sungai dari atas, tetapi tidak dapat menunjukkan jalannya di darat" },
+        { "id": "b", "text": "Mereka terbang terlalu jauh meninggalkan desa" },
+        { "id": "c", "text": "Mereka tidak mau berbagi sumber air dengan hewan lain" },
+        { "id": "d", "text": "Mereka tidak menemukan sumber air sama sekali" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf itu menyebutkan burung terbang tinggi dan cepat menemukan sungai, tetapi mereka tidak dapat menunjukkan jalannya kepada hewan darat. Melihat dari atas berbeda dengan mengetahui jalur yang bisa ditempuh di permukaan tanah."
+    },
+    {
+      "id": "bi-fik-0047",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Amanat yang paling tepat dari cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Setiap makhluk punya kelebihan sendiri yang berguna pada saat yang tepat" },
+        { "id": "b", "text": "Bermimpi terlalu tinggi hanya membuang waktu dan tenaga" },
+        { "id": "c", "text": "Burung selalu lebih unggul daripada hewan darat" },
+        { "id": "d", "text": "Kolam yang mengering sebaiknya segera ditinggalkan" }
+      ],
+      "answer": "a",
+      "explanation": "Induk Kiko sejak awal mengatakan kaki Kiko bisa melakukan sesuatu yang tidak bisa dilakukan burung, dan terbukti ketika kemampuan melompat serta menyelamnya justru yang menyelamatkan semua hewan. Cerita tidak melarang bermimpi, melainkan mengajak mengenali kelebihan sendiri."
+    },
+    {
+      "id": "bi-fik-0048",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Maksud ucapan Kiko, \"Aku tidak melihat dari atas. Aku menyusurinya dari bawah,\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "ia berhasil karena memakai cara yang sesuai dengan kemampuannya sendiri" },
+        { "id": "b", "text": "ia merasa lebih hebat daripada burung-burung di desanya" },
+        { "id": "c", "text": "ia kecewa karena tidak pernah berhasil terbang" },
+        { "id": "d", "text": "ia menemukan mata air secara kebetulan saja" }
+      ],
+      "answer": "a",
+      "explanation": "Sepanjang cerita Kiko berusaha meniru burung dan selalu gagal. Ia baru berhasil ketika memakai kemampuan aslinya: melompat, menyelinap di celah batu, dan menyelam. Ucapan itu menegaskan perbedaan cara, bukan perbandingan siapa yang lebih hebat."
+    },
+    {
+      "id": "bi-fik-0049",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan isi cerita.",
+      "statements": [
+        { "id": "s1", "text": "Kiko pernah mengikat daun talas di punggungnya" },
+        { "id": "s2", "text": "Kiko berhasil terbang setelah menumpang angsa" },
+        { "id": "s3", "text": "Mata air ditemukan sekitar dua ratus langkah dari kolam" },
+        { "id": "s4", "text": "Induk Kiko melarangnya keluar dari kolam" }
+      ],
+      "categories": [
+        { "id": "sesuai", "label": "Sesuai" },
+        { "id": "tidak", "label": "Tidak sesuai" }
+      ],
+      "answer": {
+        "s1": "sesuai",
+        "s2": "tidak",
+        "s3": "sesuai",
+        "s4": "tidak"
+      },
+      "explanation": "Pernyataan s1 dan s3 tertulis langsung. Pernyataan s2 keliru karena Kiko justru jatuh sebelum angsa sempat mengepakkan sayap. Pernyataan s4 juga keliru; induknya hanya mengingatkan bahwa kaki Kiko bukan untuk terbang."
+    },
+    {
+      "id": "bi-fik-0050",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0051",
+      "stem": "Watak Kiko pada bagian awal cerita adalah ....",
+      "choices": [
+        { "id": "a", "text": "pantang menyerah tetapi belum mengenali kemampuan dirinya" },
+        { "id": "b", "text": "malas dan enggan mencoba hal baru" },
+        { "id": "c", "text": "sombong dan suka merendahkan hewan lain" },
+        { "id": "d", "text": "penakut dan tidak mau keluar dari kolam" }
+      ],
+      "answer": "a",
+      "explanation": "Kiko mencoba berkali-kali dengan cara berbeda meski selalu gagal, jadi ia jelas pantang menyerah. Namun semua usahanya diarahkan untuk meniru burung, bukan mengembangkan kemampuannya sendiri, sehingga ia belum mengenali kelebihannya."
+    },
+    {
+      "id": "bi-fik-0051",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0052",
+      "stem": "Baris yang merupakan sampiran pada pantun pertama adalah ....",
+      "choices": [
+        { "id": "a", "text": "baris pertama dan kedua" },
+        { "id": "b", "text": "baris ketiga dan keempat" },
+        { "id": "c", "text": "baris pertama dan ketiga" },
+        { "id": "d", "text": "seluruh baris pantun" }
+      ],
+      "answer": "a",
+      "explanation": "Pantun terdiri atas empat baris. Dua baris pertama disebut sampiran, yang biasanya berupa gambaran alam atau kegiatan sehari-hari. Dua baris terakhir adalah isi yang memuat pesannya."
+    },
+    {
+      "id": "bi-fik-0052",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0052",
+      "stem": "Pesan pantun kedua adalah ....",
+      "choices": [
+        { "id": "a", "text": "berbicara dengan lembut karena kata kasar dapat melukai" },
+        { "id": "b", "text": "burung tekukur sebaiknya tidak diganggu" },
+        { "id": "c", "text": "jangan terlalu lama menetap di satu tempat" },
+        { "id": "d", "text": "berbicara sedikit lebih baik daripada banyak bicara" }
+      ],
+      "answer": "a",
+      "explanation": "Isi pantun kedua ada pada dua baris terakhir: \"Tutur yang lembut menyentuh hati, kata yang kasar melukai diri.\" Dua baris pertama tentang burung tekukur hanyalah sampiran yang berfungsi membangun rima."
+    },
+    {
+      "id": "bi-fik-0053",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0052",
+      "stem": "Pantun ketiga paling tepat dibacakan untuk menasihati seseorang yang ....",
+      "choices": [
+        { "id": "a", "text": "merasa putus asa menghadapi tugas yang menumpuk" },
+        { "id": "b", "text": "sedang memelihara anak ayam di rumahnya" },
+        { "id": "c", "text": "berbicara kasar kepada adiknya" },
+        { "id": "d", "text": "terlambat datang ke sekolah setiap hari" }
+      ],
+      "answer": "a",
+      "explanation": "Isi pantun ketiga berbunyi, \"Satu per satu dikerjakan sungguh, pekerjaan berat terasa ringan.\" Nasihat itu cocok bagi orang yang kewalahan menghadapi banyak tugas. Bagian anak ayam hanyalah sampiran."
+    },
+    {
+      "id": "bi-fik-0054",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0052",
+      "stem": "Rima atau pola bunyi akhir pada pantun pertama adalah ....",
+      "choices": [
+        { "id": "a", "text": "a-b-a-b" },
+        { "id": "b", "text": "a-a-a-a" },
+        { "id": "c", "text": "a-a-b-b" },
+        { "id": "d", "text": "a-b-b-a" }
+      ],
+      "answer": "a",
+      "explanation": "Bunyi akhir tiap barisnya adalah talas, kelapa, kelas, sirna. Baris pertama berima dengan baris ketiga, dan baris kedua berima dengan baris keempat, sehingga polanya a-b-a-b. Pola inilah ciri khas pantun."
+    },
+    {
+      "id": "bi-fik-0055",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0052",
+      "stem": "Pilihlah semua pernyataan yang benar tentang keempat pantun tersebut.",
+      "choices": [
+        { "id": "a", "text": "Setiap pantun terdiri atas empat baris" },
+        { "id": "b", "text": "Dua baris terakhir memuat pesan yang ingin disampaikan" },
+        { "id": "c", "text": "Keempatnya termasuk pantun nasihat" },
+        { "id": "d", "text": "Sampiran selalu berhubungan langsung dengan isinya" },
+        { "id": "e", "text": "Setiap pantun terdiri atas dua baris saja" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Keempat pantun sama-sama terdiri atas empat baris dengan isi berupa nasihat pada dua baris terakhir. Sampiran tidak harus berhubungan dengan isi; fungsinya terutama membangun rima, seperti terlihat pada pantun tentang burung tekukur dan anak ayam."
+    }
+  ]
+}

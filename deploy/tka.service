@@ -1,0 +1,53 @@
+[Unit]
+Description=TKA practice app for grade 6
+Documentation=file:///opt/tka/docs/DEPLOY.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tka
+Group=tka
+WorkingDirectory=/opt/tka/current
+
+# StateDirectory creates /var/lib/tka and sets its ownership automatically, so
+# the SQLite files need no manual permission handling.
+StateDirectory=tka
+StateDirectoryMode=0750
+
+EnvironmentFile=/etc/tka/tka.env
+Environment=NODE_ENV=production
+# Dates on screen follow APP_TIMEZONE in the code; this keeps logs and anything
+# else that reads the process clock in the same zone.
+Environment=TZ=Asia/Jakarta
+# Listen on loopback only; Nginx is what faces the internet.
+Environment=HOSTNAME=127.0.0.1
+Environment=PORT=3000
+
+# `current` is a symlink to the active build under /opt/tka/releases.
+ExecStart=/usr/bin/node /opt/tka/current/server.js
+
+Restart=always
+RestartSec=3
+KillSignal=SIGINT
+TimeoutStopSec=20
+
+# Basic hardening: the process may only write to its own state directory.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+MemoryMax=1G
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=tka
+
+[Install]
+WantedBy=multi-user.target

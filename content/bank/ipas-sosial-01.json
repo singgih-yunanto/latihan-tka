@@ -1,0 +1,227 @@
+{
+  "batch": "ipas-sosial-01",
+  "note": "IPAS - social strands: Indonesian geography, Nusantara history, society and economy",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-geo-0001",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Indonesia terletak di antara dua benua dan dua samudra. Kedua benua tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Asia dan Australia" },
+        { "id": "b", "text": "Asia dan Afrika" },
+        { "id": "c", "text": "Australia dan Amerika" },
+        { "id": "d", "text": "Asia dan Eropa" }
+      ],
+      "answer": "a",
+      "explanation": "Secara geografis Indonesia diapit Benua Asia di sebelah utara dan Benua Australia di sebelah selatan, serta Samudra Hindia dan Samudra Pasifik. Letak ini membuat Indonesia berada di jalur pelayaran dan perdagangan dunia."
+    },
+    {
+      "id": "ipas-geo-0002",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar penampang wilayah berikut. Jenis mata pencaharian yang paling sesuai untuk penduduk di daerah yang ditunjuk huruf Q adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 180\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 150 L 60 60 L 110 110 L 160 70 L 220 140 L 330 140 L 330 180 L 0 180 Z\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 250 140 L 330 140 L 330 180 L 250 180 Z\" fill=\"currentColor\" fill-opacity=\"0.3\"/><line x1=\"60\" y1=\"60\" x2=\"30\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"32\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">P</text><line x1=\"160\" y1=\"70\" x2=\"160\" y2=\"38\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"160\" y=\"32\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">Q</text><line x1=\"290\" y1=\"160\" x2=\"290\" y2=\"120\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"290\" y=\"114\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"middle\">R</text><text x=\"290\" y=\"175\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">laut</text></svg>",
+        "alt": "Penampang wilayah dari pegunungan bertanda P dan Q di bagian tinggi hingga wilayah laut bertanda R"
+      },
+      "choices": [
+        { "id": "a", "text": "petani sayuran dan buah dataran tinggi" },
+        { "id": "b", "text": "nelayan penangkap ikan laut" },
+        { "id": "c", "text": "petani tambak garam" },
+        { "id": "d", "text": "pekerja pelabuhan bongkar muat" }
+      ],
+      "answer": "a",
+      "explanation": "Huruf Q menunjuk daerah pegunungan atau dataran tinggi yang berudara sejuk dan bertanah subur. Mata pencaharian yang sesuai adalah bertani sayuran dan buah seperti kubis, wortel, dan stroberi. Nelayan, tambak garam, dan pekerja pelabuhan cocok untuk daerah pantai seperti huruf R."
+    },
+    {
+      "id": "ipas-geo-0003",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Indonesia dilalui pertemuan tiga lempeng bumi. Akibat yang paling tepat dari kondisi tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "sering terjadi gempa bumi dan banyak terdapat gunung berapi aktif" },
+        { "id": "b", "text": "curah hujan sepanjang tahun menjadi sangat rendah" },
+        { "id": "c", "text": "wilayah Indonesia mengalami empat musim setiap tahun" },
+        { "id": "d", "text": "seluruh wilayah Indonesia memiliki tanah berpasir" }
+      ],
+      "answer": "a",
+      "explanation": "Pertemuan lempeng Indo-Australia, Eurasia, dan Pasifik membuat kerak bumi di Indonesia tidak stabil sehingga sering terjadi gempa tektonik dan terbentuk banyak gunung berapi. Kondisi itu juga membuat tanah vulkanik Indonesia subur. Musim dan curah hujan lebih ditentukan letak astronomis dan angin muson, bukan lempeng."
+    },
+    {
+      "id": "ipas-geo-0004",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan kenampakan alam berikut ke dalam kenampakan alam daratan atau perairan.",
+      "statements": [
+        { "id": "s1", "text": "Selat" },
+        { "id": "s2", "text": "Dataran tinggi" },
+        { "id": "s3", "text": "Teluk" },
+        { "id": "s4", "text": "Tanjung" }
+      ],
+      "categories": [
+        { "id": "darat", "label": "Daratan" },
+        { "id": "air", "label": "Perairan" }
+      ],
+      "answer": {
+        "s1": "air",
+        "s2": "darat",
+        "s3": "air",
+        "s4": "darat"
+      },
+      "explanation": "Selat adalah laut sempit di antara dua pulau dan teluk adalah bagian laut yang menjorok ke darat, keduanya kenampakan perairan. Dataran tinggi adalah wilayah daratan di ketinggian, sedangkan tanjung adalah daratan yang menjorok ke laut. Teluk dan tanjung sering tertukar karena bentuknya berkebalikan."
+    },
+    {
+      "id": "ipas-sej-0001",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Kerajaan Sriwijaya yang berpusat di Sumatra dikenal sebagai kerajaan maritim yang besar. Hal tersebut terutama karena Sriwijaya ....",
+      "choices": [
+        { "id": "a", "text": "menguasai jalur perdagangan laut di Selat Malaka" },
+        { "id": "b", "text": "memiliki wilayah pertanian padi yang sangat luas" },
+        { "id": "c", "text": "membangun candi terbesar di Pulau Jawa" },
+        { "id": "d", "text": "menjadi pusat penambangan emas terbesar di Nusantara" }
+      ],
+      "answer": "a",
+      "explanation": "Sriwijaya disebut kerajaan maritim karena kekuatan dan kemakmurannya bertumpu pada penguasaan jalur pelayaran, terutama Selat Malaka yang menjadi jalur perdagangan antara India dan Tiongkok. Kerajaan yang bertumpu pada pertanian dan membangun candi besar di Jawa adalah Mataram Kuno."
+    },
+    {
+      "id": "ipas-sej-0002",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Peristiwa Sumpah Pemuda pada 28 Oktober 1928 memiliki arti penting bagi perjuangan bangsa Indonesia karena ....",
+      "choices": [
+        { "id": "a", "text": "menyatukan perjuangan yang sebelumnya bersifat kedaerahan menjadi perjuangan nasional" },
+        { "id": "b", "text": "menandai berakhirnya penjajahan Belanda di Indonesia" },
+        { "id": "c", "text": "menjadi awal dibentuknya Tentara Nasional Indonesia" },
+        { "id": "d", "text": "menetapkan Pancasila sebagai dasar negara Indonesia" }
+      ],
+      "answer": "a",
+      "explanation": "Sebelum 1928, perlawanan terhadap penjajah umumnya bersifat kedaerahan sehingga mudah dipatahkan. Sumpah Pemuda mengikrarkan satu nusa, satu bangsa, dan satu bahasa sehingga perjuangan berubah menjadi gerakan nasional. Penjajahan Belanda baru berakhir jauh setelahnya, dan Pancasila ditetapkan pada 1945."
+    },
+    {
+      "id": "ipas-sej-0003",
+      "subject": "ipas",
+      "domain": "sejarah",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua tokoh yang berperan langsung dalam peristiwa sekitar Proklamasi Kemerdekaan Indonesia.",
+      "choices": [
+        { "id": "a", "text": "Ir. Soekarno" },
+        { "id": "b", "text": "Drs. Mohammad Hatta" },
+        { "id": "c", "text": "Fatmawati" },
+        { "id": "d", "text": "Pangeran Diponegoro" },
+        { "id": "e", "text": "Sultan Hasanuddin" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ir. Soekarno dan Drs. Mohammad Hatta membacakan dan menandatangani teks proklamasi, sedangkan Fatmawati menjahit bendera Merah Putih yang dikibarkan pada 17 Agustus 1945. Pangeran Diponegoro dan Sultan Hasanuddin adalah pahlawan perlawanan daerah yang hidup jauh sebelum masa proklamasi."
+    },
+    {
+      "id": "ipas-sos-0001",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Kegiatan ekonomi yang menyalurkan barang dari produsen kepada konsumen disebut ....",
+      "choices": [
+        { "id": "a", "text": "distribusi" },
+        { "id": "b", "text": "produksi" },
+        { "id": "c", "text": "konsumsi" },
+        { "id": "d", "text": "investasi" }
+      ],
+      "answer": "a",
+      "explanation": "Ada tiga kegiatan ekonomi pokok. Produksi adalah kegiatan menghasilkan barang atau jasa, distribusi adalah kegiatan menyalurkannya kepada konsumen, dan konsumsi adalah kegiatan memakai barang atau jasa tersebut. Pedagang dan sopir angkutan barang berperan dalam distribusi."
+    },
+    {
+      "id": "ipas-sos-0002",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Di sebuah desa, warga bergotong royong memperbaiki jembatan yang rusak tanpa dibayar. Nilai yang tercermin dari kegiatan tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "kerja sama demi kepentingan bersama" },
+        { "id": "b", "text": "persaingan untuk mendapat penghargaan" },
+        { "id": "c", "text": "kemandirian setiap keluarga" },
+        { "id": "d", "text": "penghematan pengeluaran pribadi" }
+      ],
+      "answer": "a",
+      "explanation": "Gotong royong adalah bekerja bersama-sama secara sukarela untuk menyelesaikan pekerjaan yang manfaatnya dirasakan seluruh warga. Nilai utamanya adalah kerja sama dan mendahulukan kepentingan bersama, bukan keuntungan pribadi."
+    },
+    {
+      "id": "ipas-sos-0003",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Menjelang hari raya, harga daging ayam di pasar naik cukup tinggi meskipun jumlah peternak tidak berkurang. Penyebab yang paling masuk akal adalah ....",
+      "choices": [
+        { "id": "a", "text": "permintaan pembeli meningkat tajam sementara persediaan tetap" },
+        { "id": "b", "text": "pedagang sepakat menutup kiosnya selama hari raya" },
+        { "id": "c", "text": "biaya pakan ternak tiba-tiba turun drastis" },
+        { "id": "d", "text": "jumlah pembeli di pasar berkurang menjelang hari raya" }
+      ],
+      "answer": "a",
+      "explanation": "Harga dipengaruhi hubungan permintaan dan penawaran. Menjelang hari raya banyak keluarga membeli daging ayam sehingga permintaan melonjak, sementara persediaan dari peternak tidak bertambah secepat itu. Ketika permintaan naik dan penawaran tetap, harga akan naik. Turunnya biaya pakan justru cenderung menurunkan harga."
+    },
+    {
+      "id": "ipas-sos-0004",
+      "subject": "ipas",
+      "domain": "sosial_ekonomi",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua sikap yang tepat dalam menghadapi keragaman budaya di Indonesia.",
+      "choices": [
+        { "id": "a", "text": "Menghormati teman yang berbeda suku dan agama" },
+        { "id": "b", "text": "Mau mempelajari tarian daerah lain" },
+        { "id": "c", "text": "Menggunakan bahasa Indonesia saat berbicara dengan teman dari daerah lain" },
+        { "id": "d", "text": "Menganggap budaya daerah sendiri paling baik" },
+        { "id": "e", "text": "Memilih berteman hanya dengan yang sesuku" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Keragaman budaya perlu disikapi dengan saling menghormati, mau mengenal budaya lain, dan menggunakan bahasa Indonesia sebagai bahasa pemersatu. Menganggap budaya sendiri paling baik dan membatasi pertemanan berdasarkan suku justru memecah persatuan."
+    },
+    {
+      "id": "ipas-geo-0005",
+      "subject": "ipas",
+      "domain": "geografi",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Daerah perbukitan yang hutannya ditebang habis lebih mudah mengalami tanah longsor. Hal tersebut terjadi karena ....",
+      "choices": [
+        { "id": "a", "text": "akar pohon yang menahan tanah sudah tidak ada lagi" },
+        { "id": "b", "text": "suhu udara di perbukitan menjadi lebih panas" },
+        { "id": "c", "text": "curah hujan di daerah itu otomatis bertambah banyak" },
+        { "id": "d", "text": "jenis batuan di perbukitan berubah menjadi lebih lunak" }
+      ],
+      "answer": "a",
+      "explanation": "Akar pohon mengikat butiran tanah sehingga tanah tetap kokoh saat hujan deras. Bila pohon ditebang habis, tidak ada lagi yang menahan tanah dan air hujan langsung mengikis permukaan, sehingga tanah mudah longsor. Penebangan hutan memang memanaskan udara, tetapi bukan itu penyebab longsornya."
+    }
+  ]
+}

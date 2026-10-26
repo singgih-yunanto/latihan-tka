@@ -1,0 +1,328 @@
+{
+  "batch": "bi-fiksi-01",
+  "note": "Bahasa Indonesia - Teks fiksi: children's stories, fables, folk tales",
+  "stimuli": [
+    {
+      "id": "bi-stim-0010",
+      "subject": "bahasa_indonesia",
+      "title": "Sepatu Baru Rahmat",
+      "textType": "teks_fiksi",
+      "body": "Rahmat memandangi sepatunya yang sudah menganga di bagian depan. Setiap kali berjalan, sepatu itu seperti ikut berbicara. Teman-temannya menjulukinya sepatu buaya.\n\n\"Bu, kapan Rahmat bisa beli sepatu baru?\" tanyanya suatu malam.\n\nIbu berhenti menjahit. \"Bulan depan, ya. Uang Ibu belum cukup.\"\n\nRahmat mengangguk. Ia tahu ayahnya belum lama berhenti bekerja. Malam itu ia tidur tanpa banyak bicara.\n\nKeesokan harinya di sekolah, Bu Guru mengumumkan lomba kebersihan kelas. Kelas yang menang akan mendapat piala. Rahmat mengacungkan tangan paling cepat saat Bu Guru mencari ketua regu kebersihan.\n\nSelama dua minggu, Rahmat datang paling pagi. Ia menyapu, mengelap jendela, dan menata buku di rak. Teman-teman yang semula malas ikut tergerak melihatnya. Andi yang biasanya datang terlambat mulai membawa lap dari rumah.\n\nKelas Rahmat menang. Namun yang membuat Rahmat terdiam bukan pialanya. Saat pengumuman, Bu Guru berkata, \"Regu ini menang bukan karena satu orang bekerja keras, tetapi karena satu orang membuat yang lain ikut bekerja.\"\n\nPulang sekolah, Rahmat melangkah ringan. Sepatunya masih menganga dan masih berbunyi. Tetapi entah mengapa, bunyi itu tidak lagi terdengar memalukan di telinganya."
+    },
+    {
+      "id": "bi-stim-0011",
+      "subject": "bahasa_indonesia",
+      "title": "Kancil dan Burung Pipit",
+      "textType": "teks_fiksi",
+      "body": "Musim kemarau membuat sungai di tepi hutan menyusut. Hanya tersisa satu kubangan kecil yang airnya masih jernih. Kancil menemukannya lebih dulu.\n\n\"Ini kubanganku,\" kata Kancil sambil menancapkan ranting di tepinya. \"Siapa pun yang mau minum harus meminta izin kepadaku.\"\n\nHewan-hewan kecil menurut saja. Tupai meminta izin, Kadal meminta izin, bahkan Kelinci yang pemberani ikut menunduk. Kancil merasa dirinya penting.\n\nHanya Burung Pipit yang tidak datang meminta izin. Setiap pagi ia terbang, hinggap di ranting di atas kubangan, lalu minum beberapa tetes embun yang menempel di daun.\n\n\"Hei, kau mencuri airku,\" tegur Kancil.\n\n\"Aku minum embun, bukan air kubanganmu,\" jawab Pipit.\n\nKancil mendengus. Hari demi hari ia menunggui kubangan itu, hampir tidak pernah pergi mencari makan. Tubuhnya makin kurus.\n\nSuatu pagi hujan pertama turun. Kubangan meluap, air mengalir ke mana-mana, dan ranting penanda milik Kancil hanyut. Seluruh hutan kembali punya air.\n\nKancil berdiri di tepi sungai yang kembali penuh. Ia menoleh pada Pipit yang sedang minum di sampingnya.\n\n\"Kau tidak pernah memintanya, tetapi kau tidak pernah kehausan,\" kata Kancil pelan.\n\nPipit mengibaskan sayap. \"Aku hanya mengambil yang kubutuhkan. Yang menjaga terlalu banyak justru kehilangan waktu untuk hidup.\""
+    },
+    {
+      "id": "bi-stim-0012",
+      "subject": "bahasa_indonesia",
+      "title": "Asal Mula Telaga Warna",
+      "textType": "teks_fiksi",
+      "body": "Dahulu di sebuah kerajaan, hiduplah Raja dan Ratu yang lama menanti kehadiran anak. Setelah bertahun-tahun berdoa, lahirlah seorang putri. Seluruh negeri bersukacita.\n\nPutri itu tumbuh menjadi gadis cantik, tetapi sangat dimanjakan. Apa pun yang ia minta selalu dipenuhi. Tidak seorang pun berani menolak keinginannya, bahkan Raja sendiri.\n\nMenjelang ulang tahun sang Putri yang ketujuh belas, Raja mengumpulkan sumbangan sukarela dari rakyat. Emas, perak, dan permata terkumpul banyak. Semua itu dilebur menjadi sebuah kalung yang sangat indah, berkilau dengan bermacam warna.\n\nPada hari perayaan, Raja menyerahkan kalung itu di hadapan rakyat yang memenuhi halaman istana.\n\n\"Terimalah kalung ini, Putriku. Rakyatlah yang mengumpulkannya untukmu.\"\n\nPutri menerima kalung itu, memandangnya sekilas, lalu mengerutkan kening. \"Aku tidak suka. Warnanya terlalu ramai,\" katanya. Ia melemparkan kalung itu ke lantai. Kalung itu putus, dan butiran permatanya berhamburan.\n\nHalaman istana seketika hening. Ratu menangis. Satu per satu rakyat ikut menangis, lalu terdengar suara gemuruh dari dalam tanah.\n\nAir menyembur dari tempat permata berserakan. Airnya terus naik hingga menenggelamkan istana. Yang tersisa kemudian hanyalah sebuah telaga luas.\n\nHingga kini, permukaan telaga itu tampak berwarna-warni bila terkena cahaya matahari. Orang menyebutnya Telaga Warna."
+    }
+  ],
+  "questions": [
+    {
+      "id": "bi-fik-0001",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0010",
+      "stem": "Tokoh utama dalam cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rahmat" },
+        { "id": "b", "text": "Ibu" },
+        { "id": "c", "text": "Bu Guru" },
+        { "id": "d", "text": "Andi" }
+      ],
+      "answer": "a",
+      "explanation": "Tokoh utama adalah tokoh yang paling banyak diceritakan dan menjadi pusat peristiwa. Seluruh bagian cerita mengikuti Rahmat, mulai dari sepatunya yang rusak, keinginannya membeli sepatu baru, sampai keputusannya memimpin regu kebersihan."
+    },
+    {
+      "id": "bi-fik-0002",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0010",
+      "stem": "Mengapa Rahmat tidur tanpa banyak bicara setelah berbicara dengan Ibu?",
+      "choices": [
+        { "id": "a", "text": "Ia mengerti keadaan keluarganya sedang sulit sehingga memilih tidak menuntut" },
+        { "id": "b", "text": "Ia marah karena permintaannya ditolak oleh Ibu" },
+        { "id": "c", "text": "Ia mengantuk setelah seharian bermain di luar rumah" },
+        { "id": "d", "text": "Ia takut dimarahi Ayah yang sedang tidak bekerja" }
+      ],
+      "answer": "a",
+      "explanation": "Teks menyebutkan Rahmat mengangguk dan tahu ayahnya belum lama berhenti bekerja. Kalimat itu menunjukkan Rahmat memahami keadaan keluarganya, sehingga ia menahan diri. Tidak ada tanda ia marah, mengantuk, atau takut."
+    },
+    {
+      "id": "bi-fik-0003",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0010",
+      "stem": "Watak Rahmat berdasarkan cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "pengertian dan bersungguh-sungguh" },
+        { "id": "b", "text": "pemalu dan mudah menyerah" },
+        { "id": "c", "text": "suka mengeluh dan iri hati" },
+        { "id": "d", "text": "keras kepala dan suka memerintah" }
+      ],
+      "answer": "a",
+      "explanation": "Rahmat pengertian karena menerima keadaan keluarganya tanpa menuntut, dan bersungguh-sungguh karena selama dua minggu datang paling pagi untuk membersihkan kelas. Ia juga tidak memerintah teman-temannya; mereka tergerak sendiri melihat kesungguhannya."
+    },
+    {
+      "id": "bi-fik-0004",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0010",
+      "stem": "Maksud kalimat \"Sepatunya masih menganga dan masih berbunyi. Tetapi entah mengapa, bunyi itu tidak lagi terdengar memalukan di telinganya\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rahmat menemukan hal lain yang membuatnya bangga sehingga tidak lagi malu pada kekurangannya" },
+        { "id": "b", "text": "Sepatu Rahmat sudah diperbaiki sehingga bunyinya berubah" },
+        { "id": "c", "text": "Rahmat sudah terbiasa mendengar bunyi sepatunya sejak lama" },
+        { "id": "d", "text": "Teman-teman Rahmat berhenti menjuluki sepatunya sepatu buaya" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat itu menegaskan bahwa keadaan sepatunya tidak berubah sama sekali, yang berubah adalah perasaan Rahmat. Setelah dipuji Bu Guru karena membuat teman-temannya ikut bekerja, ia menemukan sumber kebanggaan baru. Inilah pesan cerita: harga diri tidak ditentukan barang yang dipakai."
+    },
+    {
+      "id": "bi-fik-0005",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0010",
+      "stem": "Pilihlah semua amanat yang dapat dipetik dari cerita tersebut.",
+      "choices": [
+        { "id": "a", "text": "Memahami keadaan orang tua adalah sikap yang terpuji" },
+        { "id": "b", "text": "Kesungguhan seseorang dapat menggerakkan orang lain" },
+        { "id": "c", "text": "Harga diri tidak ditentukan oleh barang yang kita pakai" },
+        { "id": "d", "text": "Piala lebih berharga daripada persahabatan" },
+        { "id": "e", "text": "Anak yang miskin sebaiknya tidak ikut lomba" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ketiga amanat pertama tercermin langsung dalam cerita: Rahmat memahami keadaan keluarganya, kesungguhannya menggerakkan Andi dan teman lain, dan pada akhirnya ia tidak lagi malu pada sepatunya. Dua pilihan terakhir bertentangan dengan isi cerita."
+    },
+    {
+      "id": "bi-fik-0006",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Latar tempat pada cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "kubangan air di tepi hutan" },
+        { "id": "b", "text": "puncak bukit di tengah hutan" },
+        { "id": "c", "text": "sawah milik penduduk desa" },
+        { "id": "d", "text": "sarang burung di atas pohon" }
+      ],
+      "answer": "a",
+      "explanation": "Sejak awal cerita menyebutkan sungai di tepi hutan yang menyusut hingga tersisa satu kubangan kecil, dan seluruh peristiwa berlangsung di sekitar kubangan itu."
+    },
+    {
+      "id": "bi-fik-0007",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Mengapa tubuh Kancil menjadi makin kurus?",
+      "choices": [
+        { "id": "a", "text": "Ia sibuk menunggui kubangan sehingga hampir tidak pernah mencari makan" },
+        { "id": "b", "text": "Ia sakit karena meminum air kubangan yang kotor" },
+        { "id": "c", "text": "Ia kelelahan mengusir hewan-hewan yang datang" },
+        { "id": "d", "text": "Ia berpuasa menunggu hujan pertama turun" }
+      ],
+      "answer": "a",
+      "explanation": "Teks menyatakan, \"Hari demi hari ia menunggui kubangan itu, hampir tidak pernah pergi mencari makan. Tubuhnya makin kurus.\" Jadi sebabnya adalah ia mengorbankan waktu mencari makan demi menjaga kubangan."
+    },
+    {
+      "id": "bi-fik-0008",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Amanat yang paling sesuai dengan cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Menguasai lebih dari yang dibutuhkan justru merugikan diri sendiri" },
+        { "id": "b", "text": "Hewan yang kecil selalu lebih pandai daripada hewan yang besar" },
+        { "id": "c", "text": "Kita harus meminta izin sebelum memakai milik orang lain" },
+        { "id": "d", "text": "Musim kemarau membuat semua makhluk hidup menderita" }
+      ],
+      "answer": "a",
+      "explanation": "Kancil kehilangan waktu mencari makan karena sibuk menguasai kubangan, dan akhirnya kekuasaan itu lenyap saat hujan turun. Ucapan Pipit di akhir cerita menegaskannya: yang menjaga terlalu banyak justru kehilangan waktu untuk hidup. Pilihan c justru sikap yang dipaksakan Kancil, bukan pesan ceritanya."
+    },
+    {
+      "id": "bi-fik-0009",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Tentukan apakah setiap pernyataan berikut sesuai atau tidak sesuai dengan isi cerita.",
+      "statements": [
+        { "id": "s1", "text": "Kancil menandai kubangan dengan sebuah ranting" },
+        { "id": "s2", "text": "Burung Pipit meminta izin kepada Kancil sebelum minum" },
+        { "id": "s3", "text": "Kubangan meluap setelah hujan pertama turun" },
+        { "id": "s4", "text": "Kelinci menolak tunduk kepada Kancil" }
+      ],
+      "categories": [
+        { "id": "sesuai", "label": "Sesuai" },
+        { "id": "tidak", "label": "Tidak sesuai" }
+      ],
+      "answer": {
+        "s1": "sesuai",
+        "s2": "tidak",
+        "s3": "sesuai",
+        "s4": "tidak"
+      },
+      "explanation": "Pernyataan s1 dan s3 tertulis langsung dalam cerita. Pernyataan s2 tidak sesuai karena justru hanya Pipit yang tidak meminta izin. Pernyataan s4 juga tidak sesuai karena teks menyebut bahkan Kelinci yang pemberani ikut menunduk."
+    },
+    {
+      "id": "bi-fik-0010",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Makna kata mendengus pada kalimat \"Kancil mendengus\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "mengembuskan napas keras sebagai tanda jengkel" },
+        { "id": "b", "text": "berteriak sekuat tenaga karena marah" },
+        { "id": "c", "text": "menangis pelan karena bersedih" },
+        { "id": "d", "text": "tertawa kecil karena merasa menang" }
+      ],
+      "answer": "a",
+      "explanation": "Mendengus berarti mengembuskan napas dengan keras lewat hidung, biasanya menandakan kejengkelan atau ketidakpuasan. Dalam cerita, Kancil mendengus setelah jawabannya dipatahkan Pipit, jadi ia sedang jengkel."
+    },
+    {
+      "id": "bi-fik-0011",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0012",
+      "stem": "Kalung untuk sang Putri dibuat dari ....",
+      "choices": [
+        { "id": "a", "text": "sumbangan emas, perak, dan permata dari rakyat" },
+        { "id": "b", "text": "harta simpanan Raja di dalam istana" },
+        { "id": "c", "text": "hadiah dari kerajaan tetangga" },
+        { "id": "d", "text": "permata yang ditemukan di dasar telaga" }
+      ],
+      "answer": "a",
+      "explanation": "Teks menyebutkan Raja mengumpulkan sumbangan sukarela dari rakyat berupa emas, perak, dan permata, lalu semuanya dilebur menjadi sebuah kalung. Raja sendiri menegaskannya saat menyerahkan kalung itu."
+    },
+    {
+      "id": "bi-fik-0012",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0012",
+      "stem": "Mengapa halaman istana menjadi hening setelah Putri melemparkan kalung itu?",
+      "choices": [
+        { "id": "a", "text": "Rakyat terkejut dan kecewa karena pemberian mereka dihina" },
+        { "id": "b", "text": "Rakyat takut akan dihukum oleh Raja" },
+        { "id": "c", "text": "Rakyat sedang menunggu pidato dari Ratu" },
+        { "id": "d", "text": "Rakyat tidak mendengar apa yang dikatakan Putri" }
+      ],
+      "answer": "a",
+      "explanation": "Kalung itu berasal dari sumbangan rakyat, sehingga penolakan Putri sama saja dengan menolak pemberian mereka. Keheningan lalu disusul tangisan Ratu dan rakyat, yang menunjukkan perasaan terluka, bukan ketakutan atau penantian."
+    },
+    {
+      "id": "bi-fik-0013",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0012",
+      "stem": "Nilai yang dapat diteladani dari cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "menghargai pemberian orang lain betapa pun sederhananya" },
+        { "id": "b", "text": "meminta sumbangan kepada rakyat untuk keperluan keluarga" },
+        { "id": "c", "text": "memenuhi semua keinginan anak agar ia bahagia" },
+        { "id": "d", "text": "menyimpan permata agar kelak menjadi telaga" }
+      ],
+      "answer": "a",
+      "explanation": "Bencana dalam cerita muncul tepat setelah pemberian rakyat dihina. Dari situ pembaca diajak menghargai pemberian orang lain. Pilihan c justru kekeliruan Raja dan Ratu yang memanjakan Putri sehingga ia tumbuh tidak tahu berterima kasih."
+    },
+    {
+      "id": "bi-fik-0014",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0012",
+      "stem": "Pilihlah semua pernyataan yang dapat disimpulkan dari cerita tersebut.",
+      "choices": [
+        { "id": "a", "text": "Sikap Putri terbentuk karena ia selalu dituruti sejak kecil" },
+        { "id": "b", "text": "Rakyat menyerahkan sumbangannya dengan sukarela" },
+        { "id": "c", "text": "Telaga Warna terbentuk di lokasi bekas istana" },
+        { "id": "d", "text": "Raja menolak memberikan kalung itu kepada Putri" },
+        { "id": "e", "text": "Putri meminta dibuatkan kalung berwarna-warni" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Pernyataan a disimpulkan dari keterangan bahwa Putri sangat dimanjakan dan tidak ada yang berani menolak keinginannya. Pernyataan b dan c tertulis cukup jelas dalam teks. Pernyataan d keliru karena Raja justru menyerahkannya, dan e keliru karena kalung itu gagasan Raja, bukan permintaan Putri."
+    },
+    {
+      "id": "bi-fik-0015",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0012",
+      "stem": "Urutan peristiwa yang benar dalam cerita tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Putri lahir – rakyat menyumbang – kalung dilempar – istana tenggelam" },
+        { "id": "b", "text": "Rakyat menyumbang – Putri lahir – istana tenggelam – kalung dilempar" },
+        { "id": "c", "text": "Istana tenggelam – Putri lahir – rakyat menyumbang – kalung dilempar" },
+        { "id": "d", "text": "Putri lahir – kalung dilempar – rakyat menyumbang – istana tenggelam" }
+      ],
+      "answer": "a",
+      "explanation": "Cerita dibuka dengan kelahiran Putri yang lama dinanti, dilanjutkan pengumpulan sumbangan rakyat menjelang ulang tahunnya yang ketujuh belas, lalu kalung dilemparkan pada hari perayaan, dan terakhir air menyembur hingga istana tenggelam menjadi telaga."
+    },
+    {
+      "id": "bi-fik-0016",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0011",
+      "stem": "Seandainya Kancil sejak awal membiarkan semua hewan minum tanpa izin, perubahan yang paling mungkin terjadi pada cerita adalah ....",
+      "choices": [
+        { "id": "a", "text": "Kancil tetap sempat mencari makan sehingga tubuhnya tidak menjadi kurus" },
+        { "id": "b", "text": "Kubangan akan lebih cepat mengering karena diminum banyak hewan" },
+        { "id": "c", "text": "Hujan pertama tidak akan pernah turun di hutan itu" },
+        { "id": "d", "text": "Burung Pipit akan berhenti meminum embun di pagi hari" }
+      ],
+      "answer": "a",
+      "explanation": "Penyebab tubuh Kancil menjadi kurus adalah waktunya habis untuk menunggui kubangan. Bila ia tidak merasa perlu menjaganya, waktu itu bisa dipakai mencari makan. Turunnya hujan dan kebiasaan Pipit tidak bergantung pada keputusan Kancil."
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "batch": "ipas-sains-04",
+  "note": "IPAS - Earth & space, plus additional Human body items (grades 4-6)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-bum-0010",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Planet yang letaknya paling dekat dengan matahari adalah ....",
+      "choices": [
+        { "id": "a", "text": "Merkurius" },
+        { "id": "b", "text": "Venus" },
+        { "id": "c", "text": "Bumi" },
+        { "id": "d", "text": "Mars" }
+      ],
+      "answer": "a",
+      "explanation": "Urutan planet dari matahari adalah Merkurius, Venus, Bumi, Mars, Jupiter, Saturnus, Uranus, dan Neptunus. Merkurius paling dekat, sehingga waktu revolusinya paling singkat di antara semua planet."
+    },
+    {
+      "id": "ipas-bum-0011",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar posisi matahari, bumi, dan bulan berikut. Peristiwa yang terjadi adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 330 150\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"45\" cy=\"75\" r=\"28\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"45\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Matahari</text><circle cx=\"180\" cy=\"75\" r=\"22\" fill=\"currentColor\" fill-opacity=\"0.2\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"180\" y=\"125\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Bumi</text><circle cx=\"285\" cy=\"75\" r=\"12\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"285\" y=\"105\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Bulan</text><g stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"4 3\"><line x1=\"73\" y1=\"66\" x2=\"270\" y2=\"66\"/><line x1=\"73\" y1=\"84\" x2=\"270\" y2=\"84\"/></g></svg>",
+        "alt": "Posisi sejajar: matahari, lalu bumi di tengah, lalu bulan"
+      },
+      "choices": [
+        { "id": "a", "text": "gerhana bulan" },
+        { "id": "b", "text": "gerhana matahari" },
+        { "id": "c", "text": "bulan sabit" },
+        { "id": "d", "text": "bulan baru" }
+      ],
+      "answer": "a",
+      "explanation": "Bumi berada di antara matahari dan bulan, sehingga bayangan bumi jatuh menutupi bulan. Peristiwa ini disebut gerhana bulan dan hanya terjadi saat bulan purnama. Bila bulan yang berada di tengah, yang terjadi adalah gerhana matahari."
+    },
+    {
+      "id": "ipas-bum-0012",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Pergantian musim di belahan bumi utara dan selatan disebabkan oleh ....",
+      "choices": [
+        { "id": "a", "text": "revolusi bumi disertai kemiringan poros bumi" },
+        { "id": "b", "text": "rotasi bumi pada porosnya setiap 24 jam" },
+        { "id": "c", "text": "revolusi bulan mengelilingi bumi" },
+        { "id": "d", "text": "perubahan jarak bumi ke bulan" }
+      ],
+      "answer": "a",
+      "explanation": "Poros bumi miring sekitar 23,5 derajat. Ketika bumi mengelilingi matahari, bagian bumi yang condong ke arah matahari berganti-ganti sepanjang tahun, sehingga muncul perbedaan musim. Rotasi bumi hanya menyebabkan siang dan malam."
+    },
+    {
+      "id": "ipas-bum-0013",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar lapisan bumi berikut. Lapisan yang ditunjuk huruf X merupakan ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"110\" cy=\"100\" r=\"82\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"100\" r=\"58\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"100\" r=\"28\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"110\" y1=\"100\" x2=\"210\" y2=\"48\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"216\" y=\"46\" font-size=\"15\" fill=\"currentColor\">X</text><line x1=\"110\" y1=\"42\" x2=\"200\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"206\" y=\"20\" font-size=\"12\" fill=\"currentColor\">kerak</text><line x1=\"110\" y1=\"158\" x2=\"196\" y2=\"180\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"202\" y=\"184\" font-size=\"12\" fill=\"currentColor\">mantel</text></svg>",
+        "alt": "Penampang bumi tiga lapisan dengan bagian paling dalam ditandai huruf X"
+      },
+      "choices": [
+        { "id": "a", "text": "inti bumi" },
+        { "id": "b", "text": "kerak bumi" },
+        { "id": "c", "text": "mantel bumi" },
+        { "id": "d", "text": "lapisan atmosfer" }
+      ],
+      "answer": "a",
+      "explanation": "Huruf X menunjuk lingkaran paling dalam. Bumi tersusun dari kerak di bagian luar, mantel di tengah, dan inti di bagian paling dalam yang paling panas. Atmosfer bukan lapisan penyusun bumi padat, melainkan selubung udara di luarnya."
+    },
+    {
+      "id": "ipas-bum-0014",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Daerah pegunungan tinggi memiliki udara yang lebih dingin daripada daerah pantai. Penjelasan yang paling tepat adalah ....",
+      "choices": [
+        { "id": "a", "text": "Semakin tinggi suatu tempat, udaranya semakin renggang sehingga lebih sedikit menyimpan panas" },
+        { "id": "b", "text": "Pegunungan letaknya lebih jauh dari matahari sehingga kurang mendapat panas" },
+        { "id": "c", "text": "Pegunungan selalu tertutup awan sepanjang tahun" },
+        { "id": "d", "text": "Air laut di pantai memancarkan panas ke udara sekitarnya" }
+      ],
+      "answer": "a",
+      "explanation": "Makin tinggi suatu tempat, tekanan dan kerapatan udaranya makin kecil sehingga kemampuannya menyimpan panas berkurang. Alasan jarak ke matahari keliru, karena selisih ketinggian beberapa kilometer sangat kecil dibanding jarak bumi ke matahari."
+    },
+    {
+      "id": "ipas-bum-0015",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua tindakan yang tepat dilakukan ketika terjadi gempa bumi saat kita berada di dalam kelas.",
+      "choices": [
+        { "id": "a", "text": "Berlindung di bawah meja sambil melindungi kepala" },
+        { "id": "b", "text": "Menjauhi jendela kaca dan lemari tinggi" },
+        { "id": "c", "text": "Keluar dengan tertib melalui tangga setelah guncangan mereda" },
+        { "id": "d", "text": "Berlari panik berebut keluar pintu saat guncangan berlangsung" },
+        { "id": "e", "text": "Menggunakan lift agar lebih cepat turun" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Saat guncangan berlangsung, yang paling aman adalah berlindung dan melindungi kepala dari benda jatuh, serta menjauhi kaca dan perabot tinggi. Keluar dilakukan dengan tertib setelah guncangan mereda. Berebut keluar menimbulkan korban terinjak, dan lift bisa terhenti karena listrik padam."
+    },
+    {
+      "id": "ipas-bum-0016",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan sumber daya alam berikut menurut sifatnya.",
+      "statements": [
+        { "id": "s1", "text": "Minyak bumi" },
+        { "id": "s2", "text": "Air" },
+        { "id": "s3", "text": "Batu bara" },
+        { "id": "s4", "text": "Hutan" }
+      ],
+      "categories": [
+        { "id": "dapat", "label": "Dapat diperbarui" },
+        { "id": "tidak", "label": "Tidak dapat diperbarui" }
+      ],
+      "answer": {
+        "s1": "tidak",
+        "s2": "dapat",
+        "s3": "tidak",
+        "s4": "dapat"
+      },
+      "explanation": "Minyak bumi dan batu bara terbentuk dari fosil selama jutaan tahun sehingga tidak dapat diperbarui dalam waktu singkat. Air terus berputar melalui daur air, dan hutan dapat ditanam kembali, sehingga keduanya dapat diperbarui asalkan dikelola dengan bijak."
+    },
+    {
+      "id": "ipas-bum-0017",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kota Jayapura berada di zona WIT dan Kota Jakarta berada di zona WIB. Jika di Jakarta pukul 07.00, maka di Jayapura pukul ....",
+      "choices": [
+        { "id": "a", "text": "09.00" },
+        { "id": "b", "text": "08.00" },
+        { "id": "c", "text": "06.00" },
+        { "id": "d", "text": "05.00" }
+      ],
+      "answer": "a",
+      "explanation": "Selisih WIB dan WIT adalah dua jam, dan WIT berada lebih timur sehingga waktunya lebih dulu. Maka pukul 07.00 WIB sama dengan pukul 09.00 WIT."
+    },
+    {
+      "id": "ipas-bum-0018",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Benda langit yang mengelilingi planet disebut ....",
+      "choices": [
+        { "id": "a", "text": "satelit" },
+        { "id": "b", "text": "komet" },
+        { "id": "c", "text": "meteor" },
+        { "id": "d", "text": "asteroid" }
+      ],
+      "answer": "a",
+      "explanation": "Satelit adalah benda langit yang beredar mengelilingi planet, misalnya Bulan yang mengelilingi Bumi. Komet mengelilingi matahari dengan lintasan sangat lonjong, meteor adalah benda langit yang terbakar di atmosfer, dan asteroid adalah batuan yang banyak terdapat di antara Mars dan Jupiter."
+    },
+    {
+      "id": "ipas-bum-0019",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah kota mengalami banjir jauh lebih sering dalam sepuluh tahun terakhir, padahal curah hujannya tidak banyak berubah. Penyebab yang paling masuk akal adalah ....",
+      "choices": [
+        { "id": "a", "text": "Berkurangnya daerah resapan air karena banyak lahan tertutup beton" },
+        { "id": "b", "text": "Bertambahnya jumlah sungai yang mengalir di kota itu" },
+        { "id": "c", "text": "Naiknya suhu udara sehingga air lebih cepat menguap" },
+        { "id": "d", "text": "Berkurangnya jumlah penduduk yang tinggal di kota itu" }
+      ],
+      "answer": "a",
+      "explanation": "Petunjuk pentingnya adalah curah hujan tidak berubah, sehingga penyebabnya ada di permukaan tanah, bukan di langit. Ketika lahan terbuka berganti beton dan aspal, air hujan tidak meresap dan seluruhnya menjadi aliran permukaan yang membanjiri kota."
+    },
+    {
+      "id": "ipas-bum-0020",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Indonesia hanya mengalami dua musim, yaitu musim hujan dan musim kemarau. Hal tersebut disebabkan karena Indonesia terletak di ....",
+      "choices": [
+        { "id": "a", "text": "daerah khatulistiwa yang dipengaruhi angin muson" },
+        { "id": "b", "text": "belahan bumi utara yang jauh dari matahari" },
+        { "id": "c", "text": "daerah kutub yang bersuhu rendah" },
+        { "id": "d", "text": "dataran tinggi yang bersuhu sejuk" }
+      ],
+      "answer": "a",
+      "explanation": "Wilayah khatulistiwa menerima sinar matahari yang hampir sama sepanjang tahun, sehingga suhunya stabil dan tidak terbentuk empat musim. Yang berganti adalah arah angin muson, yang membawa musim hujan dan musim kemarau."
+    },
+    {
+      "id": "ipas-bum-0021",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar fase bulan berikut. Fase yang ditunjukkan gambar adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 200 140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"65\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><path d=\"M 100 17 A 48 48 0 0 1 100 113 A 48 48 0 0 0 100 17 Z\" fill=\"currentColor\" fill-opacity=\"0.45\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"100\" y=\"132\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">bagian terang di sebelah kanan</text></svg>",
+        "alt": "Bulan dengan separuh bagian kanan terang dan separuh kiri gelap"
+      },
+      "choices": [
+        { "id": "a", "text": "bulan separuh" },
+        { "id": "b", "text": "bulan purnama" },
+        { "id": "c", "text": "bulan baru" },
+        { "id": "d", "text": "bulan sabit" }
+      ],
+      "answer": "a",
+      "explanation": "Gambar menunjukkan tepat separuh permukaan bulan yang terlihat terang, sehingga disebut fase bulan separuh atau kuarter. Bulan purnama terlihat bulat penuh, bulan baru tidak terlihat sama sekali, dan bulan sabit hanya tampak sebagai lengkungan tipis."
+    },
+    {
+      "id": "ipas-bum-0022",
+      "subject": "ipas",
+      "domain": "bumi_antariksa",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua akibat rotasi bumi.",
+      "choices": [
+        { "id": "a", "text": "Terjadinya siang dan malam" },
+        { "id": "b", "text": "Gerak semu harian matahari dari timur ke barat" },
+        { "id": "c", "text": "Perbedaan waktu antardaerah di bumi" },
+        { "id": "d", "text": "Pergantian musim sepanjang tahun" },
+        { "id": "e", "text": "Terjadinya gerhana bulan" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Rotasi adalah perputaran bumi pada porosnya selama sekitar 24 jam, yang menyebabkan siang-malam, gerak semu harian matahari, dan pembagian zona waktu. Pergantian musim adalah akibat revolusi bumi, sedangkan gerhana bergantung pada kedudukan bumi dan bulan."
+    },
+    {
+      "id": "ipas-tub-0020",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Ginjal berperan penting dalam sistem ekskresi karena berfungsi ....",
+      "choices": [
+        { "id": "a", "text": "menyaring zat sisa dari darah dan membentuk urine" },
+        { "id": "b", "text": "mencerna lemak dengan bantuan cairan empedu" },
+        { "id": "c", "text": "memompa darah ke seluruh bagian tubuh" },
+        { "id": "d", "text": "menyerap sari makanan dari usus halus" }
+      ],
+      "answer": "a",
+      "explanation": "Darah yang melewati ginjal disaring sehingga zat sisa seperti urea dan kelebihan air dikeluarkan sebagai urine. Pencernaan lemak diurus hati dan empedu, pemompaan darah oleh jantung, dan penyerapan sari makanan oleh usus halus."
+    },
+    {
+      "id": "ipas-tub-0021",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Makanan bergizi seimbang bagi anak usia sekolah sebaiknya memuat ....",
+      "choices": [
+        { "id": "a", "text": "karbohidrat, protein, lemak, vitamin, mineral, dan air dalam jumlah yang sesuai" },
+        { "id": "b", "text": "karbohidrat sebanyak mungkin agar cepat kenyang" },
+        { "id": "c", "text": "hanya sayur dan buah tanpa lauk-pauk" },
+        { "id": "d", "text": "makanan manis agar tubuh memiliki banyak tenaga" }
+      ],
+      "answer": "a",
+      "explanation": "Gizi seimbang berarti seluruh zat gizi tersedia dalam takaran yang sesuai kebutuhan, bukan menumpuk satu jenis saja. Karbohidrat sumber tenaga, protein untuk pertumbuhan, vitamin dan mineral mengatur fungsi tubuh, serta air sebagai pelarut dan pengatur suhu."
+    },
+    {
+      "id": "ipas-tub-0022",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Seorang anak sering merasa lemas dan mudah lelah. Setelah diperiksa, ia kekurangan zat besi. Hubungan yang paling tepat antara kekurangan zat besi dan rasa lemas adalah ....",
+      "choices": [
+        { "id": "a", "text": "Zat besi diperlukan untuk membentuk sel darah merah pengangkut oksigen" },
+        { "id": "b", "text": "Zat besi berfungsi menguatkan tulang dan gigi" },
+        { "id": "c", "text": "Zat besi membantu mencerna lemak di dalam usus" },
+        { "id": "d", "text": "Zat besi menjaga kelembapan kulit dan rambut" }
+      ],
+      "answer": "a",
+      "explanation": "Zat besi adalah bahan penyusun hemoglobin, bagian sel darah merah yang mengikat oksigen. Bila zat besi kurang, pasokan oksigen ke sel berkurang sehingga tubuh cepat lelah. Penguatan tulang dan gigi adalah peran kalsium dan fosfor."
+    },
+    {
+      "id": "ipas-tub-0023",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "mudah",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua cara yang tepat untuk mencegah penularan penyakit melalui tangan.",
+      "choices": [
+        { "id": "a", "text": "Mencuci tangan dengan sabun sebelum makan" },
+        { "id": "b", "text": "Mencuci tangan setelah dari kamar mandi" },
+        { "id": "c", "text": "Menutup mulut dengan lengan bagian dalam saat bersin" },
+        { "id": "d", "text": "Mengeringkan tangan dengan menggosokkannya ke baju yang kotor" },
+        { "id": "e", "text": "Berbagi sapu tangan dengan teman sekelas" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Mencuci tangan dengan sabun sebelum makan dan setelah dari kamar mandi memutus perpindahan kuman, dan bersin ke lengan bagian dalam mencegah tangan tercemar percikan. Mengeringkan tangan ke baju kotor dan berbagi sapu tangan justru memindahkan kuman."
+    },
+    {
+      "id": "ipas-tub-0024",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Gigi geraham memiliki permukaan yang lebar dan berlekuk. Bentuk tersebut sesuai dengan fungsinya, yaitu ....",
+      "choices": [
+        { "id": "a", "text": "mengunyah dan menghaluskan makanan" },
+        { "id": "b", "text": "memotong makanan menjadi potongan besar" },
+        { "id": "c", "text": "merobek makanan yang liat" },
+        { "id": "d", "text": "mengecap rasa manis dan asin" }
+      ],
+      "answer": "a",
+      "explanation": "Permukaan yang lebar dan berlekuk memperbesar bidang tekan sehingga makanan mudah dilumatkan. Gigi seri yang pipih dan tajam berfungsi memotong, gigi taring yang runcing berfungsi merobek, sedangkan pengecapan dilakukan lidah."
+    }
+  ]
+}

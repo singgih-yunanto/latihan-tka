@@ -1,0 +1,347 @@
+{
+  "batch": "mtk-geometri-02",
+  "note": "Matematika - Geometri & Pengukuran: composite area, volume, units, symmetry. Every item illustrated.",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-geo-0020",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar persegi panjang berikut. Keliling persegi panjang tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"40\" width=\"160\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"120\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">24 cm</text><text x=\"32\" y=\"84\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">15 cm</text><text x=\"120\" y=\"144\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">persegi panjang</text></svg>",
+        "alt": "Persegi panjang dengan panjang 24 cm dan lebar 15 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$78$ cm" },
+        { "id": "b", "text": "$39$ cm" },
+        { "id": "c", "text": "$360$ cm" },
+        { "id": "d", "text": "$48$ cm" }
+      ],
+      "answer": "a",
+      "explanation": "Keliling persegi panjang $= 2 \\times (p + l) = 2 \\times (24 + 15) = 2 \\times 39 = 78$ cm. Pilihan $39$ cm adalah hasil sebelum dikalikan dua, sedangkan $360$ cm$^2$ sebenarnya luasnya."
+    },
+    {
+      "id": "mtk-geo-0021",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar bangun gabungan berikut yang terdiri atas persegi dan segitiga. Luas seluruh bangun tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"60\" y=\"80\" width=\"110\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"60,80 170,80 115,25\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"115\" y1=\"25\" x2=\"115\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"115\" y=\"170\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">16 cm</text><text x=\"52\" y=\"120\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">10 cm</text><text x=\"126\" y=\"58\" font-size=\"13\" fill=\"currentColor\">8 cm</text></svg>",
+        "alt": "Bangun gabungan: persegi panjang alas 16 cm dan tinggi 10 cm, dengan segitiga beralas 16 cm dan tinggi 8 cm di atasnya"
+      },
+      "choices": [
+        { "id": "a", "text": "$224$ cm$^2$" },
+        { "id": "b", "text": "$288$ cm$^2$" },
+        { "id": "c", "text": "$160$ cm$^2$" },
+        { "id": "d", "text": "$184$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas persegi panjang $= 16 \\times 10 = 160$ cm$^2$. Luas segitiga $= \\frac{1}{2} \\times 16 \\times 8 = 64$ cm$^2$. Luas seluruhnya $= 160 + 64 = 224$ cm$^2$. Pilihan $288$ cm$^2$ muncul bila luas segitiga lupa dibagi dua."
+    },
+    {
+      "id": "mtk-geo-0022",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar bak mandi berbentuk balok berikut. Jika bak diisi air sampai penuh, banyak air yang tertampung adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,55 85,25 215,25 170,55\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"170,55 215,25 215,110 170,140\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"40\" y=\"55\" width=\"130\" height=\"85\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"105\" y=\"160\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">80 cm</text><text x=\"30\" y=\"102\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">50 cm</text><text x=\"198\" y=\"48\" font-size=\"13\" fill=\"currentColor\">60 cm</text></svg>",
+        "alt": "Bak berbentuk balok dengan panjang 80 cm, tinggi 50 cm, dan lebar 60 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$240$ liter" },
+        { "id": "b", "text": "$24$ liter" },
+        { "id": "c", "text": "$2.400$ liter" },
+        { "id": "d", "text": "$190$ liter" }
+      ],
+      "answer": "a",
+      "explanation": "Volume $= 80 \\times 60 \\times 50 = 240.000$ cm$^3$. Karena $1$ liter $= 1.000$ cm$^3$, maka $240.000$ cm$^3 = 240$ liter. Kesalahan tersering ada pada pengubahan satuan, bukan pada perkaliannya."
+    },
+    {
+      "id": "mtk-geo-0023",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar bangun datar berikut. Banyak sumbu simetri pada bangun tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 200 190\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"100,25 165,95 100,165 35,95\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"100\" y=\"182\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">belah ketupat</text></svg>",
+        "alt": "Belah ketupat dengan kedua diagonal berbeda panjang"
+      },
+      "choices": [
+        { "id": "a", "text": "2 buah" },
+        { "id": "b", "text": "4 buah" },
+        { "id": "c", "text": "1 buah" },
+        { "id": "d", "text": "tidak memiliki sumbu simetri" }
+      ],
+      "answer": "a",
+      "explanation": "Belah ketupat dapat dilipat tepat berimpit melalui kedua diagonalnya, sehingga memiliki 2 sumbu simetri. Yang memiliki 4 sumbu simetri adalah persegi, karena selain kedua diagonalnya, garis tengah mendatar dan tegaknya juga membagi bangun sama persis."
+    },
+    {
+      "id": "mtk-geo-0024",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan gambar taman berbentuk persegi panjang dengan kolam berbentuk persegi di tengahnya. Luas taman yang ditanami rumput adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"35\" y=\"35\" width=\"180\" height=\"105\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"98\" y=\"64\" width=\"54\" height=\"54\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"125\" y=\"27\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">25 m</text><text x=\"27\" y=\"92\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">14 m</text><text x=\"125\" y=\"96\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">kolam</text><text x=\"125\" y=\"134\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">sisi 6 m</text></svg>",
+        "alt": "Taman persegi panjang 25 meter kali 14 meter dengan kolam persegi bersisi 6 meter di tengahnya"
+      },
+      "choices": [
+        { "id": "a", "text": "$314$ m$^2$" },
+        { "id": "b", "text": "$350$ m$^2$" },
+        { "id": "c", "text": "$386$ m$^2$" },
+        { "id": "d", "text": "$338$ m$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas taman seluruhnya $= 25 \\times 14 = 350$ m$^2$. Luas kolam $= 6 \\times 6 = 36$ m$^2$. Luas yang ditanami rumput $= 350 - 36 = 314$ m$^2$. Pilihan $350$ m$^2$ lupa mengurangi kolam, sedangkan $338$ m$^2$ muncul bila kolam dikira berkeliling 6 m."
+    },
+    {
+      "id": "mtk-geo-0025",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar kubus berikut. Volume kubus tersebut adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 175\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,60 90,30 190,30 150,60\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"150,60 190,30 190,110 150,140\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"50\" y=\"60\" width=\"100\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"100\" y=\"160\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">12 cm</text></svg>",
+        "alt": "Kubus dengan panjang rusuk 12 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$1.728$ cm$^3$" },
+        { "id": "b", "text": "$864$ cm$^3$" },
+        { "id": "c", "text": "$144$ cm$^3$" },
+        { "id": "d", "text": "$36$ cm$^3$" }
+      ],
+      "answer": "a",
+      "explanation": "Volume kubus $= s^3 = 12 \\times 12 \\times 12 = 1.728$ cm$^3$. Pilihan $864$ cm$^2$ adalah luas permukaannya, sedangkan $144$ cm$^2$ hanya luas satu sisi."
+    },
+    {
+      "id": "mtk-geo-0026",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan gambar trapesium siku-siku berikut. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 175\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,130 190,130 190,45 110,45\" fill=\"currentColor\" fill-opacity=\"0.13\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"182\" y=\"122\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"45\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"120\" y=\"150\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">18 cm</text><text x=\"150\" y=\"38\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">10 cm</text><text x=\"200\" y=\"92\" font-size=\"13\" fill=\"currentColor\">12 cm</text></svg>",
+        "alt": "Trapesium siku-siku dengan sisi sejajar 18 cm dan 10 cm serta tinggi 12 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "Luas trapesium tersebut $168$ cm$^2$" },
+        { "id": "b", "text": "Trapesium tersebut memiliki dua sudut siku-siku" },
+        { "id": "c", "text": "Sisi sejajarnya berukuran $18$ cm dan $10$ cm" },
+        { "id": "d", "text": "Luas trapesium tersebut $336$ cm$^2$" },
+        { "id": "e", "text": "Trapesium tersebut memiliki empat sisi yang sama panjang" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Luas $= \\frac{(18+10) \\times 12}{2} = \\frac{336}{2} = 168$ cm$^2$, jadi a benar dan d salah karena lupa dibagi dua. Tanda siku-siku pada gambar menunjukkan dua sudut siku-siku, dan sisi sejajarnya memang 18 cm dan 10 cm. Keempat sisi sama panjang adalah ciri belah ketupat atau persegi."
+    },
+    {
+      "id": "mtk-geo-0027",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan gambar bangun gabungan berikut. Luas daerah yang diarsir adalah .... (gunakan $\\pi = \\frac{22}{7}$)",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"50\" y=\"40\" width=\"140\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"90\" r=\"35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"90\" r=\"35\" fill=\"var(--surface)\" fill-opacity=\"1\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"120\" y1=\"90\" x2=\"155\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"138\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">7 cm</text><text x=\"120\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">28 cm</text><text x=\"42\" y=\"94\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">20 cm</text></svg>",
+        "alt": "Persegi panjang 28 cm kali 20 cm yang diarsir, dengan lingkaran berjari-jari 7 cm di tengahnya yang tidak diarsir"
+      },
+      "choices": [
+        { "id": "a", "text": "$406$ cm$^2$" },
+        { "id": "b", "text": "$560$ cm$^2$" },
+        { "id": "c", "text": "$154$ cm$^2$" },
+        { "id": "d", "text": "$714$ cm$^2$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas persegi panjang $= 28 \\times 20 = 560$ cm$^2$. Luas lingkaran $= \\frac{22}{7} \\times 7 \\times 7 = 154$ cm$^2$. Daerah yang diarsir $= 560 - 154 = 406$ cm$^2$. Pilihan $714$ cm$^2$ muncul bila kedua luas justru dijumlahkan."
+    },
+    {
+      "id": "mtk-geo-0028",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar akuarium berbentuk balok berikut. Akuarium terisi air setinggi 25 cm. Volume air di dalam akuarium adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,50 80,25 210,25 170,50\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"170,50 210,25 210,110 170,135\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"40\" y=\"50\" width=\"130\" height=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"40\" y=\"92\" width=\"130\" height=\"43\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"170,92 210,67 210,110 170,135\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"105\" y=\"155\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">60 cm</text><text x=\"32\" y=\"118\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">25 cm</text><text x=\"196\" y=\"46\" font-size=\"13\" fill=\"currentColor\">40 cm</text></svg>",
+        "alt": "Akuarium balok panjang 60 cm dan lebar 40 cm, terisi air setinggi 25 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "$60$ liter" },
+        { "id": "b", "text": "$6$ liter" },
+        { "id": "c", "text": "$600$ liter" },
+        { "id": "d", "text": "$125$ liter" }
+      ],
+      "answer": "a",
+      "explanation": "Yang dihitung adalah volume airnya, sehingga tinggi yang dipakai adalah tinggi air, yaitu 25 cm. Volume $= 60 \\times 40 \\times 25 = 60.000$ cm$^3 = 60$ liter."
+    },
+    {
+      "id": "mtk-geo-0029",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar berikut. Jenis sudut yang ditandai pada gambar adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 220 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"125\" x2=\"195\" y2=\"125\" stroke=\"currentColor\" stroke-width=\"2.5\"/><line x1=\"45\" y1=\"125\" x2=\"150\" y2=\"35\" stroke=\"currentColor\" stroke-width=\"2.5\"/><path d=\"M 85 125 A 40 40 0 0 0 76 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><text x=\"96\" y=\"112\" font-size=\"13\" fill=\"currentColor\">?</text></svg>",
+        "alt": "Dua garis membentuk sudut yang lebih kecil daripada sudut siku-siku"
+      },
+      "choices": [
+        { "id": "a", "text": "sudut lancip" },
+        { "id": "b", "text": "sudut siku-siku" },
+        { "id": "c", "text": "sudut tumpul" },
+        { "id": "d", "text": "sudut lurus" }
+      ],
+      "answer": "a",
+      "explanation": "Sudut lancip besarnya kurang dari $90^\\circ$. Pada gambar, bukaan sudutnya jelas lebih sempit daripada sudut siku-siku. Sudut tumpul besarnya antara $90^\\circ$ dan $180^\\circ$, sedangkan sudut lurus tepat $180^\\circ$."
+    },
+    {
+      "id": "mtk-geo-0030",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Perhatikan gambar jaring-jaring berikut. Tentukan apakah setiap pernyataan tentang bangun ruang yang terbentuk benar atau salah.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 220 160\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"70\" y=\"55\" width=\"50\" height=\"50\"/><polygon points=\"70,55 120,55 95,10\"/><polygon points=\"70,105 120,105 95,150\"/><polygon points=\"70,55 70,105 25,80\"/><polygon points=\"120,55 120,105 165,80\"/></g></svg>",
+        "alt": "Jaring-jaring berupa satu persegi dengan empat segitiga pada keempat sisinya"
+      },
+      "statements": [
+        { "id": "s1", "text": "Bangun yang terbentuk adalah limas segi empat" },
+        { "id": "s2", "text": "Bangun tersebut memiliki 5 sisi" },
+        { "id": "s3", "text": "Bangun tersebut memiliki 12 rusuk" },
+        { "id": "s4", "text": "Bangun tersebut memiliki 5 titik sudut" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "benar"
+      },
+      "explanation": "Satu persegi sebagai alas dengan empat segitiga yang terlipat ke atas membentuk limas segi empat. Bangun itu punya 5 sisi (1 alas dan 4 sisi tegak), 8 rusuk (4 di alas dan 4 rusuk tegak), serta 5 titik sudut (4 di alas dan 1 puncak). Jumlah 12 rusuk adalah milik kubus atau balok."
+    },
+    {
+      "id": "mtk-geo-0031",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar lantai yang akan dipasangi ubin berikut. Jika satu ubin berukuran $20$ cm $\\times$ $20$ cm, banyak ubin yang dibutuhkan adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 175\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"40\" width=\"170\" height=\"95\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"2\"/><g stroke=\"currentColor\" stroke-width=\"0.8\" stroke-dasharray=\"3 3\"><line x1=\"74\" y1=\"40\" x2=\"74\" y2=\"135\"/><line x1=\"108\" y1=\"40\" x2=\"108\" y2=\"135\"/><line x1=\"142\" y1=\"40\" x2=\"142\" y2=\"135\"/><line x1=\"176\" y1=\"40\" x2=\"176\" y2=\"135\"/><line x1=\"40\" y1=\"72\" x2=\"210\" y2=\"72\"/><line x1=\"40\" y1=\"104\" x2=\"210\" y2=\"104\"/></g><text x=\"125\" y=\"32\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">5 m</text><text x=\"32\" y=\"92\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">4 m</text></svg>",
+        "alt": "Denah lantai persegi panjang berukuran 5 meter kali 4 meter yang akan dipasangi ubin"
+      },
+      "choices": [
+        { "id": "a", "text": "500 ubin" },
+        { "id": "b", "text": "50 ubin" },
+        { "id": "c", "text": "200 ubin" },
+        { "id": "d", "text": "1.000 ubin" }
+      ],
+      "answer": "a",
+      "explanation": "Samakan satuannya lebih dulu. Luas lantai $= 500 \\times 400 = 200.000$ cm$^2$. Luas satu ubin $= 20 \\times 20 = 400$ cm$^2$. Banyak ubin $= 200.000 : 400 = 500$ buah. Kesalahan umum terjadi bila meter dan sentimeter dicampur tanpa disamakan."
+    },
+    {
+      "id": "mtk-geo-0032",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perhatikan gambar garis bilangan satuan panjang berikut. Nilai dari $3$ km $+ 250$ m adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 140\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"70\" x2=\"270\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"2\"/><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"60\" y1=\"60\" x2=\"60\" y2=\"80\"/><line x1=\"120\" y1=\"60\" x2=\"120\" y2=\"80\"/><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"80\"/><line x1=\"240\" y1=\"60\" x2=\"240\" y2=\"80\"/></g><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"60\" y=\"52\">km</text><text x=\"120\" y=\"52\">hm</text><text x=\"180\" y=\"52\">dam</text><text x=\"240\" y=\"52\">m</text><text x=\"90\" y=\"96\">x10</text><text x=\"150\" y=\"96\">x10</text><text x=\"210\" y=\"96\">x10</text></g><text x=\"150\" y=\"124\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">tiap turun satu tangga dikali 10</text></svg>",
+        "alt": "Tangga satuan panjang dari kilometer, hektometer, dekameter, hingga meter, tiap turun satu tangga dikali sepuluh"
+      },
+      "choices": [
+        { "id": "a", "text": "$3.250$ m" },
+        { "id": "b", "text": "$253$ m" },
+        { "id": "c", "text": "$3.025$ m" },
+        { "id": "d", "text": "$325$ m" }
+      ],
+      "answer": "a",
+      "explanation": "Dari km ke m turun tiga tangga, sehingga dikalikan $10 \\times 10 \\times 10 = 1.000$. Maka $3$ km $= 3.000$ m. Jumlahnya $3.000 + 250 = 3.250$ m."
+    },
+    {
+      "id": "mtk-geo-0033",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan gambar kolam berbentuk balok berikut. Kolam diisi air dengan debit $15$ liter per menit. Waktu yang diperlukan untuk mengisi kolam sampai penuh adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 250 180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"45,55 85,28 205,28 165,55\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"165,55 205,28 205,108 165,135\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"45\" y=\"55\" width=\"120\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"105\" y=\"155\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">150 cm</text><text x=\"37\" y=\"100\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"end\">60 cm</text><text x=\"190\" y=\"50\" font-size=\"13\" fill=\"currentColor\">100 cm</text></svg>",
+        "alt": "Kolam berbentuk balok dengan panjang 150 cm, lebar 100 cm, dan tinggi 60 cm"
+      },
+      "choices": [
+        { "id": "a", "text": "60 menit" },
+        { "id": "b", "text": "45 menit" },
+        { "id": "c", "text": "90 menit" },
+        { "id": "d", "text": "30 menit" }
+      ],
+      "answer": "a",
+      "explanation": "Volume kolam $= 150 \\times 100 \\times 60 = 900.000$ cm$^3 = 900$ liter. Waktu $=$ volume dibagi debit $= 900 : 15 = 60$ menit. Jadi diperlukan satu jam untuk mengisinya sampai penuh."
+    },
+    {
+      "id": "mtk-geo-0034",
+      "subject": "matematika",
+      "domain": "geometri_pengukuran",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan gambar dua persegi berikut. Panjang sisi persegi besar dua kali panjang sisi persegi kecil. Perbandingan luas persegi kecil terhadap persegi besar adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"35\" y=\"75\" width=\"45\" height=\"45\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"57\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">sisi s</text><rect x=\"135\" y=\"30\" width=\"90\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"180\" y=\"138\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">sisi 2s</text></svg>",
+        "alt": "Dua persegi berdampingan, yang kecil bersisi s dan yang besar bersisi dua kali lipatnya"
+      },
+      "choices": [
+        { "id": "a", "text": "$1 : 4$" },
+        { "id": "b", "text": "$1 : 2$" },
+        { "id": "c", "text": "$1 : 8$" },
+        { "id": "d", "text": "$2 : 1$" }
+      ],
+      "answer": "a",
+      "explanation": "Luas persegi kecil $= s \\times s = s^2$. Luas persegi besar $= 2s \\times 2s = 4s^2$. Perbandingannya $s^2 : 4s^2 = 1 : 4$. Kesalahan umum adalah menjawab $1 : 2$ karena hanya membandingkan panjang sisinya, padahal luas melibatkan dua ukuran sekaligus."
+    }
+  ]
+}

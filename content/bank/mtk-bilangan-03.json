@@ -1,0 +1,290 @@
+{
+  "batch": "mtk-bilangan-03",
+  "note": "Matematika - Bilangan: mixed operations, applied LCM/GCF, percentages, time, patterns",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-bil-0040",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Hasil dari $(-24) : 6 + 5 \\times (-3)$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$-19$" },
+        { "id": "b", "text": "$-11$" },
+        { "id": "c", "text": "$19$" },
+        { "id": "d", "text": "$-9$" }
+      ],
+      "answer": "a",
+      "explanation": "Kerjakan pembagian dan perkalian lebih dulu: $(-24) : 6 = -4$ dan $5 \\times (-3) = -15$. Kemudian jumlahkan: $-4 + (-15) = -19$."
+    },
+    {
+      "id": "mtk-bil-0041",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Seorang pedagang membeli 5 lusin buku tulis seharga Rp360.000,00. Buku itu dijual kembali dengan harga Rp7.500,00 per buah. Keuntungan yang diperoleh pedagang adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp90.000,00" },
+        { "id": "b", "text": "Rp60.000,00" },
+        { "id": "c", "text": "Rp450.000,00" },
+        { "id": "d", "text": "Rp37.500,00" }
+      ],
+      "answer": "a",
+      "explanation": "Lima lusin $= 5 \\times 12 = 60$ buku. Harga jual seluruhnya $= 60 \\times 7.500 = 450.000$. Keuntungan $= 450.000 - 360.000 = 90.000$. Pilihan Rp450.000,00 adalah penjualan kotornya, belum dikurangi modal."
+    },
+    {
+      "id": "mtk-bil-0042",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Ibu membeli beras dengan harga Rp120.000,00 lalu menjualnya kembali dan memperoleh keuntungan 15%. Harga jual beras tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp138.000,00" },
+        { "id": "b", "text": "Rp135.000,00" },
+        { "id": "c", "text": "Rp18.000,00" },
+        { "id": "d", "text": "Rp102.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Keuntungan $= 15\\% \\times 120.000 = 18.000$. Harga jual $= 120.000 + 18.000 = 138.000$. Pilihan Rp18.000,00 hanya besar keuntungannya, sedangkan Rp102.000,00 muncul bila keuntungan justru dikurangkan."
+    },
+    {
+      "id": "mtk-bil-0043",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Bus berangkat dari terminal pukul 08.45 dan tiba di tujuan pukul 13.20. Lama perjalanan bus tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "4 jam 35 menit" },
+        { "id": "b", "text": "5 jam 35 menit" },
+        { "id": "c", "text": "4 jam 45 menit" },
+        { "id": "d", "text": "5 jam 25 menit" }
+      ],
+      "answer": "a",
+      "explanation": "Dari pukul 08.45 ke pukul 12.45 memerlukan 4 jam. Dari pukul 12.45 ke pukul 13.20 memerlukan 35 menit. Jadi lama perjalanan $= 4$ jam 35 menit."
+    },
+    {
+      "id": "mtk-bil-0044",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Pak Jaya memiliki 96 buah jeruk dan 72 buah apel. Kedua jenis buah akan dimasukkan ke dalam kantong dengan isi sama banyak. Banyak jeruk dalam setiap kantong adalah ....",
+      "choices": [
+        { "id": "a", "text": "4 buah" },
+        { "id": "b", "text": "3 buah" },
+        { "id": "c", "text": "24 buah" },
+        { "id": "d", "text": "8 buah" }
+      ],
+      "answer": "a",
+      "explanation": "Banyak kantong terbanyak dicari dengan FPB. $96 = 2^5 \\times 3$ dan $72 = 2^3 \\times 3^2$, sehingga FPB $= 2^3 \\times 3 = 24$ kantong. Jeruk tiap kantong $= 96 : 24 = 4$ buah, dan apel $= 72 : 24 = 3$ buah. Pilihan 24 adalah banyak kantongnya, bukan isi jeruknya."
+    },
+    {
+      "id": "mtk-bil-0045",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan pola bilangan berikut: $1, 4, 9, 16, 25, \\ldots$ Suku ke-8 dari pola tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "$64$" },
+        { "id": "b", "text": "$49$" },
+        { "id": "c", "text": "$56$" },
+        { "id": "d", "text": "$81$" }
+      ],
+      "answer": "a",
+      "explanation": "Pola tersebut adalah bilangan kuadrat: $1^2, 2^2, 3^2, 4^2, 5^2, \\ldots$ Jadi suku ke-$n$ adalah $n^2$, sehingga suku ke-8 $= 8^2 = 64$. Pilihan 49 adalah suku ke-7 dan 81 adalah suku ke-9."
+    },
+    {
+      "id": "mtk-bil-0046",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Bentuk paling sederhana dari pecahan $\\frac{36}{48}$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$\\frac{3}{4}$" },
+        { "id": "b", "text": "$\\frac{9}{12}$" },
+        { "id": "c", "text": "$\\frac{6}{8}$" },
+        { "id": "d", "text": "$\\frac{4}{3}$" }
+      ],
+      "answer": "a",
+      "explanation": "FPB dari 36 dan 48 adalah 12. Bagi pembilang dan penyebut dengan 12: $\\frac{36 : 12}{48 : 12} = \\frac{3}{4}$. Pilihan $\\frac{9}{12}$ dan $\\frac{6}{8}$ memang senilai, tetapi belum dalam bentuk paling sederhana."
+    },
+    {
+      "id": "mtk-bil-0047",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Sebuah pekerjaan dapat diselesaikan 6 orang dalam waktu 20 hari. Jika pekerjaan itu ingin diselesaikan dalam 15 hari, banyak pekerja yang diperlukan adalah ....",
+      "choices": [
+        { "id": "a", "text": "8 orang" },
+        { "id": "b", "text": "4 orang" },
+        { "id": "c", "text": "10 orang" },
+        { "id": "d", "text": "5 orang" }
+      ],
+      "answer": "a",
+      "explanation": "Ini perbandingan berbalik nilai: makin banyak pekerja, makin sedikit harinya. Total beban kerja $= 6 \\times 20 = 120$ hari-orang. Untuk 15 hari diperlukan $120 : 15 = 8$ orang. Kesalahan umum adalah memakai perbandingan senilai sehingga jawabannya justru mengecil."
+    },
+    {
+      "id": "mtk-bil-0048",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua pernyataan yang benar tentang bilangan 144.",
+      "choices": [
+        { "id": "a", "text": "144 merupakan bilangan kuadrat sempurna" },
+        { "id": "b", "text": "144 habis dibagi 12" },
+        { "id": "c", "text": "Faktorisasi prima 144 adalah $2^4 \\times 3^2$" },
+        { "id": "d", "text": "144 merupakan bilangan prima" },
+        { "id": "e", "text": "144 habis dibagi 5" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "$144 = 12 \\times 12$, jadi ia kuadrat sempurna sekaligus habis dibagi 12. Faktorisasi primanya $2^4 \\times 3^2 = 16 \\times 9 = 144$. Bilangan 144 jelas bukan prima karena punya banyak faktor, dan tidak habis dibagi 5 karena angka terakhirnya bukan 0 atau 5."
+    },
+    {
+      "id": "mtk-bil-0049",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Sebuah toko memberi diskon 30% untuk tas seharga Rp240.000,00. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        { "id": "a", "text": "Besar diskonnya Rp72.000,00" },
+        { "id": "b", "text": "Harga setelah diskon Rp168.000,00" },
+        { "id": "c", "text": "Pembeli membayar 70% dari harga awal" },
+        { "id": "d", "text": "Harga setelah diskon Rp210.000,00" },
+        { "id": "e", "text": "Besar diskonnya Rp30.000,00" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Diskon $= 30\\% \\times 240.000 = 72.000$, sehingga harga yang dibayar $= 240.000 - 72.000 = 168.000$. Karena diskonnya 30%, pembeli membayar sisanya yaitu 70% dari harga awal. Pilihan d dan e keliru menghitung besar diskonnya."
+    },
+    {
+      "id": "mtk-bil-0050",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Tentukan apakah setiap pernyataan tentang kelipatan dan faktor berikut benar atau salah.",
+      "statements": [
+        { "id": "s1", "text": "KPK dari 6 dan 8 adalah 24" },
+        { "id": "s2", "text": "FPB dari 18 dan 27 adalah 6" },
+        { "id": "s3", "text": "KPK dari 5 dan 7 adalah 35" },
+        { "id": "s4", "text": "FPB dari 16 dan 40 adalah 8" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "salah",
+        "s3": "benar",
+        "s4": "benar"
+      },
+      "explanation": "KPK 6 dan 8 memang 24. FPB 18 dan 27 adalah 9, bukan 6, karena $18 = 2 \\times 3^2$ dan $27 = 3^3$ sehingga faktor persekutuan terbesarnya $3^2 = 9$. KPK dua bilangan prima 5 dan 7 adalah hasil kalinya, yaitu 35. FPB 16 dan 40 adalah 8."
+    },
+    {
+      "id": "mtk-bil-0051",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Tabungan Dika mula-mula Rp450.000,00. Ia menabung lagi Rp75.000,00 setiap bulan selama 6 bulan, lalu mengambil $\\frac{1}{4}$ bagian dari seluruh tabungannya. Sisa tabungan Dika adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp675.000,00" },
+        { "id": "b", "text": "Rp225.000,00" },
+        { "id": "c", "text": "Rp900.000,00" },
+        { "id": "d", "text": "Rp750.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Tambahan tabungan $= 6 \\times 75.000 = 450.000$. Seluruh tabungan $= 450.000 + 450.000 = 900.000$. Yang diambil $= \\frac{1}{4} \\times 900.000 = 225.000$. Sisanya $= 900.000 - 225.000 = 675.000$. Pilihan Rp225.000,00 adalah jumlah yang diambil, bukan sisanya."
+    },
+    {
+      "id": "mtk-bil-0052",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Urutan bilangan $0{,}45$; $\\frac{2}{5}$; $52\\%$; $\\frac{3}{8}$ dari yang terbesar adalah ....",
+      "choices": [
+        { "id": "a", "text": "$52\\%$; $0{,}45$; $\\frac{2}{5}$; $\\frac{3}{8}$" },
+        { "id": "b", "text": "$0{,}45$; $52\\%$; $\\frac{3}{8}$; $\\frac{2}{5}$" },
+        { "id": "c", "text": "$\\frac{3}{8}$; $\\frac{2}{5}$; $0{,}45$; $52\\%$" },
+        { "id": "d", "text": "$52\\%$; $\\frac{2}{5}$; $0{,}45$; $\\frac{3}{8}$" }
+      ],
+      "answer": "a",
+      "explanation": "Ubah semuanya menjadi desimal: $0{,}45$; $\\frac{2}{5} = 0{,}4$; $52\\% = 0{,}52$; dan $\\frac{3}{8} = 0{,}375$. Diurutkan dari yang terbesar menjadi $0{,}52$; $0{,}45$; $0{,}4$; $0{,}375$, yaitu $52\\%$; $0{,}45$; $\\frac{2}{5}$; $\\frac{3}{8}$."
+    },
+    {
+      "id": "mtk-bil-0053",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah mobil menghabiskan 1 liter bensin untuk menempuh jarak 12 km. Jika tangki berisi 35 liter bensin, jarak terjauh yang dapat ditempuh mobil tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "420 km" },
+        { "id": "b", "text": "47 km" },
+        { "id": "c", "text": "350 km" },
+        { "id": "d", "text": "384 km" }
+      ],
+      "answer": "a",
+      "explanation": "Setiap liter menempuh 12 km, sehingga 35 liter menempuh $35 \\times 12 = 420$ km. Pilihan 47 km muncul bila kedua angka justru dijumlahkan."
+    },
+    {
+      "id": "mtk-bil-0054",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Jumlah tiga bilangan ganjil berurutan adalah 87. Bilangan terbesar di antara ketiganya adalah ....",
+      "choices": [
+        { "id": "a", "text": "$31$" },
+        { "id": "b", "text": "$29$" },
+        { "id": "c", "text": "$27$" },
+        { "id": "d", "text": "$33$" }
+      ],
+      "answer": "a",
+      "explanation": "Bilangan tengah dari tiga bilangan berurutan sama dengan rata-ratanya, yaitu $87 : 3 = 29$. Karena bilangannya ganjil berurutan, ketiganya adalah 27, 29, dan 31. Jadi yang terbesar 31. Periksa kembali: $27 + 29 + 31 = 87$."
+    },
+    {
+      "id": "mtk-bil-0055",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Seorang ibu membagikan 3,6 kg kue kepada 8 anak sama banyak. Bagian setiap anak adalah ....",
+      "choices": [
+        { "id": "a", "text": "450 gram" },
+        { "id": "b", "text": "45 gram" },
+        { "id": "c", "text": "480 gram" },
+        { "id": "d", "text": "4.500 gram" }
+      ],
+      "answer": "a",
+      "explanation": "Ubah ke gram lebih dulu: $3{,}6$ kg $= 3.600$ gram. Bagian tiap anak $= 3.600 : 8 = 450$ gram. Pilihan 45 gram dan 4.500 gram muncul karena keliru menggeser satu tempat desimal saat mengubah satuan."
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "batch": "ipas-sains-02",
+  "note": "IPAS - Living things & ecosystems, Human body & health (grades 4-6)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-mhl-0010",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Bagian tumbuhan yang berfungsi menyerap air dan zat hara dari dalam tanah adalah ....",
+      "choices": [
+        { "id": "a", "text": "akar" },
+        { "id": "b", "text": "batang" },
+        { "id": "c", "text": "daun" },
+        { "id": "d", "text": "bunga" }
+      ],
+      "answer": "a",
+      "explanation": "Akar memiliki rambut-rambut halus yang memperluas permukaan penyerapan, sehingga air dan zat hara terlarut dapat masuk ke tumbuhan. Batang bertugas mengangkutnya ke daun, daun tempat fotosintesis, dan bunga alat perkembangbiakan."
+    },
+    {
+      "id": "ipas-mhl-0011",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar daur hidup berikut. Hewan yang memiliki daur hidup seperti pada gambar adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 130\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><rect x=\"6\" y=\"45\" width=\"62\" height=\"34\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"37\" y=\"66\">telur</text><rect x=\"92\" y=\"45\" width=\"62\" height=\"34\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"123\" y=\"66\">larva</text><rect x=\"178\" y=\"45\" width=\"62\" height=\"34\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"209\" y=\"66\">pupa</text><rect x=\"254\" y=\"45\" width=\"62\" height=\"34\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"285\" y=\"66\">dewasa</text></g><g stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"><path d=\"M 70 62 L 88 62\"/><path d=\"M 156 62 L 174 62\"/><path d=\"M 242 62 L 252 62\"/></g><g fill=\"currentColor\"><polygon points=\"88,62 81,58 81,66\"/><polygon points=\"174,62 167,58 167,66\"/><polygon points=\"252,62 245,58 245,66\"/></g><text x=\"160\" y=\"110\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">Daur hidup dengan tahap pupa</text></svg>",
+        "alt": "Bagan daur hidup: telur, larva, pupa, lalu dewasa"
+      },
+      "choices": [
+        { "id": "a", "text": "kupu-kupu" },
+        { "id": "b", "text": "belalang" },
+        { "id": "c", "text": "kecoak" },
+        { "id": "d", "text": "capung" }
+      ],
+      "answer": "a",
+      "explanation": "Bagan itu menunjukkan metamorfosis sempurna karena memuat tahap pupa atau kepompong. Kupu-kupu mengalaminya. Belalang, kecoak, dan capung mengalami metamorfosis tidak sempurna dengan urutan telur, nimfa, lalu dewasa, tanpa tahap pupa."
+    },
+    {
+      "id": "ipas-mhl-0012",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kaktus memiliki daun yang berubah bentuk menjadi duri. Perubahan tersebut merupakan bentuk penyesuaian diri untuk ....",
+      "choices": [
+        { "id": "a", "text": "mengurangi penguapan air dari tubuhnya" },
+        { "id": "b", "text": "mempercepat proses fotosintesis" },
+        { "id": "c", "text": "menyerap air hujan lebih banyak" },
+        { "id": "d", "text": "menarik serangga penyerbuk" }
+      ],
+      "answer": "a",
+      "explanation": "Kaktus hidup di tempat kering. Daun yang lebar akan banyak menguapkan air, sehingga daunnya berubah menjadi duri yang permukaannya sangat kecil. Fotosintesis kemudian dilakukan oleh batangnya yang berwarna hijau dan menyimpan air."
+    },
+    {
+      "id": "ipas-mhl-0013",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan jaring-jaring makanan berikut. Jika populasi belalang menurun drastis akibat penyemprotan pestisida, yang paling mungkin terjadi adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><g font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\"><rect x=\"10\" y=\"75\" width=\"64\" height=\"30\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"42\" y=\"95\">rumput</text><rect x=\"120\" y=\"25\" width=\"64\" height=\"30\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"152\" y=\"45\">belalang</text><rect x=\"120\" y=\"125\" width=\"64\" height=\"30\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"152\" y=\"145\">tikus</text><rect x=\"230\" y=\"25\" width=\"64\" height=\"30\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262\" y=\"45\">katak</text><rect x=\"230\" y=\"125\" width=\"64\" height=\"30\" rx=\"5\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"262\" y=\"145\">ular</text></g><g stroke=\"currentColor\" stroke-width=\"1.8\" fill=\"none\"><path d=\"M 74 84 L 118 48\"/><path d=\"M 74 96 L 118 136\"/><path d=\"M 184 40 L 226 40\"/><path d=\"M 184 140 L 226 140\"/><path d=\"M 262 58 L 262 122\"/></g><g fill=\"currentColor\"><polygon points=\"118,48 110,48 115,55\"/><polygon points=\"118,136 110,130 111,138\"/><polygon points=\"226,40 219,36 219,44\"/><polygon points=\"226,140 219,136 219,144\"/><polygon points=\"262,122 258,115 266,115\"/></g></svg>",
+        "alt": "Jaring-jaring makanan: rumput dimakan belalang dan tikus, belalang dimakan katak, tikus dimakan ular, katak juga dimakan ular"
+      },
+      "choices": [
+        { "id": "a", "text": "populasi katak menurun karena kehilangan sumber makanannya" },
+        { "id": "b", "text": "populasi rumput ikut menurun drastis" },
+        { "id": "c", "text": "populasi tikus ikut menurun karena kelaparan" },
+        { "id": "d", "text": "populasi ular meningkat karena mangsanya bertambah" }
+      ],
+      "answer": "a",
+      "explanation": "Pada jaring-jaring itu belalang adalah satu-satunya makanan katak, sehingga katak paling terdampak. Rumput justru cenderung bertambah karena pemakannya berkurang. Tikus tidak bergantung pada belalang. Ular malah berkurang mangsanya karena katak menurun."
+    },
+    {
+      "id": "ipas-mhl-0014",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua cara perkembangbiakan tumbuhan secara vegetatif.",
+      "choices": [
+        { "id": "a", "text": "Tunas pada pohon pisang" },
+        { "id": "b", "text": "Umbi batang pada kentang" },
+        { "id": "c", "text": "Geragih atau stolon pada stroberi" },
+        { "id": "d", "text": "Biji pada pohon mangga" },
+        { "id": "e", "text": "Penyerbukan pada bunga sepatu" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Perkembangbiakan vegetatif tidak melibatkan peleburan sel kelamin dan menghasilkan keturunan yang sifatnya sama dengan induknya. Tunas, umbi batang, dan geragih termasuk vegetatif alami. Biji dan penyerbukan termasuk perkembangbiakan generatif."
+    },
+    {
+      "id": "ipas-mhl-0015",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Hubungan antara bunga dan lebah termasuk simbiosis mutualisme karena ....",
+      "choices": [
+        { "id": "a", "text": "lebah memperoleh nektar dan bunga terbantu penyerbukannya" },
+        { "id": "b", "text": "lebah memperoleh nektar sedangkan bunga dirugikan" },
+        { "id": "c", "text": "bunga memperoleh makanan sedangkan lebah tidak terpengaruh" },
+        { "id": "d", "text": "keduanya sama-sama tidak memperoleh keuntungan" }
+      ],
+      "answer": "a",
+      "explanation": "Simbiosis mutualisme adalah hubungan yang menguntungkan kedua pihak. Lebah mendapat nektar sebagai makanan, sementara serbuk sari yang menempel di tubuhnya terbawa ke bunga lain sehingga membantu penyerbukan."
+    },
+    {
+      "id": "ipas-mhl-0016",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan hubungan antarmakhluk hidup berikut ke dalam jenis simbiosisnya.",
+      "statements": [
+        { "id": "s1", "text": "Benalu pada pohon mangga" },
+        { "id": "s2", "text": "Ikan remora dan ikan hiu" },
+        { "id": "s3", "text": "Kerbau dan burung jalak" },
+        { "id": "s4", "text": "Kutu pada kulit kucing" }
+      ],
+      "categories": [
+        { "id": "mutual", "label": "Mutualisme" },
+        { "id": "komensal", "label": "Komensalisme" },
+        { "id": "parasit", "label": "Parasitisme" }
+      ],
+      "answer": {
+        "s1": "parasit",
+        "s2": "komensal",
+        "s3": "mutual",
+        "s4": "parasit"
+      },
+      "explanation": "Benalu dan kutu menyerap makanan dari inangnya sehingga inang dirugikan, itu parasitisme. Ikan remora menumpang dan memakan sisa makanan hiu tanpa memengaruhi hiu, itu komensalisme. Burung jalak memakan kutu di tubuh kerbau; jalak kenyang dan kerbau bersih, itu mutualisme."
+    },
+    {
+      "id": "ipas-mhl-0017",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Di sebuah danau, petani menebar banyak pupuk ke sawah di sekitarnya. Beberapa bulan kemudian permukaan danau tertutup tumbuhan air yang sangat rapat dan banyak ikan mati. Penjelasan yang paling masuk akal adalah ....",
+      "choices": [
+        { "id": "a", "text": "Pupuk yang terbawa air menyuburkan tumbuhan air sehingga cahaya dan oksigen di dalam danau berkurang" },
+        { "id": "b", "text": "Pupuk langsung meracuni ikan begitu masuk ke dalam danau" },
+        { "id": "c", "text": "Tumbuhan air memakan ikan-ikan kecil di dalam danau" },
+        { "id": "d", "text": "Suhu air danau naik karena banyaknya tumbuhan air" }
+      ],
+      "answer": "a",
+      "explanation": "Zat hara dari pupuk yang hanyut ke danau membuat tumbuhan air tumbuh sangat cepat hingga menutup permukaan. Akibatnya cahaya matahari sulit masuk, tumbuhan di dasar mati, dan pembusukannya menghabiskan oksigen terlarut sehingga ikan kekurangan oksigen."
+    },
+    {
+      "id": "ipas-mhl-0018",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Cecak memutuskan ekornya ketika ditangkap pemangsa. Cara melindungi diri seperti itu disebut ....",
+      "choices": [
+        { "id": "a", "text": "autotomi" },
+        { "id": "b", "text": "mimikri" },
+        { "id": "c", "text": "hibernasi" },
+        { "id": "d", "text": "kamuflase" }
+      ],
+      "answer": "a",
+      "explanation": "Autotomi adalah memutuskan bagian tubuh untuk mengelabui pemangsa. Ekor yang putus masih bergerak-gerak sehingga perhatian pemangsa teralih dan cecak sempat melarikan diri. Mimikri adalah meniru warna lingkungan, dan hibernasi adalah tidur panjang saat musim dingin."
+    },
+    {
+      "id": "ipas-mhl-0019",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Dalam sebuah ekosistem, jamur dan bakteri pembusuk berperan sebagai ....",
+      "choices": [
+        { "id": "a", "text": "pengurai yang mengembalikan zat hara ke dalam tanah" },
+        { "id": "b", "text": "produsen yang membuat makanan sendiri" },
+        { "id": "c", "text": "konsumen tingkat satu yang memakan tumbuhan" },
+        { "id": "d", "text": "pemangsa puncak dalam rantai makanan" }
+      ],
+      "answer": "a",
+      "explanation": "Pengurai menguraikan sisa makhluk hidup yang mati menjadi zat hara yang kembali tersedia bagi tumbuhan. Tanpa pengurai, sisa tumbuhan dan hewan akan menumpuk dan zat hara tidak berputar kembali dalam ekosistem."
+    },
+    {
+      "id": "ipas-mhl-0020",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Penanaman kembali hutan yang gundul disebut reboisasi. Manfaat utama kegiatan tersebut bagi lingkungan adalah ....",
+      "choices": [
+        { "id": "a", "text": "mencegah erosi dan menjaga ketersediaan air tanah" },
+        { "id": "b", "text": "menambah luas lahan untuk permukiman" },
+        { "id": "c", "text": "mempercepat aliran air hujan menuju sungai" },
+        { "id": "d", "text": "menaikkan suhu udara di sekitar hutan" }
+      ],
+      "answer": "a",
+      "explanation": "Akar pohon menahan butiran tanah sehingga tidak mudah terkikis air hujan, sekaligus memperlambat aliran air agar meresap menjadi air tanah. Aliran air yang justru dipercepat adalah ciri lahan gundul, bukan hutan yang rapat."
+    },
+    {
+      "id": "ipas-mhl-0021",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua ciri yang menunjukkan bahwa sesuatu tergolong makhluk hidup.",
+      "choices": [
+        { "id": "a", "text": "Memerlukan makanan atau nutrisi" },
+        { "id": "b", "text": "Dapat tumbuh dan berkembang" },
+        { "id": "c", "text": "Menanggapi rangsang dari lingkungan" },
+        { "id": "d", "text": "Dapat bergerak karena didorong angin" },
+        { "id": "e", "text": "Bertambah besar karena ditumpuk dari luar" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ciri makhluk hidup antara lain memerlukan nutrisi, tumbuh dan berkembang, menanggapi rangsang, bernapas, dan berkembang biak. Bergerak karena dorongan angin bukan gerak atas kemauan sendiri, dan bertambah besar karena penumpukan dari luar adalah ciri benda tak hidup seperti kristal atau bukit pasir."
+    },
+    {
+      "id": "ipas-mhl-0022",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Hewan berikut yang berkembang biak dengan cara bertelur dan melahirkan adalah ....",
+      "choices": [
+        { "id": "a", "text": "ular boa" },
+        { "id": "b", "text": "ayam kampung" },
+        { "id": "c", "text": "sapi perah" },
+        { "id": "d", "text": "katak sawah" }
+      ],
+      "answer": "a",
+      "explanation": "Beberapa jenis ular seperti boa berkembang biak secara ovovivipar, yaitu telur menetas di dalam tubuh induk lalu anaknya keluar seperti dilahirkan. Ayam dan katak bertelur (ovipar), sedangkan sapi melahirkan (vivipar)."
+    },
+    {
+      "id": "ipas-mhl-0023",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penerapan",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Seorang petani ingin memperbanyak pohon mangga agar buahnya sama manis dengan induknya dan cepat berbuah. Cara yang paling tepat adalah ....",
+      "choices": [
+        { "id": "a", "text": "mencangkok cabang pohon induk" },
+        { "id": "b", "text": "menyemai biji dari buah pohon induk" },
+        { "id": "c", "text": "menanam tunas yang tumbuh di sekitar akar" },
+        { "id": "d", "text": "menyilangkan pohon induk dengan jenis lain" }
+      ],
+      "answer": "a",
+      "explanation": "Mencangkok menghasilkan tanaman baru yang sifatnya persis sama dengan induknya dan berbuah lebih cepat karena berasal dari cabang yang sudah dewasa. Tanaman dari biji sifatnya bisa berbeda dari induk dan butuh waktu lama untuk berbuah."
+    },
+    {
+      "id": "ipas-mhl-0024",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan diagram piramida makanan berikut. Jumlah individu paling banyak terdapat pada tingkat ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 260 170\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"110,20 150,20 160,55 100,55\" fill=\"currentColor\" fill-opacity=\"0.4\"/><polygon points=\"100,55 160,55 172,95 88,95\" fill=\"currentColor\" fill-opacity=\"0.28\"/><polygon points=\"88,95 172,95 186,140 74,140\" fill=\"currentColor\" fill-opacity=\"0.14\"/></g><g font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"130\" y=\"42\">ular</text><text x=\"130\" y=\"80\">katak</text><text x=\"130\" y=\"122\">rumput</text></g><g font-size=\"11\" fill=\"currentColor\"><text x=\"196\" y=\"42\">tingkat 3</text><text x=\"196\" y=\"80\">tingkat 2</text><text x=\"196\" y=\"122\">tingkat 1</text></g></svg>",
+        "alt": "Piramida makanan tiga tingkat: rumput di dasar, katak di tengah, ular di puncak"
+      },
+      "choices": [
+        { "id": "a", "text": "tingkat 1, yaitu rumput" },
+        { "id": "b", "text": "tingkat 2, yaitu katak" },
+        { "id": "c", "text": "tingkat 3, yaitu ular" },
+        { "id": "d", "text": "jumlahnya sama di setiap tingkat" }
+      ],
+      "answer": "a",
+      "explanation": "Pada piramida makanan, tingkat paling bawah ditempati produsen dan jumlahnya paling banyak. Semakin ke atas jumlah individunya semakin sedikit karena energi yang berpindah antartingkat selalu berkurang, sehingga hanya sedikit makhluk yang dapat didukung."
+    },
+    {
+      "id": "ipas-mhl-0025",
+      "subject": "ipas",
+      "domain": "makhluk_hidup",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Komodo hanya dapat ditemukan secara alami di Indonesia. Hewan yang hanya hidup di daerah tertentu seperti itu disebut hewan ....",
+      "choices": [
+        { "id": "a", "text": "endemik" },
+        { "id": "b", "text": "langka" },
+        { "id": "c", "text": "migran" },
+        { "id": "d", "text": "peliharaan" }
+      ],
+      "answer": "a",
+      "explanation": "Endemik berarti hanya hidup secara alami di suatu wilayah tertentu dan tidak ditemukan di tempat lain. Contoh lain di Indonesia adalah anoa di Sulawesi dan cenderawasih di Papua. Langka menunjuk pada jumlah yang sedikit, bukan pada wilayah hidupnya."
+    },
+    {
+      "id": "ipas-tub-0010",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Organ yang berfungsi memompa darah ke seluruh tubuh adalah ....",
+      "choices": [
+        { "id": "a", "text": "jantung" },
+        { "id": "b", "text": "paru-paru" },
+        { "id": "c", "text": "ginjal" },
+        { "id": "d", "text": "hati" }
+      ],
+      "answer": "a",
+      "explanation": "Jantung berupa otot berongga yang berdenyut sepanjang hidup untuk memompa darah. Paru-paru mengurus pertukaran gas, ginjal menyaring zat sisa dari darah, dan hati mengolah zat makanan serta menawarkan racun."
+    },
+    {
+      "id": "ipas-tub-0011",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar sistem pernapasan berikut. Tempat terjadinya pertukaran oksigen dan karbon dioksida ditunjukkan oleh huruf ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 240 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"112\" y=\"20\" width=\"16\" height=\"70\" rx=\"4\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path d=\"M 112 88 C 80 92 62 110 60 140 C 58 168 78 182 100 176 C 114 172 116 150 116 120\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M 128 88 C 160 92 178 110 180 140 C 182 168 162 182 140 176 C 126 172 124 150 124 120\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"88\" cy=\"150\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"40\" x2=\"175\" y2=\"40\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"182\" y=\"45\" font-size=\"14\" fill=\"currentColor\">P</text><line x1=\"88\" y1=\"150\" x2=\"32\" y2=\"168\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"24\" y=\"173\" font-size=\"14\" fill=\"currentColor\" text-anchor=\"end\">Q</text><line x1=\"160\" y1=\"140\" x2=\"208\" y2=\"128\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"214\" y=\"133\" font-size=\"14\" fill=\"currentColor\">R</text></svg>",
+        "alt": "Bagan sistem pernapasan dengan tenggorokan bertanda P, gelembung alveolus bertanda Q, dan paru-paru bertanda R"
+      },
+      "choices": [
+        { "id": "a", "text": "Q, yaitu alveolus" },
+        { "id": "b", "text": "P, yaitu tenggorokan" },
+        { "id": "c", "text": "R, yaitu dinding paru-paru" },
+        { "id": "d", "text": "P dan R secara bersamaan" }
+      ],
+      "answer": "a",
+      "explanation": "Huruf Q menunjuk alveolus, yaitu gelembung kecil di ujung saluran pernapasan yang dindingnya sangat tipis dan dikelilingi pembuluh darah halus. Di sanalah oksigen masuk ke darah dan karbon dioksida keluar. Tenggorokan hanya saluran lewatnya udara."
+    },
+    {
+      "id": "ipas-tub-0012",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Seseorang sering mengalami sembelit atau sulit buang air besar. Kebiasaan yang paling tepat untuk mengatasinya adalah ....",
+      "choices": [
+        { "id": "a", "text": "memperbanyak makan sayur, buah, dan minum air putih" },
+        { "id": "b", "text": "memperbanyak makanan berlemak dan gorengan" },
+        { "id": "c", "text": "mengurangi waktu tidur setiap malam" },
+        { "id": "d", "text": "menahan buang air besar sampai waktu tertentu" }
+      ],
+      "answer": "a",
+      "explanation": "Sayur dan buah mengandung serat yang membuat sisa makanan tidak terlalu padat dan lebih mudah didorong usus. Air putih menjaga sisa makanan tetap lunak. Menahan buang air besar justru membuat air diserap kembali oleh usus besar sehingga tinja makin keras."
+    },
+    {
+      "id": "ipas-tub-0013",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan organ berikut menurut sistem tubuh tempatnya bekerja.",
+      "statements": [
+        { "id": "s1", "text": "Lambung" },
+        { "id": "s2", "text": "Alveolus" },
+        { "id": "s3", "text": "Usus halus" },
+        { "id": "s4", "text": "Bronkus" }
+      ],
+      "categories": [
+        { "id": "cerna", "label": "Pencernaan" },
+        { "id": "napas", "label": "Pernapasan" }
+      ],
+      "answer": {
+        "s1": "cerna",
+        "s2": "napas",
+        "s3": "cerna",
+        "s4": "napas"
+      },
+      "explanation": "Lambung dan usus halus termasuk saluran pencernaan yang mengolah dan menyerap makanan. Bronkus adalah cabang tenggorokan menuju paru-paru dan alveolus adalah tempat pertukaran gas, keduanya bagian sistem pernapasan."
+    },
+    {
+      "id": "ipas-tub-0014",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Rangka manusia disebut alat gerak pasif, sedangkan otot disebut alat gerak aktif. Alasan yang paling tepat adalah ....",
+      "choices": [
+        { "id": "a", "text": "tulang hanya bergerak bila ditarik oleh otot yang berkontraksi" },
+        { "id": "b", "text": "tulang tidak dapat menopang berat tubuh manusia" },
+        { "id": "c", "text": "otot lebih keras dan kuat daripada tulang" },
+        { "id": "d", "text": "tulang tidak terhubung satu sama lain oleh sendi" }
+      ],
+      "answer": "a",
+      "explanation": "Tulang tidak bisa memendek atau memanjang sendiri. Gerakan terjadi ketika otot berkontraksi dan menarik tulang pada sendi. Karena itu otot disebut alat gerak aktif dan tulang alat gerak pasif, meskipun tulang tetap kuat menopang tubuh."
+    },
+    {
+      "id": "ipas-tub-0015",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua kebiasaan yang membantu menjaga kesehatan mata.",
+      "choices": [
+        { "id": "a", "text": "Membaca dengan penerangan yang cukup" },
+        { "id": "b", "text": "Mengistirahatkan mata setelah lama menatap layar" },
+        { "id": "c", "text": "Makan makanan yang mengandung vitamin A seperti wortel" },
+        { "id": "d", "text": "Membaca sambil berbaring di tempat gelap" },
+        { "id": "e", "text": "Mengucek mata dengan tangan yang kotor" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Penerangan cukup mengurangi kelelahan mata, istirahat berkala mencegah mata kering dan tegang, dan vitamin A diperlukan untuk kesehatan selaput mata. Membaca di tempat gelap memaksa mata bekerja berlebihan, sedangkan mengucek dengan tangan kotor mengundang infeksi."
+    },
+    {
+      "id": "ipas-tub-0016",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Pada masa pubertas, tubuh mulai memproduksi keringat lebih banyak dan kelenjar minyak menjadi lebih aktif. Akibat yang paling sering muncul adalah ....",
+      "choices": [
+        { "id": "a", "text": "timbulnya jerawat dan bau badan" },
+        { "id": "b", "text": "tinggi badan berhenti bertambah" },
+        { "id": "c", "text": "suara menjadi lebih tinggi" },
+        { "id": "d", "text": "gigi susu mulai tanggal" }
+      ],
+      "answer": "a",
+      "explanation": "Kelenjar minyak yang aktif dapat menyumbat pori-pori sehingga timbul jerawat, sedangkan keringat yang bercampur bakteri di kulit menimbulkan bau badan. Karena itu mandi teratur dan membersihkan wajah menjadi penting pada masa ini."
+    },
+    {
+      "id": "ipas-tub-0017",
+      "subject": "ipas",
+      "domain": "tubuh_manusia",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Dua anak mengukur denyut nadinya. Anak pertama duduk tenang selama lima menit, anak kedua baru selesai berlari. Hasilnya: anak pertama 78 denyut per menit, anak kedua 132 denyut per menit. Simpulan yang paling tepat adalah ....",
+      "choices": [
+        { "id": "a", "text": "aktivitas fisik membuat jantung berdenyut lebih cepat untuk mengedarkan oksigen" },
+        { "id": "b", "text": "anak kedua memiliki jantung yang lebih lemah daripada anak pertama" },
+        { "id": "c", "text": "denyut nadi setiap orang selalu berbeda tanpa sebab tertentu" },
+        { "id": "d", "text": "anak pertama sedang sakit sehingga denyutnya lambat" }
+      ],
+      "answer": "a",
+      "explanation": "Satu-satunya perbedaan yang sengaja dibuat adalah aktivitas sebelum pengukuran. Saat berlari, otot memerlukan lebih banyak oksigen, sehingga jantung memompa lebih cepat. Denyut 78 per menit masih tergolong normal, jadi tidak menandakan sakit."
+    }
+  ]
+}

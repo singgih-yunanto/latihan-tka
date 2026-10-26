@@ -1,0 +1,328 @@
+{
+  "batch": "bi-fiksi-02",
+  "note": "Bahasa Indonesia - Teks fiksi: everyday stories, a fable, and a children's poem",
+  "stimuli": [
+    {
+      "id": "bi-stim-0013",
+      "subject": "bahasa_indonesia",
+      "title": "Payung Kuning",
+      "textType": "teks_fiksi",
+      "body": "Hujan turun tiba-tiba ketika bel pulang berbunyi. Anak-anak berhamburan ke teras sekolah, menunggu jemputan.\n\nSalma membuka payung kuningnya. Payung itu hadiah dari neneknya, satu-satunya barang yang ia jaga betul. Warnanya masih cerah meski sudah dipakai dua tahun.\n\nDi ujung teras, Sinta berdiri sendirian. Rumahnya paling jauh dan ia selalu berjalan kaki. Salma tahu Sinta sering meminjam pensilnya tanpa pernah mengembalikan tepat waktu. Kemarin pun Sinta menumpahkan air ke buku gambarnya, lalu hanya berkata \"maaf\" sekali.\n\nSalma melangkah keluar. Langkahnya berhenti di anak tangga terakhir.\n\nIa menoleh. Sinta masih berdiri di sana, memeluk tas ke dada.\n\n\"Sin,\" panggil Salma. \"Bareng, yuk.\"\n\nSinta mendongak, ragu sesaat, lalu berlari kecil menghampirinya. Payung kuning itu terlalu sempit untuk dua orang. Bahu kanan Salma basah sepanjang jalan.\n\nDi persimpangan, Sinta berhenti. \"Salma, pensil yang kemarin... besok aku kembalikan. Buku gambarmu juga akan kuganti.\"\n\nSalma menggeleng. \"Tidak usah.\"\n\n\"Kenapa kamu mau mengajakku?\"\n\nSalma memandang payungnya yang kekecilan, lalu tersenyum. \"Karena hujannya deras.\"\n\nSinta tidak berkata apa-apa lagi. Tetapi esok paginya, pensil itu sudah tergeletak rapi di atas meja Salma, bersama sebuah buku gambar baru."
+    },
+    {
+      "id": "bi-stim-0014",
+      "subject": "bahasa_indonesia",
+      "title": "Semut Merah dan Ulat Daun",
+      "textType": "teks_fiksi",
+      "body": "Di sebuah pohon jambu tinggal koloni semut merah yang rajin. Setiap hari mereka berbaris mengangkut remah makanan ke sarang.\n\nSuatu pagi, seekor ulat gemuk merayap pelan di dahan yang sama. Gerakannya lamban dan tubuhnya menghalangi jalur barisan.\n\n\"Minggir, Ulat! Kau menghalangi jalan kami,\" seru Semut Komandan.\n\n\"Maaf, aku hanya bisa bergerak sepelan ini,\" jawab Ulat.\n\nSemut-semut menggerutu. Mereka terpaksa memutar lewat ranting lain yang lebih jauh. Setiap hari mereka mengomel tentang ulat yang lamban dan tidak berguna.\n\n\"Kau hanya makan daun dan tidur,\" kata Semut Komandan suatu sore. \"Kami bekerja dari pagi sampai malam.\"\n\nUlat tidak menjawab. Beberapa hari kemudian ia menghilang. Di ujung dahan hanya tergantung sebuah kepompong cokelat yang diam.\n\nSemut-semut kembali melewati jalur lama mereka tanpa hambatan. Mereka nyaris melupakan ulat itu.\n\nMusim berganti. Suatu pagi, kepompong itu terbuka. Seekor kupu-kupu keluar, mengeringkan sayapnya, lalu terbang berkeliling pohon jambu.\n\nSejak hari itu, bunga-bunga jambu jauh lebih banyak yang menjadi buah. Remah makanan yang jatuh ke tanah pun berlipat ganda.\n\nSemut Komandan memandang ke atas, ke arah kupu-kupu yang hinggap dari bunga ke bunga.\n\n\"Rupanya dia sedang mengerjakan sesuatu,\" gumamnya, \"hanya saja bukan pekerjaan yang bisa kami lihat.\""
+    },
+    {
+      "id": "bi-stim-0015",
+      "subject": "bahasa_indonesia",
+      "title": "Ibu dan Dapur Pagi",
+      "textType": "teks_fiksi",
+      "body": "Pukul empat, lampu dapur menyala\nsebelum ayam di belakang rumah bersuara\nIbu menakar beras dengan telapak tangan\ntanpa sendok, tanpa timbangan\n\nAsap mengepul dari dandang tua\nberbau pandan dan sedikit arang\nDi meja, empat piring berbaris\nmenunggu penghuninya bangun\n\nAku pura-pura masih tidur\npadahal kudengar semuanya:\nsuara pisau di talenan,\nair yang dituang pelan-pelan,\ndan doa yang lirih, hampir tak terdengar,\nmenyebut namaku satu per satu\n\nKetika matahari akhirnya datang\nIbu sudah menyapu halaman\nDapur sudah rapi,\nseolah tidak pernah terjadi apa-apa di sana"
+    }
+  ],
+  "questions": [
+    {
+      "id": "bi-fik-0017",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Payung kuning milik Salma merupakan ....",
+      "choices": [
+        { "id": "a", "text": "hadiah dari neneknya" },
+        { "id": "b", "text": "pinjaman dari Sinta" },
+        { "id": "c", "text": "hadiah lomba di sekolah" },
+        { "id": "d", "text": "pemberian dari gurunya" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua menyebutkan, \"Payung itu hadiah dari neneknya, satu-satunya barang yang ia jaga betul.\""
+    },
+    {
+      "id": "bi-fik-0018",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Mengapa langkah Salma berhenti di anak tangga terakhir?",
+      "choices": [
+        { "id": "a", "text": "Ia sedang menimbang apakah akan mengajak Sinta atau tidak" },
+        { "id": "b", "text": "Ia baru sadar payungnya tertinggal di dalam kelas" },
+        { "id": "c", "text": "Ia menunggu hujan agar sedikit lebih reda" },
+        { "id": "d", "text": "Ia melihat jemputannya sudah datang di depan sekolah" }
+      ],
+      "answer": "a",
+      "explanation": "Sebelum kalimat itu, penulis menyebutkan kekesalan Salma terhadap Sinta soal pensil dan buku gambar. Sesudahnya Salma menoleh ke arah Sinta lalu mengajaknya. Jeda di anak tangga itu menggambarkan pergulatan batin Salma antara rasa kesal dan keinginan menolong."
+    },
+    {
+      "id": "bi-fik-0019",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Jawaban Salma, \"Karena hujannya deras,\" menunjukkan bahwa Salma ....",
+      "choices": [
+        { "id": "a", "text": "menolong tanpa merasa perlu mengungkit kesalahan Sinta" },
+        { "id": "b", "text": "takut pulang sendirian ketika hujan deras" },
+        { "id": "c", "text": "berharap Sinta segera mengganti buku gambarnya" },
+        { "id": "d", "text": "tidak mendengar dengan jelas pertanyaan Sinta" }
+      ],
+      "answer": "a",
+      "explanation": "Sinta bertanya mengapa ia diajak, dan Salma bisa saja menjawab dengan mengungkit pensil atau buku gambar. Ia justru memberi alasan sesederhana mungkin. Jawaban itu memperlihatkan pertolongan yang diberikan tanpa syarat dan tanpa menuntut balasan."
+    },
+    {
+      "id": "bi-fik-0020",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Kalimat \"Bahu kanan Salma basah sepanjang jalan\" menunjukkan bahwa Salma ....",
+      "choices": [
+        { "id": "a", "text": "merelakan dirinya kehujanan demi melindungi temannya" },
+        { "id": "b", "text": "tidak pandai memegang payung dengan benar" },
+        { "id": "c", "text": "sengaja berjalan di luar payung karena kesal" },
+        { "id": "d", "text": "membiarkan Sinta memegang payung sendirian" }
+      ],
+      "answer": "a",
+      "explanation": "Kalimat sebelumnya menyebutkan payung itu terlalu sempit untuk dua orang. Karena Salma menggeser payung agar Sinta terlindung, bahunya sendiri yang kebasahan. Ini penggambaran pengorbanan kecil yang tidak diucapkan."
+    },
+    {
+      "id": "bi-fik-0021",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Tentukan apakah setiap pernyataan tentang tokoh berikut benar atau salah.",
+      "statements": [
+        { "id": "s1", "text": "Salma memiliki sifat pemaaf" },
+        { "id": "s2", "text": "Sinta sama sekali tidak menyadari kesalahannya" },
+        { "id": "s3", "text": "Sinta akhirnya menepati janjinya" },
+        { "id": "s4", "text": "Salma mengajak Sinta karena diminta oleh guru" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "salah",
+        "s3": "benar",
+        "s4": "salah"
+      },
+      "explanation": "Salma memaafkan Sinta tanpa diminta, jadi s1 benar. Sinta justru menyadari kesalahannya karena ia sendiri yang menyinggung soal pensil dan buku gambar di persimpangan, sehingga s2 salah. Esok paginya ia benar-benar mengembalikan pensil dan membawa buku gambar baru, jadi s3 benar. Tidak ada guru yang menyuruh Salma, jadi s4 salah."
+    },
+    {
+      "id": "bi-fik-0022",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0014",
+      "stem": "Mengapa semut-semut terpaksa memutar lewat ranting lain?",
+      "choices": [
+        { "id": "a", "text": "Tubuh ulat menghalangi jalur barisan mereka" },
+        { "id": "b", "text": "Jalur lama mereka patah tertiup angin" },
+        { "id": "c", "text": "Sarang mereka dipindahkan ke dahan lain" },
+        { "id": "d", "text": "Kupu-kupu menutup jalan menuju bunga" }
+      ],
+      "answer": "a",
+      "explanation": "Paragraf kedua dan ketiga menyebutkan ulat merayap di dahan yang sama dan tubuhnya menghalangi jalur barisan, sehingga semut-semut terpaksa memutar lewat ranting lain yang lebih jauh."
+    },
+    {
+      "id": "bi-fik-0023",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0014",
+      "stem": "Mengapa bunga jambu menjadi lebih banyak yang berubah menjadi buah?",
+      "choices": [
+        { "id": "a", "text": "Kupu-kupu membantu penyerbukan saat hinggap dari bunga ke bunga" },
+        { "id": "b", "text": "Semut merah rajin membersihkan bunga setiap pagi" },
+        { "id": "c", "text": "Pohon jambu mendapat pupuk dari kepompong yang jatuh" },
+        { "id": "d", "text": "Ulat berhenti memakan daun pohon jambu" }
+      ],
+      "answer": "a",
+      "explanation": "Cerita menghubungkan dua hal secara berurutan: kupu-kupu terbang hinggap dari bunga ke bunga, lalu bunga yang menjadi buah bertambah banyak. Pembaca diminta menyimpulkan peran kupu-kupu sebagai pembantu penyerbukan, meski istilah itu tidak disebut langsung."
+    },
+    {
+      "id": "bi-fik-0024",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0014",
+      "stem": "Maksud ucapan Semut Komandan, \"Rupanya dia sedang mengerjakan sesuatu, hanya saja bukan pekerjaan yang bisa kami lihat,\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "tidak semua kerja keras tampak dari luar, sehingga kita tidak pantas cepat menghakimi" },
+        { "id": "b", "text": "kupu-kupu bekerja diam-diam agar tidak diketahui semut" },
+        { "id": "c", "text": "semut seharusnya ikut masuk ke dalam kepompong" },
+        { "id": "d", "text": "pekerjaan yang baik harus dikerjakan pada malam hari" }
+      ],
+      "answer": "a",
+      "explanation": "Sepanjang cerita semut menilai ulat tidak berguna karena kerjanya tidak terlihat. Setelah ulat berubah menjadi kupu-kupu dan pohon menjadi lebih produktif, Semut Komandan menyadari penilaiannya keliru. Inilah pesan cerita tentang tidak tergesa menilai orang lain."
+    },
+    {
+      "id": "bi-fik-0025",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0014",
+      "stem": "Pilihlah semua pernyataan yang sesuai dengan isi cerita.",
+      "choices": [
+        { "id": "a", "text": "Semut merah menganggap ulat tidak berguna" },
+        { "id": "b", "text": "Ulat berubah menjadi kupu-kupu melalui kepompong" },
+        { "id": "c", "text": "Keadaan pohon jambu membaik setelah kupu-kupu muncul" },
+        { "id": "d", "text": "Ulat membalas ucapan semut dengan kata-kata kasar" },
+        { "id": "e", "text": "Semut merah memindahkan sarangnya ke pohon lain" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Pernyataan a, b, dan c tertulis atau tersirat jelas dalam cerita. Pernyataan d keliru karena ulat justru tidak menjawab. Pernyataan e tidak pernah disebutkan; semut hanya memutar lewat ranting lain."
+    },
+    {
+      "id": "bi-fik-0026",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0015",
+      "stem": "Waktu yang digambarkan dalam puisi tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "dini hari menjelang pagi" },
+        { "id": "b", "text": "siang hari yang terik" },
+        { "id": "c", "text": "sore hari menjelang magrib" },
+        { "id": "d", "text": "tengah malam yang sunyi" }
+      ],
+      "answer": "a",
+      "explanation": "Baris pertama menyebut pukul empat, sebelum ayam bersuara, dan bait terakhir menyebut matahari yang akhirnya datang. Rangkaian itu menggambarkan dini hari yang beralih menjadi pagi."
+    },
+    {
+      "id": "bi-fik-0027",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0015",
+      "stem": "Baris \"Aku pura-pura masih tidur / padahal kudengar semuanya\" menunjukkan bahwa tokoh aku ....",
+      "choices": [
+        { "id": "a", "text": "diam-diam memperhatikan dan menyimpan rasa haru kepada ibunya" },
+        { "id": "b", "text": "malas bangun untuk membantu ibunya di dapur" },
+        { "id": "c", "text": "sedang sakit sehingga tidak mampu bangun pagi" },
+        { "id": "d", "text": "takut ditegur ibunya karena bangun kesiangan" }
+      ],
+      "answer": "a",
+      "explanation": "Baris-baris setelahnya merinci apa saja yang didengar tokoh aku sampai ke doa lirih yang menyebut namanya. Perhatian sedetail itu menunjukkan kesadaran dan keharuan, bukan kemalasan. Puisi ini memang bercerita tentang kasih ibu yang bekerja tanpa diketahui."
+    },
+    {
+      "id": "bi-fik-0028",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stimulusId": "bi-stim-0015",
+      "stem": "Makna baris terakhir, \"seolah tidak pernah terjadi apa-apa di sana,\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "Ibu bekerja keras tanpa meninggalkan jejak dan tanpa meminta dilihat" },
+        { "id": "b", "text": "Ibu lupa memasak sarapan untuk keluarganya pagi itu" },
+        { "id": "c", "text": "Dapur rumah itu memang jarang digunakan" },
+        { "id": "d", "text": "Semua anggota keluarga bangun terlambat pagi itu" }
+      ],
+      "answer": "a",
+      "explanation": "Bait sebelumnya menggambarkan banyak sekali pekerjaan yang dilakukan Ibu sejak pukul empat. Baris terakhir menyatakan dapur sudah rapi kembali, sehingga jerih payah itu tidak meninggalkan bekas yang terlihat. Ungkapan ini justru menegaskan besarnya kerja Ibu, bukan ketiadaannya."
+    },
+    {
+      "id": "bi-fik-0029",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "tekstual",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stimulusId": "bi-stim-0015",
+      "stem": "Berdasarkan puisi tersebut, Ibu menakar beras menggunakan ....",
+      "choices": [
+        { "id": "a", "text": "telapak tangan" },
+        { "id": "b", "text": "sendok makan" },
+        { "id": "c", "text": "timbangan kecil" },
+        { "id": "d", "text": "gelas belimbing" }
+      ],
+      "answer": "a",
+      "explanation": "Baris ketiga dan keempat menyebutkan, \"Ibu menakar beras dengan telapak tangan / tanpa sendok, tanpa timbangan.\""
+    },
+    {
+      "id": "bi-fik-0030",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stimulusId": "bi-stim-0015",
+      "stem": "Pilihlah semua perasaan yang tergambar dalam puisi tersebut.",
+      "choices": [
+        { "id": "a", "text": "haru terhadap pengorbanan ibu" },
+        { "id": "b", "text": "kagum pada ketekunan ibu" },
+        { "id": "c", "text": "sayang kepada ibu" },
+        { "id": "d", "text": "marah kepada ibu" },
+        { "id": "e", "text": "takut kepada ibu" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Puisi ini memuat perhatian penuh kasih terhadap pekerjaan ibu sejak dini hari, termasuk doanya yang lirih. Nadanya haru, kagum, dan penuh sayang. Tidak ada tanda kemarahan maupun ketakutan di dalamnya."
+    },
+    {
+      "id": "bi-fik-0031",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "inferensial",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0014",
+      "stem": "Watak semut merah pada awal cerita adalah ....",
+      "choices": [
+        { "id": "a", "text": "rajin tetapi cepat menilai buruk" },
+        { "id": "b", "text": "pemalas dan suka mengganggu" },
+        { "id": "c", "text": "penakut dan mudah menyerah" },
+        { "id": "d", "text": "pendiam dan suka menyendiri" }
+      ],
+      "answer": "a",
+      "explanation": "Cerita membuka dengan menyebut koloni semut yang rajin mengangkut makanan setiap hari. Namun mereka juga mengomel setiap hari tentang ulat yang lamban dan menyebutnya tidak berguna. Jadi kedua sifat itu ada bersamaan."
+    },
+    {
+      "id": "bi-fik-0032",
+      "subject": "bahasa_indonesia",
+      "domain": "teks_fiksi",
+      "competency": "evaluasi_apresiasi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stimulusId": "bi-stim-0013",
+      "stem": "Pesan yang paling tepat dari cerita \"Payung Kuning\" adalah ....",
+      "choices": [
+        { "id": "a", "text": "Kebaikan yang tulus dapat mengubah sikap orang lain" },
+        { "id": "b", "text": "Barang pemberian nenek harus dijaga baik-baik" },
+        { "id": "c", "text": "Sebaiknya kita tidak meminjamkan barang kepada teman" },
+        { "id": "d", "text": "Berjalan kaki saat hujan membuat tubuh menjadi kuat" }
+      ],
+      "answer": "a",
+      "explanation": "Salma menolong Sinta tanpa mengungkit kesalahannya, dan esok paginya Sinta mengembalikan pensil serta membawa buku gambar baru tanpa diminta lagi. Perubahan sikap itulah inti ceritanya. Pilihan b dan c hanya menyentuh detail kecil dan bahkan berlawanan dengan pesannya."
+    }
+  ]
+}

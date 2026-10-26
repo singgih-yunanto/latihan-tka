@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789804342015,
+      "tag": "0000_wet_bruce_banner",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789872821306,
+      "tag": "0001_grey_korath",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792882790129,
+      "tag": "0002_smart_cargill",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792890837955,
+      "tag": "0003_regular_talkback",
+      "breakpoints": true
+    }
+  ]
+}

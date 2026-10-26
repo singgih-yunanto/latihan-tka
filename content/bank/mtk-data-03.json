@@ -1,0 +1,273 @@
+{
+  "batch": "mtk-data-03",
+  "note": "Matematika - Data & Peluang: data lists, pie charts as percent of N, frequency-table mean, median (tryout gap batch)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-dat-0040",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pgk_kategori",
+      "stem": "Tabel berikut menunjukkan data hewan peliharaan siswa kelas 6. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Hewan</text><rect x=\"130\" y=\"20\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Banyak siswa</text><rect x=\"20\" y=\"46\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Kucing</text><rect x=\"130\" y=\"46\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">14</text><rect x=\"20\" y=\"72\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ikan</text><rect x=\"130\" y=\"72\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">9</text><rect x=\"20\" y=\"98\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Burung</text><rect x=\"130\" y=\"98\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">6</text><rect x=\"20\" y=\"124\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Kelinci</text><rect x=\"130\" y=\"124\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">11</text></svg>",
+        "alt": "Tabel hewan peliharaan: kucing 14 siswa, ikan 9 siswa, burung 6 siswa, kelinci 11 siswa"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Hewan yang paling banyak dipelihara adalah kucing."
+        },
+        {
+          "id": "s2",
+          "text": "Siswa yang memelihara kelinci lebih banyak daripada yang memelihara ikan."
+        },
+        {
+          "id": "s3",
+          "text": "Siswa yang memelihara hewan selain kucing ada 26 orang."
+        },
+        {
+          "id": "s4",
+          "text": "Siswa yang memelihara burung dan ikan ada 17 orang."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "benar",
+        "s4": "salah"
+      },
+      "explanation": "Kucing (14) paling banyak. Kelinci 11 lebih dari ikan 9. Selain kucing: $9 + 6 + 11 = 26$ siswa. Burung dan ikan: $6 + 9 = 15$ siswa, bukan 17."
+    },
+    {
+      "id": "mtk-dat-0041",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Diagram lingkaran berikut menunjukkan olahraga kesukaan 60 siswa. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 95 95 L 95.0 25.0 A 70 70 0 0 1 151.6 136.1 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"133.67\" y=\"79.2968\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">35%</text><rect x=\"185\" y=\"29\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"41\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Sepak bola (35%)</text><path d=\"M 95 95 L 151.6 136.1 A 70 70 0 0 1 53.9 151.6 Z\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"101.789\" y=\"141.866\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">25%</text><rect x=\"185\" y=\"55\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"67\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Bulu tangkis (25%)</text><path d=\"M 95 95 L 53.9 151.6 A 70 70 0 0 1 25.0 95.0 Z\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"56.3303\" y=\"118.703\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">15%</text><rect x=\"185\" y=\"81\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"93\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Renang (15%)</text><path d=\"M 95 95 L 25.0 95.0 A 70 70 0 0 1 95.0 25.0 Z\" fill=\"currentColor\" fill-opacity=\"0.45\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"64.3116\" y=\"68.3116\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">25%</text><rect x=\"185\" y=\"107\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"119\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Voli (25%)</text></svg>",
+        "alt": "Diagram lingkaran olahraga kesukaan 60 siswa: sepak bola 35 persen, bulu tangkis 25 persen, renang 15 persen, voli 25 persen"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Siswa yang menyukai sepak bola ada 21 orang."
+        },
+        {
+          "id": "b",
+          "text": "Banyak siswa yang menyukai bulu tangkis sama dengan yang menyukai voli."
+        },
+        {
+          "id": "c",
+          "text": "Siswa yang menyukai renang ada 15 orang."
+        },
+        {
+          "id": "d",
+          "text": "Selisih siswa yang menyukai sepak bola dan renang adalah 12 orang."
+        },
+        {
+          "id": "e",
+          "text": "Lebih dari setengah siswa menyukai sepak bola."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Sepak bola $35\\% \\times 60 = 21$ orang. Bulu tangkis dan voli sama-sama $25\\%$, yaitu 15 orang. Renang $15\\% \\times 60 = 9$ orang, bukan 15 (15 adalah persentasenya). Selisih sepak bola dan renang $21 - 9 = 12$. Sepak bola $35\\%$, kurang dari setengah."
+    },
+    {
+      "id": "mtk-dat-0042",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Tabel berikut menunjukkan nilai ulangan sekelompok siswa. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Nilai</text><rect x=\"130\" y=\"20\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Banyak siswa</text><rect x=\"20\" y=\"46\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">6</text><rect x=\"130\" y=\"46\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">4</text><rect x=\"20\" y=\"72\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">7</text><rect x=\"130\" y=\"72\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">8</text><rect x=\"20\" y=\"98\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">8</text><rect x=\"130\" y=\"98\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">6</text><rect x=\"20\" y=\"124\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">9</text><rect x=\"130\" y=\"124\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">2</text></svg>",
+        "alt": "Tabel nilai ulangan: nilai 6 sebanyak 4 siswa, nilai 7 sebanyak 8 siswa, nilai 8 sebanyak 6 siswa, nilai 9 sebanyak 2 siswa"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Banyak siswa seluruhnya 20 orang."
+        },
+        {
+          "id": "b",
+          "text": "Rata-rata nilai siswa adalah $7{,}3$."
+        },
+        {
+          "id": "c",
+          "text": "Rata-rata nilai sama dengan $(6 + 7 + 8 + 9) : 4$."
+        },
+        {
+          "id": "d",
+          "text": "Modus data tersebut adalah 7."
+        },
+        {
+          "id": "e",
+          "text": "Siswa yang mendapat nilai lebih dari 7 ada 14 orang."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Banyak siswa $4 + 8 + 6 + 2 = 20$. Jumlah nilai harus dikalikan banyak siswanya: $6 \\times 4 + 7 \\times 8 + 8 \\times 6 + 9 \\times 2 = 24 + 56 + 48 + 18 = 146$, sehingga rata-ratanya $146 : 20 = 7{,}3$. Rumus $(6+7+8+9):4 = 7{,}5$ salah karena mengabaikan banyak siswa. Modusnya 7 (8 siswa). Nilai lebih dari 7: $6 + 2 = 8$ siswa."
+    },
+    {
+      "id": "mtk-dat-0043",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Tabel berikut menunjukkan banyak buku yang dibaca lima siswa selama sebulan. Tentukan **Benar** atau **Salah** untuk setiap pernyataan berikut.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 230 196\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Nama</text><rect x=\"130\" y=\"20\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"37\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">Banyak buku</text><rect x=\"20\" y=\"46\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Ana</text><rect x=\"130\" y=\"46\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"63\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">4</text><rect x=\"20\" y=\"72\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Budi</text><rect x=\"130\" y=\"72\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"89\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">7</text><rect x=\"20\" y=\"98\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Citra</text><rect x=\"130\" y=\"98\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"115\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">5</text><rect x=\"20\" y=\"124\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Dodi</text><rect x=\"130\" y=\"124\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"141\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">9</text><rect x=\"20\" y=\"150\" width=\"110\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"167\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">Eka</text><rect x=\"130\" y=\"150\" width=\"80\" height=\"26\" fill=\"currentColor\" fill-opacity=\"0.04\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"167\" font-size=\"13\" fill=\"currentColor\" text-anchor=\"middle\">5</text></svg>",
+        "alt": "Tabel banyak buku yang dibaca: Ana 4, Budi 7, Citra 5, Dodi 9, Eka 5"
+      },
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Rata-rata buku yang dibaca adalah 6 buku."
+        },
+        {
+          "id": "s2",
+          "text": "Modus data tersebut adalah 5."
+        },
+        {
+          "id": "s3",
+          "text": "Median data tersebut adalah 7."
+        },
+        {
+          "id": "s4",
+          "text": "Siswa yang membaca lebih banyak dari rata-rata ada 3 orang."
+        }
+      ],
+      "categories": [
+        {
+          "id": "benar",
+          "label": "Benar"
+        },
+        {
+          "id": "salah",
+          "label": "Salah"
+        }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "benar",
+        "s3": "salah",
+        "s4": "salah"
+      },
+      "explanation": "Jumlahnya $4 + 7 + 5 + 9 + 5 = 30$, rata-rata $30 : 5 = 6$. Nilai 5 muncul dua kali, jadi modusnya 5. Untuk median, urutkan dulu: 4, 5, 5, 7, 9. Nilai tengahnya 5, bukan 7. Yang lebih dari 6 hanya Budi (7) dan Dodi (9), yaitu 2 orang."
+    },
+    {
+      "id": "mtk-dat-0044",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pgk_multi",
+      "stem": "Diagram batang berikut menunjukkan banyak roti yang terjual di sebuah toko selama empat hari. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"40\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"154\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">0</text><text x=\"34\" y=\"130\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">10</text><line x1=\"40\" y1=\"126\" x2=\"300\" y2=\"126\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"106\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">20</text><line x1=\"40\" y1=\"102\" x2=\"300\" y2=\"102\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"82\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">30</text><line x1=\"40\" y1=\"78\" x2=\"300\" y2=\"78\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"58\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">40</text><line x1=\"40\" y1=\"54\" x2=\"300\" y2=\"54\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><text x=\"34\" y=\"34\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"end\">50</text><line x1=\"40\" y1=\"30\" x2=\"300\" y2=\"30\" stroke=\"currentColor\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><rect x=\"58\" y=\"90\" width=\"34\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"75\" y=\"84\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">25</text><text x=\"75\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sen</text><rect x=\"118\" y=\"54\" width=\"34\" height=\"96\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"135\" y=\"48\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">40</text><text x=\"135\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Sel</text><rect x=\"178\" y=\"78\" width=\"34\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"195\" y=\"72\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">30</text><text x=\"195\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Rab</text><rect x=\"238\" y=\"42\" width=\"34\" height=\"108\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"255\" y=\"36\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">45</text><text x=\"255\" y=\"166\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\">Kam</text></svg>",
+        "alt": "Diagram batang penjualan roti: Senin 25, Selasa 40, Rabu 30, Kamis 45 buah"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Penjualan tertinggi terjadi pada hari Kamis."
+        },
+        {
+          "id": "b",
+          "text": "Jumlah roti yang terjual selama empat hari adalah 140 buah."
+        },
+        {
+          "id": "c",
+          "text": "Penjualan hari Selasa dua kali penjualan hari Senin."
+        },
+        {
+          "id": "d",
+          "text": "Selisih penjualan hari Kamis dan Senin adalah 20 buah."
+        },
+        {
+          "id": "e",
+          "text": "Penjualan hari Rabu lebih sedikit daripada hari Senin."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Dari diagram: Senin 25, Selasa 40, Rabu 30, Kamis 45. Tertinggi Kamis. Jumlahnya $25 + 40 + 30 + 45 = 140$. Dua kali Senin adalah 50, bukan 40. Selisih Kamis dan Senin $45 - 25 = 20$. Rabu (30) lebih banyak dari Senin (25)."
+    },
+    {
+      "id": "mtk-dat-0045",
+      "subject": "matematika",
+      "domain": "data_peluang",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pgk_multi",
+      "stem": "Diagram lingkaran berikut menunjukkan pembagian uang belanja sebuah keluarga sebesar Rp4.000.000,00 dalam sebulan. Pilihlah semua pernyataan yang benar.",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 95 95 L 95.0 25.0 A 70 70 0 0 1 136.1 151.6 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"136.276\" y=\"85.5887\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">40%</text><rect x=\"185\" y=\"29\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"41\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Makan (40%)</text><path d=\"M 95 95 L 136.1 151.6 A 70 70 0 0 1 38.4 136.1 Z\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"88.2107\" y=\"141.866\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">25%</text><rect x=\"185\" y=\"55\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"67\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Pendidikan (25%)</text><path d=\"M 95 95 L 38.4 136.1 A 70 70 0 0 1 28.4 73.4 Z\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"52.1343\" y=\"105.789\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">15%</text><rect x=\"185\" y=\"81\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.05\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"93\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Transportasi (15%)</text><path d=\"M 95 95 L 28.4 73.4 A 70 70 0 0 1 95.0 25.0 Z\" fill=\"currentColor\" fill-opacity=\"0.45\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"69.4901\" y=\"63.8887\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"middle\" font-weight=\"bold\">20%</text><rect x=\"185\" y=\"107\" width=\"14\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.45\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"205\" y=\"119\" font-size=\"12\" fill=\"currentColor\" text-anchor=\"start\">Tabungan (20%)</text></svg>",
+        "alt": "Diagram lingkaran uang belanja keluarga Rp4.000.000: makan 40 persen, pendidikan 25 persen, transportasi 15 persen, tabungan 20 persen"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uang untuk makan Rp1.600.000,00."
+        },
+        {
+          "id": "b",
+          "text": "Uang yang ditabung Rp800.000,00."
+        },
+        {
+          "id": "c",
+          "text": "Uang untuk pendidikan lebih sedikit daripada uang yang ditabung."
+        },
+        {
+          "id": "d",
+          "text": "Jumlah uang transportasi dan tabungan Rp1.400.000,00."
+        },
+        {
+          "id": "e",
+          "text": "Besar sudut juring tabungan pada diagram adalah $20^\\circ$."
+        }
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Makan $40\\% \\times 4.000.000 = 1.600.000$. Pendidikan $25\\%$ = Rp1.000.000,00, transportasi $15\\%$ = Rp600.000,00, tabungan $20\\%$ = Rp800.000,00. Pendidikan lebih banyak dari tabungan. Transportasi dan tabungan $600.000 + 800.000 = 1.400.000$. Sudut juring tabungan $20\\% \\times 360^\\circ = 72^\\circ$, bukan $20^\\circ$."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "batch": "mtk-bilangan-02",
+  "note": "Matematika - Bilangan: mixed fractions, ratio, integers, multi-step word problems",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "mtk-bil-0020",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Hasil dari $2\\frac{3}{4} + 1\\frac{5}{6}$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$4\\frac{7}{12}$" },
+        { "id": "b", "text": "$3\\frac{8}{10}$" },
+        { "id": "c", "text": "$4\\frac{1}{12}$" },
+        { "id": "d", "text": "$3\\frac{7}{12}$" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlahkan bagian bulatnya lebih dulu: $2 + 1 = 3$. Lalu pecahannya disamakan penyebutnya: $\\frac{3}{4} = \\frac{9}{12}$ dan $\\frac{5}{6} = \\frac{10}{12}$, sehingga $\\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} = 1\\frac{7}{12}$. Totalnya $3 + 1\\frac{7}{12} = 4\\frac{7}{12}$. Pilihan $3\\frac{8}{10}$ muncul bila pembilang dan penyebut dijumlahkan begitu saja."
+    },
+    {
+      "id": "mtk-bil-0021",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perbandingan banyak kelereng Andi dan Budi adalah $3 : 5$. Jika jumlah kelereng mereka 72 butir, banyak kelereng Budi adalah ....",
+      "choices": [
+        { "id": "a", "text": "45 butir" },
+        { "id": "b", "text": "27 butir" },
+        { "id": "c", "text": "40 butir" },
+        { "id": "d", "text": "18 butir" }
+      ],
+      "answer": "a",
+      "explanation": "Jumlah bagian $= 3 + 5 = 8$. Nilai satu bagian $= 72 : 8 = 9$ butir. Kelereng Budi $= 5 \\times 9 = 45$ butir. Pilihan 27 butir adalah bagian Andi."
+    },
+    {
+      "id": "mtk-bil-0022",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Selisih uang Rina dan Sari adalah Rp24.000,00. Perbandingan uang mereka $7 : 3$. Jumlah uang mereka berdua adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp60.000,00" },
+        { "id": "b", "text": "Rp42.000,00" },
+        { "id": "c", "text": "Rp96.000,00" },
+        { "id": "d", "text": "Rp72.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Selisih bagian $= 7 - 3 = 4$. Nilai satu bagian $= 24.000 : 4 = 6.000$. Jumlah bagian $= 7 + 3 = 10$, sehingga jumlah uang $= 10 \\times 6.000 = 60.000$. Kesalahan umum adalah membagi selisih uang dengan jumlah bagian, bukan dengan selisih bagian."
+    },
+    {
+      "id": "mtk-bil-0023",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Bentuk desimal dari $\\frac{7}{20}$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$0{,}35$" },
+        { "id": "b", "text": "$3{,}5$" },
+        { "id": "c", "text": "$0{,}035$" },
+        { "id": "d", "text": "$2{,}86$" }
+      ],
+      "answer": "a",
+      "explanation": "Ubah penyebutnya menjadi 100 dengan mengalikan pembilang dan penyebut dengan 5: $\\frac{7}{20} = \\frac{35}{100} = 0{,}35$. Pilihan $3{,}5$ muncul bila $7$ dibagi $2$, sedangkan $2{,}86$ adalah hasil $20$ dibagi $7$, yaitu pecahan yang terbalik."
+    },
+    {
+      "id": "mtk-bil-0024",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah bilangan jika dikurangi 17 lalu hasilnya dikalikan 4 menjadi 92. Bilangan tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "$40$" },
+        { "id": "b", "text": "$23$" },
+        { "id": "c", "text": "$351$" },
+        { "id": "d", "text": "$56$" }
+      ],
+      "answer": "a",
+      "explanation": "Kerjakan mundur dari hasil akhir. Sebelum dikalikan 4, nilainya $92 : 4 = 23$. Sebelum dikurangi 17, nilainya $23 + 17 = 40$. Periksa kembali: $(40 - 17) \\times 4 = 23 \\times 4 = 92$. Pilihan 23 adalah hasil setelah pengurangan, belum bilangan asalnya."
+    },
+    {
+      "id": "mtk-bil-0025",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah toko memberi diskon 20% untuk sepatu seharga Rp250.000,00. Setelah itu pembeli masih dikenai pajak 10% dari harga setelah diskon. Uang yang harus dibayar adalah ....",
+      "choices": [
+        { "id": "a", "text": "Rp220.000,00" },
+        { "id": "b", "text": "Rp200.000,00" },
+        { "id": "c", "text": "Rp225.000,00" },
+        { "id": "d", "text": "Rp275.000,00" }
+      ],
+      "answer": "a",
+      "explanation": "Diskon $= 20\\% \\times 250.000 = 50.000$, sehingga harga setelah diskon $= 200.000$. Pajak $= 10\\% \\times 200.000 = 20.000$. Yang dibayar $= 200.000 + 20.000 = 220.000$. Kesalahan umum adalah menghitung pajak dari harga awal, yang menghasilkan Rp225.000,00."
+    },
+    {
+      "id": "mtk-bil-0026",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Pak Hasan memanen 3 kuintal 40 kg mangga. Sebanyak $\\frac{2}{5}$ bagian dijual ke pasar dan 85 kg dikirim ke koperasi. Sisa mangga Pak Hasan adalah ....",
+      "choices": [
+        { "id": "a", "text": "119 kg" },
+        { "id": "b", "text": "136 kg" },
+        { "id": "c", "text": "204 kg" },
+        { "id": "d", "text": "255 kg" }
+      ],
+      "answer": "a",
+      "explanation": "Ubah dulu ke satuan yang sama: 3 kuintal 40 kg $= 300 + 40 = 340$ kg. Dijual ke pasar $= \\frac{2}{5} \\times 340 = 136$ kg. Sisa $= 340 - 136 - 85 = 119$ kg. Pilihan 204 kg adalah sisa sebelum pengiriman ke koperasi dikurangkan."
+    },
+    {
+      "id": "mtk-bil-0027",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Hasil dari $\\frac{3}{5} \\times \\frac{10}{9}$ adalah ....",
+      "choices": [
+        { "id": "a", "text": "$\\frac{2}{3}$" },
+        { "id": "b", "text": "$\\frac{13}{14}$" },
+        { "id": "c", "text": "$\\frac{30}{45}$" },
+        { "id": "d", "text": "$\\frac{27}{50}$" }
+      ],
+      "answer": "a",
+      "explanation": "Kalikan pembilang dengan pembilang dan penyebut dengan penyebut: $\\frac{3 \\times 10}{5 \\times 9} = \\frac{30}{45}$. Sederhanakan dengan membagi keduanya dengan 15, diperoleh $\\frac{2}{3}$. Pilihan $\\frac{30}{45}$ benar nilainya tetapi belum disederhanakan, sedangkan kunci meminta bentuk paling sederhana."
+    },
+    {
+      "id": "mtk-bil-0028",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan pola bilangan berikut: $2, 6, 12, 20, 30, \\ldots$ Dua bilangan berikutnya adalah ....",
+      "choices": [
+        { "id": "a", "text": "$42$ dan $56$" },
+        { "id": "b", "text": "$40$ dan $52$" },
+        { "id": "c", "text": "$42$ dan $54$" },
+        { "id": "d", "text": "$44$ dan $60$" }
+      ],
+      "answer": "a",
+      "explanation": "Selisih antarsuku bertambah 2 setiap kali: $6-2=4$, $12-6=6$, $20-12=8$, $30-20=10$. Selisih berikutnya 12 dan 14, sehingga $30+12=42$ dan $42+14=56$."
+    },
+    {
+      "id": "mtk-bil-0029",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Tiga lampu hias menyala bergantian. Lampu merah menyala setiap 8 detik, lampu hijau setiap 12 detik, dan lampu kuning setiap 20 detik. Ketiganya menyala bersamaan pada detik ke-0. Ketiganya akan menyala bersamaan lagi pada detik ke- ....",
+      "choices": [
+        { "id": "a", "text": "$120$" },
+        { "id": "b", "text": "$40$" },
+        { "id": "c", "text": "$240$" },
+        { "id": "d", "text": "$60$" }
+      ],
+      "answer": "a",
+      "explanation": "Cari KPK dari 8, 12, dan 20. Faktorisasinya $8 = 2^3$, $12 = 2^2 \\times 3$, dan $20 = 2^2 \\times 5$. KPK $= 2^3 \\times 3 \\times 5 = 120$. Jadi ketiganya menyala bersamaan lagi pada detik ke-120."
+    },
+    {
+      "id": "mtk-bil-0030",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "representasi",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua bilangan yang nilainya lebih besar daripada $\\frac{3}{5}$.",
+      "choices": [
+        { "id": "a", "text": "$0{,}75$" },
+        { "id": "b", "text": "$\\frac{5}{8}$" },
+        { "id": "c", "text": "$65\\%$" },
+        { "id": "d", "text": "$\\frac{4}{7}$" },
+        { "id": "e", "text": "$0{,}55$" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Ubah semuanya ke desimal dan bandingkan dengan $\\frac{3}{5} = 0{,}6$. Nilainya: $0{,}75$; $\\frac{5}{8} = 0{,}625$; $65\\% = 0{,}65$; $\\frac{4}{7} \\approx 0{,}571$; dan $0{,}55$. Tiga yang pertama lebih besar dari $0{,}6$, dua terakhir lebih kecil."
+    },
+    {
+      "id": "mtk-bil-0031",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Perhatikan bilangan 180. Pilihlah semua pernyataan yang benar.",
+      "choices": [
+        { "id": "a", "text": "180 habis dibagi 9" },
+        { "id": "b", "text": "180 merupakan kelipatan 12" },
+        { "id": "c", "text": "Faktorisasi prima 180 adalah $2^2 \\times 3^2 \\times 5$" },
+        { "id": "d", "text": "180 merupakan bilangan kuadrat sempurna" },
+        { "id": "e", "text": "180 habis dibagi 7" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Jumlah angka $1+8+0 = 9$ sehingga 180 habis dibagi 9. Selain itu $180 = 12 \\times 15$, jadi ia kelipatan 12. Faktorisasi primanya $2^2 \\times 3^2 \\times 5 = 4 \\times 9 \\times 5 = 180$. Bilangan 180 bukan kuadrat sempurna karena $13^2 = 169$ dan $14^2 = 196$, serta $180 : 7$ bersisa."
+    },
+    {
+      "id": "mtk-bil-0032",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "pengetahuan_matematis",
+      "difficulty": "mudah",
+      "type": "pgk_kategori",
+      "stem": "Tentukan apakah setiap hasil operasi pecahan berikut benar atau salah.",
+      "statements": [
+        { "id": "s1", "text": "$\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$" },
+        { "id": "s2", "text": "$\\frac{2}{3} - \\frac{1}{6} = \\frac{1}{3}$" },
+        { "id": "s3", "text": "$\\frac{3}{4} : \\frac{1}{2} = \\frac{3}{2}$" },
+        { "id": "s4", "text": "$\\frac{2}{5} \\times 15 = 6$" }
+      ],
+      "categories": [
+        { "id": "benar", "label": "Benar" },
+        { "id": "salah", "label": "Salah" }
+      ],
+      "answer": {
+        "s1": "benar",
+        "s2": "salah",
+        "s3": "benar",
+        "s4": "benar"
+      },
+      "explanation": "$\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$, benar. $\\frac{2}{3} - \\frac{1}{6} = \\frac{4}{6} - \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$, bukan $\\frac{1}{3}$. Pembagian pecahan dikerjakan dengan mengalikan kebalikannya: $\\frac{3}{4} \\times \\frac{2}{1} = \\frac{6}{4} = \\frac{3}{2}$, benar. Terakhir, $\\frac{2}{5} \\times 15 = \\frac{30}{5} = 6$, benar."
+    },
+    {
+      "id": "mtk-bil-0033",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "koneksi",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Dengan kecepatan yang sama, jarak yang ditempuh mobil tersebut dalam waktu 4 jam 30 menit adalah ....",
+      "choices": [
+        { "id": "a", "text": "270 km" },
+        { "id": "b", "text": "240 km" },
+        { "id": "c", "text": "225 km" },
+        { "id": "d", "text": "300 km" }
+      ],
+      "answer": "a",
+      "explanation": "Kecepatan mobil $= 180 : 3 = 60$ km/jam. Waktu 4 jam 30 menit sama dengan $4{,}5$ jam. Jarak $= 60 \\times 4{,}5 = 270$ km. Kesalahan umum adalah membaca 4 jam 30 menit sebagai $4{,}3$ jam."
+    },
+    {
+      "id": "mtk-bil-0034",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penyelesaian_masalah",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Bu Ani menyiapkan 5 liter sirop. Sebanyak $\\frac{1}{4}$ bagian dituang ke dalam botol besar, dan sisanya dibagi rata ke dalam 6 gelas. Isi setiap gelas adalah ....",
+      "choices": [
+        { "id": "a", "text": "$625$ mL" },
+        { "id": "b", "text": "$833$ mL" },
+        { "id": "c", "text": "$208$ mL" },
+        { "id": "d", "text": "$750$ mL" }
+      ],
+      "answer": "a",
+      "explanation": "Sirop seluruhnya $= 5$ liter $= 5.000$ mL. Ke botol besar $= \\frac{1}{4} \\times 5.000 = 1.250$ mL. Sisanya $= 5.000 - 1.250 = 3.750$ mL. Dibagi 6 gelas $= 3.750 : 6 = 625$ mL. Pilihan 833 mL muncul bila seluruh sirop langsung dibagi 6 tanpa mengurangi bagian botol."
+    },
+    {
+      "id": "mtk-bil-0035",
+      "subject": "matematika",
+      "domain": "bilangan",
+      "competency": "penalaran",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Dalam sebuah tes terdapat 40 soal. Jawaban benar bernilai 4, jawaban salah bernilai $-1$, dan soal yang tidak dijawab bernilai 0. Dimas menjawab 32 soal dan memperoleh nilai 108. Banyak soal yang dijawab Dimas dengan benar adalah ....",
+      "choices": [
+        { "id": "a", "text": "28 soal" },
+        { "id": "b", "text": "27 soal" },
+        { "id": "c", "text": "30 soal" },
+        { "id": "d", "text": "25 soal" }
+      ],
+      "answer": "a",
+      "explanation": "Misalkan soal benar $b$ dan soal salah $s$, dengan $b + s = 32$. Nilainya $4b - s = 108$. Dari persamaan pertama, $s = 32 - b$. Substitusikan: $4b - (32 - b) = 108$, sehingga $5b - 32 = 108$, lalu $5b = 140$ dan $b = 28$. Periksa: 28 benar bernilai 112, 4 salah bernilai $-4$, totalnya 108."
+    }
+  ]
+}

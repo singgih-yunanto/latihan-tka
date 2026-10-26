@@ -1,0 +1,450 @@
+{
+  "batch": "ipas-sains-03",
+  "note": "IPAS - Matter & its changes, Energy, force & motion (grades 4-6)",
+  "stimuli": [],
+  "questions": [
+    {
+      "id": "ipas-zat-0010",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Zat cair memiliki sifat bentuk berubah mengikuti wadahnya, tetapi volumenya tetap. Sifat tersebut terjadi karena ....",
+      "choices": [
+        { "id": "a", "text": "partikelnya berdekatan tetapi masih dapat bergeser" },
+        { "id": "b", "text": "partikelnya sangat berjauhan dan bergerak bebas" },
+        { "id": "c", "text": "partikelnya terikat sangat kuat dan tidak dapat bergerak" },
+        { "id": "d", "text": "partikelnya berubah menjadi gas ketika dituang" }
+      ],
+      "answer": "a",
+      "explanation": "Pada zat cair, partikel masih berdekatan sehingga jumlah ruang yang ditempatinya tetap, tetapi ikatannya tidak sekaku zat padat sehingga partikel dapat bergeser dan mengikuti bentuk wadah. Partikel yang sangat berjauhan adalah ciri gas."
+    },
+    {
+      "id": "ipas-zat-0011",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Pakaian basah yang dijemur di bawah sinar matahari lama-kelamaan menjadi kering. Peristiwa perubahan wujud yang terjadi adalah ....",
+      "choices": [
+        { "id": "a", "text": "menguap, yaitu cair menjadi gas" },
+        { "id": "b", "text": "mengembun, yaitu gas menjadi cair" },
+        { "id": "c", "text": "mencair, yaitu padat menjadi cair" },
+        { "id": "d", "text": "menyublim, yaitu padat menjadi gas" }
+      ],
+      "answer": "a",
+      "explanation": "Air pada kain menyerap panas matahari lalu berubah menjadi uap air yang terbawa udara. Perubahan dari cair menjadi gas disebut menguap. Karena itu pakaian lebih cepat kering saat panas dan berangin."
+    },
+    {
+      "id": "ipas-zat-0012",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kapur barus yang disimpan di dalam lemari lama-kelamaan habis tanpa meninggalkan bekas cairan. Perubahan wujud tersebut disebut ....",
+      "choices": [
+        { "id": "a", "text": "menyublim" },
+        { "id": "b", "text": "mengkristal" },
+        { "id": "c", "text": "membeku" },
+        { "id": "d", "text": "mengembun" }
+      ],
+      "answer": "a",
+      "explanation": "Menyublim adalah perubahan dari padat langsung menjadi gas tanpa melewati wujud cair. Itulah sebabnya kapur barus menyusut dan baunya menyebar, tetapi tidak pernah terlihat meleleh."
+    },
+    {
+      "id": "ipas-zat-0013",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Perhatikan grafik pemanasan es berikut. Pada bagian mendatar grafik, suhu tidak naik meskipun api terus menyala. Penjelasan yang paling tepat adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 190\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"45\" y1=\"150\" x2=\"285\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"55,130 95,105 165,105 225,45 275,30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><line x1=\"45\" y1=\"105\" x2=\"95\" y2=\"105\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><g font-size=\"11\" fill=\"currentColor\"><text x=\"38\" y=\"109\" text-anchor=\"end\">0</text><text x=\"20\" y=\"80\" text-anchor=\"middle\">suhu</text><text x=\"165\" y=\"172\" text-anchor=\"middle\">waktu pemanasan</text><text x=\"130\" y=\"98\" text-anchor=\"middle\">mendatar</text></g></svg>",
+        "alt": "Grafik suhu terhadap waktu saat es dipanaskan, dengan bagian mendatar pada suhu nol derajat"
+      },
+      "choices": [
+        { "id": "a", "text": "Kalor yang diberikan dipakai untuk mengubah es menjadi air, bukan menaikkan suhu" },
+        { "id": "b", "text": "Api tidak lagi memberikan kalor kepada es pada saat itu" },
+        { "id": "c", "text": "Termometer rusak sehingga tidak menunjukkan kenaikan suhu" },
+        { "id": "d", "text": "Es menyerap dingin dari udara di sekitarnya" }
+      ],
+      "answer": "a",
+      "explanation": "Selama es sedang mencair, seluruh kalor dipakai untuk memutus ikatan antarpartikel es agar menjadi air. Karena itu suhunya bertahan di titik lebur. Setelah semua es mencair, kalor kembali menaikkan suhu sehingga grafik naik lagi."
+    },
+    {
+      "id": "ipas-zat-0014",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua campuran yang termasuk campuran homogen atau larutan.",
+      "choices": [
+        { "id": "a", "text": "Gula yang dilarutkan dalam air panas" },
+        { "id": "b", "text": "Garam yang dilarutkan dalam air" },
+        { "id": "c", "text": "Sirop yang dicampur air" },
+        { "id": "d", "text": "Pasir yang dicampur air" },
+        { "id": "e", "text": "Minyak goreng yang dicampur air" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Campuran homogen tercampur merata sehingga zat penyusunnya tidak terlihat lagi. Gula, garam, dan sirop larut sempurna dalam air. Pasir mengendap dan minyak membentuk lapisan terpisah, keduanya campuran heterogen."
+    },
+    {
+      "id": "ipas-zat-0015",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Untuk memisahkan pasir dari air keruh, cara yang paling tepat adalah ....",
+      "choices": [
+        { "id": "a", "text": "penyaringan" },
+        { "id": "b", "text": "penguapan" },
+        { "id": "c", "text": "penyulingan" },
+        { "id": "d", "text": "pengembunan" }
+      ],
+      "answer": "a",
+      "explanation": "Butiran pasir berukuran lebih besar daripada lubang kertas saring, sehingga tertahan sementara air lolos. Penguapan dipakai untuk memperoleh zat terlarut seperti garam, dan penyulingan untuk memisahkan cairan yang titik didihnya berbeda."
+    },
+    {
+      "id": "ipas-zat-0016",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan peristiwa berikut ke dalam perubahan fisika atau perubahan kimia.",
+      "statements": [
+        { "id": "s1", "text": "Kayu diubah menjadi kursi" },
+        { "id": "s2", "text": "Singkong difermentasi menjadi tapai" },
+        { "id": "s3", "text": "Air didinginkan menjadi es batu" },
+        { "id": "s4", "text": "Buah apel yang dikupas berubah cokelat" }
+      ],
+      "categories": [
+        { "id": "fisika", "label": "Fisika" },
+        { "id": "kimia", "label": "Kimia" }
+      ],
+      "answer": {
+        "s1": "fisika",
+        "s2": "kimia",
+        "s3": "fisika",
+        "s4": "kimia"
+      },
+      "explanation": "Perubahan fisika hanya mengubah bentuk atau wujud tanpa menghasilkan zat baru, seperti kayu menjadi kursi dan air menjadi es. Perubahan kimia menghasilkan zat baru, seperti tapai hasil fermentasi dan warna cokelat pada apel akibat reaksi dengan udara."
+    },
+    {
+      "id": "ipas-zat-0017",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penerapan",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Gagang panci sering dibuat dari plastik atau kayu. Alasannya adalah karena bahan tersebut bersifat ....",
+      "choices": [
+        { "id": "a", "text": "isolator, sehingga panas tidak mudah merambat ke tangan" },
+        { "id": "b", "text": "konduktor, sehingga panas cepat merambat ke tangan" },
+        { "id": "c", "text": "lebih berat daripada logam" },
+        { "id": "d", "text": "lebih mudah menghantarkan listrik" }
+      ],
+      "answer": "a",
+      "explanation": "Isolator adalah bahan yang sulit menghantarkan panas. Plastik dan kayu termasuk isolator, sehingga gagang panci tetap terasa dingin meski badan pancinya panas. Logam justru konduktor yang cepat menghantarkan panas."
+    },
+    {
+      "id": "ipas-zat-0018",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Kabel listrik yang dipasang di antara tiang sengaja dibuat sedikit kendur. Hal tersebut dilakukan agar ....",
+      "choices": [
+        { "id": "a", "text": "kabel tidak putus ketika menyusut pada malam yang dingin" },
+        { "id": "b", "text": "kabel tidak menyentuh tanah ketika hujan turun" },
+        { "id": "c", "text": "arus listrik mengalir lebih cepat di dalam kabel" },
+        { "id": "d", "text": "burung tidak dapat hinggap di atas kabel" }
+      ],
+      "answer": "a",
+      "explanation": "Logam memuai saat panas dan menyusut saat dingin. Pada malam hari kabel menyusut sehingga menjadi lebih tegang. Bila dipasang tegang sejak awal, penyusutan itu dapat memutuskannya. Kekenduran juga memberi ruang bagi pemuaian di siang hari."
+    },
+    {
+      "id": "ipas-zat-0019",
+      "subject": "ipas",
+      "domain": "zat_perubahan",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Gelas berisi es teh bagian luarnya menjadi basah. Titik-titik air tersebut berasal dari ....",
+      "choices": [
+        { "id": "a", "text": "uap air di udara yang mengembun karena permukaan gelas dingin" },
+        { "id": "b", "text": "air di dalam gelas yang merembes lewat dinding gelas" },
+        { "id": "c", "text": "es batu yang mencair lalu meluap ke luar gelas" },
+        { "id": "d", "text": "keringat yang menempel dari tangan pemegang gelas" }
+      ],
+      "answer": "a",
+      "explanation": "Udara selalu mengandung uap air. Ketika menyentuh permukaan gelas yang dingin, uap itu kehilangan panas dan berubah menjadi titik air. Peristiwa ini disebut mengembun. Gelas tidak bocor, terbukti isinya tidak berkurang."
+    },
+    {
+      "id": "ipas-ene-0010",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Perubahan energi yang terjadi pada kipas angin yang sedang menyala adalah ....",
+      "choices": [
+        { "id": "a", "text": "energi listrik menjadi energi gerak" },
+        { "id": "b", "text": "energi gerak menjadi energi listrik" },
+        { "id": "c", "text": "energi listrik menjadi energi cahaya" },
+        { "id": "d", "text": "energi panas menjadi energi listrik" }
+      ],
+      "answer": "a",
+      "explanation": "Kipas angin memperoleh energi listrik dari sumber arus, lalu motor di dalamnya mengubahnya menjadi gerakan baling-baling. Perubahan energi gerak menjadi listrik justru terjadi pada generator atau dinamo sepeda."
+    },
+    {
+      "id": "ipas-ene-0011",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar pengungkit berikut. Agar batu lebih mudah diangkat, yang sebaiknya dilakukan adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 320 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"95\" x2=\"290\" y2=\"60\" stroke=\"currentColor\" stroke-width=\"4\"/><polygon points=\"120,100 140,100 130,78\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect x=\"18\" y=\"70\" width=\"30\" height=\"24\" rx=\"4\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"33\" y=\"112\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">batu</text><text x=\"130\" y=\"118\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">titik tumpu</text><g stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"282\" y1=\"46\" x2=\"282\" y2=\"30\"/></g><polygon points=\"282,26 277,36 287,36\" fill=\"currentColor\"/><text x=\"282\" y=\"20\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">kuasa</text></svg>",
+        "alt": "Pengungkit dengan batu di ujung kiri, titik tumpu di tengah, dan gaya kuasa di ujung kanan"
+      },
+      "choices": [
+        { "id": "a", "text": "menggeser titik tumpu mendekati batu" },
+        { "id": "b", "text": "menggeser titik tumpu menjauhi batu" },
+        { "id": "c", "text": "memperpendek batang pengungkit" },
+        { "id": "d", "text": "memindahkan batu ke dekat titik kuasa" }
+      ],
+      "answer": "a",
+      "explanation": "Pada pengungkit, semakin pendek jarak beban ke titik tumpu dan semakin panjang jarak kuasa ke titik tumpu, semakin ringan gaya yang diperlukan. Menggeser titik tumpu mendekati batu memenuhi kedua syarat itu sekaligus."
+    },
+    {
+      "id": "ipas-ene-0012",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Bunyi dapat merambat melalui zat padat, cair, dan gas, tetapi tidak dapat merambat melalui ....",
+      "choices": [
+        { "id": "a", "text": "ruang hampa udara" },
+        { "id": "b", "text": "air laut yang dalam" },
+        { "id": "c", "text": "dinding tembok yang tebal" },
+        { "id": "d", "text": "udara yang sangat dingin" }
+      ],
+      "answer": "a",
+      "explanation": "Bunyi merambat dengan cara menggetarkan partikel zat perantara. Di ruang hampa tidak ada partikel yang dapat digetarkan, sehingga bunyi tidak dapat merambat. Itulah sebabnya astronaut di luar angkasa berkomunikasi memakai radio."
+    },
+    {
+      "id": "ipas-ene-0013",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Sendok yang dimasukkan ke dalam gelas berisi air tampak patah ketika dilihat dari samping. Peristiwa tersebut terjadi karena cahaya mengalami ....",
+      "choices": [
+        { "id": "a", "text": "pembiasan saat melewati dua medium yang berbeda" },
+        { "id": "b", "text": "pemantulan pada permukaan gelas yang licin" },
+        { "id": "c", "text": "penguraian menjadi berbagai warna" },
+        { "id": "d", "text": "perambatan lurus di dalam air" }
+      ],
+      "answer": "a",
+      "explanation": "Cahaya berbelok arah ketika berpindah dari air ke udara karena kerapatan kedua medium berbeda. Peristiwa pembelokan itu disebut pembiasan, sehingga bagian sendok yang berada di dalam air tampak bergeser dan seperti patah."
+    },
+    {
+      "id": "ipas-ene-0014",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Dua anak meluncurkan mobil mainan yang sama dari puncak papan miring. Papan pertama dilapisi kain handuk, papan kedua dilapisi kaca licin. Mobil di papan kedua meluncur jauh lebih jauh. Variabel yang sedang diuji dalam percobaan itu adalah ....",
+      "choices": [
+        { "id": "a", "text": "kekasaran permukaan lintasan" },
+        { "id": "b", "text": "berat mobil mainan" },
+        { "id": "c", "text": "kemiringan papan" },
+        { "id": "d", "text": "tinggi tempat meluncurkan" }
+      ],
+      "answer": "a",
+      "explanation": "Mobil, kemiringan, dan tinggi peluncuran sengaja dibuat sama. Satu-satunya yang dibedakan adalah lapisan permukaan lintasan. Karena itu perbedaan jarak luncur menunjukkan pengaruh kekasaran permukaan terhadap besarnya gaya gesek."
+    },
+    {
+      "id": "ipas-ene-0015",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_kategori",
+      "stem": "Kelompokkan benda berikut menurut kemampuannya menghantarkan listrik.",
+      "statements": [
+        { "id": "s1", "text": "Paku besi" },
+        { "id": "s2", "text": "Penggaris plastik" },
+        { "id": "s3", "text": "Kawat tembaga" },
+        { "id": "s4", "text": "Karet gelang" }
+      ],
+      "categories": [
+        { "id": "konduktor", "label": "Konduktor" },
+        { "id": "isolator", "label": "Isolator" }
+      ],
+      "answer": {
+        "s1": "konduktor",
+        "s2": "isolator",
+        "s3": "konduktor",
+        "s4": "isolator"
+      },
+      "explanation": "Logam seperti besi dan tembaga mudah menghantarkan listrik sehingga disebut konduktor. Plastik dan karet sulit dilalui arus sehingga disebut isolator, dan karena itu dipakai sebagai pembungkus kabel."
+    },
+    {
+      "id": "ipas-ene-0016",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Magnet memiliki dua kutub. Jika kutub utara sebuah magnet didekatkan dengan kutub utara magnet lain, keduanya akan ....",
+      "choices": [
+        { "id": "a", "text": "tolak-menolak" },
+        { "id": "b", "text": "tarik-menarik" },
+        { "id": "c", "text": "menempel lalu terlepas" },
+        { "id": "d", "text": "tidak saling memengaruhi" }
+      ],
+      "answer": "a",
+      "explanation": "Kutub magnet yang sejenis akan tolak-menolak, sedangkan kutub yang berbeda jenis akan tarik-menarik. Karena keduanya kutub utara, magnet itu saling menolak."
+    },
+    {
+      "id": "ipas-ene-0017",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pgk_multi",
+      "stem": "Pilihlah semua cara menghemat energi listrik di rumah.",
+      "choices": [
+        { "id": "a", "text": "Mematikan lampu ketika ruangan tidak digunakan" },
+        { "id": "b", "text": "Mencabut colokan alat elektronik yang sedang tidak dipakai" },
+        { "id": "c", "text": "Memakai lampu LED yang lebih hemat daya" },
+        { "id": "d", "text": "Membuka pintu kulkas dalam waktu lama" },
+        { "id": "e", "text": "Menyalakan televisi sepanjang hari sebagai teman" }
+      ],
+      "answer": ["a", "b", "c"],
+      "explanation": "Mematikan lampu, mencabut colokan, dan memakai lampu hemat daya semuanya mengurangi pemakaian listrik. Membuka kulkas terlalu lama membuat mesin pendingin bekerja lebih keras, dan menyalakan televisi terus-menerus jelas memboroskan energi."
+    },
+    {
+      "id": "ipas-ene-0018",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sulit",
+      "type": "pg",
+      "stem": "Seorang anak mendorong tembok sekuat tenaga hingga berkeringat, tetapi tembok tidak bergeser sama sekali. Berdasarkan konsep gaya, hal tersebut menunjukkan bahwa ....",
+      "choices": [
+        { "id": "a", "text": "gaya yang diberikan belum cukup besar untuk mengubah kedudukan benda" },
+        { "id": "b", "text": "anak tersebut tidak memberikan gaya apa pun kepada tembok" },
+        { "id": "c", "text": "tembok tidak dapat dikenai gaya oleh manusia" },
+        { "id": "d", "text": "gaya hanya berlaku untuk benda yang dapat bergerak" }
+      ],
+      "answer": "a",
+      "explanation": "Gaya tetap diberikan, terbukti anak itu sampai berkeringat. Namun gaya baru mengubah kedudukan benda bila besarnya melebihi gaya penahan. Tembok ditahan pondasi dan gesekan yang sangat besar, sehingga kedudukannya tidak berubah."
+    },
+    {
+      "id": "ipas-ene-0019",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Perhatikan gambar bidang miring berikut. Keuntungan menggunakan papan miring untuk menaikkan drum ke atas bak truk adalah ....",
+      "figure": {
+        "kind": "svg",
+        "svg": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"130\" x2=\"280\" y2=\"130\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"60,130 230,130 230,55\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"232\" y=\"55\" width=\"48\" height=\"75\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"currentColor\" stroke-width=\"2\"/><ellipse cx=\"140\" cy=\"96\" rx=\"16\" ry=\"11\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"256\" y=\"96\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">bak</text><text x=\"140\" y=\"124\" font-size=\"11\" fill=\"currentColor\" text-anchor=\"middle\">drum</text></svg>",
+        "alt": "Papan miring dipasang dari tanah ke bak truk dengan sebuah drum di tengah papan"
+      },
+      "choices": [
+        { "id": "a", "text": "gaya yang diperlukan menjadi lebih kecil meskipun jaraknya lebih panjang" },
+        { "id": "b", "text": "berat drum berkurang saat berada di atas papan" },
+        { "id": "c", "text": "jarak yang ditempuh drum menjadi lebih pendek" },
+        { "id": "d", "text": "drum dapat naik sendiri tanpa perlu didorong" }
+      ],
+      "answer": "a",
+      "explanation": "Bidang miring meringankan gaya dorong, tetapi lintasan yang ditempuh menjadi lebih panjang daripada mengangkat lurus ke atas. Berat drum sendiri tidak berubah; yang berubah hanyalah besar gaya yang perlu dikerahkan."
+    },
+    {
+      "id": "ipas-ene-0020",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Panas dari api unggun terasa sampai ke tubuh kita meskipun tidak bersentuhan dan tidak ada angin. Perpindahan panas tersebut terjadi secara ....",
+      "choices": [
+        { "id": "a", "text": "radiasi" },
+        { "id": "b", "text": "konduksi" },
+        { "id": "c", "text": "konveksi" },
+        { "id": "d", "text": "penguapan" }
+      ],
+      "answer": "a",
+      "explanation": "Radiasi adalah perpindahan panas tanpa memerlukan zat perantara. Panas matahari sampai ke bumi dengan cara yang sama. Konduksi memerlukan sentuhan langsung, sedangkan konveksi memerlukan aliran zat cair atau gas."
+    },
+    {
+      "id": "ipas-ene-0021",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penerapan",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Bel sepeda berbunyi nyaring ketika ditekan. Sumber bunyi pada bel tersebut adalah ....",
+      "choices": [
+        { "id": "a", "text": "getaran pada logam bel" },
+        { "id": "b", "text": "aliran udara di dalam bel" },
+        { "id": "c", "text": "panas yang timbul saat ditekan" },
+        { "id": "d", "text": "cahaya yang dipantulkan logam" }
+      ],
+      "answer": "a",
+      "explanation": "Semua bunyi berasal dari benda yang bergetar. Saat bel ditekan, logamnya bergetar cepat, getaran itu menggetarkan udara di sekitarnya, dan sampailah ke telinga kita sebagai bunyi."
+    },
+    {
+      "id": "ipas-ene-0022",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "penalaran_inkuiri",
+      "difficulty": "sedang",
+      "type": "pg",
+      "stem": "Lampu di sebuah rumah menyala redup ketika banyak alat elektronik dihidupkan bersamaan. Perkiraan yang paling masuk akal adalah ....",
+      "choices": [
+        { "id": "a", "text": "daya listrik yang tersedia terbagi untuk banyak alat sekaligus" },
+        { "id": "b", "text": "lampu tersebut sudah habis masa pakainya" },
+        { "id": "c", "text": "kabel listrik di rumah itu terlalu pendek" },
+        { "id": "d", "text": "cahaya lampu terserap oleh alat elektronik lain" }
+      ],
+      "answer": "a",
+      "explanation": "Petunjuk pentingnya adalah lampu meredup hanya ketika banyak alat dinyalakan bersamaan, bukan sepanjang waktu. Ini menunjukkan masalah pembagian daya, bukan lampunya. Bila lampunya rusak, redupnya akan terjadi terus-menerus."
+    },
+    {
+      "id": "ipas-ene-0023",
+      "subject": "ipas",
+      "domain": "energi_gaya",
+      "competency": "pemahaman_konsep",
+      "difficulty": "mudah",
+      "type": "pg",
+      "stem": "Buah kelapa jatuh dari pohonnya ke tanah. Gaya yang menyebabkan peristiwa tersebut adalah gaya ....",
+      "choices": [
+        { "id": "a", "text": "gravitasi" },
+        { "id": "b", "text": "gesek" },
+        { "id": "c", "text": "magnet" },
+        { "id": "d", "text": "pegas" }
+      ],
+      "answer": "a",
+      "explanation": "Gaya gravitasi adalah gaya tarik bumi terhadap semua benda di sekitarnya, sehingga benda yang lepas dari tumpuannya selalu bergerak ke bawah. Gaya gesek hanya memperlambat gerak, bukan menyebabkan jatuh."
+    }
+  ]
+}

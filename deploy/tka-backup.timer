@@ -1,0 +1,13 @@
+[Unit]
+Description=Daily TKA database backup schedule
+
+[Timer]
+# Every day at 02:00 server time.
+OnCalendar=*-*-* 02:00:00
+# If the server was off at that hour, run as soon as it comes back up.
+Persistent=true
+RandomizedDelaySec=300
+Unit=tka-backup.service
+
+[Install]
+WantedBy=timers.target
