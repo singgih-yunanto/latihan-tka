@@ -100,14 +100,23 @@ openssl x509 -in "$CRT" -noout -subject -ext subjectAltName -dates
 
 echo
 echo "Installing the Nginx config for $IP, HTTPS port $PORT ..."
+# `http2 on;` needs Nginx 1.25.1 or newer (Ubuntu 24.04 ships 1.24). Older
+# versions take the flag on the listen line instead.
+NGINX_VERSION="$(nginx -v 2>&1 | sed -n 's#.*nginx/\([0-9.]*\).*#\1#p')"
+OLD_HTTP2=()
+if [[ -n "$NGINX_VERSION" ]] \
+  && [[ "$(printf '%s\n' "$NGINX_VERSION" 1.25.1 | sort -V | head -n 1)" != 1.25.1 ]]; then
+  echo "Nginx $NGINX_VERSION: using 'listen ... ssl http2' instead of 'http2 on'."
+  OLD_HTTP2=(-e '/^ *# Nginx 1.25.1+/d' -e '/^ *http2 on;/d' -e 's/ssl;$/ssl http2;/')
+fi
 if (( PORT == 443 )); then
-  sed -e "s/SERVER_IP/$IP/g" -e "s/HTTPS_PORT/$PORT/g" "$SRC" > "$DST"
+  sed -e "s/SERVER_IP/$IP/g" -e "s/HTTPS_PORT/$PORT/g" "${OLD_HTTP2[@]}" "$SRC" > "$DST"
   # The stock default site also claims port 80.
   rm -f /etc/nginx/sites-enabled/default
   URL="https://$IP"
 else
   # Another site owns 443 (and usually 80), so leave both alone.
-  sed -e '/^# BEGIN http-redirect/,/^# END http-redirect/d'       -e "s/SERVER_IP/$IP/g" -e "s/HTTPS_PORT/$PORT/g" "$SRC" > "$DST"
+  sed -e '/^# BEGIN http-redirect/,/^# END http-redirect/d'       -e "s/SERVER_IP/$IP/g" -e "s/HTTPS_PORT/$PORT/g" "${OLD_HTTP2[@]}" "$SRC" > "$DST"
   URL="https://$IP:$PORT"
 fi
 ln -sf "$DST" /etc/nginx/sites-enabled/tka
