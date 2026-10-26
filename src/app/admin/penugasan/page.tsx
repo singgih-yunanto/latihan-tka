@@ -77,10 +77,10 @@ export default async function DaftarPenugasanPage() {
             const sections = sectionsByAssignment.get(assignment.id) ?? [];
             const totalSoal = sections.reduce((sum, section) => sum + section.jumlahSoal, 0);
             return (
-              <li key={assignment.id} className="rounded-2xl border border-line bg-surface p-5">
+              <li key={assignment.id} className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div className="min-w-0">
-                    <h2 className="font-semibold">{assignment.judul}</h2>
+                    <h2 className="font-semibold break-words">{assignment.judul}</h2>
                     <p className="mt-1 text-sm text-muted">
                       {formatDateTime(assignment.createdAt)} &middot; {totalSoal} soal &middot;{' '}
                       {assignment.durationSeconds
@@ -108,8 +108,8 @@ export default async function DaftarPenugasanPage() {
                     </div>
                   </div>
 
-                  <div className="flex items-center gap-4">
-                    <div className="text-right">
+                  <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto sm:gap-4">
+                    <div className="mr-auto sm:mr-0 sm:text-right">
                       <p className="text-sm font-semibold">
                         {Number(selesai ?? 0)}/{Number(total ?? 0)} selesai
                       </p>

@@ -150,7 +150,7 @@ export default async function BankSoalPage({
       </p>
 
       {laporan.length > 0 ? (
-        <section className="mt-5 rounded-2xl border border-warn bg-warnsoft/40 p-5">
+        <section className="mt-5 rounded-2xl border border-warn bg-warnsoft/40 p-4 sm:p-5">
           <h2 className="font-semibold">Laporan soal yang belum ditinjau ({laporan.length})</h2>
           <ul className="mt-3 space-y-2">
             {laporan.map((item) => (
@@ -161,7 +161,7 @@ export default async function BankSoalPage({
                 <div className="min-w-0 flex-1">
                   <Link
                     href={queryDasar({ mapel: undefined, materi: undefined, cari: item.questionId, hal: undefined })}
-                    className="font-mono text-xs text-brand underline underline-offset-2"
+                    className="font-mono text-xs text-brand underline underline-offset-2 break-words"
                   >
                     {item.questionId}
                   </Link>
@@ -169,13 +169,13 @@ export default async function BankSoalPage({
                     {' '}
                     &middot; {item.pelapor ?? 'akun terhapus'} &middot; {formatDateTime(item.createdAt)}
                   </span>
-                  <p className="mt-1 whitespace-pre-wrap">{item.pesan}</p>
+                  <p className="mt-1 whitespace-pre-wrap break-words">{item.pesan}</p>
                 </div>
                 <ActionForm action={resolveReport}>
                   <input type="hidden" name="id" value={item.id} />
                   <button
                     type="submit"
-                    className="rounded-lg border border-line px-3 py-1.5 text-xs font-medium transition hover:border-brand"
+                    className="min-h-9 rounded-lg border border-line px-3 py-2 text-xs font-medium transition hover:border-brand"
                   >
                     Tandai selesai
                   </button>
@@ -225,7 +225,7 @@ export default async function BankSoalPage({
         <select
           name="mapel"
           defaultValue={mapel ?? ''}
-          className="rounded-xl border border-line bg-surface2 px-3 py-2.5"
+          className="w-full min-w-0 rounded-xl border border-line bg-surface2 px-3 py-2.5 sm:w-auto"
           aria-label="Saring mata pelajaran"
         >
           <option value="">Semua mapel</option>
@@ -240,7 +240,7 @@ export default async function BankSoalPage({
           <select
             name="materi"
             defaultValue={materi ?? ''}
-            className="rounded-xl border border-line bg-surface2 px-3 py-2.5"
+            className="w-full min-w-0 rounded-xl border border-line bg-surface2 px-3 py-2.5 sm:w-auto"
             aria-label="Saring materi"
           >
             <option value="">Semua materi</option>
@@ -256,7 +256,7 @@ export default async function BankSoalPage({
           name="cari"
           defaultValue={cari ?? ''}
           placeholder="Cari teks soal atau id…"
-          className="min-w-0 flex-1 rounded-xl border border-line bg-surface2 px-4 py-2.5"
+          className="min-w-0 flex-1 basis-full rounded-xl border border-line bg-surface2 px-4 py-2.5 sm:basis-auto"
         />
         <button type="submit" className="rounded-xl bg-brand px-5 py-2.5 font-semibold text-white">
           Terapkan
@@ -285,7 +285,7 @@ export default async function BankSoalPage({
           return (
             <li
               key={row.id}
-              className={`rounded-2xl border border-line bg-surface p-5 ${
+              className={`rounded-2xl border border-line bg-surface p-4 sm:p-5 ${
                 row.aktif && !row.retiredByAdmin ? '' : 'opacity-60'
               }`}
             >
@@ -302,7 +302,7 @@ export default async function BankSoalPage({
                 <span className="rounded-md bg-surface2 px-2 py-1 text-xs text-muted">
                   {DIFFICULTY_LABEL[row.difficulty as Difficulty]}
                 </span>
-                <code className="text-xs text-muted">{row.id}</code>
+                <code className="text-xs text-muted break-words">{row.id}</code>
 
                 {!row.aktif ? (
                   <span className="rounded-md bg-surface2 px-2 py-1 text-xs text-muted">
@@ -314,7 +314,7 @@ export default async function BankSoalPage({
                   <input type="hidden" name="tarik" value={row.retiredByAdmin ? '0' : '1'} />
                   <button
                     type="submit"
-                    className="rounded-lg border border-line px-3 py-1.5 text-xs font-medium transition hover:border-brand"
+                    className="min-h-9 rounded-lg border border-line px-3 py-2 text-xs font-medium transition hover:border-brand"
                   >
                     {row.retiredByAdmin ? 'Pakai lagi' : 'Tarik dari undian'}
                   </button>
@@ -386,7 +386,7 @@ export default async function BankSoalPage({
                 <summary className="cursor-pointer text-sm font-medium text-brand">
                   Kunci & pembahasan
                 </summary>
-                <p className="mt-2 font-mono text-xs text-muted">{row.answerJson}</p>
+                <p className="mt-2 font-mono text-xs text-muted break-words">{row.answerJson}</p>
                 <p className="mt-2 text-sm">{row.explanationMd}</p>
               </details>
             </li>

@@ -23,7 +23,7 @@ A session lasts 30 days. **Keluar** in the top right ends it.
 
 ## Accounts
 
-**Admin → Akun.** Every account in the system is created here.
+**Admin → Kelola akun.** Every account in the system is created here.
 
 ### Creating one
 
@@ -258,7 +258,7 @@ to other children's results or answers. Tell families before you switch it on.
   feature off or on for everyone. When it is off, the menu links disappear and
   the page tells students and parents it has been switched off. Admins still
   see the board.
-- **Sembunyikan** on a row, or **Sembunyikan dari peringkat** under **Akun**,
+- **Sembunyikan** on a row, or **Sembunyikan dari peringkat** under **Kelola akun**,
   takes one student off the board, for example a test account or a child who
   prefers not to be shown. **Tampilkan lagi** brings them back.
 - Deactivated students are left off automatically.

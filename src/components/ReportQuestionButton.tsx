@@ -70,14 +70,14 @@ export function ReportQuestionButton({
         <button
           type="submit"
           disabled={pending || pesan.trim().length < 3}
-          className="rounded-lg bg-brand px-3 py-1.5 text-xs font-semibold text-white disabled:opacity-50"
+          className="min-h-9 rounded-lg bg-brand px-3 py-2 text-xs font-semibold text-white disabled:opacity-50"
         >
           {pending ? 'Mengirim…' : 'Kirim laporan'}
         </button>
         <button
           type="button"
           onClick={() => setOpen(false)}
-          className="rounded-lg border border-line px-3 py-1.5 text-xs"
+          className="min-h-9 rounded-lg border border-line px-3 py-2 text-xs"
         >
           Batal
         </button>

@@ -375,11 +375,11 @@ export function AnalyticsView({ scope, basePath, showItemAnalysis = true }: Prop
         </p>
       ) : (
         <div className="overflow-x-auto rounded-2xl border border-line bg-surface">
-          <table className="w-full min-w-[40rem] text-sm">
+          <table className="w-full min-w-[26rem] text-sm sm:min-w-[40rem]">
             <thead>
               <tr className="border-b border-line text-left text-muted">
                 <th className="p-3 font-semibold">Butir</th>
-                <th className="p-3 font-semibold">Materi</th>
+                <th className="hidden p-3 font-semibold sm:table-cell">Materi</th>
                 <th className="p-3 font-semibold">Label</th>
                 <th className="p-3 text-right font-semibold">Dikerjakan</th>
                 <th className="p-3 text-right font-semibold">Benar</th>
@@ -395,10 +395,10 @@ export function AnalyticsView({ scope, basePath, showItemAnalysis = true }: Prop
                 return (
                   <tr key={row.questionId} className="border-b border-line last:border-0">
                     <td className="max-w-[18rem] p-3">
-                      <span className="text-xs text-muted">{row.questionId}</span>
+                      <span className="text-xs text-muted break-words">{row.questionId}</span>
                       <p className="line-clamp-2 text-sm">{row.stem.replace(/\$[^$]*\$/g, '…')}</p>
                     </td>
-                    <td className="p-3 text-xs text-muted">
+                    <td className="hidden p-3 text-xs text-muted sm:table-cell">
                       {SUBJECT_LABEL[subject]}
                       <br />
                       {domainLabel(subject, row.domain)}

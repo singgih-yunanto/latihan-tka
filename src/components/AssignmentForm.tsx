@@ -10,6 +10,7 @@ import {
   QUESTION_TYPE_LABEL,
   SUBJECTS,
   SUBJECT_LABEL,
+  SUBJECT_SHORT,
   type Difficulty,
   type QuestionType,
   type Subject,
@@ -177,7 +178,7 @@ export function AssignmentForm({
 
   return (
     <div className="space-y-6">
-      <section className="rounded-2xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <label htmlFor="judul" className="mb-1.5 block text-sm font-semibold">
           Judul penugasan
         </label>
@@ -190,7 +191,7 @@ export function AssignmentForm({
         />
       </section>
 
-      <section className="rounded-2xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           <h2 className="font-semibold">Komposisi soal per mata pelajaran</h2>
           <div className="flex flex-wrap gap-1.5">
@@ -206,7 +207,7 @@ export function AssignmentForm({
                     })),
                   )
                 }
-                className="rounded-lg border border-line px-3 py-1.5 text-xs font-medium text-muted transition hover:border-brand hover:text-brand"
+                className="rounded-lg border border-line px-3 py-2 text-xs font-medium text-muted transition hover:border-brand hover:text-brand"
               >
                 {preset.label}
               </button>
@@ -226,7 +227,7 @@ export function AssignmentForm({
                       onClick={() => move(i, i - 1)}
                       disabled={i === 0}
                       aria-label="Pindah ke atas"
-                      className="text-xs text-muted disabled:opacity-30"
+                      className="flex h-8 w-8 items-center justify-center rounded-md text-xs text-muted hover:bg-surface disabled:opacity-30"
                     >
                       ▲
                     </button>
@@ -235,13 +236,13 @@ export function AssignmentForm({
                       onClick={() => move(i, i + 1)}
                       disabled={i === rows.length - 1}
                       aria-label="Pindah ke bawah"
-                      className="text-xs text-muted disabled:opacity-30"
+                      className="flex h-8 w-8 items-center justify-center rounded-md text-xs text-muted hover:bg-surface disabled:opacity-30"
                     >
                       ▼
                     </button>
                   </div>
 
-                  <div className="min-w-0 flex-1">
+                  <div className="min-w-[10rem] flex-1">
                     <p className="font-semibold">
                       {SUBJECT_LABEL[row.subject]}
                       {info?.provisional ? (
@@ -260,7 +261,7 @@ export function AssignmentForm({
                     <button
                       type="button"
                       onClick={() => patch(row.subject, { jumlahSoal: Math.max(0, row.jumlahSoal - 5) })}
-                      className="h-9 w-9 rounded-lg border border-line font-bold"
+                      className="h-10 w-10 rounded-lg border border-line font-bold"
                       aria-label={`Kurangi soal ${SUBJECT_LABEL[row.subject]}`}
                     >
                       −
@@ -281,7 +282,7 @@ export function AssignmentForm({
                     <button
                       type="button"
                       onClick={() => patch(row.subject, { jumlahSoal: Math.min(100, row.jumlahSoal + 5) })}
-                      className="h-9 w-9 rounded-lg border border-line font-bold"
+                      className="h-10 w-10 rounded-lg border border-line font-bold"
                       aria-label={`Tambah soal ${SUBJECT_LABEL[row.subject]}`}
                     >
                       +
@@ -291,7 +292,7 @@ export function AssignmentForm({
                   <button
                     type="button"
                     onClick={() => patch(row.subject, { terbuka: !row.terbuka })}
-                    className="rounded-lg px-3 py-1.5 text-xs font-medium text-brand"
+                    className="min-h-10 rounded-lg px-3 py-2 text-xs font-medium text-brand"
                   >
                     {row.terbuka ? 'Tutup filter' : 'Filter'}
                   </button>
@@ -361,7 +362,7 @@ export function AssignmentForm({
         </div>
       </section>
 
-      <section className="rounded-2xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <div className="mb-3 flex items-center justify-between">
           <h2 className="font-semibold">Murid yang menerima</h2>
           <button
@@ -411,7 +412,7 @@ export function AssignmentForm({
         )}
       </section>
 
-      <section className="rounded-2xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <h2 className="mb-1 font-semibold">Batas waktu</h2>
         <p className="mb-4 text-sm text-muted">
           Jatah waktu berlaku untuk keseluruhan penugasan, bukan per soal maupun per mapel. Murid
@@ -477,12 +478,12 @@ export function AssignmentForm({
             type="date"
             value={tenggat}
             onChange={(event) => setTenggat(event.target.value)}
-            className="rounded-xl border border-line bg-surface2 px-4 py-2.5"
+            className="w-full rounded-xl border border-line bg-surface2 px-4 py-2.5 sm:w-auto"
           />
         </label>
       </section>
 
-      <section className="rounded-2xl border border-line bg-surface p-5">
+      <section className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <h2 className="font-semibold">Pratinjau ketersediaan soal</h2>
@@ -502,13 +503,14 @@ export function AssignmentForm({
 
         {availability && availability.length > 0 ? (
           <div className="mt-4 overflow-x-auto">
-            <table className="w-full min-w-[26rem] text-sm">
+            <table className="w-full text-sm sm:min-w-[26rem]">
               <thead>
                 <tr className="text-left text-muted">
-                  <th className="pb-2">Murid</th>
+                  <th className="pb-2 pr-2">Murid</th>
                   {availability[0].perSection.map((section) => (
-                    <th key={section.subject} className="pb-2 text-center">
-                      {SUBJECT_LABEL[section.subject]}
+                    <th key={section.subject} className="px-1 pb-2 text-center">
+                      <span className="sm:hidden">{SUBJECT_SHORT[section.subject]}</span>
+                      <span className="hidden sm:inline">{SUBJECT_LABEL[section.subject]}</span>
                     </th>
                   ))}
                 </tr>
@@ -516,11 +518,11 @@ export function AssignmentForm({
               <tbody>
                 {availability.map((baris) => (
                   <tr key={baris.userId} className="border-t border-line">
-                    <td className="py-2 font-medium">{baris.nama}</td>
+                    <td className="py-2 pr-2 font-medium break-words">{baris.nama}</td>
                     {baris.perSection.map((section) => {
                       const cukup = section.tersedia >= section.diminta;
                       return (
-                        <td key={section.subject} className="py-2 text-center">
+                        <td key={section.subject} className="px-1 py-2 text-center">
                           <span
                             className={`rounded-md px-2 py-1 text-xs font-semibold ${
                               cukup ? 'bg-oksoft text-ok' : 'bg-badsoft text-bad'
@@ -610,7 +612,7 @@ function FilterGroup({
               type="button"
               onClick={() => onToggle(option.value)}
               aria-pressed={aktif}
-              className={`rounded-lg border px-2.5 py-1.5 text-xs font-medium transition ${
+              className={`rounded-lg border px-2.5 py-2 text-xs font-medium transition ${
                 aktif ? 'border-brand bg-brand text-white' : 'border-line text-muted hover:border-brand'
               }`}
             >

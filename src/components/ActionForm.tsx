@@ -21,10 +21,10 @@ function IssuedCredential({ username, password }: { username: string; password: 
     <div role="status" className="mt-2 w-full rounded-xl border border-ok/40 bg-oksoft p-3 text-sm">
       <dl className="grid grid-cols-[auto_1fr_auto] items-center gap-x-3 gap-y-2">
         <dt className="text-muted">Nama pengguna</dt>
-        <dd className="select-all font-mono font-semibold">{username}</dd>
+        <dd className="min-w-0 select-all break-all font-mono font-semibold">{username}</dd>
         <CopyButton value={username} label="Salin" />
         <dt className="text-muted">Kata sandi</dt>
-        <dd className="select-all font-mono font-semibold">{password}</dd>
+        <dd className="min-w-0 select-all break-all font-mono font-semibold">{password}</dd>
         <CopyButton value={password} label="Salin" />
       </dl>
       <CopyButton

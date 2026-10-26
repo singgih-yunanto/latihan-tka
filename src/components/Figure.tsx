@@ -44,6 +44,8 @@ function FigureContent({ figure, safeSvg }: { figure: FigureData; safeSvg?: stri
   );
 }
 
+const ZOOM_LEVELS = [1, 2, 3] as const;
+
 function ZoomDialog({
   figure,
   safeSvg,
@@ -53,6 +55,10 @@ function ZoomDialog({
   safeSvg?: string;
   onClose: () => void;
 }) {
+  // A phone shows the dialog at screen width, about the size of the inline
+  // figure, so real magnification means a wider figure panned inside the box.
+  const [zoom, setZoom] = useState<(typeof ZOOM_LEVELS)[number]>(1);
+
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();
@@ -67,25 +73,46 @@ function ZoomDialog({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-2 sm:p-4"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-label={figure.alt}
     >
       <div
-        className="max-h-full w-full max-w-3xl overflow-auto rounded-2xl bg-surface p-4"
+        className="flex max-h-full w-full max-w-3xl flex-col overflow-hidden rounded-2xl bg-surface"
         onClick={(event) => event.stopPropagation()}
       >
-        <FigureContent figure={figure} safeSvg={safeSvg} />
-        <p className="mt-3 text-center text-sm text-muted">{figure.alt}</p>
-        <button
-          type="button"
-          onClick={onClose}
-          className="mx-auto mt-3 block rounded-lg bg-brand px-5 py-2 text-sm font-semibold text-white"
-        >
-          Tutup
-        </button>
+        <div className="flex items-center gap-2 border-b border-line p-2">
+          <div className="flex gap-1" role="group" aria-label="Perbesaran">
+            {ZOOM_LEVELS.map((level) => (
+              <button
+                key={level}
+                type="button"
+                onClick={() => setZoom(level)}
+                aria-pressed={zoom === level}
+                className={`h-10 min-w-10 rounded-lg px-2 text-sm font-semibold ${
+                  zoom === level ? 'bg-brand text-white' : 'border border-line text-muted'
+                }`}
+              >
+                {level}×
+              </button>
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="ml-auto h-10 rounded-lg bg-brand px-5 text-sm font-semibold text-white"
+          >
+            Tutup
+          </button>
+        </div>
+        <div className="min-h-0 flex-1 overflow-auto overscroll-contain p-3 sm:p-4">
+          <div style={{ width: `${zoom * 100}%` }}>
+            <FigureContent figure={figure} safeSvg={safeSvg} />
+          </div>
+        </div>
+        <p className="border-t border-line p-2 text-center text-sm text-muted">{figure.alt}</p>
       </div>
     </div>
   );
@@ -143,7 +170,7 @@ export function FigureZoomButton({
       <button
         type="button"
         onClick={() => setZoomed(true)}
-        className={`flex h-9 w-9 items-center justify-center rounded-lg border border-line bg-surface text-muted shadow-sm hover:border-brand hover:text-brand ${className ?? ''}`}
+        className={`flex h-10 w-10 items-center justify-center rounded-lg border border-line bg-surface text-muted shadow-sm hover:border-brand hover:text-brand ${className ?? ''}`}
         aria-label={`Perbesar gambar: ${figure.alt}`}
       >
         <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">

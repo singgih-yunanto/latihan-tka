@@ -63,8 +63,8 @@ export default async function DaftarTugasPage({
   const selesai = daftar.filter(({ attempt }) => attempt.status === 'selesai').reverse();
 
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 py-8">
-      <header className="mb-6 flex items-center gap-4">
+    <main className="mx-auto w-full max-w-3xl px-4 py-5 sm:py-8">
+      <header className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2">
         <span
           className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-full text-lg font-bold text-white ${avatarClass(murid.avatarWarna)}`}
           aria-hidden="true"
@@ -77,16 +77,17 @@ export default async function DaftarTugasPage({
             {aktif.length > 0 ? `${aktif.length} tugas menunggu dikerjakan` : 'Tidak ada tugas baru'}
           </p>
         </div>
-        <div className="flex shrink-0 flex-col items-end gap-1 text-sm">
+        {/* A row of links under the greeting on a phone, a stack beside it from sm. */}
+        <div className="-mx-2 flex w-full gap-1 text-sm sm:mx-0 sm:w-auto sm:shrink-0 sm:flex-col sm:items-end sm:gap-0">
           {isRankingEnabled(sqlite) ? (
-            <Link href="/u/peringkat" className="font-medium text-brand underline underline-offset-4">
+            <Link href="/u/peringkat" className="px-2 py-2 font-medium text-brand underline underline-offset-4 sm:px-0 sm:py-0.5">
               Peringkat
             </Link>
           ) : null}
-          <Link href="/akun" className="text-muted underline underline-offset-4">
+          <Link href="/akun" className="px-2 py-2 text-muted underline underline-offset-4 sm:px-0 sm:py-0.5">
             Akun
           </Link>
-          <Link href="/keluar" className="text-muted underline underline-offset-4">
+          <Link href="/keluar" className="px-2 py-2 text-muted underline underline-offset-4 sm:px-0 sm:py-0.5">
             Keluar
           </Link>
         </div>
@@ -118,10 +119,10 @@ export default async function DaftarTugasPage({
                 <li key={attempt.id}>
                   <Link
                     href={`/u/attempt/${attempt.id}`}
-                    className="block rounded-2xl border border-line bg-surface p-5 transition hover:border-brand hover:shadow-md"
+                    className="block rounded-2xl border border-line bg-surface p-4 transition hover:border-brand hover:shadow-md sm:p-5"
                   >
                     <div className="flex items-start justify-between gap-3">
-                      <h3 className="font-semibold">{assignment.judul}</h3>
+                      <h3 className="min-w-0 font-semibold break-words">{assignment.judul}</h3>
                       <span
                         className={`shrink-0 rounded-full px-2.5 py-1 text-xs font-semibold ${STATUS_CLASS[attempt.status]}`}
                       >
@@ -175,7 +176,7 @@ export default async function DaftarTugasPage({
               <li key={attempt.id}>
                 <Link
                   href={`/u/attempt/${attempt.id}/hasil`}
-                  className="flex items-center gap-4 rounded-2xl border border-line bg-surface p-5 transition hover:border-brand"
+                  className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 transition hover:border-brand sm:gap-4 sm:p-5"
                 >
                   <div className="min-w-0 flex-1">
                     <h3 className="truncate font-semibold">{assignment.judul}</h3>

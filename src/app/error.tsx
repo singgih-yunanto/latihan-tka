@@ -10,7 +10,7 @@ import Link from 'next/link';
  */
 export default function ErrorPage({ reset }: { error: Error; reset: () => void }) {
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-sm flex-col justify-center px-4 py-12">
+    <main className="mx-auto flex min-h-dvh w-full max-w-sm flex-col justify-center px-4 py-12">
       <div className="rounded-2xl border border-line bg-surface p-7 text-center">
         <h1 className="text-xl font-bold">Ada yang tidak beres</h1>
         <p className="mt-2 text-sm text-muted">

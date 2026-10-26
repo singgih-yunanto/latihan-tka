@@ -20,8 +20,8 @@ export default async function MasukPage({
   const next = safeNextPath(lanjut) ?? undefined;
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-sm flex-col justify-center px-4 py-12">
-      <div className="rounded-2xl border border-line bg-surface p-7">
+    <main className="mx-auto flex min-h-dvh w-full max-w-sm flex-col justify-center px-4 py-8 sm:py-12">
+      <div className="rounded-2xl border border-line bg-surface p-5 sm:p-7">
         <p className="text-sm font-semibold uppercase tracking-wide text-brand">Latihan TKA</p>
         <h1 className="mt-1 text-xl font-bold">Masuk</h1>
         <p className="mt-1 text-sm text-muted">

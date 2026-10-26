@@ -64,6 +64,8 @@ export function AttemptRunner({
   const [confirming, setConfirming] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  // Reading passages the student opened in full on a phone, by stimulus id.
+  const [openPassages, setOpenPassages] = useState<Set<string>>(new Set());
   const [unsaved, setUnsaved] = useState(0);
 
   // Answers changed locally but not yet confirmed by the server. An entry is
@@ -330,12 +332,12 @@ export function AttemptRunner({
   const urgent = remaining !== null && remaining <= 300;
 
   return (
-    <div className="min-h-screen pb-40">
+    <div className="min-h-dvh pb-6 lg:pb-10">
       <header className="sticky top-0 z-30 border-b border-line bg-surface/95 backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center gap-3 px-4 py-3">
+        <div className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-2.5 sm:gap-3 sm:py-3">
           <div className="min-w-0 flex-1">
             <p className="truncate text-sm font-semibold">{judul}</p>
-            <p className="text-xs text-muted">
+            <p className="truncate text-xs text-muted">
               Soal {index + 1} dari {questions.length}
               {saveState === 'saving' ? ' · menyimpan…' : null}
               {saveState === 'saved' ? ' · tersimpan' : null}
@@ -345,7 +347,8 @@ export function AttemptRunner({
 
           {remaining === null ? (
             <span className="shrink-0 rounded-lg bg-surface2 px-3 py-1.5 text-sm font-medium text-muted">
-              Tanpa batas waktu
+              <span className="sm:hidden">Bebas waktu</span>
+              <span className="hidden sm:inline">Tanpa batas waktu</span>
             </span>
           ) : (
             <span
@@ -365,7 +368,7 @@ export function AttemptRunner({
           <button
             type="button"
             onClick={() => setConfirming(true)}
-            className="shrink-0 rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white"
+            className="shrink-0 rounded-lg bg-brand px-4 py-2.5 text-sm font-semibold text-white"
           >
             Selesai
           </button>
@@ -378,12 +381,20 @@ export function AttemptRunner({
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-6">
+      <main className="mx-auto max-w-5xl px-4 py-4 sm:py-6">
         <div className={current.stimulus ? 'gap-6 lg:grid lg:grid-cols-2' : ''}>
           {current.stimulus ? (
-            <aside className="mb-6 lg:mb-0">
+            <aside className="mb-4 sm:mb-6 lg:mb-0">
               <div className="lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto">
-                <div className="rounded-2xl border border-line bg-surface p-5">
+                {/* On a phone a long passage would push the question far below
+                    the fold, so it starts capped with its own scroll. */}
+                <div
+                  className={`rounded-2xl border border-line bg-surface p-4 sm:p-5 ${
+                    openPassages.has(current.stimulus.id)
+                      ? ''
+                      : 'max-h-[45vh] overflow-y-auto lg:max-h-none lg:overflow-visible'
+                  }`}
+                >
                   <h2 className="mb-3 text-base font-bold">{current.stimulus.title}</h2>
                   {current.stimulus.figure ? (
                     <Figure
@@ -397,22 +408,37 @@ export function AttemptRunner({
                     dangerouslySetInnerHTML={{ __html: current.stimulus.bodyHtml }}
                   />
                 </div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    const id = current.stimulus!.id;
+                    setOpenPassages((prev) => {
+                      const next = new Set(prev);
+                      if (next.has(id)) next.delete(id);
+                      else next.add(id);
+                      return next;
+                    });
+                  }}
+                  className="mt-1 min-h-10 rounded-lg px-3 py-2 text-sm font-medium text-brand lg:hidden"
+                >
+                  {openPassages.has(current.stimulus.id) ? 'Ringkas bacaan' : 'Tampilkan bacaan penuh'}
+                </button>
               </div>
             </aside>
           ) : null}
 
           <section>
-            <div className="mb-3 flex items-center gap-2">
+            <div className="mb-3 flex flex-wrap items-center gap-2">
               <span
                 className={`rounded-md px-2 py-1 text-xs font-semibold ${SUBJECT_BADGE[current.subject]}`}
               >
                 {current.subjectLabel}
               </span>
-              <span className="text-xs text-muted">Soal nomor {index + 1}</span>
+              <span className="hidden text-xs text-muted sm:inline">Soal nomor {index + 1}</span>
               <button
                 type="button"
                 onClick={toggleFlag}
-                className={`ml-auto rounded-lg border px-3 py-1.5 text-xs font-semibold transition ${
+                className={`ml-auto min-h-10 rounded-lg border px-3 py-2 text-xs font-semibold transition ${
                   flagged.has(current.id)
                     ? 'border-warn bg-warnsoft text-warn'
                     : 'border-line text-muted hover:border-brand hover:text-brand'
@@ -422,7 +448,7 @@ export function AttemptRunner({
               </button>
             </div>
 
-            <div className="rounded-2xl border border-line bg-surface p-5">
+            <div className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
               <div
                 className="prose-soal text-[15px] sm:text-base"
                 dangerouslySetInnerHTML={{ __html: current.stemHtml }}
@@ -444,28 +470,42 @@ export function AttemptRunner({
               </div>
             </div>
 
-            <nav className="mt-5 flex items-center gap-3">
+            {/* Below lg the buttons ride along at the bottom of the screen, so a
+                long question never needs a scroll back down to move on. */}
+            <nav className="sticky bottom-0 z-20 -mx-4 mt-4 flex items-center gap-2 border-t border-line bg-surface/95 px-4 py-3 backdrop-blur sm:gap-3 lg:static lg:mx-0 lg:mt-5 lg:border-0 lg:bg-transparent lg:p-0 lg:backdrop-blur-none">
               <button
                 type="button"
                 onClick={() => go(index - 1)}
                 disabled={index === 0}
-                className="flex-1 rounded-xl border border-line bg-surface px-4 py-3 font-semibold transition hover:border-brand disabled:cursor-not-allowed disabled:opacity-40"
+                className="flex-1 whitespace-nowrap rounded-xl border border-line bg-surface px-3 py-3 font-semibold transition hover:border-brand disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
               >
-                ← Sebelumnya
+                ← <span className="sm:hidden">Kembali</span>
+                <span className="hidden sm:inline">Sebelumnya</span>
               </button>
+              <a
+                href="#daftar-soal"
+                aria-label="Buka daftar soal"
+                className="flex shrink-0 items-center justify-center rounded-xl border border-line bg-surface px-3 py-3 text-sm font-semibold tabular-nums lg:hidden"
+              >
+                {index + 1}/{questions.length}
+              </a>
               <button
                 type="button"
                 onClick={() => go(index + 1)}
                 disabled={index === questions.length - 1}
-                className="flex-1 rounded-xl bg-brand px-4 py-3 font-semibold text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+                className="flex-1 whitespace-nowrap rounded-xl bg-brand px-3 py-3 font-semibold text-white transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
               >
-                Berikutnya →
+                <span className="sm:hidden">Lanjut</span>
+                <span className="hidden sm:inline">Berikutnya</span> →
               </button>
             </nav>
           </section>
         </div>
 
-        <section className="mt-8 rounded-2xl border border-line bg-surface p-5">
+        <section
+          id="daftar-soal"
+          className="mt-6 scroll-mt-20 rounded-2xl border border-line bg-surface p-4 sm:mt-8 sm:p-5"
+        >
           <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted">
             Daftar soal
           </h2>
@@ -473,7 +513,7 @@ export function AttemptRunner({
             {groups.map((group, gi) => (
               <div key={`${group.subject}-${gi}`}>
                 <p className="mb-2 text-xs font-semibold text-muted">{group.label}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="grid grid-cols-[repeat(auto-fill,minmax(2.75rem,1fr))] gap-2 sm:flex sm:flex-wrap">
                   {group.items.map(({ q, i }) => {
                     const dijawab = isAnswered(responseFor(q));
                     const ragu = flagged.has(q.id);
@@ -485,7 +525,7 @@ export function AttemptRunner({
                         onClick={() => go(i)}
                         aria-current={aktif ? 'true' : undefined}
                         className={[
-                          'h-11 w-11 rounded-lg border text-sm font-semibold transition',
+                          'h-11 rounded-lg border text-sm font-semibold transition sm:w-11',
                           aktif ? 'ring-2 ring-brand ring-offset-2 ring-offset-[var(--surface)]' : '',
                           ragu
                             ? 'border-warn bg-warnsoft text-warn'
@@ -510,7 +550,7 @@ export function AttemptRunner({
 
       {confirming ? (
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 p-4 sm:items-center">
-          <div className="w-full max-w-md rounded-2xl bg-surface p-6">
+          <div className="max-h-[90dvh] w-full max-w-md overflow-y-auto rounded-2xl bg-surface p-5 sm:p-6">
             <h2 className="text-lg font-bold">Selesaikan penugasan?</h2>
 
             <div className="mt-4 space-y-2 text-sm">
@@ -597,14 +637,14 @@ function QuestionInput({
     const picks = response.kind === 'kategori' ? response.picks : {};
     return (
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[22rem] border-collapse text-sm">
+        <table className="w-full border-collapse text-sm sm:min-w-[22rem]">
           <thead>
             <tr>
-              <th className="border-b border-line p-2 text-left font-semibold">Pernyataan</th>
+              <th className="border-b border-line p-1.5 text-left font-semibold sm:p-2">Pernyataan</th>
               {question.categories.map((category) => (
                 <th
                   key={category.id}
-                  className="w-24 border-b border-line p-2 text-center font-semibold"
+                  className="w-16 border-b border-line p-1.5 text-center font-semibold sm:w-24 sm:p-2"
                 >
                   {category.label}
                 </th>
@@ -614,24 +654,27 @@ function QuestionInput({
           <tbody>
             {question.statements.map((statement) => (
               <tr key={statement.id}>
-                <td className="border-b border-line p-2 align-middle">
+                <td className="border-b border-line p-1.5 align-middle break-words sm:p-2">
                   <span dangerouslySetInnerHTML={{ __html: statement.html }} />
                 </td>
                 {question.categories!.map((category) => (
-                  <td key={category.id} className="border-b border-line p-2 text-center">
-                    <input
-                      type="radio"
-                      name={`${question.id}-${statement.id}`}
-                      checked={picks[statement.id] === category.id}
-                      onChange={() =>
-                        onChange({
-                          kind: 'kategori',
-                          picks: { ...picks, [statement.id]: category.id },
-                        })
-                      }
-                      className="h-5 w-5 accent-[var(--brand)]"
-                      aria-label={`${category.label} untuk pernyataan ini`}
-                    />
+                  <td key={category.id} className="border-b border-line p-0 text-center">
+                    {/* The whole cell is the tap target, not just the 20px dot. */}
+                    <label className="flex min-h-11 cursor-pointer items-center justify-center p-1.5 sm:p-2">
+                      <input
+                        type="radio"
+                        name={`${question.id}-${statement.id}`}
+                        checked={picks[statement.id] === category.id}
+                        onChange={() =>
+                          onChange({
+                            kind: 'kategori',
+                            picks: { ...picks, [statement.id]: category.id },
+                          })
+                        }
+                        className="h-5 w-5 accent-[var(--brand)]"
+                        aria-label={`${category.label} untuk pernyataan ini`}
+                      />
+                    </label>
                   </td>
                 ))}
               </tr>
@@ -670,7 +713,7 @@ function QuestionInput({
       {multi ? (
         <p className="mb-3 text-sm font-medium text-muted">Pilih semua jawaban yang benar.</p>
       ) : null}
-      <ul className={bergambar ? 'grid grid-cols-2 gap-3' : 'space-y-2.5'}>
+      <ul className={bergambar ? 'grid gap-3 min-[420px]:grid-cols-2' : 'space-y-2.5'}>
         {question.choices.map((choice, i) => {
           const aktif = selected.has(choice.id);
           return (

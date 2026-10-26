@@ -24,7 +24,7 @@ const ROLE_BADGE: Record<Role, string> = {
 };
 
 const INPUT =
-  'min-w-0 rounded-xl border border-line bg-surface2 px-3 py-2 text-sm outline-none focus:border-brand';
+  'min-h-10 min-w-0 rounded-xl border border-line bg-surface2 px-3 py-2 text-base outline-none focus:border-brand sm:text-sm';
 
 export default async function KelolaAkunPage() {
   const me = await requireUser('admin');
@@ -70,7 +70,7 @@ export default async function KelolaAkunPage() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold">Akun</h1>
+      <h1 className="text-2xl font-bold">Kelola akun</h1>
       <p className="mt-1 text-sm text-muted">
         Semua akun dibuat di sini. Tiap akun baru, atau yang kata sandinya diatur ulang, mendapat
         kata sandi sementara sendiri yang ditampilkan sekali saja, berlaku 7 hari, dan wajib diganti
@@ -85,7 +85,7 @@ export default async function KelolaAkunPage() {
 
       <ActionForm
         action={createUser}
-        className="mt-5 flex flex-wrap items-end gap-2 rounded-2xl border border-line bg-surface p-4"
+        className="mt-5 grid gap-3 rounded-2xl border border-line bg-surface p-4 sm:flex sm:flex-wrap sm:items-end sm:gap-2"
       >
         <div className="min-w-0 flex-1">
           <label htmlFor="nama-baru" className="mb-1 block text-xs font-medium text-muted">
@@ -93,7 +93,7 @@ export default async function KelolaAkunPage() {
           </label>
           <input id="nama-baru" name="nama" required placeholder="Nama" className={`${INPUT} w-full`} />
         </div>
-        <div>
+        <div className="min-w-0">
           <label htmlFor="username-baru" className="mb-1 block text-xs font-medium text-muted">
             Nama pengguna
           </label>
@@ -103,14 +103,14 @@ export default async function KelolaAkunPage() {
             placeholder="otomatis"
             autoCapitalize="none"
             spellCheck={false}
-            className={INPUT}
+            className={`${INPUT} w-full sm:w-auto`}
           />
         </div>
-        <div>
+        <div className="min-w-0">
           <label htmlFor="role-baru" className="mb-1 block text-xs font-medium text-muted">
             Peran
           </label>
-          <select id="role-baru" name="role" defaultValue="student" className={INPUT}>
+          <select id="role-baru" name="role" defaultValue="student" className={`${INPUT} w-full sm:w-auto`}>
             {ROLES.map((role) => (
               <option key={role} value={role}>
                 {ROLE_LABEL[role]}
@@ -118,7 +118,7 @@ export default async function KelolaAkunPage() {
             ))}
           </select>
         </div>
-        <button type="submit" className="rounded-xl bg-brand px-5 py-2.5 font-semibold text-white">
+        <button type="submit" className="w-full rounded-xl bg-brand px-5 py-2.5 font-semibold text-white sm:w-auto">
           Tambah akun
         </button>
       </ActionForm>
@@ -147,7 +147,7 @@ export default async function KelolaAkunPage() {
                     name="nama"
                     defaultValue={user.nama}
                     aria-label={`Nama ${user.nama}`}
-                    className={`${INPUT} min-w-[8rem] flex-1 font-semibold`}
+                    className={`${INPUT} w-full font-semibold sm:w-auto sm:min-w-[8rem] sm:flex-1`}
                   />
                   <input
                     name="username"
@@ -155,7 +155,7 @@ export default async function KelolaAkunPage() {
                     aria-label={`Nama pengguna ${user.nama}`}
                     autoCapitalize="none"
                     spellCheck={false}
-                    className={`${INPUT} w-28`}
+                    className={`${INPUT} min-w-[7rem] flex-1 sm:w-28 sm:min-w-0 sm:flex-none`}
                   />
                   {user.id === me.id ? (
                     <span className={`rounded-md px-2 py-1 text-xs font-semibold ${ROLE_BADGE[role]}`}>
@@ -172,13 +172,13 @@ export default async function KelolaAkunPage() {
                   )}
                   <button
                     type="submit"
-                    className="rounded-lg border border-line px-3 py-1.5 text-xs font-medium transition hover:border-brand"
+                    className="min-h-10 rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
                   >
                     Simpan
                   </button>
                 </ActionForm>
 
-                <div className="text-right text-sm">
+                <div className="w-full text-sm sm:w-auto sm:text-right">
                   {role === 'student' ? (
                     <>
                       <p className="font-medium">{Number(attemptSelesai ?? 0)} tugas selesai</p>
@@ -195,41 +195,43 @@ export default async function KelolaAkunPage() {
                   )}
                 </div>
 
-                <ActionForm action={resetUserPassword}>
-                  <input type="hidden" name="id" value={user.id} />
-                  <button
-                    type="submit"
-                    className="rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
-                  >
-                    Reset sandi
-                  </button>
-                </ActionForm>
-
-                {user.id === me.id ? null : (
-                  <ActionForm action={setUserActive}>
+                <div className="flex w-full flex-wrap gap-2 sm:w-auto">
+                  <ActionForm action={resetUserPassword}>
                     <input type="hidden" name="id" value={user.id} />
-                    <input type="hidden" name="aktif" value={user.aktif ? '0' : '1'} />
                     <button
                       type="submit"
                       className="rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
                     >
-                      {user.aktif ? 'Nonaktifkan' : 'Aktifkan'}
+                      Reset sandi
                     </button>
                   </ActionForm>
-                )}
 
-                {role === 'student' ? (
-                  <ActionForm action={setRankingHidden}>
-                    <input type="hidden" name="id" value={user.id} />
-                    <input type="hidden" name="hidden" value={user.rankingHidden ? '0' : '1'} />
-                    <button
-                      type="submit"
-                      className="rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
-                    >
-                      {user.rankingHidden ? 'Tampilkan di peringkat' : 'Sembunyikan dari peringkat'}
-                    </button>
-                  </ActionForm>
-                ) : null}
+                  {user.id === me.id ? null : (
+                    <ActionForm action={setUserActive}>
+                      <input type="hidden" name="id" value={user.id} />
+                      <input type="hidden" name="aktif" value={user.aktif ? '0' : '1'} />
+                      <button
+                        type="submit"
+                        className="rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
+                      >
+                        {user.aktif ? 'Nonaktifkan' : 'Aktifkan'}
+                      </button>
+                    </ActionForm>
+                  )}
+
+                  {role === 'student' ? (
+                    <ActionForm action={setRankingHidden}>
+                      <input type="hidden" name="id" value={user.id} />
+                      <input type="hidden" name="hidden" value={user.rankingHidden ? '0' : '1'} />
+                      <button
+                        type="submit"
+                        className="rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-brand"
+                      >
+                        {user.rankingHidden ? 'Tampilkan di peringkat' : 'Sembunyikan dari peringkat'}
+                      </button>
+                    </ActionForm>
+                  ) : null}
+                </div>
               </div>
 
               <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-muted">
@@ -256,14 +258,14 @@ export default async function KelolaAkunPage() {
                     <ul className="mt-2 flex flex-wrap gap-2">
                       {anak.map((child) => (
                         <li key={child.id}>
-                          <ActionForm action={unlinkChild} className="flex items-center gap-1.5 rounded-lg bg-surface px-2.5 py-1.5">
+                          <ActionForm action={unlinkChild} className="flex items-center gap-1 rounded-lg bg-surface py-1.5 pl-2.5 pr-1.5">
                             <input type="hidden" name="parentId" value={user.id} />
                             <input type="hidden" name="studentId" value={child.id} />
-                            <span className="text-sm">{child.nama}</span>
+                            <span className="text-sm break-words">{child.nama}</span>
                             <button
                               type="submit"
                               aria-label={`Putuskan ${child.nama} dari ${user.nama}`}
-                              className="text-muted transition hover:text-bad"
+                              className="-my-1 -mr-1.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-lg text-muted transition hover:text-bad"
                             >
                               &times;
                             </button>
@@ -276,7 +278,7 @@ export default async function KelolaAkunPage() {
                   {murid.length > 0 ? (
                     <ActionForm action={linkChild} className="mt-2 flex flex-wrap gap-2">
                       <input type="hidden" name="parentId" value={user.id} />
-                      <select name="studentId" aria-label={`Tambah anak untuk ${user.nama}`} className={INPUT}>
+                      <select name="studentId" aria-label={`Tambah anak untuk ${user.nama}`} className={`${INPUT} flex-1 sm:flex-none`}>
                         {murid.map((row) => (
                           <option key={row.user.id} value={row.user.id}>
                             {row.user.nama}

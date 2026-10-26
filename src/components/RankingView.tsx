@@ -84,7 +84,7 @@ export function RankingView({ actor, basePath, search }: Props) {
     return `${basePath}?${params}`;
   };
   const tab = (active: boolean) =>
-    `rounded-lg px-3 py-1.5 text-sm font-medium transition ${
+    `rounded-lg px-3 py-2 text-sm font-medium transition ${
       active ? 'bg-brand text-white' : 'border border-line text-muted hover:border-brand hover:text-ink'
     }`;
 
@@ -197,7 +197,7 @@ export function RankingView({ actor, basePath, search }: Props) {
                 <ActionForm action={setRankingHidden}>
                   <input type="hidden" name="id" value={student.id} />
                   <input type="hidden" name="hidden" value="0" />
-                  <button type="submit" className="rounded-full bg-surface2 px-2 py-0.5 text-xs font-medium hover:text-brand">
+                  <button type="submit" className="min-h-8 rounded-full bg-surface2 px-3 py-1.5 text-xs font-medium hover:text-brand">
                     Tampilkan lagi
                   </button>
                 </ActionForm>
@@ -226,7 +226,10 @@ function BoardRow({ row, highlight, isAdmin }: { row: RankingRow; highlight: boo
         {row.rank}
       </span>
       <span
-        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white ${avatarClass(row.avatarWarna)}`}
+        className={`h-9 w-9 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white ${
+          // The admin row also carries a button; on a phone the avatar gives way to the name.
+          isAdmin ? 'hidden sm:flex' : 'flex'
+        } ${avatarClass(row.avatarWarna)}`}
         aria-hidden="true"
       >
         {initials(row.nama)}
@@ -237,7 +240,7 @@ function BoardRow({ row, highlight, isAdmin }: { row: RankingRow; highlight: boo
           {row.items} soal · {row.attempts} tugas
         </span>
       </span>
-      <span className={`text-lg font-bold tabular-nums ${scoreTone(row.percent)}`}>
+      <span className={`shrink-0 text-lg font-bold tabular-nums ${scoreTone(row.percent)}`}>
         {displayScore(row.percent)}
       </span>
       {isAdmin ? (
@@ -246,7 +249,7 @@ function BoardRow({ row, highlight, isAdmin }: { row: RankingRow; highlight: boo
           <input type="hidden" name="hidden" value="1" />
           <button
             type="submit"
-            className="rounded-lg border border-line px-2 py-1 text-xs font-medium text-muted transition hover:border-brand hover:text-ink"
+            className="min-h-9 rounded-lg border border-line px-2.5 py-1.5 text-xs font-medium text-muted transition hover:border-brand hover:text-ink"
           >
             Sembunyikan
           </button>

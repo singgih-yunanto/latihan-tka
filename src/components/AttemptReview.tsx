@@ -101,10 +101,10 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
         </p>
       ) : null}
 
-      <header className="mt-3 flex flex-wrap items-start justify-between gap-4 rounded-2xl border border-line bg-surface p-5">
-        <div>
-          <h1 className="text-xl font-bold">{view.user.nama}</h1>
-          <p className="mt-1 text-sm text-muted">{view.assignment.judul}</p>
+      <header className="mt-3 flex flex-wrap items-start justify-between gap-4 rounded-2xl border border-line bg-surface p-4 sm:p-5">
+        <div className="min-w-0">
+          <h1 className="text-xl font-bold break-words">{view.user.nama}</h1>
+          <p className="mt-1 text-sm text-muted break-words">{view.assignment.judul}</p>
           <p className="mt-2 text-sm text-muted">
             {STATUS_LABEL[view.attempt.status]} &middot; {view.questions.length} soal &middot;{' '}
             {dijawab} dijawab
@@ -118,7 +118,7 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
           </p>
         </div>
 
-        <div className="text-right">
+        <div className="w-full sm:w-auto sm:text-right">
           <p className={`text-4xl font-bold ${scoreTone(persen)}`}>
             {view.attempt.status === 'selesai' ? displayScore(persen) : '-'}
           </p>
@@ -129,7 +129,7 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
             <form action={ulangi} className="mt-3" title="Nilai saat ini disimpan di riwayat sebelum dikosongkan">
               <button
                 type="submit"
-                className="rounded-lg border border-line px-3 py-2 text-xs font-medium transition hover:border-bad hover:text-bad"
+                className="min-h-10 rounded-lg border border-line px-3 py-2 text-sm font-medium transition hover:border-bad hover:text-bad"
               >
                 Kosongkan &amp; ulangi
               </button>
@@ -139,7 +139,7 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
       </header>
 
       {runs.length > 0 ? (
-        <section className="mt-5 rounded-2xl border border-line bg-surface p-5">
+        <section className="mt-5 rounded-2xl border border-line bg-surface p-4 sm:p-5">
           <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-muted">
             Riwayat pengerjaan sebelumnya
           </h2>
@@ -212,15 +212,18 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
 
       <h2 className="mt-8 mb-3 text-lg font-bold">Jawaban per butir</h2>
       <div className="overflow-x-auto rounded-2xl border border-line bg-surface">
-        <table className="w-full min-w-[44rem] text-sm">
+        <table className="w-full text-sm sm:min-w-[44rem]">
           <thead>
             <tr className="border-b border-line text-left text-muted">
-              <th className="p-3 font-semibold">No</th>
-              <th className="p-3 font-semibold">Soal</th>
-              <th className="p-3 font-semibold">Materi</th>
-              <th className="p-3 font-semibold">Jawaban murid</th>
-              <th className="p-3 font-semibold">Kunci</th>
-              <th className="p-3 text-right font-semibold">Poin</th>
+              <th className="p-2 font-semibold sm:p-3">No</th>
+              <th className="p-2 font-semibold sm:p-3">Soal</th>
+              <th className="hidden p-3 font-semibold sm:table-cell">Materi</th>
+              <th className="p-2 font-semibold sm:p-3">
+                <span className="sm:hidden">Murid</span>
+                <span className="hidden sm:inline">Jawaban murid</span>
+              </th>
+              <th className="p-2 font-semibold sm:p-3">Kunci</th>
+              <th className="p-2 text-right font-semibold sm:p-3">Poin</th>
             </tr>
           </thead>
           <tbody>
@@ -241,24 +244,24 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
 
               return (
                 <tr key={question.id} className="border-b border-line align-top last:border-0">
-                  <td className="p-3 font-semibold">{i + 1}</td>
-                  <td className="max-w-[18rem] p-3">
-                    <span className="text-xs text-muted">{question.id}</span>
+                  <td className="p-2 font-semibold sm:p-3">{i + 1}</td>
+                  <td className="min-w-[6rem] max-w-[18rem] p-2 sm:p-3">
+                    <span className="hidden text-xs text-muted break-words sm:inline">{question.id}</span>
                     <div
-                      className="prose-soal mt-1 line-clamp-2 text-sm"
+                      className="prose-soal line-clamp-2 text-sm sm:mt-1"
                       dangerouslySetInnerHTML={{ __html: question.stemHtml }}
                     />
                   </td>
-                  <td className="p-3 text-xs text-muted">
+                  <td className="hidden p-3 text-xs text-muted sm:table-cell">
                     {SUBJECT_LABEL[question.subject]}
                     <br />
                     {domainLabel(question.subject, question.domain)}
                   </td>
-                  <td className={`p-3 font-mono text-xs ${tepat ? 'text-ok' : 'text-bad'}`}>
+                  <td className={`p-2 font-mono text-xs break-all sm:break-words sm:p-3 ${tepat ? 'text-ok' : 'text-bad'}`}>
                     {murid}
                   </td>
-                  <td className="p-3 font-mono text-xs text-ok">{kunci}</td>
-                  <td className="p-3 text-right font-semibold">
+                  <td className="p-2 font-mono text-xs text-ok break-all sm:break-words sm:p-3">{kunci}</td>
+                  <td className="p-2 text-right font-semibold sm:p-3">
                     {view.attempt.status === 'selesai'
                       ? poin === undefined || poin === null
                         ? '0'
@@ -272,7 +275,7 @@ export async function AttemptReview({ attemptId, basePath, canReset = true, erro
         </table>
       </div>
 
-      <details className="mt-6 rounded-2xl border border-line bg-surface p-5">
+      <details className="mt-6 rounded-2xl border border-line bg-surface p-4 sm:p-5">
         <summary className="cursor-pointer font-semibold">
           Lihat seluruh soal beserta gambarnya
         </summary>

@@ -50,7 +50,7 @@ export function CopyButton({ value, label, className }: Props) {
       type="button"
       onClick={onClick}
       aria-live="polite"
-      className={`rounded-lg border border-line bg-surface px-2.5 py-1 text-xs font-medium transition hover:border-brand ${className ?? ''}`}
+      className={`rounded-lg border border-line bg-surface px-2.5 py-1.5 text-xs font-medium transition hover:border-brand ${className ?? ''}`}
     >
       {state === 'copied' ? 'Tersalin ✓' : state === 'failed' ? 'Gagal, salin manual' : label}
     </button>

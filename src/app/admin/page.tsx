@@ -87,12 +87,12 @@ export default async function AdminDashboardPage() {
         </Link>
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         {kartu.map((item) => (
           <Link
             key={item.label}
             href={item.href}
-            className="rounded-2xl border border-line bg-surface p-5 transition hover:border-brand"
+            className="rounded-2xl border border-line bg-surface p-4 transition hover:border-brand sm:p-5"
           >
             <p className="text-xs uppercase tracking-wide text-muted">{item.label}</p>
             <p className="mt-2 text-3xl font-bold">{item.value}</p>

@@ -50,10 +50,10 @@ export default async function AttemptPage({
     }
 
     return (
-      <main className="mx-auto w-full max-w-lg px-4 py-12">
-        <div className="rounded-2xl border border-line bg-surface p-7 text-center">
+      <main className="mx-auto w-full max-w-lg px-4 py-6 sm:py-12">
+        <div className="rounded-2xl border border-line bg-surface p-5 text-center sm:p-7">
           <p className="text-sm font-semibold uppercase tracking-wide text-brand">Siap berlatih?</p>
-          <h1 className="mt-2 text-2xl font-bold">{view.assignment.judul}</h1>
+          <h1 className="mt-2 text-2xl font-bold break-words">{view.assignment.judul}</h1>
 
           <dl className="mt-6 grid grid-cols-2 gap-3 text-left">
             <div className="rounded-xl bg-surface2 p-4">

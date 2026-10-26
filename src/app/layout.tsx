@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="id">
-      <body className="min-h-screen antialiased">{children}</body>
+      <body className="min-h-dvh antialiased">{children}</body>
     </html>
   );
 }

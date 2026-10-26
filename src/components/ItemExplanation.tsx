@@ -46,7 +46,7 @@ export function ItemExplanation({
   attemptId,
 }: Props) {
   return (
-    <li className="rounded-2xl border border-line bg-surface p-5">
+    <li className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <span className="text-sm font-bold">Soal {number}</span>
         <span
@@ -92,7 +92,7 @@ export function ItemExplanation({
             return (
               <li
                 key={choice.id}
-                className={`flex items-start gap-3 rounded-xl border p-3 ${
+                className={`flex flex-wrap items-start gap-x-3 gap-y-1 rounded-xl border p-3 sm:flex-nowrap ${
                   kunci ? 'border-ok bg-oksoft' : dipilih ? 'border-bad bg-badsoft' : 'border-line'
                 }`}
               >
@@ -112,11 +112,14 @@ export function ItemExplanation({
                     dangerouslySetInnerHTML={{ __html: choice.html }}
                   />
                 </span>
-                <span className="shrink-0 text-xs font-semibold">
-                  {kunci ? <span className="text-ok">Kunci</span> : null}
-                  {dipilih && !kunci ? <span className="text-bad">{pickedLabel}</span> : null}
-                  {dipilih && kunci ? <span className="text-ok"> · dipilih</span> : null}
-                </span>
+                {kunci || dipilih ? (
+                  // Under the choice on a phone, so the choice text keeps the width.
+                  <span className="basis-full pl-9 text-xs font-semibold sm:shrink-0 sm:basis-auto sm:pl-0">
+                    {kunci ? <span className="text-ok">Kunci</span> : null}
+                    {dipilih && !kunci ? <span className="text-bad">{pickedLabel}</span> : null}
+                    {dipilih && kunci ? <span className="text-ok"> · dipilih</span> : null}
+                  </span>
+                ) : null}
               </li>
             );
           })}
@@ -125,7 +128,7 @@ export function ItemExplanation({
 
       {question.statements && question.categories && extra?.answer.kind === 'kategori' ? (
         <div className="mt-4 overflow-x-auto">
-          <table className="w-full min-w-[20rem] border-collapse text-sm">
+          <table className="w-full border-collapse text-sm sm:min-w-[20rem]">
             <thead>
               <tr>
                 <th className="border-b border-line p-2 text-left">Pernyataan</th>
@@ -142,7 +145,7 @@ export function ItemExplanation({
                   question.categories?.find((c) => c.id === id)?.label ?? '-';
                 return (
                   <tr key={statement.id}>
-                    <td className="border-b border-line p-2">
+                    <td className="border-b border-line p-2 break-words">
                       <span dangerouslySetInnerHTML={{ __html: statement.html }} />
                     </td>
                     <td

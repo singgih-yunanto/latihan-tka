@@ -93,10 +93,12 @@ export function ResultsView({ scope, basePath, penugasan, murid, showExport = tr
         </div>
       </div>
 
-      <div className="mb-5 flex flex-wrap gap-2">
+      {/* A family with several children gets a chip each; on a phone they scroll
+          sideways in one row instead of stacking into a block. */}
+      <div className="-mx-4 mb-5 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 print:hidden">
         <Link
           href={basePath}
-          className={`rounded-lg border px-3 py-1.5 text-sm ${
+          className={`shrink-0 whitespace-nowrap rounded-lg border px-3 py-2 text-sm ${
             !penugasan && !murid ? 'border-brand bg-brandsoft text-brand' : 'border-line text-muted'
           }`}
         >
@@ -106,7 +108,7 @@ export function ResultsView({ scope, basePath, penugasan, murid, showExport = tr
           <Link
             key={user.id}
             href={`${basePath}?murid=${user.id}`}
-            className={`rounded-lg border px-3 py-1.5 text-sm ${
+            className={`shrink-0 whitespace-nowrap rounded-lg border px-3 py-2 text-sm ${
               filterMurid === user.id
                 ? 'border-brand bg-brandsoft text-brand'
                 : 'border-line text-muted'
@@ -131,62 +133,99 @@ export function ResultsView({ scope, basePath, penugasan, murid, showExport = tr
           Belum ada hasil untuk ditampilkan.
         </div>
       ) : (
-        <div className="overflow-x-auto rounded-2xl border border-line bg-surface">
-          <table className="w-full min-w-[46rem] text-sm">
-            <thead>
-              <tr className="border-b border-line text-left text-muted">
-                <th className="p-3 font-semibold">Murid</th>
-                <th className="p-3 font-semibold">Penugasan</th>
-                <th className="p-3 font-semibold">Status</th>
-                <th className="p-3 text-right font-semibold">Nilai</th>
-                <th className="p-3 text-right font-semibold">Waktu</th>
-                <th className="p-3 font-semibold">Selesai</th>
-                <th className="p-3" />
-              </tr>
-            </thead>
-            <tbody>
-              {baris.map(({ attempt, assignment, user }) => (
-                <tr key={attempt.id} className="border-b border-line last:border-0">
-                  <td className="p-3 font-medium">{user.nama}</td>
-                  <td className="p-3">
-                    <span className="block max-w-[16rem] truncate">{assignment.judul}</span>
-                    <span className="text-xs text-muted">
-                      {countQuestionsInAttempt(attempt)} soal
-                    </span>
-                  </td>
-                  <td className="p-3">
+        <>
+          {/* Phones get one card per attempt: the 7-column table would push the
+              Detail link far off-screen. Print always uses the table. */}
+          <ul className="space-y-2 sm:hidden print:hidden">
+            {baris.map(({ attempt, assignment, user }) => (
+              <li key={attempt.id}>
+                <Link
+                  href={`${basePath}/${attempt.id}`}
+                  className="block rounded-2xl border border-line bg-surface p-4 transition hover:border-brand"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="min-w-0 flex-1">
+                      <p className="font-semibold break-words">{user.nama}</p>
+                      <p className="mt-0.5 text-sm break-words">{assignment.judul}</p>
+                    </div>
+                    {attempt.status === 'selesai' ? (
+                      <span className={`shrink-0 text-xl font-bold ${scoreTone(attempt.scorePercent ?? 0)}`}>
+                        {displayScore(attempt.scorePercent ?? 0)}
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted">
                     <span
-                      className={`rounded-full px-2.5 py-1 text-xs font-semibold ${STATUS_CLASS[attempt.status]}`}
+                      className={`rounded-full px-2.5 py-1 font-semibold ${STATUS_CLASS[attempt.status]}`}
                     >
                       {STATUS_LABEL[attempt.status]}
                     </span>
-                  </td>
-                  <td className="p-3 text-right">
-                    {attempt.status === 'selesai' ? (
-                      <span className={`font-bold ${scoreTone(attempt.scorePercent ?? 0)}`}>
-                        {displayScore(attempt.scorePercent ?? 0)}
-                      </span>
-                    ) : (
-                      <span className="text-muted">-</span>
-                    )}
-                  </td>
-                  <td className="p-3 text-right text-muted">
-                    {attempt.elapsedSeconds ? humanizeDuration(attempt.elapsedSeconds) : '-'}
-                  </td>
-                  <td className="p-3 text-muted">{formatDateTime(attempt.submittedAt)}</td>
-                  <td className="p-3 text-right">
-                    <Link
-                      href={`${basePath}/${attempt.id}`}
-                      className="font-medium text-brand underline underline-offset-4"
-                    >
-                      Detail
-                    </Link>
-                  </td>
+                    <span>{countQuestionsInAttempt(attempt)} soal</span>
+                    {attempt.elapsedSeconds ? <span>{humanizeDuration(attempt.elapsedSeconds)}</span> : null}
+                    {attempt.submittedAt ? <span>{formatDateTime(attempt.submittedAt)}</span> : null}
+                    <span className="ml-auto font-medium text-brand">Detail →</span>
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="hidden overflow-x-auto rounded-2xl border border-line bg-surface sm:block print:block">
+            <table className="w-full min-w-[46rem] text-sm">
+              <thead>
+                <tr className="border-b border-line text-left text-muted">
+                  <th className="p-3 font-semibold">Murid</th>
+                  <th className="p-3 font-semibold">Penugasan</th>
+                  <th className="p-3 font-semibold">Status</th>
+                  <th className="p-3 text-right font-semibold">Nilai</th>
+                  <th className="p-3 text-right font-semibold">Waktu</th>
+                  <th className="p-3 font-semibold">Selesai</th>
+                  <th className="p-3" />
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {baris.map(({ attempt, assignment, user }) => (
+                  <tr key={attempt.id} className="border-b border-line last:border-0">
+                    <td className="p-3 font-medium">{user.nama}</td>
+                    <td className="p-3">
+                      <span className="block max-w-[16rem] truncate">{assignment.judul}</span>
+                      <span className="text-xs text-muted">
+                        {countQuestionsInAttempt(attempt)} soal
+                      </span>
+                    </td>
+                    <td className="p-3">
+                      <span
+                        className={`rounded-full px-2.5 py-1 text-xs font-semibold ${STATUS_CLASS[attempt.status]}`}
+                      >
+                        {STATUS_LABEL[attempt.status]}
+                      </span>
+                    </td>
+                    <td className="p-3 text-right">
+                      {attempt.status === 'selesai' ? (
+                        <span className={`font-bold ${scoreTone(attempt.scorePercent ?? 0)}`}>
+                          {displayScore(attempt.scorePercent ?? 0)}
+                        </span>
+                      ) : (
+                        <span className="text-muted">-</span>
+                      )}
+                    </td>
+                    <td className="p-3 text-right text-muted">
+                      {attempt.elapsedSeconds ? humanizeDuration(attempt.elapsedSeconds) : '-'}
+                    </td>
+                    <td className="p-3 text-muted">{formatDateTime(attempt.submittedAt)}</td>
+                    <td className="p-3 text-right">
+                      <Link
+                        href={`${basePath}/${attempt.id}`}
+                        className="font-medium text-brand underline underline-offset-4"
+                      >
+                        Detail
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
       )}
     </div>
   );
