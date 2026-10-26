@@ -50,7 +50,12 @@ DST=/etc/nginx/sites-available/tka
 if ss -Hltn "sport = :$PORT" | grep -q .   && ! grep -qE "listen ${PORT}( |;)" "$DST" 2>/dev/null; then
   echo "Port $PORT is already in use:" >&2
   ss -Hltnp "sport = :$PORT" >&2 || true
-  echo "Pick another one with --port, e.g. --port 8443." >&2
+  for candidate in 8443 9443 10443 18443 28443; do
+    if ! ss -Hltn "sport = :$candidate" | grep -q .; then
+      echo "Pick another one with --port; $candidate is free: --port $candidate" >&2
+      break
+    fi
+  done
   exit 1
 fi
 # Port 80 carries no certificate, so Nginx can share it with other sites; only
